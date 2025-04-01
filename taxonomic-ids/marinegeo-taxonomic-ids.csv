@@ -1,0 +1,1024 @@
+taxonomic_id,scientific_name
+-6,unidentified epifauna
+-5,unidentified epiphytes
+-4,unidentified epibionts
+-3,unidentified SAV
+-2,unidentified fouling
+-1,unidentified macroalgae
+0,no species observed
+51,Mollusca
+55,Polyplacophora
+101,Gastropoda
+101,Gastropoda spp.
+105,Bivalvia
+111,Fissurellidae
+120,Hydrobiidae
+123,Rissoidae
+126,Caecidae
+128,Cerithiidae
+130,Cerithiopsidae
+135,Eulimidae
+141,Calyptraeidae
+143,Velutinidae
+152,Turridae
+154,Cephalaspidea
+205,Nuculanidae
+211,Mytilidae
+213,Pectinidae
+214,Anomiidae
+222,Lasaeidae
+229,Cardiidae
+243,Veneridae
+443,Trochidae
+558,Porifera
+793,Platyhelminthes
+799,Nematoda
+801,Chlorophyta
+830,Phaeophyceae
+852,Rhodophyta
+882,Annelida
+883,Polychaeta
+895,Eunicida
+902,Orbiniidae
+913,Spionidae
+919,Cirratulidae
+924,Opheliidae
+939,Polynoidae
+944,Chrysopetalidae
+948,Syllidae
+967,Lumbrineridae
+985,Sabellidae
+988,Serpulidae
+989,Spirorbinae
+1065,Arthropoda
+1066,Crustacea
+1078,Ostracoda
+1080,Copepoda
+1082,Cirripedia
+1100,Calanoida
+1101,Cyclopoida
+1102,Harpacticoida
+1128,Euphausiacea
+1130,Decapoda
+1131,Isopoda
+1133,Tanaidacea
+1135,Amphipoda
+1137,Cumacea
+1268,Sipuncula
+1302,Pycnogonida
+1337,Hydrozoa
+1341,Octocorallia
+1360,Actiniaria
+1363,Scleractinia
+1410,Foraminifera
+1484,Halacaridae
+1762,Nudibranchia
+1821,Chordata
+1839,Ascidiacea
+2036,Oligochaeta
+2041,Hirudinea
+11676,Pisces
+14629,Galeommatoidea
+14767,Rissooidea
+15308,Corallinales
+22496,Nereididae
+22989,Architectonicidae
+23009,Columbellidae
+23022,Cypraeidae
+23023,Cystiscidae
+23038,Fasciolariidae spp.
+23075,Nacellidae
+23082,Olividae
+23100,Potamididae
+100701,Condylactis
+101361,Caprellidae
+101368,Aoridae
+101376,Corophiidae
+101380,Eusiridae
+101383,Gammaridae
+101388,Isaeidae
+101395,Lysianassidae
+101398,Melphidippidae
+101403,Phoxocephalidae
+101430,Caprella
+101436,Phtisica
+101445,Ampelisca
+101459,Ampithoe
+101460,Cymadusa
+101467,Bemlos
+101469,Lembos
+101474,Unciola
+101489,Corophium
+101537,Gammarus
+101554,Iphimedia
+101558,Gammaropsis
+101563,Photis
+101571,Jassa
+101580,Leucothoe
+101614,Ichnopus
+101671,Elasmopus
+101770,Stenothoe
+101830,Caprella equilibra
+101846,Caprella penantis
+102000,Ampithoe ramondi
+102005,Ampithoe valida
+102033,Lembos websteri
+102040,Leptocheirus pilosus
+102048,Microdeutopus gryllotalpa
+102101,Corophium volutator
+102276,Gammarus duebeni
+102296,Gammarus tigrinus
+102385,Photis pollex
+102401,Ericthonius brasiliensis
+102409,Ericthonius rubricornis
+102805,Elasmopus rapax
+103936,Styela plicata
+105846,Ginglymostoma cirratum
+106122,Balanus
+106673,Brachyura
+106673,Brachyura spp.
+106674,Caridea
+106687,Paguroidea
+106687,Paguroidea spp.
+106736,Diogenidae spp.
+106763,Portunidae spp.
+106765,Panopeidae
+106777,Hippolytidae
+106822,Penaeus
+106844,Paguristes
+106906,Libinia
+106921,Callinectes
+106978,Alpheus
+106978,Alpheus spp.
+106987,Hippolyte
+106992,Lysmata spp.
+106995,Thor spp.
+107032,Palaemon
+107035,Periclimenes
+107044,Pandalus
+107060,Panulirus spp.
+107335,Libinia dubia
+107379,Callinectes sapidus
+107381,Carcinus maenas
+107412,Dyspanopeus sayi
+107414,Rhithropanopeus harrisii
+107457,Pachygrapsus transversus
+107458,Percnon gibbesi
+107519,Latreutes fucorum
+110342,Echiuroidea
+110416,Cumella
+111158,Bugula neritina
+111673,Victorella pavida
+112080,Amphistegina
+112119,Calcarina
+112822,Amphisorus hemprichii
+112823,Sorites orbiculus
+113625,Neorotalia calcar
+115430,Peltidium
+117034,Obelia
+118100,Chironomidae
+118244,Anthuridae
+118283,Idoteidae
+118362,Carpias
+118437,Gnathia
+118454,Idotea
+118715,Jaera albifrons
+119039,Idotea balthica
+119042,Idotea chelipes
+119044,Idotea granulosa
+119822,Mysidae
+120177,Praunus flexuosus
+123084,Ophiuroidea
+123084,Ophiuroidea spp.
+123182,Synaptidae
+123456,Holothuria
+123547,Ophioderma
+123776,Asterias rubens
+124332,Diadema antillarum
+124833,Ophionereis reticulata
+125064,Amphipholis squamata
+125122,Ophiactis savignyi
+125464,Clupeidae spp.
+125537,Gobiidae
+125537,Gobiidae spp.
+125636,Gymnothorax spp.
+125637,Muraena spp.
+125726,Megalops
+126373,Synodus synodus
+126430,Megalops atlanticus
+126769,Ophioblennius atlanticus
+126782,Scartella cristata
+126802,Caranx crysos
+126803,Caranx hippos
+126804,Caranx latus
+126848,Echeneis naucrates
+126971,Xyrichtys novacula
+127004,Heteropriacanthus cruentatus
+127005,Priacanthus arenatus
+127393,Syngnathus typhle
+127397,Balistes vetula
+127399,Canthidermis sufflamen
+127402,Diodon holocanthus
+127403,Diodon hystrix
+127411,Canthigaster rostrata
+129211,Capitella
+129278,Eunice
+129379,Nereis
+129445,Eulalia
+129455,Phyllodoce
+129491,Harmothoe
+129496,Lepidonotus
+129620,Prionospio
+129645,Amblyosyllis
+129654,Exogone
+129680,Syllis
+129831,Hermodice carunculata
+130372,Ceratonereis mirabilis
+130593,Pectinaria granulata
+130769,Harmothoe imbricata
+131141,Polydora ciliata
+131143,Polydora cornuta
+135351,Abyla
+136025,Phascolion
+136185,Apseudes
+136235,Leptochelia
+136248,Zeuxo
+137205,Caretta caretta
+137206,Chelonia mydas
+137683,Astarte
+137722,Crepidula
+137758,Bittium
+137760,Cerithium spp.
+138054,Haminoea
+138068,Hiatella
+138081,Hydrobia
+138099,Lacuna
+138135,Littorina
+138142,Tectura
+138210,Urosalpinx spp.
+138211,Mya
+138228,Mytilus
+138255,Smaragdia
+138413,Odostomia
+138426,Cymatium spp.
+138439,Alvania
+138457,Rissoina
+138508,Skenea
+138531,Macoma
+138533,Tellina
+138580,Tritonia
+138757,Aplysia parvula
+138878,Buccinum undatum
+138940,Bulla striata
+138963,Crepidula fornicata
+138998,Cerastoderma edule
+138999,Cerastoderma glaucum
+139407,Corambe obscura
+139604,Donax vittatus
+140170,Lacuna vincta
+140262,Littorina littorea
+140403,Nucella lapillus
+140429,Urosalpinx cinerea
+140467,Modiolus modiolus
+140472,Musculus discors
+140480,Mytilus edulis
+140482,Mytilus trossulus
+140570,Smaragdia viridis
+140657,Crassostrea virginica
+140780,Pinna nobilis
+141334,Pusillina inconspicua
+141341,Pusillina sarsii
+141359,Rissoa membranacea
+141365,Rissoa parva
+141539,Skeneopsis planorbis
+141579,Macoma balthica
+142028,Tricladida
+143673,Delesseriaceae
+143733,Gigartinaceae
+143816,Caulerpa
+143819,Avrainvillea
+143820,Halimeda
+143821,Penicillus
+143866,Spyridia
+143900,Acanthophora
+143914,Laurencia
+144012,Jania
+144018,Lithothamnion
+144051,Peyssonnelia
+144056,Batophora
+144086,Dictyota
+144088,Padina
+144126,Cystoseira
+144129,Fucus
+144136,Pterocladia
+144188,Gracilaria
+144237,Champia
+144267,Valonia
+144296,Ulva
+144452,Bryopsis hypnoides
+144471,Caulerpa prolifera
+144472,Caulerpa racemosa
+144474,Caulerpa sertularioides
+144481,Halimeda discoidea
+144482,Halimeda opuntia
+144483,Halimeda tuna
+144484,Penicillus capitatus
+144827,Laurencia obtusa
+145012,Anadyomene stellata
+145094,Flabellia petiolata
+145301,Dasycladus vermicularis
+145367,Dictyota dichotoma
+145381,Lobophora variegata
+145385,Padina pavonica
+145410,Ectocarpus siliculosus
+145546,Fucus serratus
+145634,Hypnea musciformis
+145635,Hypnea spinella
+145668,Polyides rotunda
+145713,Halophila decipiens
+145714,Halophila stipulacea
+145793,Cymodocea nodosa
+145794,Posidonia oceanica
+145857,Colpomenia sinuosa
+145930,Ulothrix speciosa
+145979,Percursaria percursa
+145984,Ulva lactuca
+146142,Bryozoa
+146537,Cyanobacteria
+146538,Lyngbya
+146802,Chironomus
+146895,Aora typica
+146922,Melita nitida
+147123,Potamopyrgus antipodarum
+148427,Inachidae spp.
+148592,Monocorophium insidiosum
+148594,Apocorophium lacustre
+149668,Mysida
+149871,Oreasteridae
+151158,Micropogonias undulatus
+151177,Morone americana
+151267,Phasianellidae
+151628,Peringia ulvae
+152223,Syllinae
+152302,Hediste diversicolor
+152352,Osteichthyes
+152391,Nemertea
+153558,Theodoxus fluviatilis
+153847,Polydora websteri
+154426,Doradidae
+155081,Sthenelais helenae
+156484,Neritimorpha
+156803,Gemma gemma
+156817,Argopecten irradians
+156859,Geukensia demissa
+156861,Ischadium recurvum
+156887,Mytilopsis leucophaeata
+157001,Tagelus plebeius
+157179,Aonides mayaguezensis
+157483,Mediomastus californiensis
+157793,Chthamalus fragilis
+157854,Microprotopus raneyi
+157885,Edotia triloba
+157887,Erichsonella attenuata
+157975,Coronadena mutabilis
+158020,Ampelisca abdita
+158023,Ampelisca verrilli
+158026,Ampithoe longimana
+158032,Batea catharinensis
+158036,Lysianopsis alba
+158082,Cymadusa compta
+158094,Gammarus mucronatus
+158113,Leptocheirus plumulosus
+158149,Stenothoe minuta
+158230,Diadumene leucolena
+158348,Alpheus heterochaelis
+158355,Crangon septemspinosa
+158360,Hippolyte pleuracantha
+158361,Hippolyte zostericola
+158416,Eurypanopeus depressus
+158424,Hexapanopeus angustifrons
+158428,Mithrax
+158428,Mithrax spp.
+158429,Mithrax hispidus
+158435,Ovalipes stephensoni
+158436,Panopeus herbstii
+158526,Dasyatis americana
+158532,Sclerodactyla briareus
+158562,Anguilla rostrata
+158583,Gymnothorax funebris
+158584,Gymnothorax moringa
+158637,Myrichthys breviceps
+158691,Brevoortia tyrannus
+158699,Anchoa mitchilli
+158759,Synodus intermedius
+158782,Opsanus tau
+158787,Gobiesox strumosus
+158806,Haemulon spp.
+158807,Haemulon aurolineatum
+158808,Haemulon plumierii
+158815,Halichoeres bivittatus
+158822,Lachnolaimus maximus
+158919,Acanthostracion polygonius
+158920,Acanthostracion quadricornis
+158932,Lactophrys triqueter
+158935,Sphoeroides spengleri
+158936,Sphoeroides testudineus
+159222,Epinephelus striatus
+159227,Menidia beryllina
+159228,Menidia menidia
+159229,Liopropoma spp.
+159231,Mycteroperca bonaci
+159241,Calamus bajonado
+159242,Calamus calamus
+159245,Calamus penna
+159271,Trinectes maculatus
+159284,Holacanthus bermudensis
+159285,Cyprinodon variegatus
+159287,Pomacanthus arcuatus
+159288,Abudefduf saxatilis
+159291,Stegastes leucostictus
+159296,Fundulus diaphanus
+159301,Sparisoma rubripinne
+159303,Bairdiella chrysoura
+159306,Fundulus heteroclitus
+159308,Fundulus majalis
+159310,Lucania parva
+159322,Leiostomus xanthurus
+159335,Sciaenops ocellatus
+159351,Epinephelus adscensionis
+159352,Epinephelus guttatus
+159353,Epinephelus itajara
+159354,Epinephelus morio
+159376,Holocentrus spp.
+159378,Holocentrus adscensionis
+159385,Myripristis jacobus
+159401,Sargocentron vexillarium
+159421,Pseudupeneus maculatus
+159445,Hippocampus erectus
+159450,Syngnathus floridae
+159451,Syngnathus fuscus
+159491,Aluterus scriptus
+159493,Cantherhines pullus
+159497,Monacanthus ciliatus
+159499,Monacanthus tuckeri
+159559,Pterois volitans
+159564,Scorpaena plumieri
+159578,Acanthurus bahianus
+159580,Acanthurus chirurgus
+159581,Acanthurus coeruleus
+159589,Apogon maculatus
+159598,Chasmodes bosquianus
+159609,Parablennius marmoreus
+159626,Callionymus bairdi
+159630,Carangoides bartholomaei
+159661,Chaetodon capistratus
+159662,Chaetodon ocellatus
+159663,Chaetodon striatus
+159678,Echeneis neucratoides
+159703,Chaetodipterus faber
+159733,Eucinostomus gula
+159736,Coryphopterus glaucofraenum
+159767,Gobiosoma bosc
+159786,Thalassoma bifasciatum
+159792,Lutjanus analis
+159793,Lutjanus apodus
+159794,Lutjanus buccanella
+159796,Lutjanus cyanopterus
+159797,Lutjanus griseus
+159798,Lutjanus jocu
+159799,Lutjanus mahogoni
+159800,Lutjanus synagris
+159803,Ocyurus chrysurus
+159912,Littoridinops monroensis
+160028,Paracaprella tenuis
+160041,Pyramidella
+160065,Acteocina canaliculata
+160091,Turbonilla toyatani
+160102,Astyris lunata
+160174,Bittiolum varium
+160203,Circulus liratus
+160222,Costoanachis avara
+160228,Crepidula convexa
+160336,Lottia
+160363,Marshallora nigrocincta
+160395,Nassarius acutus
+160412,Spurwinkia salsa
+160440,Parvanachis obesa
+160476,Pyrgocythara plicosa
+176848,Heterophoxus
+178210,Oreaster reticulatus
+178510,Symploca
+182578,Nannastacus inflatus
+182699,Bithynia tentaculata
+196285,Modulidae
+196286,Modulus
+196894,Eatoniellidae
+204078,Udotea
+204416,Chevalia
+204679,Pseudosquilla spp.
+205771,Drupella spp.
+206126,Drupa spp.
+206309,Syringodium
+206485,Porites
+206577,Paradexamine
+206653,Santia
+207517,Siderastrea radians
+208126,Coralliophila erosa
+208599,Columbella mercatoria
+208677,Calcinus latens
+208921,Cymodocea rotundata
+208924,Halodule uninervis
+208925,Halodule wrightii
+208930,Halophila ovalis
+208931,Thalassia hemprichii
+208932,Enhalus acoroides
+210232,Pseudosquilla ciliata
+210242,Gonodactylus chiragra
+210370,Stenopus hispidus
+210522,Alpheus paracrinitus
+211405,Grandidierella bonnieroides
+211408,Chevalia aviculae
+211515,Halimeda copiosa
+211519,Halimeda incrassata
+211535,Udotea flabellum
+211768,Acanthophora spicifera
+213380,Echinometra lucunter
+213951,Chondracanthus chamissoi
+213998,Eucheuma denticulatum
+214711,Lembos hypacanthus
+214744,Podocerus brasiliensis
+214801,Caprellina longicollis
+216687,Cerithium litteratum
+218706,Kyphosus vaigiensis
+218708,Kyphosus cinerascens
+219881,Melichthys niger
+219964,Chilomycterus reticulatus
+220228,Thalassodendron ciliatum
+220697,Cirolana parva
+220766,Paradexamine pacifica
+220965,Botryocladia leptopoda
+221362,Parhyale hawaiensis
+224570,Caenogastropoda
+224572,Cerithium atratum
+225463,Thalotia
+225814,Monocorophium acherusicum
+226278,Neomysis awatschensis
+234030,Ruppia
+234031,Ruppia maritima
+234107,Chaetodon sedentarius
+234208,Testudinalia testudinalis
+234471,Ulva intestinalis
+234850,Alitta succinea
+236157,Gracilaria vermiculophylla
+236496,Apolochus picadurus
+236551,Caprella scaura
+236719,Mimachlamys varia
+238104,Ecrobia ventrosa
+238740,Grandidierella japonica
+240777,Lytechinus
+241109,Cronius ruber
+241200,Pachygrapsus gracilis
+241780,Astichopus multifidus
+245516,Ophioderma brevispinum
+246230,Axiopsis serratifrons
+246346,Micropanope
+246784,Davidaster rubiginosus
+246979,Pagurapseudes
+247538,Hargeria rapax
+247710,Zeuxo marmoratus
+248643,Crabyzos
+248921,Lynseia
+249103,Paracerceis
+252289,Botrylloides niger
+254882,Acanthemblemaria spp.
+254883,Acanthemblemaria spinosa
+255042,Meyenaster gelatinosus
+256270,Uromunna ubiquita
+256965,Cymodoce japonica
+257859,Erichsonella crenulata
+259635,Califanthura squamosissima
+260378,Excorallana tricornis
+260565,Harrieta faxoni
+261817,Paracerceis caudata
+261827,Paracerceis sculpta
+261839,Paradella dianae
+261978,Pentidotea resecata
+267453,Gorgonia
+269045,Elacatinus spp.
+269073,Enneanectes spp.
+269456,Hypoplectrus spp.
+271805,Enchelycore carychroa
+271852,Gymnothorax miliaris
+273108,Apogon townsendi
+273125,Ophioblennius macclurei
+273369,Prognathodes aculeatus
+273541,Bodianus rufus
+273602,Xyrichtys martinicensis
+273608,Xyrichtys splendens
+273718,Chromis cyanea
+273731,Chromis insolata
+273743,Chromis multilineata
+273756,Chromis scotti
+273771,Sparisoma atomarium
+273772,Sparisoma aurofrenatum
+273774,Sparisoma chrysopterum
+273777,Sparisoma radians
+273780,Sparisoma viride
+273819,Scomberomorus regalis
+273878,Mycteroperca interstitialis
+273884,Mycteroperca tigris
+273885,Mycteroperca venenosa
+273893,Serranus baldwini
+273908,Serranus tabacarius
+273909,Serranus tigrinus
+273910,Serranus tortugarum
+274187,Bothus lunatus
+274743,Scorpaenodes caribbaeus
+275232,Syngnathus scovelli
+275721,Haemulon album
+275724,Haemulon carbonarium
+275725,Haemulon chrysargyreum
+275727,Haemulon flavolineatum
+275728,Haemulon macrostomum
+275731,Haemulon parra
+275733,Haemulon sciurus
+275760,Halichoeres cyanocephalus
+275764,Halichoeres garnoti
+275772,Halichoeres maculipinna
+275788,Halichoeres pictus
+275790,Halichoeres poeyi
+275793,Halichoeres radiatus
+275800,Halichoeres socialis
+275874,Lactophrys bicaudalis
+275954,Liopropoma rubre
+275963,Rypticus saponaceus
+276012,Holacanthus ciliaris
+276017,Holacanthus tricolor
+276025,Pomacanthus paru
+276042,Scarus coelestinus
+276049,Scarus guacamaia
+276052,Scarus iseri
+276062,Scarus taeniopterus
+276064,Scarus vetula
+276097,Equetus punctatus
+276134,Gambusia holbrooki
+276176,Diplectrum bivittatum
+276189,Holocentrus rufus
+276205,Neoniphon marianus
+276250,Cantherhines macrocerus
+276424,Coryphopterus alloides
+276425,Coryphopterus dicrus
+276426,Coryphopterus eidolon
+276429,Coryphopterus hyalinus
+276430,Coryphopterus kuna
+276431,Coryphopterus lipernes
+276432,Coryphopterus personatus
+276442,Opistognathus aurifrons
+276463,Opistognathus macrognathus
+276488,Ctenogobius saepepallens
+276659,Stegastes adustus
+276666,Stegastes diencaeus
+276669,Stegastes fuscus
+276677,Stegastes partitus
+276679,Stegastes planifrons
+276688,Stegastes variabilis
+276769,Priolepis hipoliti
+276954,Gerres cinereus
+277068,Pempheris schomburgkii
+277118,Cryptotomus roseus
+277123,Ptereleotris helenae
+277493,Gnatholepis thompsoni
+277569,Amblycirrhitus pinos
+277991,Mulloidichthys martinicus
+278080,Aulostomus maculatus
+278676,Echidna catenata
+278827,Centropyge argi
+279146,Cephalopholis cruentata
+279148,Cephalopholis fulva
+279443,Acanthemblemaria aspera
+279451,Acanthemblemaria greenfieldi
+279457,Acanthemblemaria maria
+279623,Anisotremus surinamensis
+279625,Anisotremus virginicus
+280214,Clepticus parrae
+280600,Elacatinus dilepis
+280601,Elacatinus evelynae
+280605,Elacatinus horsti
+280606,Elacatinus illecebrosus
+280616,Elacatinus oceanops
+280619,Elacatinus prochilos
+280621,Elacatinus randalli
+280653,Emblemaria pandionis
+280658,Emblemariopsis bahamensis
+280663,Emblemariopsis pricei
+280932,Gramma loreto
+281022,Hemiemblemaria simulus
+281112,Hypoplectrus aberrans
+281113,Hypoplectrus chlorurus
+281114,Hypoplectrus gemma
+281117,Hypoplectrus indigo
+281118,Hypoplectrus nigricans
+281120,Hypoplectrus puella
+281121,Hypoplectrus unicolor
+281180,Inermia vittata
+281252,Labrisomus filamentosus
+281257,Labrisomus kalisherae
+281491,Malacoctenus aurolineatus
+281492,Malacoctenus boehlkei
+281500,Malacoctenus macropus
+281503,Malacoctenus triangulatus
+281571,Microspathodon chrysurus
+281837,Odontoscion dentex
+282084,Paranthias furcifer
+282139,Pareques acuminatus
+282620,Risor ruber
+282910,Stygnobrotula latebricola
+283086,Urobatis jamaicensis
+283090,Urocampus carinirostris
+286778,Cladocora arbuscula
+287166,Cassiopea frondosa
+287172,Cassiopea xamachana
+290327,Manicina areolata
+292944,Anthuroidea
+293578,Diplodus argenteus
+301914,Acanthurus tractus
+302432,Caranx ruber
+303486,Kyphosus sectatrix
+309494,Coryphopterus tortugae
+314211,Corvula batabana
+320988,Rhinesomus triqueter
+325031,Brachysyllis
+333453,Exogone dispar
+334557,Platynereis bicanaliculata
+342241,Sepioteuthis sepioidea
+346012,Dissonidae
+366476,Iridopagurus spp.
+366484,Iridopagurus reticulatus
+366662,Pagurus brevidactylus
+366724,Pagurus maclaughlinae
+366786,Pagurus samuelis
+366818,Phimochirus holthuisi
+366821,Phimochirus operculatus
+367457,Calcinus tibicen
+367527,Clibanarius tricolor
+367596,Dardanus venosus
+367846,Meoma ventricosa
+367850,Lytechinus variegatus
+367868,Isostichopus badionotus
+368215,Paguristes cadenati
+368224,Paguristes erythrops
+368275,Paguristes puncticeps
+368299,Paguristes tortugae
+368346,Petrochirus diogenes
+369177,Leptasterias hexactis
+370153,Rhipocephalus
+370445,Batillaria
+373299,Udotea conglutinata
+373717,Halimeda monile
+374715,Syringodium filiforme
+374716,Syringodium isoetifolium
+374720,Thalassia testudinum
+374722,Halophila engelmannii
+377141,Canistrocarpus cervicornis
+381797,Avrainvillea nigricans f. spongiosa
+382003,Chitonida
+382214,Buccinoidea spp.
+382524,Rhipocephalus phoenix f. brevifolius
+382543,Voluta polypleura
+382891,Panulirus argus
+382896,Panulirus guttatus
+386549,Cryptoconchus floridanus
+394269,Argopecten purpuratus
+394864,Caprella californica
+395176,Penaeus aztecus
+396707,Petrolisthes armatus
+396741,Eucidaris tribuloides
+397024,Boonea bisuturalis
+397026,Brachidontes exustus
+397040,Chione cancellata
+403903,Salicornia
+404078,Tedania ignis
+408934,Neogonodactylus spp.
+408942,Neogonodactylus curacaoensis
+411814,Pseudomelatomidae
+413385,Prisogaster niger
+413389,Astralium rhodostomum
+413409,Lithopoma phoebium
+413459,Lirularia
+413481,Arene
+415424,Globosolembos
+415649,Mithraculus
+415649,Mithraculus spp.
+416054,Tethygeneia
+416187,Tolypella nidifica
+416205,Myriophyllum spicatum
+416212,Potamogeton perfoliatus
+416218,Ruppia cirrhosa
+416222,Zannichellia palustris
+417036,Stylochus ellipticus
+419347,Diodora sayi
+419449,Cittarium pica
+419471,Arene cruentata
+419483,Eulithidium affine
+419487,Eulithidium thalassicola
+419499,Lithopoma tectum
+419522,Cerithium lutosum
+419523,Cerithium muscarum
+419538,Finella dubia
+419546,Vermicularia knorrii
+419588,Caecum floridanum
+419645,Zebina browniana
+419701,Calyptraea centralis
+419704,Crepidula maculosa
+419723,Macrocypraea zebra
+419806,Epitonium candeanum
+419944,Phyllonotus pomum
+419969,Gemophos tinctus
+420024,Fasciolaria tulipa
+420051,Triplofusus giganteus
+420079,Vasum muricatum
+420149,Prunum apicinum
+420208,Conus daucus
+420414,Rissoella caribaea
+420437,Boonea impressa
+420483,Turbonilla dalli
+420514,Japonactaeon punctostriatus
+420524,Haminoea antillarum
+420526,Haminoea succinea
+420572,Elysia crispata
+420705,Modiolus americanus
+420707,Musculus lateralis
+420721,Lunarca ovalis
+420736,Isognomon alatus
+420819,Chama sarda
+421139,Amphibalanus improvisus
+421442,Apolochus delacaya
+421444,Hourstonius laguna
+421482,Iphimedia zora
+421504,Dulichiella appendiculata
+421508,Elasmopus levis
+421523,Quadrimaera quadrimana
+421562,Globosolembos smithi
+421577,Laticorophium baconi
+421581,Deutella incerta
+421589,Cerapus cudjoe
+421664,Stenopus scutellatus
+421710,Periclimenes pedersoni
+421712,Periclimenes rathbunae
+421713,Periclimenes yucatanicus
+421729,Alpheus armatus
+421744,Alpheus viridari
+421780,Lysmata pederseni
+421784,Tozeuma carolinense
+421821,Corallianassa longiventris
+421875,Petrolisthes galathinus
+421957,Stenorhynchus seticornis
+421978,Macrocoeloma laevigatum
+421986,Mithraculus cinctimanus
+421987,Mithraculus coryphe
+421988,Mithraculus forceps
+421990,Mithraculus sculptus
+422051,Carpilius corallinus
+422070,Menippe mercenaria
+422075,Eurypanopeus abbreviatus
+422081,Hexapanopeus paulensis
+422086,Panopeus occidentalis
+422113,Nanoplax xanthiformis
+422187,Goniopsis cruentata
+422190,Aratus pisonii
+422371,Margaretta buski
+422489,Lytechinus williamsi
+422490,Tripneustes ventricosus
+422493,Echinometra viridis
+422675,Bemlos spinicarpus
+422677,Lembos unifasciatus
+423106,Ampithoe lacertosa
+423136,Anisogammarus pugettensis
+423256,Caprella drepanochir
+424100,Sipunculus phalloides
+430854,Caprella kroyeri
+430922,Caprella tenuis
+430956,Mayerella banksia
+432297,Cyphoma gibbosum
+439056,Mithracidae spp.
+439295,Taliepus
+439869,Helograpsus
+441005,Litocheira bispinosa
+441784,Halicarcinus ovatus
+442085,Thersandrus compressus
+446438,Lampanella minima
+446893,Lacuna turrita
+450194,Omalacantha spp.
+458655,Eoacmaea pustulata
+458661,Strombus gigas
+468183,Birubius
+473085,Cacozeliana granarium
+475010,Elacatinus colini
+475011,Elacatinus lobeli
+484702,Baculogypsina sphaerulata
+488672,Aora hircosa
+488679,Aoroides
+489425,Paradexamine barnardi
+489427,Paradexamine churinga
+491479,Protohyale (Protohyale) frequens
+491492,Protohyale (Boreohyale) rubra
+494468,Elysia pratensis
+494795,Acetabularia acetabulum
+495077,Zostera marina
+495081,Zostera muelleri
+495082,Zostera noltei
+505946,Arcuatula senhousia
+505948,Arcuatula papyria
+506596,Ennucula niponica
+506660,Nucula pisum
+507129,Solemya pusilla
+507258,Cumingia mutica
+510427,Bulla gouldiana
+511367,Anachis atkinsoni
+511520,Mitrella lincolnensis
+511560,Mitrella tuberosa
+511707,Alia unifasciata
+514452,Palaemon intermedius
+514493,Ancylomenes pedersoni
+514508,Cuapetes americanus
+515262,Heptacarpus paludicola
+515276,Hippolyte californiensis
+515278,Hippolyte clarki
+515283,Hippolyte williamsi
+531851,Lobatus raninus
+532293,Haminoea petitii
+532716,Cylichna discus
+532891,Granulina ovuliformis
+534565,Maera vagans
+547044,Deflexilodes intermedius
+549331,Chromopleustes
+549684,Trachypleustes trevori
+550331,Nasageneia quinsana
+557888,Achelous sebae
+574096,Ecrobia truncata
+575794,Diffalaba
+579271,Lunella undulata
+588573,Stuckenia pectinata
+593472,Emblemariopsis carib
+593702,Zostera nigricaulis
+598427,Hinea
+607159,Agathistoma spp.
+626404,Halodule pinifolia
+709212,Coralliophila salebrosa
+712606,Hypoplectrus randallorum
+715680,Alaba monile
+715997,Zannichellia major
+718691,Favia
+719478,Caprellidira
+732363,Holothuria mexicana
+738272,Hydrachnidia
+742232,Lysidice unicornis
+754174,Errantia
+760885,Mitrella aurantiaca
+766775,Eatoniella afronigra
+798770,Tanaididae
+818380,Metassiminea
+835177,Elacatinus cayman
+835178,Elacatinus centralis
+845921,Angustassiminea californica
+865834,Vitta virginea
+871477,Komaitrochus pulcher
+877061,Phrontis vibex
+877869,Romaleon setosum
+878513,Ameritella mitchelli
+880005,Austromacoma constricta
+880865,Chondrochelia dubia
+888530,Esox niger
+889755,Namanereis augeneri
+932398,Palaemon mundusnovus
+932401,Palaemon pugio
+932406,Palaemon vulgaris
+987079,Maguimithrax spinosissimus
+989022,Lepidoptera
+993098,Gobioclinus bucciferus
+999984,Olgita pacifica
+1013581,Tigrigobius dilepis
+1013785,Tigrigobius saucrus
+1019959,Bidyanus bidyanus
+1021254,Haemulon vittatum
+1021260,Stegastes xanthurus
+1027144,Alaba picta
+1042856,Hypanus americanus
+1054953,Caenanthura koreana
+1055679,Amphilochida
+1058953,Aplysiida
+1258708,Amphithrax aculeatus
+1258715,Amphithrax hemphilli
+1258717,Amphithrax pilosus
+1288085,Ampullaceana balthica
+1327608,Crassiphycus usneoides
+1374250,Haloa japonica
+1379887,Agarophyton chilense
+1429769,Aliger gigas
+1429775,Macrostrombus costatus
+1473917,Oceana serrulata
+1497938,Phrontis tiarula
+1533045,Halodule emarginata
+1557229,Agathistoma fasciatum
+1579720,Lysiosquilla glabriuscula
+1660764,Dapis pleousa
