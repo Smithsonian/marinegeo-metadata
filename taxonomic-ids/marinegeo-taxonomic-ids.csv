@@ -78,6 +78,7 @@ taxonomic_id,scientific_name
 1762,Nudibranchia
 1821,Chordata
 1839,Ascidiacea
+1839,Ascidian
 2036,Oligochaeta
 2041,Hirudinea
 11676,Pisces
@@ -203,6 +204,7 @@ taxonomic_id,scientific_name
 124833,Ophionereis reticulata
 125064,Amphipholis squamata
 125122,Ophiactis savignyi
+125275,Gorgoniidae
 125464,Clupeidae spp.
 125537,Gobiidae
 125537,Gobiidae spp.
@@ -308,6 +310,7 @@ taxonomic_id,scientific_name
 143816,Caulerpa
 143819,Avrainvillea
 143820,Halimeda
+143820,Halimeda spp.
 143821,Penicillus
 143866,Spyridia
 143900,Acanthophora
@@ -317,9 +320,11 @@ taxonomic_id,scientific_name
 144051,Peyssonnelia
 144056,Batophora
 144086,Dictyota
+144087,Lobophora spp.
 144088,Padina
 144126,Cystoseira
 144129,Fucus
+144132,Sargassum
 144136,Pterocladia
 144188,Gracilaria
 144237,Champia
@@ -524,7 +529,9 @@ taxonomic_id,scientific_name
 160412,Spurwinkia salsa
 160440,Parvanachis obesa
 160476,Pyrgocythara plicosa
+170417,Clionaidae
 176848,Heterophoxus
+177745,Muricea spp.
 178210,Oreaster reticulatus
 178510,Symploca
 182578,Nannastacus inflatus
@@ -534,14 +541,25 @@ taxonomic_id,scientific_name
 196286,Modulus spp.
 196894,Eatoniellidae
 204078,Udotea
+204354,Isophyllia
 204416,Chevalia
+204464,Agaricia
 204679,Pseudosquilla spp.
 205771,Drupella spp.
+205785,Palythoa
+205902,Millepora
+205902,Millepora spp.
 206126,Drupa spp.
 206309,Syringodium
 206485,Porites
 206577,Paradexamine
 206653,Santia
+206740,Meandrina
+206854,Thalassia
+206989,Acropora cervicornis
+207238,Porites porites
+207432,Favia fragum
+207516,Siderastrea siderea
 207517,Siderastrea radians
 208126,Coralliophila erosa
 208599,Columbella mercatoria
@@ -556,6 +574,7 @@ taxonomic_id,scientific_name
 210242,Gonodactylus chiragra
 210370,Stenopus hispidus
 210522,Alpheus paracrinitus
+210726,Millepora alcicornis
 210900,Holothuria floridana
 211405,Grandidierella bonnieroides
 211408,Chevalia aviculae
@@ -569,6 +588,8 @@ taxonomic_id,scientific_name
 214711,Lembos hypacanthus
 214744,Podocerus brasiliensis
 214801,Caprellina longicollis
+216134,Isophyllia sinuosa
+216135,Mussa angulosa
 216687,Cerithium litteratum
 218706,Kyphosus vaigiensis
 218708,Kyphosus cinerascens
@@ -628,7 +649,17 @@ taxonomic_id,scientific_name
 261827,Paracerceis sculpta
 261839,Paradella dianae
 261978,Pentidotea resecata
+267277,Briareum
 267453,Gorgonia
+267453,Gorgonia spp.
+267499,Iciligorgia spp.
+267604,Muriceopsis spp.
+267606,Mycetophyllia
+267752,Plexaura spp.
+267753,Plexaurella spp.
+267779,Pseudoplexaura spp.
+267781,Pseudopterogorgia
+267790,Pterogorgia
 268418,Astrapogon spp.
 269045,Elacatinus spp.
 269061,Emblemariopsis spp.
@@ -773,10 +804,44 @@ taxonomic_id,scientific_name
 282910,Stygnobrotula latebricola
 283086,Urobatis jamaicensis
 283090,Urocampus carinirostris
+285905,Stylaster roseus
 286778,Cladocora arbuscula
+287097,Oculina diffusa
+287107,Madracis decactis
+287112,Madracis senaria
 287166,Cassiopea frondosa
 287172,Cassiopea xamachana
+287421,Millepora complanata
+287425,Millepora squarrosa
+287852,Scolymia cubensis
+287853,Scolymia lacera
+287911,Agaricia agaricites
+287912,Agaricia fragilis
+287913,Agaricia grahamae
+287914,Agaricia humilis
+287915,Agaricia lamarcki
+287915,Agaricia Lamarcki
+287916,Agaricia tenuifolia
+287962,Montastraea cavernosa
+288227,Acropora palmata
+288235,Acropora prolifera
+288889,Porites astreoides
+288902,Porites furcata
+289232,Meandrina meandrites
+289697,Colpophyllia natans
+289806,Dichocoenia stellaris
+289826,Diploria labyrinthiformis
+289919,Erythropodium caribaeorum
+289939,Eusmilia fastigiata
+290083,Helioseris cucullata
 290327,Manicina areolata
+290424,Mycetophyllia aliciae
+290425,Mycetophyllia danaana
+290426,Mycetophyllia ferox
+291054,Solenastrea bournoni
+291055,Solenastrea hyades
+291119,Stephanocoenia intersepta
+291322,Eunicea spp.
 292944,Anthuroidea
 293578,Diplodus argenteus
 301914,Acanthurus tractus
@@ -844,6 +909,7 @@ taxonomic_id,scientific_name
 404078,Tedania ignis
 408934,Neogonodactylus spp.
 408942,Neogonodactylus curacaoensis
+411268,Porites divaricata
 411814,Pseudomelatomidae
 413385,Prisogaster niger
 413389,Astralium rhodostomum
@@ -861,6 +927,7 @@ taxonomic_id,scientific_name
 416218,Ruppia cirrhosa
 416222,Zannichellia palustris
 417036,Stylochus ellipticus
+418865,Dendrogyra cylindrus
 419347,Diodora sayi
 419449,Cittarium pica
 419471,Arene cruentata
@@ -949,6 +1016,7 @@ taxonomic_id,scientific_name
 423256,Caprella drepanochir
 424100,Sipunculus phalloides
 429079,Conus floridanus
+430664,Madracis auretenra
 430854,Caprella kroyeri
 430922,Caprella tenuis
 430956,Mayerella banksia
@@ -1009,6 +1077,7 @@ taxonomic_id,scientific_name
 549684,Trachypleustes trevori
 550331,Nasageneia quinsana
 557888,Achelous sebae
+573277,Cyanobacterium sp.
 574096,Ecrobia truncata
 575794,Diffalaba
 579271,Lunella undulata
@@ -1026,16 +1095,22 @@ taxonomic_id,scientific_name
 715680,Alaba monile
 715997,Zannichellia major
 718691,Favia
+718718,Pseudodiploria strigosa
 719478,Caprellidira
 732363,Holothuria mexicana
 738272,Hydrachnidia
 742232,Lysidice unicornis
 754174,Errantia
+758259,Orbicella spp.
+758260,Orbicella annularis
+758261,Orbicella faveolata
+758262,Orbicella franksi
 760885,Mitrella aurantiaca
 766775,Eatoniella afronigra
 798770,Tanaididae
 818380,Metassiminea
 827203,Coralliophila abbreviata
+828326,Pseudodiploria clivosa
 835177,Elacatinus cayman
 835178,Elacatinus centralis
 845921,Angustassiminea californica
@@ -1048,6 +1123,7 @@ taxonomic_id,scientific_name
 880865,Chondrochelia dubia
 888530,Esox niger
 889755,Namanereis augeneri
+893242,Dichocoenia stokesi
 932398,Palaemon mundusnovus
 932401,Palaemon pugio
 932406,Palaemon vulgaris
@@ -1073,6 +1149,7 @@ taxonomic_id,scientific_name
 1288085,Ampullaceana balthica
 1327608,Crassiphycus usneoides
 1335417,Claremontiella nodulosa
+1370122,Mycetophyllia lamarckana
 1374250,Haloa japonica
 1379887,Agarophyton chilense
 1389965,Eques lanceolatus
