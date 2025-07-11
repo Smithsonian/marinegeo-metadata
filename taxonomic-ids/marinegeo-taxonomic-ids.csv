@@ -206,6 +206,7 @@ taxonomic_id,scientific_name
 125122,Ophiactis savignyi
 125275,Gorgoniidae
 125464,Clupeidae spp.
+125519,Blenniidae spp. (mottled brown)
 125537,Gobiidae
 125537,Gobiidae spp.
 125606,Syngnathidae spp.
@@ -213,6 +214,7 @@ taxonomic_id,scientific_name
 125636,Gymnothorax spp.
 125637,Muraena spp.
 125726,Megalops
+126015,Kyphosus spp.
 126373,Synodus synodus
 126430,Megalops atlanticus
 126769,Ophioblennius atlanticus
@@ -373,6 +375,7 @@ taxonomic_id,scientific_name
 151158,Micropogonias undulatus
 151177,Morone americana
 151267,Phasianellidae
+151414,Labrisomidae spp.
 151628,Peringia ulvae
 152223,Syllinae
 152302,Hediste diversicolor
@@ -490,6 +493,7 @@ taxonomic_id,scientific_name
 159580,Acanthurus chirurgus
 159581,Acanthurus coeruleus
 159589,Apogon maculatus
+159590,Apogon pseudomaculatus
 159598,Chasmodes bosquianus
 159609,Parablennius marmoreus
 159626,Callionymus bairdi
@@ -540,6 +544,7 @@ taxonomic_id,scientific_name
 196286,Modulus
 196286,Modulus spp.
 196894,Eatoniellidae
+203822,Stegastes spp.
 204078,Udotea
 204354,Isophyllia
 204416,Chevalia
@@ -907,8 +912,10 @@ taxonomic_id,scientific_name
 397040,Chione cancellata
 403903,Salicornia
 404078,Tedania ignis
+407876,Murexsu oxytatus
 408934,Neogonodactylus spp.
 408942,Neogonodactylus curacaoensis
+410856,Babelomurex mansfieldi
 411268,Porites divaricata
 411814,Pseudomelatomidae
 413385,Prisogaster niger
@@ -945,6 +952,7 @@ taxonomic_id,scientific_name
 419704,Crepidula maculosa
 419723,Macrocypraea zebra
 419806,Epitonium candeanum
+419934,Coralliophila galea
 419938,Chicoreus dilectus
 419944,Phyllonotus pomum
 419969,Gemophos tinctus
@@ -956,6 +964,7 @@ taxonomic_id,scientific_name
 420149,Prunum apicinum
 420200,Conus anabathrum
 420208,Conus daucus
+420266,Pyrgospira tampaensis
 420414,Rissoella caribaea
 420437,Boonea impressa
 420483,Turbonilla dalli
