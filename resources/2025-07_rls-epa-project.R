@@ -22,7 +22,7 @@ ids_out <- ids_input %>%
   bind_rows(df) %>%
   arrange(taxonomic_id)
 
-write_csv(ids_out, "taxonomic-ids/marinegeo-taxonomic-ids.csv")
+# write_csv(ids_out, "taxonomic-ids/marinegeo-taxonomic-ids.csv")
 
 # Get new classifications
 
@@ -42,4 +42,4 @@ classifications_out <- classifications_input %>%
   bind_rows(new_classifications) %>%
   arrange(taxonomic_id)
 
-write_csv(classifications_out, "taxonomic-classifications/marinegeo_classifications.csv")
+# write_csv(classifications_out, "taxonomic-classifications/marinegeo_classifications.csv")
