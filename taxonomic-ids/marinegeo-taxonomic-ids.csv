@@ -32,6 +32,7 @@ taxonomic_id,scientific_name
 222,Lasaeidae
 229,Cardiidae
 243,Veneridae
+243,Veneridae spp.
 443,Trochidae
 558,Porifera
 793,Platyhelminthes
@@ -184,6 +185,7 @@ taxonomic_id,scientific_name
 117034,Obelia
 118100,Chironomidae
 118244,Anthuridae
+118274,Cymothoidae spp.
 118283,Idoteidae
 118362,Carpias
 118437,Gnathia
@@ -199,25 +201,40 @@ taxonomic_id,scientific_name
 123182,Synaptidae
 123456,Holothuria
 123547,Ophioderma
+123592,Ophiocoma sp.
 123776,Asterias rubens
+123795,Coscinasterias tenuispina
+124249,Arbacia lixula
 124332,Diadema antillarum
 124833,Ophionereis reticulata
 125064,Amphipholis squamata
 125122,Ophiactis savignyi
 125275,Gorgoniidae
+125427,Congridae spp.
+125438,Atherinidae spp.
+125451,Belonidae
 125464,Clupeidae spp.
+125465,Engraulidae spp.
 125519,Blenniidae spp. (mottled brown)
 125537,Gobiidae
 125537,Gobiidae spp.
+125541,Labridae spp.
 125606,Syngnathidae spp.
 125635,Enchelycore spp.
 125636,Gymnothorax spp.
 125637,Muraena spp.
+125721,Sardinella
 125726,Megalops
+125920,Parablennius spp.
 126015,Kyphosus spp.
+126110,Bothus sp.
+126235,Aluterus sp.
+126288,Heteroconger longissimus
+126372,Synodus saurus
 126373,Synodus synodus
 126430,Megalops atlanticus
 126769,Ophioblennius atlanticus
+126773,Parablennius pilicornis
 126782,Scartella cristata
 126802,Caranx crysos
 126803,Caranx hippos
@@ -225,8 +242,12 @@ taxonomic_id,scientific_name
 126807,Decapterus macarellus
 126848,Echeneis naucrates
 126971,Xyrichtys novacula
+126983,Mugil cephalus
+127001,Chromis limbata
 127004,Heteropriacanthus cruentatus
 127005,Priacanthus arenatus
+127063,Pagrus pagrus
+127232,Dactylopterus volitans
 127393,Syngnathus typhle
 127397,Balistes vetula
 127399,Canthidermis sufflamen
@@ -258,6 +279,7 @@ taxonomic_id,scientific_name
 137205,Caretta caretta
 137206,Chelonia mydas
 137683,Astarte
+137716,Bulla sp.
 137722,Crepidula
 137758,Bittium
 137760,Cerithium spp.
@@ -272,6 +294,7 @@ taxonomic_id,scientific_name
 138211,Mya
 138228,Mytilus
 138255,Smaragdia
+138268,Octopus spp.
 138413,Odostomia
 138426,Cymatium spp.
 138439,Alvania
@@ -376,6 +399,7 @@ taxonomic_id,scientific_name
 151177,Morone americana
 151267,Phasianellidae
 151414,Labrisomidae spp.
+151456,Gerreidae spp.
 151628,Peringia ulvae
 152223,Syllinae
 152302,Hediste diversicolor
@@ -387,6 +411,7 @@ taxonomic_id,scientific_name
 154721,Balistes capriscus
 155081,Sthenelais helenae
 156484,Neritimorpha
+156734,Anadara transversa
 156803,Gemma gemma
 156817,Argopecten irradians
 156859,Geukensia demissa
@@ -405,6 +430,7 @@ taxonomic_id,scientific_name
 158026,Ampithoe longimana
 158032,Batea catharinensis
 158036,Lysianopsis alba
+158065,Mellita quinquiesperforata
 158082,Cymadusa compta
 158094,Gammarus mucronatus
 158113,Leptocheirus plumulosus
@@ -421,6 +447,7 @@ taxonomic_id,scientific_name
 158429,Mithrax hispidus
 158435,Ovalipes stephensoni
 158436,Panopeus herbstii
+158497,Luidia clathrata
 158526,Dasyatis americana
 158532,Sclerodactyla briareus
 158562,Anguilla rostrata
@@ -429,6 +456,7 @@ taxonomic_id,scientific_name
 158637,Myrichthys breviceps
 158688,Brevoortia spp.
 158691,Brevoortia tyrannus
+158695,Opisthonema oglinum
 158699,Anchoa mitchilli
 158759,Synodus intermedius
 158782,Opsanus tau
@@ -443,6 +471,8 @@ taxonomic_id,scientific_name
 158932,Lactophrys triqueter
 158935,Sphoeroides spengleri
 158936,Sphoeroides testudineus
+159165,Citharichthys macrops
+159195,Ogcocephalus vespertilio
 159222,Epinephelus striatus
 159227,Menidia beryllina
 159228,Menidia menidia
@@ -457,12 +487,14 @@ taxonomic_id,scientific_name
 159242,Calamus calamus
 159245,Calamus penna
 159271,Trinectes maculatus
+159275,Bothus ocellatus
 159284,Holacanthus bermudensis
 159285,Cyprinodon variegatus
 159287,Pomacanthus arcuatus
 159288,Abudefduf saxatilis
 159291,Stegastes leucostictus
 159296,Fundulus diaphanus
+159298,Nicholsina usta
 159300,Scarus coeruleus
 159301,Sparisoma rubripinne
 159303,Bairdiella chrysoura
@@ -479,6 +511,7 @@ taxonomic_id,scientific_name
 159378,Holocentrus adscensionis
 159385,Myripristis jacobus
 159401,Sargocentron vexillarium
+159416,Mugil curema
 159421,Pseudupeneus maculatus
 159445,Hippocampus erectus
 159450,Syngnathus floridae
@@ -489,6 +522,7 @@ taxonomic_id,scientific_name
 159499,Monacanthus tuckeri
 159559,Pterois volitans
 159564,Scorpaena plumieri
+159573,Prionotus ophryas
 159578,Acanthurus bahianus
 159580,Acanthurus chirurgus
 159581,Acanthurus coeruleus
@@ -496,15 +530,19 @@ taxonomic_id,scientific_name
 159590,Apogon pseudomaculatus
 159598,Chasmodes bosquianus
 159609,Parablennius marmoreus
+159615,Diplogrammus pauciradiatus
 159626,Callionymus bairdi
 159630,Carangoides bartholomaei
+159654,Trachinotus goodei
 159661,Chaetodon capistratus
 159662,Chaetodon ocellatus
 159663,Chaetodon striatus
 159678,Echeneis neucratoides
 159703,Chaetodipterus faber
+159731,Eucinostomus spp.
 159733,Eucinostomus gula
 159736,Coryphopterus glaucofraenum
+159747,Ctenogobius spp.
 159767,Gobiosoma bosc
 159786,Thalassoma bifasciatum
 159792,Lutjanus analis
@@ -536,8 +574,10 @@ taxonomic_id,scientific_name
 170417,Clionaidae
 176848,Heterophoxus
 177745,Muricea spp.
+178188,Linckia guildingi
 178210,Oreaster reticulatus
 178510,Symploca
+178641,Luidia senegalensis
 182578,Nannastacus inflatus
 182699,Bithynia tentaculata
 196285,Modulidae
@@ -549,7 +589,9 @@ taxonomic_id,scientific_name
 204354,Isophyllia
 204416,Chevalia
 204464,Agaricia
+204605,Harengula spp.
 204679,Pseudosquilla spp.
+204736,Bathygobius spp
 205771,Drupella spp.
 205785,Palythoa
 205902,Millepora
@@ -567,6 +609,7 @@ taxonomic_id,scientific_name
 207516,Siderastrea siderea
 207517,Siderastrea radians
 208126,Coralliophila erosa
+208387,Oliva sayana
 208599,Columbella mercatoria
 208677,Calcinus latens
 208921,Cymodocea rotundata
@@ -587,6 +630,8 @@ taxonomic_id,scientific_name
 211519,Halimeda incrassata
 211535,Udotea flabellum
 211768,Acanthophora spicifera
+212298,Culcita novaeguineae
+213331,Tropiometra carinata
 213380,Echinometra lucunter
 213951,Chondracanthus chamissoi
 213998,Eucheuma denticulatum
@@ -596,6 +641,8 @@ taxonomic_id,scientific_name
 216134,Isophyllia sinuosa
 216135,Mussa angulosa
 216687,Cerithium litteratum
+217426,Aetobatus narinari
+217976,Solenostomus paradoxus
 218706,Kyphosus vaigiensis
 218708,Kyphosus cinerascens
 219476,Gnatholepis cauerensis
@@ -610,6 +657,7 @@ taxonomic_id,scientific_name
 224572,Cerithium atratum
 224773,Cerithium guinaicum
 224977,Cassis tuberosa
+225252,Nodipecten nodosus
 225463,Thalotia
 225814,Monocorophium acherusicum
 226278,Neomysis awatschensis
@@ -627,6 +675,7 @@ taxonomic_id,scientific_name
 238740,Grandidierella japonica
 240777,Lytechinus
 241109,Cronius ruber
+241128,Menippe nodifrons
 241200,Pachygrapsus gracilis
 241780,Astichopus multifidus
 241876,Holothuria thomasi
@@ -671,12 +720,15 @@ taxonomic_id,scientific_name
 269073,Enneanectes spp.
 269456,Hypoplectrus spp.
 269456,Hypoplectrus sp.
+269781,Malacoctenus spp.
+271436,Dasyatis hypostigma
 271805,Enchelycore carychroa
 271852,Gymnothorax miliaris
 272982,Apogon binotatus
 273108,Apogon townsendi
 273125,Ophioblennius macclurei
 273369,Prognathodes aculeatus
+273540,Bodianus pulchellus
 273541,Bodianus rufus
 273602,Xyrichtys martinicensis
 273608,Xyrichtys splendens
@@ -686,10 +738,14 @@ taxonomic_id,scientific_name
 273756,Chromis scotti
 273771,Sparisoma atomarium
 273772,Sparisoma aurofrenatum
+273773,Sparisoma axillare
 273774,Sparisoma chrysopterum
+273775,Sparisoma frondosum
 273777,Sparisoma radians
+273779,Sparisoma tuiupiranga
 273780,Sparisoma viride
 273819,Scomberomorus regalis
+273876,Mycteroperca acutirostris
 273878,Mycteroperca interstitialis
 273884,Mycteroperca tigris
 273885,Mycteroperca venenosa
@@ -698,7 +754,9 @@ taxonomic_id,scientific_name
 273909,Serranus tigrinus
 273910,Serranus tortugarum
 274187,Bothus lunatus
+274188,Bothus maculiferus
 274743,Scorpaenodes caribbaeus
+275219,Syngnathus caribbaeus
 275232,Syngnathus scovelli
 275239,Chilomycterus antennatus
 275240,Chilomycterus antillarum
@@ -710,9 +768,11 @@ taxonomic_id,scientific_name
 275730,Haemulon melanurum
 275731,Haemulon parra
 275733,Haemulon sciurus
+275754,Halichoeres brasiliensis
 275760,Halichoeres cyanocephalus
 275764,Halichoeres garnoti
 275772,Halichoeres maculipinna
+275787,Halichoeres penrosei
 275788,Halichoeres pictus
 275790,Halichoeres poeyi
 275793,Halichoeres radiatus
@@ -729,12 +789,16 @@ taxonomic_id,scientific_name
 276052,Scarus iseri
 276062,Scarus taeniopterus
 276064,Scarus vetula
+276066,Scarus zelindae
 276097,Equetus punctatus
 276134,Gambusia holbrooki
 276176,Diplectrum bivittatum
+276184,Diplectrum radiale
 276189,Holocentrus rufus
 276205,Neoniphon marianus
 276250,Cantherhines macrocerus
+276314,Hypleurochilus fissicornis
+276423,Eucinostomus melanopterus
 276424,Coryphopterus alloides
 276425,Coryphopterus dicrus
 276426,Coryphopterus eidolon
@@ -750,6 +814,7 @@ taxonomic_id,scientific_name
 276666,Stegastes diencaeus
 276669,Stegastes fuscus
 276677,Stegastes partitus
+276678,Stegastes pictus
 276679,Stegastes planifrons
 276688,Stegastes variabilis
 276769,Priolepis hipoliti
@@ -758,9 +823,12 @@ taxonomic_id,scientific_name
 277118,Cryptotomus roseus
 277120,Ptereleotris calliura
 277123,Ptereleotris helenae
+277261,Malacanthus plumieri
 277493,Gnatholepis thompsoni
+277551,Harengula jaguana
 277569,Amblycirrhitus pinos
 277991,Mulloidichthys martinicus
+278059,Cosmocampus elucens
 278080,Aulostomus maculatus
 278676,Echidna catenata
 278827,Centropyge argi
@@ -772,9 +840,14 @@ taxonomic_id,scientific_name
 279457,Acanthemblemaria maria
 279623,Anisotremus surinamensis
 279625,Anisotremus virginicus
+279773,Astrapogon puncticulatus
+279774,Astrapogon stellatus
+280105,Chaenopsis limbaughi
 280214,Clepticus parrae
+280598,Elacatinus chancei
 280600,Elacatinus dilepis
 280601,Elacatinus evelynae
+280602,Elacatinus figaro
 280605,Elacatinus horsti
 280606,Elacatinus illecebrosus
 280616,Elacatinus oceanops
@@ -784,11 +857,13 @@ taxonomic_id,scientific_name
 280658,Emblemariopsis bahamensis
 280663,Emblemariopsis pricei
 280677,Enneanectes altivelis
+280682,Enneanectes pectoralis
 280932,Gramma loreto
 281022,Hemiemblemaria simulus
 281112,Hypoplectrus aberrans
 281113,Hypoplectrus chlorurus
 281114,Hypoplectrus gemma
+281116,Hypoplectrus guttavarius
 281117,Hypoplectrus indigo
 281118,Hypoplectrus nigricans
 281120,Hypoplectrus puella
@@ -796,11 +871,15 @@ taxonomic_id,scientific_name
 281180,Inermia vittata
 281252,Labrisomus filamentosus
 281257,Labrisomus kalisherae
+281396,Lophogobius cyprinoides
+281410,Lucayablennius zingaro
 281491,Malacoctenus aurolineatus
 281492,Malacoctenus boehlkei
+281494,Malacoctenus delalandii
 281500,Malacoctenus macropus
 281503,Malacoctenus triangulatus
 281571,Microspathodon chrysurus
+281732,Nes longus
 281837,Odontoscion dentex
 282084,Paranthias furcifer
 282139,Pareques acuminatus
@@ -849,24 +928,33 @@ taxonomic_id,scientific_name
 291322,Eunicea spp.
 292944,Anthuroidea
 293578,Diplodus argenteus
+300551,Sardinella brasiliensis
 301914,Acanthurus tractus
 302432,Caranx ruber
 303486,Kyphosus sectatrix
 307126,Stephanolepis hispida
+308599,Haemulon plumieri
 309494,Coryphopterus tortugae
+310415,Halicampus crinitus
 314211,Corvula batabana
 314341,Emblemariopsis diaphana
 315166,Paradiplogrammus bairdi
+317003,Chalinops pauciradiatus
+318653,Ioglossus helenae
 320988,Rhinesomus triqueter
+322267,Ulaema lefroyi
 325031,Brachysyllis
 333453,Exogone dispar
 334557,Platynereis bicanaliculata
+341954,Octopus briareus
 342241,Sepioteuthis sepioidea
+342380,Pickfordiateuthis pulchella
 345843,Sphyraena barracuda
 346012,Dissonidae
 366476,Iridopagurus spp.
 366484,Iridopagurus reticulatus
 366662,Pagurus brevidactylus
+366674,Pagurus criniticornis
 366724,Pagurus maclaughlinae
 366786,Pagurus samuelis
 366818,Phimochirus holthuisi
@@ -901,6 +989,8 @@ taxonomic_id,scientific_name
 382543,Voluta polypleura
 382891,Panulirus argus
 382896,Panulirus guttatus
+382899,Panulirus laevicauda
+382909,Scyllarides aequinoctialis
 386549,Cryptoconchus floridanus
 394269,Argopecten purpuratus
 394864,Caprella californica
@@ -914,7 +1004,9 @@ taxonomic_id,scientific_name
 404078,Tedania ignis
 407876,Murexsu oxytatus
 408934,Neogonodactylus spp.
+408934,Neogonodactylus sp.
 408942,Neogonodactylus curacaoensis
+409037,Lysiosquilla scabricauda
 410856,Babelomurex mansfieldi
 411268,Porites divaricata
 411814,Pseudomelatomidae
@@ -927,6 +1019,7 @@ taxonomic_id,scientific_name
 415424,Globosolembos
 415649,Mithraculus
 415649,Mithraculus spp.
+415843,Podochela spp.
 416054,Tethygeneia
 416187,Tolypella nidifica
 416205,Myriophyllum spicatum
@@ -940,6 +1033,7 @@ taxonomic_id,scientific_name
 419471,Arene cruentata
 419483,Eulithidium affine
 419487,Eulithidium thalassicola
+419498,Astralium phoebium
 419499,Lithopoma tectum
 419521,Cerithium eburneum
 419522,Cerithium lutosum
@@ -948,6 +1042,7 @@ taxonomic_id,scientific_name
 419546,Vermicularia knorrii
 419588,Caecum floridanum
 419645,Zebina browniana
+419695,Strombus pugilis
 419701,Calyptraea centralis
 419704,Crepidula maculosa
 419723,Macrocypraea zebra
@@ -955,9 +1050,12 @@ taxonomic_id,scientific_name
 419934,Coralliophila galea
 419938,Chicoreus dilectus
 419944,Phyllonotus pomum
+419968,Gemophos auritulus
 419969,Gemophos tinctus
 419972,Hesperisternia multangulus
+419978,Pisania pusio
 420024,Fasciolaria tulipa
+420044,Leucozonia nassa
 420045,Leucozonia ocellata
 420051,Triplofusus giganteus
 420079,Vasum muricatum
@@ -971,6 +1069,7 @@ taxonomic_id,scientific_name
 420514,Japonactaeon punctostriatus
 420524,Haminoea antillarum
 420526,Haminoea succinea
+420528,chelidonura hirundinina
 420572,Elysia crispata
 420705,Modiolus americanus
 420707,Musculus lateralis
@@ -1012,12 +1111,14 @@ taxonomic_id,scientific_name
 422081,Hexapanopeus paulensis
 422086,Panopeus occidentalis
 422113,Nanoplax xanthiformis
+422151,Dissodactylus crinitichelis
 422187,Goniopsis cruentata
 422190,Aratus pisonii
 422371,Margaretta buski
 422489,Lytechinus williamsi
 422490,Tripneustes ventricosus
 422493,Echinometra viridis
+422499,Clypeaster subdepressus
 422675,Bemlos spinicarpus
 422677,Lembos unifasciatus
 423106,Ampithoe lacertosa
@@ -1034,6 +1135,7 @@ taxonomic_id,scientific_name
 439295,Taliepus
 439869,Helograpsus
 441005,Litocheira bispinosa
+441258,Persephona punctata
 441784,Halicarcinus ovatus
 442085,Thersandrus compressus
 446438,Lampanella minima
@@ -1045,6 +1147,8 @@ taxonomic_id,scientific_name
 473085,Cacozeliana granarium
 475010,Elacatinus colini
 475011,Elacatinus lobeli
+475101,Hyporthodus niveatus
+476531,Monoplex parthenopeus
 484702,Baculogypsina sphaerulata
 488672,Aora hircosa
 488679,Aoroides
@@ -1069,6 +1173,8 @@ taxonomic_id,scientific_name
 511520,Mitrella lincolnensis
 511560,Mitrella tuberosa
 511707,Alia unifasciata
+513255,Encope emarginata
+513432,Paracentrotus gaimardi
 514452,Palaemon intermedius
 514493,Ancylomenes pedersoni
 514508,Cuapetes americanus
@@ -1093,6 +1199,7 @@ taxonomic_id,scientific_name
 582489,Lima scabra
 588573,Stuckenia pectinata
 593472,Emblemariopsis carib
+593554,Emblemariopsis signifer
 593702,Zostera nigricaulis
 598427,Hinea
 607159,Agathistoma spp.
@@ -1106,6 +1213,7 @@ taxonomic_id,scientific_name
 718691,Favia
 718718,Pseudodiploria strigosa
 719478,Caprellidira
+732238,Holothuria grisea
 732363,Holothuria mexicana
 738272,Hydrachnidia
 742232,Lysidice unicornis
@@ -1128,6 +1236,8 @@ taxonomic_id,scientific_name
 877061,Phrontis vibex
 877869,Romaleon setosum
 878513,Ameritella mitchelli
+878753,Omalacantha bicornuta
+878834,Phrikoceros
 880005,Austromacoma constricta
 880865,Chondrochelia dubia
 888530,Esox niger
@@ -1149,9 +1259,12 @@ taxonomic_id,scientific_name
 1021260,Stegastes xanthurus
 1027144,Alaba picta
 1042856,Hypanus americanus
+1042858,Hypanus guttatus
 1054953,Caenanthura koreana
 1055679,Amphilochida
 1058953,Aplysiida
+1059699,Panulirus meripurpuratus
+1075023,Naria acicularis
 1258708,Amphithrax aculeatus
 1258715,Amphithrax hemphilli
 1258717,Amphithrax pilosus
@@ -1165,11 +1278,18 @@ taxonomic_id,scientific_name
 1429769,Aliger gigas
 1429775,Macrostrombus costatus
 1473917,Oceana serrulata
+1493601,Haemulon atlanticus
+1493910,Orthopristis scapularis
 1497938,Phrontis tiarula
+1507449,Paranisotremus moricandi
 1507464,Mithrax forceps
 1533045,Halodule emarginata
+1548543,Agathistoma viridulum
 1557229,Agathistoma fasciatum
+1577312,Acanthostracion polygonium
 1577330,Brachygenys chrysargyreum
 1579720,Lysiosquilla glabriuscula
+1623786,Azurina multilineata
 1660764,Dapis pleousa
+1667999,Pareques lineatus
 1736039,Volutella muricata
