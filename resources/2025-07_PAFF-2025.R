@@ -56,7 +56,7 @@ ids_out <- ids_input %>%
 
 # Get new classifications
 
-classifications_df <- read_csv("taxonomic-classifications/marinegeo_classifications.csv")
+classifications_df <- read_csv("taxonomic-classifications/marinegeo_classifications.csv", guess_max = Inf)
 
 needed_classifications <- new_ids_df %>%
   filter(!taxonomic_id %in% classifications_df$taxonomic_id) %>%

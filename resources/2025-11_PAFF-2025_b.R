@@ -32,7 +32,7 @@ write_csv(ids_out, "taxonomic-ids/marinegeo-taxonomic-ids.csv")
 
 ## Get new classifications ####
 
-classifications_df <- read_csv("taxonomic-classifications/marinegeo_classifications.csv")
+classifications_df <- read_csv("taxonomic-classifications/marinegeo_classifications.csv", guess_max = Inf)
 
 needed_classifications <- missing_species_ids %>%
   filter(!taxonomic_id %in% classifications_df$taxonomic_id) %>%

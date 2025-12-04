@@ -34,7 +34,7 @@ new_classifications <- api_worms_get_classification(unique(needed_classification
 
 setdiff(colnames(new_classifications), colnames(needed_classifications))
 
-classifications_input <- read_csv("taxonomic-classifications/marinegeo_classifications.csv")
+classifications_input <- read_csv("taxonomic-classifications/marinegeo_classifications.csv", guess_max = Inf)
 
 any(classifications_input$taxonomic_id %in% new_classifications$taxonomic_id)
 
