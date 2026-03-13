@@ -1,7 +1,7 @@
-﻿scientific_id,functional_group_name,parent_id
-FUNCTIONAL:0,No Species Present,
-FUNCTIONAL:2,Fouling Organism,
-FUNCTIONAL:4,Epibionts,
-FUNCTIONAL:5,Epiphytes,
-FUNCTIONAL:6,Epifauna,
-FUNCTIONAL:10,Biota,
+﻿scientific_id,functional_group_name,parent_id,type,enroll_all_lower_ranks,taxonomic_id,definition
+FUNCTIONAL:0,No Species Present,,functional,,,
+FUNCTIONAL:2,Fouling Organism,,functional,,,
+FUNCTIONAL:4,Epibionts,,functional,,,
+FUNCTIONAL:5,Epiphytes,,functional,,,
+FUNCTIONAL:6,Epifauna,,functional,,,
+FUNCTIONAL:10,Biota,,functional,,,
