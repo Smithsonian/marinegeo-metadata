@@ -1,0 +1,1378 @@
+scientific_name,scientific_id
+unidentified epifauna,FUNCTIONAL:6
+unidentified epiphytes,FUNCTIONAL:5
+unidentified epibionts,FUNCTIONAL:4
+unidentified SAV,FUNCTIONAL:3
+unidentified fouling,FUNCTIONAL:2
+unidentified macroalgae,FUNCTIONAL:1
+no species observed,FUNCTIONAL:0
+NOT PRESENT,FUNCTIONAL:0
+Debris,FUNCTIONAL:0
+Mollusca,APHIA:51
+Polyplacophora,APHIA:55
+Gastropoda,APHIA:101
+Gastropoda spp.,APHIA:101
+Bivalvia,APHIA:105
+Bivalvia spp.,APHIA:105
+Fissurellidae,APHIA:111
+Hydrobiidae,APHIA:120
+Rissoidae,APHIA:123
+Caecidae,APHIA:126
+Turritellidae,APHIA:127
+Cerithiidae,APHIA:128
+Cerithiopsidae,APHIA:130
+Eulimidae,APHIA:135
+Calyptraeidae,APHIA:141
+Velutinidae,APHIA:143
+Muricidae spp.,APHIA:148
+Turridae,APHIA:152
+Cephalaspidea,APHIA:154
+Nuculanidae,APHIA:205
+Mytilidae,APHIA:211
+Pectinidae,APHIA:213
+Anomiidae,APHIA:214
+Lasaeidae,APHIA:222
+Cardiidae,APHIA:229
+Veneridae,APHIA:243
+Veneridae spp.,APHIA:243
+Trochidae,APHIA:443
+Porifera,APHIA:558
+Platyhelminthes,APHIA:793
+Nematoda,APHIA:799
+Chlorophyta,APHIA:801
+Phaeophyceae,APHIA:830
+Rhodophyta,APHIA:852
+Annelida,APHIA:882
+Polychaeta,APHIA:883
+Eunicida,APHIA:895
+Orbiniidae,APHIA:902
+Spionidae,APHIA:913
+Cirratulidae,APHIA:919
+Opheliidae,APHIA:924
+Polynoidae,APHIA:939
+Chrysopetalidae,APHIA:944
+Syllidae,APHIA:948
+Lumbrineridae,APHIA:967
+Sabellidae,APHIA:985
+Serpulidae,APHIA:988
+Spirorbinae,APHIA:989
+Arthropoda,APHIA:1065
+Crustacea,APHIA:1066
+Ostracoda,APHIA:1078
+Copepoda,APHIA:1080
+Cirripedia,APHIA:1082
+Calanoida,APHIA:1100
+Cyclopoida,APHIA:1101
+Harpacticoida,APHIA:1102
+Euphausiacea,APHIA:1128
+Decapoda,APHIA:1130
+Isopoda,APHIA:1131
+Tanaidacea,APHIA:1133
+Amphipoda,APHIA:1135
+Cumacea,APHIA:1137
+Sipuncula,APHIA:1268
+Pycnogonida,APHIA:1302
+Hydrozoa,APHIA:1337
+Octocorallia,APHIA:1341
+Actiniaria,APHIA:1360
+Scleractinia,APHIA:1363
+Foraminifera,APHIA:1410
+Halacaridae,APHIA:1484
+Nudibranchia,APHIA:1762
+Nudibranchia spp.,APHIA:1762
+Chordata,APHIA:1821
+Ascidiacea,APHIA:1839
+Ascidian,APHIA:1839
+Oligochaeta,APHIA:2036
+Hirudinea,APHIA:2041
+Pisces,APHIA:11676
+Galeommatoidea,APHIA:14629
+Rissooidea,APHIA:14767
+Corallinales,APHIA:15308
+Nereididae,APHIA:22496
+Architectonicidae,APHIA:22989
+Columbellidae,APHIA:23009
+Cypraeidae,APHIA:23022
+Cystiscidae,APHIA:23023
+Fasciolariidae spp.,APHIA:23038
+Nacellidae,APHIA:23075
+Olividae,APHIA:23082
+Potamididae,APHIA:23100
+Condylactis,APHIA:100701
+Caprellidae,APHIA:101361
+Aoridae,APHIA:101368
+Corophiidae,APHIA:101376
+Eusiridae,APHIA:101380
+Gammaridae,APHIA:101383
+Isaeidae,APHIA:101388
+Lysianassidae,APHIA:101395
+Melphidippidae,APHIA:101398
+Phoxocephalidae,APHIA:101403
+Caprella,APHIA:101430
+Phtisica,APHIA:101436
+Ampelisca,APHIA:101445
+Ampithoe,APHIA:101459
+Cymadusa,APHIA:101460
+Bemlos,APHIA:101467
+Lembos,APHIA:101469
+Unciola,APHIA:101474
+Corophium,APHIA:101489
+Gammarus,APHIA:101537
+Iphimedia,APHIA:101554
+Gammaropsis,APHIA:101558
+Photis,APHIA:101563
+Jassa,APHIA:101571
+Leucothoe,APHIA:101580
+Ichnopus,APHIA:101614
+Elasmopus,APHIA:101671
+Stenothoe,APHIA:101770
+Caprella equilibra,APHIA:101830
+Caprella penantis,APHIA:101846
+Ampithoe ramondi,APHIA:102000
+Ampithoe valida,APHIA:102005
+Lembos websteri,APHIA:102033
+Leptocheirus pilosus,APHIA:102040
+Microdeutopus gryllotalpa,APHIA:102048
+Corophium volutator,APHIA:102101
+Gammarus duebeni,APHIA:102276
+Gammarus tigrinus,APHIA:102296
+Photis pollex,APHIA:102385
+Ericthonius brasiliensis,APHIA:102401
+Ericthonius rubricornis,APHIA:102409
+Elasmopus rapax,APHIA:102805
+Styela plicata,APHIA:103936
+Carcharhinidae spp.,APHIA:105689
+Carcharhinus plumbeus,APHIA:105797
+Negaprion brevirostris,APHIA:105800
+Sphyrna mokarran,APHIA:105817
+Ginglymostoma cirratum,APHIA:105846
+Balanus,APHIA:106122
+Brachyura,APHIA:106673
+Brachyura spp.,APHIA:106673
+Caridea,APHIA:106674
+Paguroidea,APHIA:106687
+Paguroidea spp.,APHIA:106687
+Paguroidea spp. [striped],APHIA:106687
+Porcellanidae,APHIA:106734
+Diogenidae spp.,APHIA:106736
+Portunidae spp.,APHIA:106763
+Panopeidae,APHIA:106765
+Hippolytidae,APHIA:106777
+Axiidae spp.,APHIA:106798
+Callianassidae,APHIA:106800
+Penaeus,APHIA:106822
+Paguristes,APHIA:106844
+Libinia,APHIA:106906
+Callinectes,APHIA:106921
+Alpheus,APHIA:106978
+Alpheus spp.,APHIA:106978
+Hippolyte,APHIA:106987
+Lysmata spp.,APHIA:106992
+Thor spp.,APHIA:106995
+Palaemon,APHIA:107032
+Periclimenes,APHIA:107035
+Pandalus,APHIA:107044
+Panulirus spp.,APHIA:107060
+Libinia dubia,APHIA:107335
+Callinectes sapidus,APHIA:107379
+Carcinus maenas,APHIA:107381
+Charybdis helleri,APHIA:107382
+Dyspanopeus sayi,APHIA:107412
+Rhithropanopeus harrisii,APHIA:107414
+Pachygrapsus transversus,APHIA:107457
+Percnon gibbesi,APHIA:107458
+Latreutes fucorum,APHIA:107519
+Thor amboinensis,APHIA:107534
+Brachycarpus biunguiculatus,APHIA:107611
+Echiuroidea,APHIA:110342
+Cumella,APHIA:110416
+Bugula neritina,APHIA:111158
+Victorella pavida,APHIA:111673
+Amphistegina,APHIA:112080
+Calcarina,APHIA:112119
+Amphisorus hemprichii,APHIA:112822
+Sorites orbiculus,APHIA:112823
+Neorotalia calcar,APHIA:113625
+Peltidium,APHIA:115430
+Obelia,APHIA:117034
+Chironomidae,APHIA:118100
+Anthuridae,APHIA:118244
+Cymothoidae spp.,APHIA:118274
+Idoteidae,APHIA:118283
+Carpias,APHIA:118362
+Gnathia,APHIA:118437
+Idotea,APHIA:118454
+Jaera albifrons,APHIA:118715
+Idotea balthica,APHIA:119039
+Idotea chelipes,APHIA:119042
+Idotea granulosa,APHIA:119044
+Mysidae,APHIA:119822
+Praunus flexuosus,APHIA:120177
+Ophiuroidea,APHIA:123084
+Ophiuroidea spp.,APHIA:123084
+Synaptidae,APHIA:123182
+Holothuria,APHIA:123456
+Ophioderma,APHIA:123547
+Ophiocoma sp.,APHIA:123592
+Asterias rubens,APHIA:123776
+Coscinasterias tenuispina,APHIA:123795
+Arbacia lixula,APHIA:124249
+Diadema antillarum,APHIA:124332
+Ophionereis reticulata,APHIA:124833
+Amphipholis squamata,APHIA:125064
+Ophiactis savignyi,APHIA:125122
+Gorgoniidae,APHIA:125275
+Congridae spp.,APHIA:125427
+Muraenidae spp.,APHIA:125431
+Atherinidae spp.,APHIA:125438
+Belonidae,APHIA:125451
+Clupeidae spp.,APHIA:125464
+Engraulidae spp.,APHIA:125465
+Blenniidae spp. (mottled brown),APHIA:125519
+Gobiidae,APHIA:125537
+Gobiidae spp.,APHIA:125537
+Labridae spp.,APHIA:125541
+Syngnathidae spp.,APHIA:125606
+Enchelycore spp.,APHIA:125635
+Gymnothorax spp.,APHIA:125636
+Muraena spp.,APHIA:125637
+Sardinella,APHIA:125721
+Megalops,APHIA:125726
+Parablennius spp.,APHIA:125920
+Kyphosus spp.,APHIA:126015
+Bothus sp.,APHIA:126110
+Aluterus sp.,APHIA:126235
+Heteroconger longissimus,APHIA:126288
+Gymnothorax vicinus,APHIA:126302
+Synodus saurus,APHIA:126372
+Synodus synodus,APHIA:126373
+Sardinella aurita,APHIA:126422
+Megalops atlanticus,APHIA:126430
+Ophioblennius atlanticus,APHIA:126769
+Parablennius pilicornis,APHIA:126773
+Scartella cristata,APHIA:126782
+Caranx crysos,APHIA:126802
+Caranx hippos,APHIA:126803
+Caranx latus,APHIA:126804
+Decapterus macarellus,APHIA:126807
+Decapterus punctatus,APHIA:126808
+Elagatis bipinnulata,APHIA:126809
+Seriola dumerili,APHIA:126816
+Seriola rivoliana,APHIA:126818
+Echeneis naucrates,APHIA:126848
+Xyrichtys novacula,APHIA:126971
+Mugil cephalus,APHIA:126983
+Chromis limbata,APHIA:127001
+Heteropriacanthus cruentatus,APHIA:127004
+Priacanthus arenatus,APHIA:127005
+Epinephelus marginatus,APHIA:127036
+Pagrus pagrus,APHIA:127063
+Dactylopterus volitans,APHIA:127232
+Syngnathus typhle,APHIA:127393
+Balistes vetula,APHIA:127397
+Canthidermis sufflamen,APHIA:127399
+Diodon holocanthus,APHIA:127402
+Diodon hystrix,APHIA:127403
+Canthigaster rostrata,APHIA:127411
+Capitella,APHIA:129211
+Mesochaetopterus spp.,APHIA:129230
+Eunice,APHIA:129278
+Eunice spp.,APHIA:129278
+Nereis,APHIA:129379
+Eulalia,APHIA:129445
+Phyllodoce,APHIA:129455
+Harmothoe,APHIA:129491
+Lepidonotus,APHIA:129496
+Prionospio,APHIA:129620
+Amblyosyllis,APHIA:129645
+Exogone,APHIA:129654
+Syllis,APHIA:129680
+Hermodice carunculata,APHIA:129831
+Ceratonereis mirabilis,APHIA:130372
+Pectinaria granulata,APHIA:130593
+Harmothoe imbricata,APHIA:130769
+Polydora ciliata,APHIA:131141
+Polydora cornuta,APHIA:131143
+Aurelia aurita,APHIA:135306
+Abyla,APHIA:135351
+Phascolion,APHIA:136025
+Apseudes,APHIA:136185
+Leptochelia,APHIA:136235
+Zeuxo,APHIA:136248
+Caretta caretta,APHIA:137205
+Chelonia mydas,APHIA:137206
+Astarte,APHIA:137683
+Engina spp.,APHIA:137705
+Bulla sp.,APHIA:137716
+Crepidula,APHIA:137722
+Bittium,APHIA:137758
+Cerithium spp.,APHIA:137760
+Haminoea,APHIA:138054
+Hiatella,APHIA:138068
+Hydrobia,APHIA:138081
+Lacuna,APHIA:138099
+Littorina,APHIA:138135
+Tectura,APHIA:138142
+Stramonita spp.,APHIA:138206
+Urosalpinx spp.,APHIA:138210
+Mya,APHIA:138211
+Mytilus,APHIA:138228
+Smaragdia,APHIA:138255
+Octopus spp.,APHIA:138268
+Odostomia,APHIA:138413
+Cymatium spp.,APHIA:138426
+Alvania,APHIA:138439
+Rissoina,APHIA:138457
+Skenea,APHIA:138508
+Macoma,APHIA:138531
+Tellina,APHIA:138533
+Tritonia,APHIA:138580
+Calliostoma spp,APHIA:138584
+Aplysia dactylomela,APHIA:138753
+Aplysia parvula,APHIA:138757
+Buccinum undatum,APHIA:138878
+Bulla striata,APHIA:138940
+Crepidula fornicata,APHIA:138963
+Cerastoderma edule,APHIA:138998
+Cerastoderma glaucum,APHIA:138999
+Corambe obscura,APHIA:139407
+Donax vittatus,APHIA:139604
+Lacuna vincta,APHIA:140170
+Littorina littorea,APHIA:140262
+Nucella lapillus,APHIA:140403
+Urosalpinx cinerea,APHIA:140429
+Modiolus modiolus,APHIA:140467
+Musculus discors,APHIA:140472
+Mytilus edulis,APHIA:140480
+Mytilus trossulus,APHIA:140482
+Smaragdia viridis,APHIA:140570
+Octopus vulgaris,APHIA:140605
+Crassostrea virginica,APHIA:140657
+Pinna nobilis,APHIA:140780
+Pusillina inconspicua,APHIA:141334
+Pusillina sarsii,APHIA:141341
+Rissoa membranacea,APHIA:141359
+Rissoa parva,APHIA:141365
+Skeneopsis planorbis,APHIA:141539
+Macoma balthica,APHIA:141579
+Tricladida,APHIA:142028
+Delesseriaceae,APHIA:143673
+Gigartinaceae,APHIA:143733
+Caulerpa,APHIA:143816
+Avrainvillea,APHIA:143819
+Halimeda,APHIA:143820
+Halimeda spp.,APHIA:143820
+Penicillus,APHIA:143821
+Spyridia,APHIA:143866
+Acanthophora,APHIA:143900
+Laurencia,APHIA:143914
+Jania,APHIA:144012
+Lithothamnion,APHIA:144018
+Peyssonnelia,APHIA:144051
+Batophora,APHIA:144056
+Dictyota,APHIA:144086
+Lobophora spp.,APHIA:144087
+Padina,APHIA:144088
+Cystoseira,APHIA:144126
+Fucus,APHIA:144129
+Sargassum,APHIA:144132
+Pterocladia,APHIA:144136
+Gracilaria,APHIA:144188
+Champia,APHIA:144237
+Valonia,APHIA:144267
+Ulva,APHIA:144296
+Bryopsis hypnoides,APHIA:144452
+Caulerpa prolifera,APHIA:144471
+Caulerpa racemosa,APHIA:144472
+Caulerpa sertularioides,APHIA:144474
+Halimeda discoidea,APHIA:144481
+Halimeda opuntia,APHIA:144482
+Halimeda tuna,APHIA:144483
+Penicillus capitatus,APHIA:144484
+Laurencia obtusa,APHIA:144827
+Anadyomene stellata,APHIA:145012
+Flabellia petiolata,APHIA:145094
+Dasycladus vermicularis,APHIA:145301
+Dictyota dichotoma,APHIA:145367
+Lobophora variegata,APHIA:145381
+Padina pavonica,APHIA:145385
+Ectocarpus siliculosus,APHIA:145410
+Fucus serratus,APHIA:145546
+Hypnea musciformis,APHIA:145634
+Hypnea spinella,APHIA:145635
+Polyides rotunda,APHIA:145668
+Halophila decipiens,APHIA:145713
+Halophila stipulacea,APHIA:145714
+Cymodocea nodosa,APHIA:145793
+Posidonia oceanica,APHIA:145794
+Colpomenia sinuosa,APHIA:145857
+Ulothrix speciosa,APHIA:145930
+Percursaria percursa,APHIA:145979
+Ulva lactuca,APHIA:145984
+Bryozoa,APHIA:146142
+Cyanobacteria,APHIA:146537
+Lyngbya,APHIA:146538
+Chironomus,APHIA:146802
+Aora typica,APHIA:146895
+Melita nitida,APHIA:146922
+Potamopyrgus antipodarum,APHIA:147123
+Inachidae spp.,APHIA:148427
+Monocorophium insidiosum,APHIA:148592
+Apocorophium lacustre,APHIA:148594
+Mysida,APHIA:149668
+Oreasteridae,APHIA:149871
+Micropogonias undulatus,APHIA:151158
+Morone americana,APHIA:151177
+Phasianellidae,APHIA:151267
+Labrisomidae spp.,APHIA:151414
+Gerreidae spp.,APHIA:151456
+Peringia ulvae,APHIA:151628
+Syllinae,APHIA:152223
+Hediste diversicolor,APHIA:152302
+Osteichthyes,APHIA:152352
+Nemertea,APHIA:152391
+Theodoxus fluviatilis,APHIA:153558
+Polydora websteri,APHIA:153847
+Doradidae,APHIA:154426
+Balistes capriscus,APHIA:154721
+Sthenelais helenae,APHIA:155081
+Neritimorpha,APHIA:156484
+Anadara transversa,APHIA:156734
+Gemma gemma,APHIA:156803
+Argopecten irradians,APHIA:156817
+Geukensia demissa,APHIA:156859
+Ischadium recurvum,APHIA:156861
+Mytilopsis leucophaeata,APHIA:156887
+Tagelus plebeius,APHIA:157001
+Aonides mayaguezensis,APHIA:157179
+Mediomastus californiensis,APHIA:157483
+Chthamalus fragilis,APHIA:157793
+Microprotopus raneyi,APHIA:157854
+Edotia triloba,APHIA:157885
+Erichsonella attenuata,APHIA:157887
+Coronadena mutabilis,APHIA:157975
+Ampelisca abdita,APHIA:158020
+Ampelisca verrilli,APHIA:158023
+Ampithoe longimana,APHIA:158026
+Batea catharinensis,APHIA:158032
+Lysianopsis alba,APHIA:158036
+Arbacia punctulata,APHIA:158058
+Mellita quinquiesperforata,APHIA:158065
+Cymadusa compta,APHIA:158082
+Gammarus mucronatus,APHIA:158094
+Leptocheirus plumulosus,APHIA:158113
+Stenothoe minuta,APHIA:158149
+Diadumene leucolena,APHIA:158230
+Alpheus heterochaelis,APHIA:158348
+Crangon septemspinosa,APHIA:158355
+Hippolyte pleuracantha,APHIA:158360
+Hippolyte zostericola,APHIA:158361
+Lysmata wurdemanni,APHIA:158365
+Eurypanopeus depressus,APHIA:158416
+Hexapanopeus angustifrons,APHIA:158424
+Mithrax,APHIA:158428
+Mithrax spp.,APHIA:158428
+Mithrax hispidus,APHIA:158429
+Ovalipes stephensoni,APHIA:158435
+Panopeus herbstii,APHIA:158436
+Luidia clathrata,APHIA:158497
+Dasyatis americana,APHIA:158526
+Sclerodactyla briareus,APHIA:158532
+Anguilla rostrata,APHIA:158562
+Gymnothorax funebris,APHIA:158583
+Gymnothorax moringa,APHIA:158584
+Myrichthys breviceps,APHIA:158637
+Brevoortia spp.,APHIA:158688
+Brevoortia tyrannus,APHIA:158691
+Opisthonema oglinum,APHIA:158695
+Anchoa mitchilli,APHIA:158699
+Synodus intermedius,APHIA:158759
+Opsanus tau,APHIA:158782
+Gobiesox strumosus,APHIA:158787
+Haemulon spp.,APHIA:158806
+Haemulon aurolineatum,APHIA:158807
+Haemulon plumierii,APHIA:158808
+Halichoeres bivittatus,APHIA:158815
+Lachnolaimus maximus,APHIA:158822
+Acanthostracion polygonius,APHIA:158919
+Acanthostracion quadricornis,APHIA:158920
+Lactophrys triqueter,APHIA:158932
+Sphoeroides spengleri,APHIA:158935
+Sphoeroides testudineus,APHIA:158936
+Citharichthys macrops,APHIA:159165
+Ogcocephalus vespertilio,APHIA:159195
+Epinephelus striatus,APHIA:159222
+Menidia beryllina,APHIA:159227
+Menidia menidia,APHIA:159228
+Liopropoma spp.,APHIA:159229
+Mycteroperca bonaci,APHIA:159231
+Rypticus maculatus,APHIA:159235
+Serranus subligarius,APHIA:159236
+Archosargus probatocephalus,APHIA:159238
+Archosargus rhomboidalis,APHIA:159239
+Calamus spp.,APHIA:159240
+Calamus bajonado,APHIA:159241
+Calamus calamus,APHIA:159242
+Calamus penna,APHIA:159245
+Tylosurus crocodilus,APHIA:159259
+Trinectes maculatus,APHIA:159271
+Bothus ocellatus,APHIA:159275
+Holacanthus bermudensis,APHIA:159284
+Cyprinodon variegatus,APHIA:159285
+Pomacanthus arcuatus,APHIA:159287
+Abudefduf saxatilis,APHIA:159288
+Stegastes leucostictus,APHIA:159291
+Fundulus diaphanus,APHIA:159296
+Nicholsina usta,APHIA:159298
+Scarus coeruleus,APHIA:159300
+Sparisoma rubripinne,APHIA:159301
+Bairdiella chrysoura,APHIA:159303
+Fundulus heteroclitus,APHIA:159306
+Fundulus majalis,APHIA:159308
+Lucania parva,APHIA:159310
+Leiostomus xanthurus,APHIA:159322
+Sciaenops ocellatus,APHIA:159335
+Scomberomorus maculatus,APHIA:159342
+Epinephelus adscensionis,APHIA:159351
+Epinephelus guttatus,APHIA:159352
+Epinephelus itajara,APHIA:159353
+Epinephelus morio,APHIA:159354
+Holocentrus spp.,APHIA:159376
+Holocentrus adscensionis,APHIA:159378
+Myripristis jacobus,APHIA:159385
+Sargocentron vexillarium,APHIA:159401
+Mugil curema,APHIA:159416
+Pseudupeneus maculatus,APHIA:159421
+Hippocampus erectus,APHIA:159445
+Syngnathus floridae,APHIA:159450
+Syngnathus fuscus,APHIA:159451
+Aluterus scriptus,APHIA:159491
+Cantherhines pullus,APHIA:159493
+Monacanthus ciliatus,APHIA:159497
+Monacanthus tuckeri,APHIA:159499
+Pterois volitans,APHIA:159559
+Scorpaena plumieri,APHIA:159564
+Prionotus ophryas,APHIA:159573
+Acanthurus bahianus,APHIA:159578
+Acanthurus chirurgus,APHIA:159580
+Acanthurus coeruleus,APHIA:159581
+Apogon maculatus,APHIA:159589
+Apogon pseudomaculatus,APHIA:159590
+Chasmodes bosquianus,APHIA:159598
+Parablennius marmoreus,APHIA:159609
+Diplogrammus pauciradiatus,APHIA:159615
+Callionymus bairdi,APHIA:159626
+Carangoides bartholomaei,APHIA:159630
+Oligoplites saurus,APHIA:159645
+Selene vomer,APHIA:159649
+Trachinotus goodei,APHIA:159654
+Chaetodon capistratus,APHIA:159661
+Chaetodon ocellatus,APHIA:159662
+Chaetodon striatus,APHIA:159663
+Echeneis neucratoides,APHIA:159678
+Chaetodipterus faber,APHIA:159703
+Eucinostomus spp.,APHIA:159731
+Eucinostomus gula,APHIA:159733
+Coryphopterus spp.,APHIA:159735
+Coryphopterus glaucofraenum,APHIA:159736
+Ctenogobius spp.,APHIA:159747
+Ctenogobius sp. [boleosoma],APHIA:159747
+Gobiosoma bosc,APHIA:159767
+Thalassoma bifasciatum,APHIA:159786
+Lutjanus analis,APHIA:159792
+Lutjanus apodus,APHIA:159793
+Lutjanus buccanella,APHIA:159794
+Lutjanus cyanopterus,APHIA:159796
+Lutjanus griseus,APHIA:159797
+Lutjanus jocu,APHIA:159798
+Lutjanus mahogoni,APHIA:159799
+Lutjanus synagris,APHIA:159800
+Ocyurus chrysurus,APHIA:159803
+Sphyraena borealis,APHIA:159813
+Littoridinops monroensis,APHIA:159912
+Paracaprella tenuis,APHIA:160028
+Pyramidella,APHIA:160041
+Acteocina canaliculata,APHIA:160065
+Turbonilla toyatani,APHIA:160091
+Astyris lunata,APHIA:160102
+Bittiolum varium,APHIA:160174
+Circulus liratus,APHIA:160203
+Costoanachis avara,APHIA:160222
+Crepidula convexa,APHIA:160228
+Lottia,APHIA:160336
+Marshallora nigrocincta,APHIA:160363
+Nassarius acutus,APHIA:160395
+Spurwinkia salsa,APHIA:160412
+Parvanachis obesa,APHIA:160440
+Pyrgocythara plicosa,APHIA:160476
+Clionaidae,APHIA:170417
+Heterophoxus,APHIA:176848
+Muricea spp.,APHIA:177745
+Linckia spp.,APHIA:178186
+Linckia guildingi,APHIA:178188
+Oreaster reticulatus,APHIA:178210
+Symploca,APHIA:178510
+Luidia senegalensis,APHIA:178641
+Echinaster brasiliensis,APHIA:178747
+Nannastacus inflatus,APHIA:182578
+Bithynia tentaculata,APHIA:182699
+Modulidae,APHIA:196285
+Modulus,APHIA:196286
+Modulus spp.,APHIA:196286
+Eatoniellidae,APHIA:196894
+Stegastes spp.,APHIA:203822
+Udotea,APHIA:204078
+Isophyllia,APHIA:204354
+Chevalia,APHIA:204416
+Agaricia,APHIA:204464
+Harengula spp.,APHIA:204605
+Pseudosquilla spp.,APHIA:204679
+Bathygobius spp,APHIA:204736
+Euvola spp.,APHIA:205700
+Drupella spp.,APHIA:205771
+Palythoa,APHIA:205785
+Millepora,APHIA:205902
+Millepora spp.,APHIA:205902
+Drupa spp.,APHIA:206126
+Syringodium,APHIA:206309
+Porites,APHIA:206485
+Paradexamine,APHIA:206577
+Santia,APHIA:206653
+Meandrina,APHIA:206740
+Thalassia,APHIA:206854
+Acropora cervicornis,APHIA:206989
+Porites porites,APHIA:207238
+Favia fragum,APHIA:207432
+Siderastrea siderea,APHIA:207516
+Siderastrea radians,APHIA:207517
+Coralliophila erosa,APHIA:208126
+Oliva sayana,APHIA:208387
+Columbella mercatoria,APHIA:208599
+Calcinus latens,APHIA:208677
+Cymodocea rotundata,APHIA:208921
+Halodule uninervis,APHIA:208924
+Halodule wrightii,APHIA:208925
+Halophila ovalis,APHIA:208930
+Thalassia hemprichii,APHIA:208931
+Enhalus acoroides,APHIA:208932
+Pseudosquilla ciliata,APHIA:210232
+Gonodactylus chiragra,APHIA:210242
+Stenopus hispidus,APHIA:210370
+Alpheus paracrinitus,APHIA:210522
+Millepora alcicornis,APHIA:210726
+Holothuria floridana,APHIA:210900
+Grandidierella bonnieroides,APHIA:211405
+Chevalia aviculae,APHIA:211408
+Halimeda copiosa,APHIA:211515
+Halimeda incrassata,APHIA:211519
+Udotea flabellum,APHIA:211535
+Acanthophora spicifera,APHIA:211768
+Culcita novaeguineae,APHIA:212298
+Tropiometra carinata,APHIA:213331
+Echinometra lucunter,APHIA:213380
+Chondracanthus chamissoi,APHIA:213951
+Eucheuma denticulatum,APHIA:213998
+Lembos hypacanthus,APHIA:214711
+Podocerus brasiliensis,APHIA:214744
+Caprellina longicollis,APHIA:214801
+Isophyllia sinuosa,APHIA:216134
+Mussa angulosa,APHIA:216135
+Cerithium litteratum,APHIA:216687
+Aetobatus narinari,APHIA:217426
+Solenostomus paradoxus,APHIA:217976
+Kyphosus vaigiensis,APHIA:218706
+Kyphosus cinerascens,APHIA:218708
+Neopomacentrus cyanomos,APHIA:218839
+Gnatholepis cauerensis,APHIA:219476
+Melichthys niger,APHIA:219881
+Chilomycterus reticulatus,APHIA:219964
+Thalassodendron ciliatum,APHIA:220228
+Cirolana parva,APHIA:220697
+Paradexamine pacifica,APHIA:220766
+Botryocladia leptopoda,APHIA:220965
+Parhyale hawaiensis,APHIA:221362
+Caenogastropoda,APHIA:224570
+Cerithium atratum,APHIA:224572
+Cerithium guinaicum,APHIA:224773
+Cassis tuberosa,APHIA:224977
+Nodipecten nodosus,APHIA:225252
+Thalotia,APHIA:225463
+Monocorophium acherusicum,APHIA:225814
+Neomysis awatschensis,APHIA:226278
+Ruppia,APHIA:234030
+Ruppia maritima,APHIA:234031
+Chaetodon sedentarius,APHIA:234107
+Testudinalia testudinalis,APHIA:234208
+Ulva intestinalis,APHIA:234471
+Alitta succinea,APHIA:234850
+Gracilaria vermiculophylla,APHIA:236157
+Apolochus picadurus,APHIA:236496
+Caprella scaura,APHIA:236551
+Mimachlamys varia,APHIA:236719
+Ecrobia ventrosa,APHIA:238104
+Grandidierella japonica,APHIA:238740
+Lytechinus,APHIA:240777
+Cronius ruber,APHIA:241109
+Menippe nodifrons,APHIA:241128
+Pachygrapsus gracilis,APHIA:241200
+Astichopus multifidus,APHIA:241780
+Holothuria thomasi,APHIA:241876
+Astrophyton muricatum,APHIA:243214
+Ophioderma brevispinum,APHIA:245516
+Axiopsis serratifrons,APHIA:246230
+Micropanope,APHIA:246346
+Davidaster rubiginosus,APHIA:246784
+Pagurapseudes,APHIA:246979
+Hargeria rapax,APHIA:247538
+Zeuxo marmoratus,APHIA:247710
+Crabyzos,APHIA:248643
+Lynseia,APHIA:248921
+Paracerceis,APHIA:249103
+Botrylloides niger,APHIA:252289
+Acanthemblemaria spp.,APHIA:254882
+Acanthemblemaria spinosa,APHIA:254883
+Meyenaster gelatinosus,APHIA:255042
+Uromunna ubiquita,APHIA:256270
+Cymodoce japonica,APHIA:256965
+Erichsonella crenulata,APHIA:257859
+Califanthura squamosissima,APHIA:259635
+Excorallana tricornis,APHIA:260378
+Harrieta faxoni,APHIA:260565
+Paracerceis caudata,APHIA:261817
+Paracerceis sculpta,APHIA:261827
+Paradella dianae,APHIA:261839
+Pentidotea resecata,APHIA:261978
+Briareum,APHIA:267277
+Gorgonia,APHIA:267453
+Gorgonia spp.,APHIA:267453
+Iciligorgia spp.,APHIA:267499
+Muriceopsis spp.,APHIA:267604
+Mycetophyllia,APHIA:267606
+Plexaura spp.,APHIA:267752
+Plexaurella spp.,APHIA:267753
+Pseudoplexaura spp.,APHIA:267779
+Pseudopterogorgia,APHIA:267781
+Pterogorgia,APHIA:267790
+Astrapogon spp.,APHIA:268418
+Elacatinus spp.,APHIA:269045
+Emblemariopsis spp.,APHIA:269061
+Enneanectes spp.,APHIA:269073
+Hypoplectrus spp.,APHIA:269456
+Hypoplectrus sp.,APHIA:269456
+Labrisomus spp.,APHIA:269590
+Labrisomus spp,APHIA:269590
+Malacoctenus spp.,APHIA:269781
+Carcharhinus perezii,APHIA:271324
+Dasyatis hypostigma,APHIA:271436
+Enchelycore carychroa,APHIA:271805
+Gymnothorax miliaris,APHIA:271852
+Apogon binotatus,APHIA:272982
+Apogon townsendi,APHIA:273108
+Ophioblennius macclurei,APHIA:273125
+Prognathodes aculeatus,APHIA:273369
+Bodianus pulchellus,APHIA:273540
+Bodianus rufus,APHIA:273541
+Xyrichtys martinicensis,APHIA:273602
+Xyrichtys splendens,APHIA:273608
+Chromis cyanea,APHIA:273718
+Chromis insolata,APHIA:273731
+Chromis multilineata,APHIA:273743
+Chromis scotti,APHIA:273756
+Sparisoma atomarium,APHIA:273771
+Sparisoma aurofrenatum,APHIA:273772
+Sparisoma axillare,APHIA:273773
+Sparisoma chrysopterum,APHIA:273774
+Sparisoma frondosum,APHIA:273775
+Sparisoma radians,APHIA:273777
+Sparisoma tuiupiranga,APHIA:273779
+Sparisoma viride,APHIA:273780
+Scomberomorus regalis,APHIA:273819
+Mycteroperca acutirostris,APHIA:273876
+Mycteroperca interstitialis,APHIA:273878
+Mycteroperca tigris,APHIA:273884
+Mycteroperca venenosa,APHIA:273885
+Serranus annularis,APHIA:273890
+Serranus baldwini,APHIA:273893
+Serranus flaviventris,APHIA:273896
+Serranus tabacarius,APHIA:273908
+Serranus tigrinus,APHIA:273909
+Serranus tortugarum,APHIA:273910
+Diplodus holbrookii,APHIA:273972
+Bothus lunatus,APHIA:274187
+Bothus maculiferus,APHIA:274188
+Scorpaena grandicornis,APHIA:274711
+Scorpaenodes caribbaeus,APHIA:274743
+Syngnathus caribbaeus,APHIA:275219
+Syngnathus scovelli,APHIA:275232
+Chilomycterus antennatus,APHIA:275239
+Chilomycterus antillarum,APHIA:275240
+Sphoeroides greeleyi,APHIA:275276
+Haemulon album,APHIA:275721
+Haemulon carbonarium,APHIA:275724
+Haemulon chrysargyreum,APHIA:275725
+Haemulon flavolineatum,APHIA:275727
+Haemulon macrostomum,APHIA:275728
+Haemulon melanurum,APHIA:275730
+Haemulon parra,APHIA:275731
+Haemulon sciurus,APHIA:275733
+Halichoeres brasiliensis,APHIA:275754
+Halichoeres cyanocephalus,APHIA:275760
+Halichoeres garnoti,APHIA:275764
+Halichoeres maculipinna,APHIA:275772
+Halichoeres penrosei,APHIA:275787
+Halichoeres pictus,APHIA:275788
+Halichoeres poeyi,APHIA:275790
+Halichoeres radiatus,APHIA:275793
+Halichoeres socialis,APHIA:275800
+Lactophrys bicaudalis,APHIA:275874
+Liopropoma rubre,APHIA:275954
+Rypticus bistrispinus,APHIA:275958
+Rypticus saponaceus,APHIA:275963
+Rypticus subbifrenatus,APHIA:275964
+Holacanthus ciliaris,APHIA:276012
+Holacanthus tricolor,APHIA:276017
+Pomacanthus paru,APHIA:276025
+Scarus coelestinus,APHIA:276042
+Scarus guacamaia,APHIA:276049
+Scarus iseri,APHIA:276052
+Scarus quoyi,APHIA:276058
+Scarus taeniopterus,APHIA:276062
+Scarus vetula,APHIA:276064
+Scarus zelindae,APHIA:276066
+Equetus punctatus,APHIA:276097
+Gambusia holbrooki,APHIA:276134
+Diplectrum bivittatum,APHIA:276176
+Diplectrum radiale,APHIA:276184
+Holocentrus rufus,APHIA:276189
+Neoniphon marianus,APHIA:276205
+Cantherhines macrocerus,APHIA:276250
+Hypleurochilus fissicornis,APHIA:276314
+Eucinostomus melanopterus,APHIA:276423
+Coryphopterus alloides,APHIA:276424
+Coryphopterus dicrus,APHIA:276425
+Coryphopterus eidolon,APHIA:276426
+Coryphopterus hyalinus,APHIA:276429
+Coryphopterus kuna,APHIA:276430
+Coryphopterus lipernes,APHIA:276431
+Coryphopterus personatus,APHIA:276432
+Coryphopterus thrix,APHIA:276434
+Opistognathus aurifrons,APHIA:276442
+Opistognathus macrognathus,APHIA:276463
+Opistognathus whitehursti,APHIA:276480
+Ctenogobius saepepallens,APHIA:276488
+Stegastes adustus,APHIA:276659
+Stegastes diencaeus,APHIA:276666
+Stegastes fuscus,APHIA:276669
+Stegastes partitus,APHIA:276677
+Stegastes pictus,APHIA:276678
+Stegastes planifrons,APHIA:276679
+Stegastes variabilis,APHIA:276688
+Priolepis hipoliti,APHIA:276769
+Gerres cinereus,APHIA:276954
+Pempheris schomburgkii,APHIA:277068
+Cryptotomus roseus,APHIA:277118
+Ptereleotris calliura,APHIA:277120
+Ptereleotris helenae,APHIA:277123
+Malacanthus plumieri,APHIA:277261
+Gnatholepis thompsoni,APHIA:277493
+Harengula jaguana,APHIA:277551
+Amblycirrhitus pinos,APHIA:277569
+Mulloidichthys martinicus,APHIA:277991
+Cosmocampus albirostris,APHIA:278055
+Cosmocampus elucens,APHIA:278059
+Aulostomus maculatus,APHIA:278080
+Echidna catenata,APHIA:278676
+Centropyge argi,APHIA:278827
+Cephalopholis cruentata,APHIA:279146
+Cephalopholis fulva,APHIA:279148
+Acanthemblemaria aspera,APHIA:279443
+Acanthemblemaria chaplini,APHIA:279448
+Acanthemblemaria greenfieldi,APHIA:279451
+Acanthemblemaria maria,APHIA:279457
+Anisotremus surinamensis,APHIA:279623
+Anisotremus virginicus,APHIA:279625
+Astrapogon puncticulatus,APHIA:279773
+Astrapogon stellatus,APHIA:279774
+Centropomus parallelus,APHIA:280064
+Chaenopsis limbaughi,APHIA:280105
+Clepticus parrae,APHIA:280214
+Elacatinus chancei,APHIA:280598
+Elacatinus dilepis,APHIA:280600
+Elacatinus evelynae,APHIA:280601
+Elacatinus figaro,APHIA:280602
+Elacatinus horsti,APHIA:280605
+Elacatinus illecebrosus,APHIA:280606
+Elacatinus oceanops,APHIA:280616
+Elacatinus prochilos,APHIA:280619
+Elacatinus randalli,APHIA:280621
+Emblemaria pandionis,APHIA:280653
+Emblemariopsis bahamensis,APHIA:280658
+Emblemariopsis pricei,APHIA:280663
+Enneanectes altivelis,APHIA:280677
+Enneanectes pectoralis,APHIA:280682
+Gramma loreto,APHIA:280932
+Hemiemblemaria simulus,APHIA:281022
+Hypoplectrus aberrans,APHIA:281112
+Hypoplectrus chlorurus,APHIA:281113
+Hypoplectrus gemma,APHIA:281114
+Hypoplectrus guttavarius,APHIA:281116
+Hypoplectrus indigo,APHIA:281117
+Hypoplectrus nigricans,APHIA:281118
+Hypoplectrus puella,APHIA:281120
+Hypoplectrus unicolor,APHIA:281121
+Inermia vittata,APHIA:281180
+Labrisomus filamentosus,APHIA:281252
+Labrisomus kalisherae,APHIA:281257
+Labrisomus nuchipinnis,APHIA:281260
+Lophogobius cyprinoides,APHIA:281396
+Lucayablennius zingaro,APHIA:281410
+Malacoctenus aurolineatus,APHIA:281491
+Malacoctenus boehlkei,APHIA:281492
+Malacoctenus delalandii,APHIA:281494
+Malacoctenus macropus,APHIA:281500
+Malacoctenus triangulatus,APHIA:281503
+Microspathodon chrysurus,APHIA:281571
+Nes longus,APHIA:281732
+Odontoscion dentex,APHIA:281837
+Paraclinus fasciatus,APHIA:282021
+Paraclinus marmoratus,APHIA:282027
+Paranthias furcifer,APHIA:282084
+Pareques acuminatus,APHIA:282139
+Pareques umbrosus,APHIA:282143
+Risor ruber,APHIA:282620
+Stygnobrotula latebricola,APHIA:282910
+Urobatis jamaicensis,APHIA:283086
+Urocampus carinirostris,APHIA:283090
+Stylaster roseus,APHIA:285905
+Cladocora arbuscula,APHIA:286778
+Oculina diffusa,APHIA:287097
+Madracis decactis,APHIA:287107
+Madracis senaria,APHIA:287112
+Cassiopea frondosa,APHIA:287166
+Cassiopea xamachana,APHIA:287172
+Millepora complanata,APHIA:287421
+Millepora squarrosa,APHIA:287425
+Scolymia cubensis,APHIA:287852
+Scolymia lacera,APHIA:287853
+Agaricia agaricites,APHIA:287911
+Agaricia fragilis,APHIA:287912
+Agaricia grahamae,APHIA:287913
+Agaricia humilis,APHIA:287914
+Agaricia lamarcki,APHIA:287915
+Agaricia Lamarcki,APHIA:287915
+Agaricia tenuifolia,APHIA:287916
+Montastraea cavernosa,APHIA:287962
+Acropora palmata,APHIA:288227
+Acropora prolifera,APHIA:288235
+Porites astreoides,APHIA:288889
+Porites furcata,APHIA:288902
+Meandrina meandrites,APHIA:289232
+Colpophyllia natans,APHIA:289697
+Dichocoenia stellaris,APHIA:289806
+Diploria labyrinthiformis,APHIA:289826
+Erythropodium caribaeorum,APHIA:289919
+Eusmilia fastigiata,APHIA:289939
+Helioseris cucullata,APHIA:290083
+Manicina areolata,APHIA:290327
+Mycetophyllia aliciae,APHIA:290424
+Mycetophyllia danaana,APHIA:290425
+Mycetophyllia ferox,APHIA:290426
+Solenastrea bournoni,APHIA:291054
+Solenastrea hyades,APHIA:291055
+Stephanocoenia intersepta,APHIA:291119
+Eunicea spp.,APHIA:291322
+Anthuroidea,APHIA:292944
+Diplodus argenteus,APHIA:293578
+Carcharhinus perezi,APHIA:298438
+Sardinella brasiliensis,APHIA:300551
+Acanthurus tractus,APHIA:301914
+Caranx bartholomaei,APHIA:302312
+Caranx ruber,APHIA:302432
+Kyphosus sectatrix,APHIA:303486
+Stephanolepis hispida,APHIA:307126
+Haemulon plumieri,APHIA:308599
+Coryphopterus tortugae,APHIA:309494
+Opistognathus whitehurstii,APHIA:309498
+Halicampus crinitus,APHIA:310415
+Corvula batabana,APHIA:314211
+Emblemariopsis diaphana,APHIA:314341
+Paradiplogrammus bairdi,APHIA:315166
+Chalinops pauciradiatus,APHIA:317003
+Ioglossus helenae,APHIA:318653
+Rhinesomus triqueter,APHIA:320988
+Ulaema lefroyi,APHIA:322267
+Brachysyllis,APHIA:325031
+Exogone dispar,APHIA:333453
+Platynereis bicanaliculata,APHIA:334557
+Octopus briareus,APHIA:341954
+Sepioteuthis sepioidea,APHIA:342241
+Pickfordiateuthis pulchella,APHIA:342380
+Sphyraena barracuda,APHIA:345843
+Dissonidae,APHIA:346012
+Iridopagurus spp.,APHIA:366476
+Iridopagurus reticulatus,APHIA:366484
+Pagurus brevidactylus,APHIA:366662
+Pagurus criniticornis,APHIA:366674
+Pagurus maclaughlinae,APHIA:366724
+Pagurus samuelis,APHIA:366786
+Phimochirus holthuisi,APHIA:366818
+Phimochirus operculatus,APHIA:366821
+Calcinus tibicen,APHIA:367457
+Clibanarius tricolor,APHIA:367527
+Dardanus fucosus,APHIA:367581
+Dardanus venosus,APHIA:367596
+Meoma ventricosa,APHIA:367846
+Lytechinus variegatus,APHIA:367850
+Isostichopus badionotus,APHIA:367868
+Clypeaster rosaceus,APHIA:367962
+Paguristes cadenati,APHIA:368215
+Paguristes erythrops,APHIA:368224
+Paguristes puncticeps,APHIA:368275
+Paguristes sericeus,APHIA:368285
+Paguristes tortugae,APHIA:368299
+Petrochirus diogenes,APHIA:368346
+Leptasterias hexactis,APHIA:369177
+Rhipocephalus,APHIA:370153
+Batillaria,APHIA:370445
+Udotea conglutinata,APHIA:373299
+Halimeda monile,APHIA:373717
+Syringodium filiforme,APHIA:374715
+Syringodium isoetifolium,APHIA:374716
+Thalassia testudinum,APHIA:374720
+Halophila engelmannii,APHIA:374722
+Canistrocarpus cervicornis,APHIA:377141
+Avrainvillea nigricans f. spongiosa,APHIA:381797
+Chitonida,APHIA:382003
+Buccinoidea spp.,APHIA:382214
+Rhipocephalus phoenix f. brevifolius,APHIA:382524
+Voluta polypleura,APHIA:382543
+Panulirus argus,APHIA:382891
+Panulirus guttatus,APHIA:382896
+Panulirus laevicauda,APHIA:382899
+Scyllarides aequinoctialis,APHIA:382909
+Cryptoconchus floridanus,APHIA:386549
+Luria cinerea,APHIA:390557
+Argopecten purpuratus,APHIA:394269
+Caprella californica,APHIA:394864
+Penaeus aztecus,APHIA:395176
+Petrolisthes armatus,APHIA:396707
+Eucidaris tribuloides,APHIA:396741
+Boonea bisuturalis,APHIA:397024
+Brachidontes exustus,APHIA:397026
+Chione cancellata,APHIA:397040
+Hemiemblemaria simula,APHIA:402646
+Salicornia,APHIA:403903
+Tedania ignis,APHIA:404078
+Calotrophon ostrearum,APHIA:406356
+Murexsu oxytatus,APHIA:407876
+Neogonodactylus spp.,APHIA:408934
+Neogonodactylus sp.,APHIA:408934
+Neogonodactylus curacaoensis,APHIA:408942
+Lysiosquilla scabricauda,APHIA:409037
+Babelomurex mansfieldi,APHIA:410856
+Porites divaricata,APHIA:411268
+Pseudomelatomidae,APHIA:411814
+Prisogaster niger,APHIA:413385
+Astralium rhodostomum,APHIA:413389
+Lithopoma caelatum,APHIA:413408
+Lithopoma phoebium,APHIA:413409
+Lirularia,APHIA:413459
+Arene,APHIA:413481
+Globosolembos,APHIA:415424
+Mithraculus,APHIA:415649
+Mithraculus spp.,APHIA:415649
+Podochela spp.,APHIA:415843
+Tethygeneia,APHIA:416054
+Tolypella nidifica,APHIA:416187
+Myriophyllum spicatum,APHIA:416205
+Potamogeton perfoliatus,APHIA:416212
+Ruppia cirrhosa,APHIA:416218
+Zannichellia palustris,APHIA:416222
+Stylochus ellipticus,APHIA:417036
+Dendrogyra cylindrus,APHIA:418865
+Diodora sayi,APHIA:419347
+Cittarium pica,APHIA:419449
+Arene cruentata,APHIA:419471
+Eulithidium affine,APHIA:419483
+Eulithidium thalassicola,APHIA:419487
+Astralium phoebium,APHIA:419498
+Lithopoma tectum,APHIA:419499
+Cerithium eburneum,APHIA:419521
+Cerithium lutosum,APHIA:419522
+Cerithium muscarum,APHIA:419523
+Finella dubia,APHIA:419538
+Vermicularia knorrii,APHIA:419546
+Caecum floridanum,APHIA:419588
+Zebina browniana,APHIA:419645
+Strombus pugilis,APHIA:419695
+Calyptraea centralis,APHIA:419701
+Crepidula maculosa,APHIA:419704
+Macrocypraea cervus,APHIA:419722
+Macrocypraea zebra,APHIA:419723
+Epitonium candeanum,APHIA:419806
+Coralliophila galea,APHIA:419934
+Chicoreus dilectus,APHIA:419938
+Phyllonotus pomum,APHIA:419944
+Antillophos candeanus,APHIA:419959
+Gemophos auritulus,APHIA:419968
+Gemophos tinctus,APHIA:419969
+Hesperisternia multangulus,APHIA:419972
+Pisania pusio,APHIA:419978
+Fasciolaria tulipa,APHIA:420024
+Leucozonia nassa,APHIA:420044
+Leucozonia ocellata,APHIA:420045
+Triplofusus giganteus,APHIA:420051
+Vasum muricatum,APHIA:420079
+Oliva reticularis,APHIA:420126
+Prunum apicinum,APHIA:420149
+Conus anabathrum,APHIA:420200
+Conus daucus,APHIA:420208
+Pyrgospira tampaensis,APHIA:420266
+Rissoella caribaea,APHIA:420414
+Boonea impressa,APHIA:420437
+Turbonilla dalli,APHIA:420483
+Japonactaeon punctostriatus,APHIA:420514
+Haminoea antillarum,APHIA:420524
+Haminoea succinea,APHIA:420526
+chelidonura hirundinina,APHIA:420528
+Elysia crispata,APHIA:420572
+Modiolus americanus,APHIA:420705
+Musculus lateralis,APHIA:420707
+Lunarca ovalis,APHIA:420721
+Isognomon alatus,APHIA:420736
+Pinna carnea,APHIA:420742
+Ctenoides scaber,APHIA:420747
+Chama sarda,APHIA:420819
+Amphibalanus improvisus,APHIA:421139
+Apolochus delacaya,APHIA:421442
+Hourstonius laguna,APHIA:421444
+Iphimedia zora,APHIA:421482
+Dulichiella appendiculata,APHIA:421504
+Elasmopus levis,APHIA:421508
+Quadrimaera quadrimana,APHIA:421523
+Globosolembos smithi,APHIA:421562
+Laticorophium baconi,APHIA:421577
+Deutella incerta,APHIA:421581
+Cerapus cudjoe,APHIA:421589
+Stenopus scutellatus,APHIA:421664
+Periclimenes pedersoni,APHIA:421710
+Periclimenes rathbunae,APHIA:421712
+Periclimenes yucatanicus,APHIA:421713
+Alpheus armatus,APHIA:421729
+Alpheus viridari,APHIA:421744
+Lysmata pederseni,APHIA:421780
+Tozeuma carolinense,APHIA:421784
+Corallianassa longiventris,APHIA:421821
+Petrolisthes galathinus,APHIA:421875
+Stenorhynchus seticornis,APHIA:421957
+Macrocoeloma laevigatum,APHIA:421978
+Microphrys bicornutus,APHIA:421984
+Mithraculus cinctimanus,APHIA:421986
+Mithraculus coryphe,APHIA:421987
+Mithraculus forceps,APHIA:421988
+Mithraculus sculptus,APHIA:421990
+Mithrax pilosus,APHIA:421993
+Mithrax spinosissimus,APHIA:421994
+Mithrax verrucosus,APHIA:421995
+Carpilius corallinus,APHIA:422051
+Menippe mercenaria,APHIA:422070
+Eurypanopeus abbreviatus,APHIA:422075
+Hexapanopeus paulensis,APHIA:422081
+Panopeus occidentalis,APHIA:422086
+Pilumnus floridanus,APHIA:422097
+Nanoplax xanthiformis,APHIA:422113
+Dissodactylus crinitichelis,APHIA:422151
+Goniopsis cruentata,APHIA:422187
+Aratus pisonii,APHIA:422190
+Margaretta buski,APHIA:422371
+Lytechinus williamsi,APHIA:422489
+Tripneustes ventricosus,APHIA:422490
+Echinometra viridis,APHIA:422493
+Clypeaster subdepressus,APHIA:422499
+Bemlos spinicarpus,APHIA:422675
+Lembos unifasciatus,APHIA:422677
+Ampithoe lacertosa,APHIA:423106
+Anisogammarus pugettensis,APHIA:423136
+Caprella drepanochir,APHIA:423256
+Sipunculus phalloides,APHIA:424100
+Conus floridanus,APHIA:429079
+Madracis auretenra,APHIA:430664
+Caprella kroyeri,APHIA:430854
+Caprella tenuis,APHIA:430922
+Mayerella banksia,APHIA:430956
+Cyphoma gibbosum,APHIA:432297
+Mithracidae spp.,APHIA:439056
+Taliepus,APHIA:439295
+Helograpsus,APHIA:439869
+Litocheira bispinosa,APHIA:441005
+Persephona punctata,APHIA:441258
+Halicarcinus ovatus,APHIA:441784
+Thersandrus compressus,APHIA:442085
+Lampanella minima,APHIA:446438
+Lacuna turrita,APHIA:446893
+Omalacantha spp.,APHIA:450194
+Achelous ordwayi,APHIA:451838
+Eoacmaea pustulata,APHIA:458655
+Strombus gigas,APHIA:458661
+Birubius,APHIA:468183
+Cacozeliana granarium,APHIA:473085
+Elacatinus colini,APHIA:475010
+Elacatinus lobeli,APHIA:475011
+Hyporthodus niveatus,APHIA:475101
+Monoplex parthenopeus,APHIA:476531
+Baculogypsina sphaerulata,APHIA:484702
+Aora hircosa,APHIA:488672
+Aoroides,APHIA:488679
+Paradexamine barnardi,APHIA:489425
+Paradexamine churinga,APHIA:489427
+Protohyale (Protohyale) frequens,APHIA:491479
+Protohyale (Boreohyale) rubra,APHIA:491492
+Elysia pratensis,APHIA:494468
+Acetabularia acetabulum,APHIA:494795
+Zostera marina,APHIA:495077
+Zostera muelleri,APHIA:495081
+Zostera noltei,APHIA:495082
+Ctenoides scabra,APHIA:505429
+Arcuatula senhousia,APHIA:505946
+Arcuatula papyria,APHIA:505948
+Ennucula niponica,APHIA:506596
+Nucula pisum,APHIA:506660
+Solemya pusilla,APHIA:507129
+Cumingia mutica,APHIA:507258
+Bulla gouldiana,APHIA:510427
+Anachis atkinsoni,APHIA:511367
+Mitrella lincolnensis,APHIA:511520
+Mitrella tuberosa,APHIA:511560
+Alia unifasciata,APHIA:511707
+Encope emarginata,APHIA:513255
+Paracentrotus gaimardi,APHIA:513432
+Palaemon intermedius,APHIA:514452
+Ancylomenes pedersoni,APHIA:514493
+Cuapetes americanus,APHIA:514508
+Heptacarpus paludicola,APHIA:515262
+Hippolyte californiensis,APHIA:515276
+Hippolyte clarki,APHIA:515278
+Hippolyte williamsi,APHIA:515283
+Lobatus raninus,APHIA:531851
+Haminoea petitii,APHIA:532293
+Cylichna discus,APHIA:532716
+Granulina ovuliformis,APHIA:532891
+Maera vagans,APHIA:534565
+Deflexilodes intermedius,APHIA:547044
+Chromopleustes,APHIA:549331
+Trachypleustes trevori,APHIA:549684
+Nasageneia quinsana,APHIA:550331
+Achelous sebae,APHIA:557888
+Chromodoris kempfi,APHIA:558675
+Lobatus costatus,APHIA:565363
+Cyanobacterium sp.,APHIA:573277
+Ecrobia truncata,APHIA:574096
+Diffalaba,APHIA:575794
+Lunella undulata,APHIA:579271
+Lima scabra,APHIA:582489
+Stuckenia pectinata,APHIA:588573
+Emblemariopsis carib,APHIA:593472
+Emblemariopsis signifer,APHIA:593554
+Zostera nigricaulis,APHIA:593702
+Doriprismatica sedna,APHIA:597380
+Hinea,APHIA:598427
+Agathistoma spp.,APHIA:607159
+Halodule pinifolia,APHIA:626404
+Coralliophila salebrosa,APHIA:709212
+Tigrigobius spp.,APHIA:712341
+Hypoplectrus floridae,APHIA:712604
+Hypoplectrus randallorum,APHIA:712606
+Vasula deltoidea,APHIA:714225
+Alaba monile,APHIA:715680
+Zannichellia major,APHIA:715997
+Favia,APHIA:718691
+Pseudodiploria strigosa,APHIA:718718
+Caprellidira,APHIA:719478
+Holothuria grisea,APHIA:732238
+Holothuria mexicana,APHIA:732363
+Hydrachnidia,APHIA:738272
+Lysidice unicornis,APHIA:742232
+Errantia,APHIA:754174
+Orbicella spp.,APHIA:758259
+Orbicella annularis,APHIA:758260
+Orbicella faveolata,APHIA:758261
+Orbicella franksi,APHIA:758262
+Mitrella aurantiaca,APHIA:760885
+Eatoniella afronigra,APHIA:766775
+Tanaididae,APHIA:798770
+Metassiminea,APHIA:818380
+Gobioclinus spp.,APHIA:826653
+Coralliophila abbreviata,APHIA:827203
+Pseudodiploria clivosa,APHIA:828326
+Elacatinus cayman,APHIA:835177
+Elacatinus centralis,APHIA:835178
+Angustassiminea californica,APHIA:845921
+Vitta virginea,APHIA:865834
+Komaitrochus pulcher,APHIA:871477
+Phrontis vibex,APHIA:877061
+Romaleon setosum,APHIA:877869
+Ameritella mitchelli,APHIA:878513
+Omalacantha bicornuta,APHIA:878753
+Phrikoceros,APHIA:878834
+Austromacoma constricta,APHIA:880005
+Chondrochelia dubia,APHIA:880865
+Esox niger,APHIA:888530
+Namanereis augeneri,APHIA:889755
+Dichocoenia stokesi,APHIA:893242
+Palaemon mundusnovus,APHIA:932398
+Palaemon pugio,APHIA:932401
+Palaemon vulgaris,APHIA:932406
+Maguimithrax spinosissimus,APHIA:987079
+Lepidoptera,APHIA:989022
+Gobioclinus bucciferus,APHIA:993098
+Gobioclinus gobio,APHIA:993099
+Gobioclinus guppyi,APHIA:993100
+Olgita pacifica,APHIA:999984
+Tigrigobius dilepis,APHIA:1013581
+Tigrigobius saucrus,APHIA:1013785
+Tigrigobius macrodon,APHIA:1016103
+Gobioclinus kalisherae,APHIA:1018630
+Bidyanus bidyanus,APHIA:1019959
+Haemulon vittatum,APHIA:1021254
+Stegastes xanthurus,APHIA:1021260
+Monoplex martinianus,APHIA:1023582
+Alaba picta,APHIA:1027144
+Hypanus americanus,APHIA:1042856
+Hypanus guttatus,APHIA:1042858
+Pisaniidae spp.,APHIA:1054108
+Caenanthura koreana,APHIA:1054953
+Amphilochida,APHIA:1055679
+Aplysiida,APHIA:1058953
+Panulirus meripurpuratus,APHIA:1059699
+Naria acicularis,APHIA:1075023
+Amphithrax aculeatus,APHIA:1258708
+Amphithrax hemphilli,APHIA:1258715
+Amphithrax pilosus,APHIA:1258717
+Ampullaceana balthica,APHIA:1288085
+Crassiphycus usneoides,APHIA:1327608
+Claremontiella nodulosa,APHIA:1335417
+Mycetophyllia lamarckana,APHIA:1370122
+Haloa japonica,APHIA:1374250
+Agarophyton chilense,APHIA:1379887
+Eques lanceolatus,APHIA:1389965
+Aliger gigas,APHIA:1429769
+Macrostrombus costatus,APHIA:1429775
+Lampasopsis thomae,APHIA:1472329
+Oceana serrulata,APHIA:1473917
+Haemulon atlanticus,APHIA:1493601
+Hypanus berthalutzae,APHIA:1493649
+Orthopristis scapularis,APHIA:1493910
+Phrontis tiarula,APHIA:1497938
+Paranisotremus moricandi,APHIA:1507449
+Mithrax forceps,APHIA:1507464
+Halodule emarginata,APHIA:1533045
+Thor dicaprio,APHIA:1541252
+Agathistoma viridulum,APHIA:1548543
+Agathistoma fasciatum,APHIA:1557229
+Acanthostracion polygonium,APHIA:1577312
+Brachygenys chrysargyreum,APHIA:1577330
+Lysiosquilla glabriuscula,APHIA:1579720
+Azurina multilineata,APHIA:1623786
+Dapis pleousa,APHIA:1660764
+Pareques lineatus,APHIA:1667999
+Volutella muricata,APHIA:1736039

@@ -1,0 +1,16 @@
+﻿scientific_id,functional_group_name,parent_id,type,enroll_all_lower_ranks,definition
+FUNCTIONAL:7,Macrophytes,FUNCTIONAL:10,functional,,"Aquatic macroscopic plants growing in or near water, including vascular plants and macroalgae"
+APHIA:182757,Magnoliopsida,FUNCTIONAL:7,taxonomic,TRUE,
+FUNCTIONAL:3,Submerged Aquatic Vegetation,FUNCTIONAL:7,functional,,"Rooted, vascular plants that grow underwater or just up to the water’s surface, often forming large stands or beds. "
+FUNCTIONAL:8,Non-marine SAV,FUNCTIONAL:3,functional,,SAV species found primarily in brackish to freshwater habitats.
+APHIA:196239,Potamogetonaceae,FUNCTIONAL:8,taxonomic,TRUE,
+APHIA:234029,Ruppiaceae,FUNCTIONAL:8,taxonomic,TRUE,
+FUNCTIONAL:9,Seagrass,FUNCTIONAL:3,functional,,SAV species found in brackish to saline marine environments.
+APHIA:143768,Cymodoceaceae,FUNCTIONAL:9,taxonomic,TRUE,
+APHIA:143751,Hydrocharitaceae,FUNCTIONAL:9,taxonomic,TRUE,
+APHIA:143769,Posidoniaceae,FUNCTIONAL:9,taxonomic,TRUE,
+APHIA:143770,Zosteraceae,FUNCTIONAL:9,taxonomic,TRUE,
+FUNCTIONAL:1,Macroalgae,FUNCTIONAL:7,functional,,"Large, multicellular marine algae, also known as seaweed."
+APHIA:801,Chlorophyta (Green Algae),FUNCTIONAL:1,taxonomic,TRUE,
+APHIA:852,Rhodophyta (Red Algae),FUNCTIONAL:1,taxonomic,TRUE,
+APHIA:830,Phaeophyceae (Brown Algae),FUNCTIONAL:1,taxonomic,TRUE,
