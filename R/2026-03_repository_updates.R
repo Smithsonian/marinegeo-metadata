@@ -45,7 +45,24 @@ write_csv(updated_df, "observation-lookup/marinegeo_observation_ids.csv")
 #   count(taxonomic_id) %>%
 #   filter(n > 1)
 
-taxa_df <- read_csv("taxonomic-lookup/marinegeo_classifications.csv")
+# Fix issue where parent_id needs to be the scientific_id, not the id format
+taxa_df <- read_csv("taxonomy-and-functional-groups/taxonomic-lookup/marinegeo_taxonomic_lookup.csv") 
+
+taxa_df_updated <- taxa_df %>%
+  mutate(parent_id = case_when(
+    is.na(parent_id) ~ NA,
+    T ~ paste0("APHIA:", parent_id))
+  )
+
+eval <- filter(taxa_df_updated, !is.na(scientific_id)) %>%
+  count(scientific_id) %>%
+  pull(scientific_id)
+
+taxa_df_updated %>%
+  filter(!parent_id %in% eval)
+
+write_csv(taxa_df_updated, "taxonomy-and-functional-groups/taxonomic-lookup/marinegeo_taxonomic_lookup.csv")
+
 
 ids <- unique(taxa_df$taxonomic_id)
 
