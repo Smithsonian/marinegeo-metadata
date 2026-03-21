@@ -1,4 +1,4 @@
-partner_code,site_name,habitat,latitude,longitude
-SAU-KAU,Monument Seagrass,seagrass,,
-SAU-KAU,Awwam Seagrass,seagrass,,
-SAU-KAU,Tahla North Seagrass,seagrass,,
+partner_code,site_code,site_name,habitat,latitude,longitude
+SAU-KAU,MOS-001,Monument Seagrass,seagrass,NA,NA
+SAU-KAU,AWS-001,Awwam Seagrass,seagrass,NA,NA
+SAU-KAU,TNS-001,Tahla North Seagrass,seagrass,NA,NA

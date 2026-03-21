@@ -1,6 +1,6 @@
-partner_code,site_name,habitat,latitude,longitude
-PRI-PAR,Bahia Fosforescénte Seagrass,seagrass,,
-PRI-PAR,Playa Papayo Seagrass,seagrass,,
-PRI-PAR,Cayo Collado Seagrass,seagrass,,
-URY-ROC,Laguna De Rocha Seagrass,seagrass,,
-USA-KEN,Mud Bay Seagrass,seagrass,,
+partner_code,site_code,site_name,habitat,latitude,longitude
+PRI-PAR,BFS-001,Bahia Fosforescénte Seagrass,seagrass,NA,NA
+PRI-PAR,PPS-001,Playa Papayo Seagrass,seagrass,NA,NA
+PRI-PAR,CCS-001,Cayo Collado Seagrass,seagrass,NA,NA
+URY-ROC,LRS-001,Laguna De Rocha Seagrass,seagrass,NA,NA
+USA-KEN,MBS-001,Mud Bay Seagrass,seagrass,NA,NA

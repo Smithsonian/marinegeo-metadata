@@ -1,2 +1,2 @@
-partner_code,site_name,habitat,latitude,longitude
-CAN-SLR,St Lawrence Seagrass,seagrass,48.459861,-68.5252
+partner_code,site_code,site_name,habitat,latitude,longitude
+CAN-SLR,SLS-001,St Lawrence Seagrass,seagrass,48.459861,-68.5252

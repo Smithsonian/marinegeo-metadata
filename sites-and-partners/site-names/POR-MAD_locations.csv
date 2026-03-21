@@ -1,3 +1,3 @@
-partner_code,site_name,habitat,latitude,longitude
-POR-MAD,Quinta do Lorde Rocky Reef,rocky reef,NA,NA
-POR-MAD,Quinta do Lorde Seagrass,seagrass,32.73996666666667,-16.70847
+partner_code,site_code,site_name,habitat,latitude,longitude
+POR-MAD,QDL-001,Quinta do Lorde Rocky Reef,rocky reef,NA,NA
+POR-MAD,QDL-002,Quinta do Lorde Seagrass,seagrass,32.73996666666667,-16.70847

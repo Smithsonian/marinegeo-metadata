@@ -1,15 +1,15 @@
-partner_code,site_name,habitat,latitude,longitude
-USA-TXS,Egery Flats Marsh,salt marsh,NA,NA
-USA-TXS,Goose Island Oyster,oyster reef,NA,NA
-USA-TXS,Harbor Island Mangrove,mangrove,NA,NA
-USA-TXS,Swan Lake Seagrass,seagrass,NA,NA
-USA-TXS,St Charles Bay Oyster,oyster reef,NA,NA
-USA-TXS,UTMSI Dock,artificial,NA,NA
-USA-TXS,Mud Island Mangrove,mangrove,NA,NA
-USA-TXS,Redfish Bay Oyster,oyster reef,NA,NA
-USA-TXS,Goose Island Marsh,salt marsh,NA,NA
-USA-TXS,Mud Island Marsh,salt marsh,NA,NA
-USA-TXS,Redfish Bay Seagrass,seagrass,NA,NA
-USA-TXS,San Jose Seagrass,seagrass,NA,NA
-USA-TXS,Laguna Madre Seagrass,seagrass,NA,NA
-USA-TXS,Oso Bay Seagrass,seagrass,NA,NA
+partner_code,site_code,site_name,habitat,latitude,longitude
+USA-TXS,EFM-001,Egery Flats Marsh,salt marsh,NA,NA
+USA-TXS,GIO-001,Goose Island Oyster,oyster reef,NA,NA
+USA-TXS,HIM-001,Harbor Island Mangrove,mangrove,NA,NA
+USA-TXS,SLS-002,Swan Lake Seagrass,seagrass,NA,NA
+USA-TXS,SCB-002,St Charles Bay Oyster,oyster reef,NA,NA
+USA-TXS,UTD-001,UTMSI Dock,artificial,NA,NA
+USA-TXS,MIM-002,Mud Island Mangrove,mangrove,NA,NA
+USA-TXS,RBO-001,Redfish Bay Oyster,oyster reef,NA,NA
+USA-TXS,GIM-001,Goose Island Marsh,salt marsh,NA,NA
+USA-TXS,MIM-003,Mud Island Marsh,salt marsh,NA,NA
+USA-TXS,RBS-003,Redfish Bay Seagrass,seagrass,NA,NA
+USA-TXS,SJS-001,San Jose Seagrass,seagrass,NA,NA
+USA-TXS,LMS-001,Laguna Madre Seagrass,seagrass,NA,NA
+USA-TXS,OBS-001,Oso Bay Seagrass,seagrass,NA,NA

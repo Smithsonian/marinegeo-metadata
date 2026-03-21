@@ -1,2 +1,2 @@
-partner_code,site_name,habitat,latitude,longitude
-CAN-BCQ,Quadrat Island Dock,artificial,NA,NA
+partner_code,site_code,site_name,habitat,latitude,longitude
+CAN-BCQ,QID-001,Quadrat Island Dock,artificial,NA,NA

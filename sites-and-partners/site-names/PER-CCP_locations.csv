@@ -1,2 +1,2 @@
-partner_code,site_name,habitat,latitude,longitude
-PER-CCP,CC Jetty,artificial,NA,NA
+partner_code,site_code,site_name,habitat,latitude,longitude
+PER-CCP,CCJ-001,CC Jetty,artificial,NA,NA

@@ -1,8 +1,8 @@
-partner_code,site_name,habitat,latitude,longitude
-CAN-BCC,Koeye Rocky Reef,rocky reef,NA,NA
-CAN-BCC,Koeye Seagrass,seagrass,NA,NA
-CAN-BCC,Pruth Bay Seagrass,seagrass,51.64535,-128.11947333333333
-CAN-BCC,Choked Pass Seagrass,seagrass,NA,NA
-CAN-BCC,Triquet Kelp,kelp,NA,NA
-CAN-BCC,Ratatouille Kelp,kelp,NA,NA
-CAN-BCC,Triquetta Kelp,kelp,NA,NA
+partner_code,site_code,site_name,habitat,latitude,longitude
+CAN-BCC,KRR-001,Koeye Rocky Reef,rocky reef,NA,NA
+CAN-BCC,KOS-001,Koeye Seagrass,seagrass,NA,NA
+CAN-BCC,PBS-001,Pruth Bay Seagrass,seagrass,51.64535,-128.11947333333333
+CAN-BCC,CPS-001,Choked Pass Seagrass,seagrass,NA,NA
+CAN-BCC,TRK-001,Triquet Kelp,kelp,NA,NA
+CAN-BCC,RAK-001,Ratatouille Kelp,kelp,NA,NA
+CAN-BCC,TRK-002,Triquetta Kelp,kelp,NA,NA
