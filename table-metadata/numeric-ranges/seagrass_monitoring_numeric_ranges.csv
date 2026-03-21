@@ -3,7 +3,7 @@ seagrass-cover-monitoring-v1,transect,inclusive,,0,3,1
 seagrass-cover-monitoring-v1,quadrat,inclusive,,0,50,0
 seagrass-cover-monitoring-v1,point_count,inclusive,,10,81,
 seagrass-cover-monitoring-v1,points_in_quadrat,,,,,
-seagrass-cover-monitoring-v1,percent_cover,,,,,
+seagrass-cover-monitoring-v1,percent_cover,inclusive,200,0,100,
 seagrass-macroinvertebrates-monitoring-v1,transect,inclusive,,0,3,1
 seagrass-macroinvertebrates-monitoring-v1,quadrat,inclusive,,0,50,0
 seagrass-macroinvertebrates-monitoring-v1,size_mm,,,,,
