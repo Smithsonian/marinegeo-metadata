@@ -1,213 +1,213 @@
-from,to,node_name,rank,definition
+from,to,node_name,rank,definition,tree_name
 FUNCTIONAL:SAV,FUNCTIONAL:MACROPHYTES,Submerged Aquatic Vegetation,NA,"Rooted, vascular plants that grow underwater or just up to the
- water’s surface, often forming large stands or beds."
-FUNCTIONAL:MACROALGAE,FUNCTIONAL:MACROPHYTES,Macroalgae,NA,"Large, multicellular marine algae, also known as seaweed."
-FUNCTIONAL:NONMARINESAV,FUNCTIONAL:SAV,Non-marine SAV,NA,SAV species found primarily in brackish to freshwater habitats.
-FUNCTIONAL:SEAGRASS,FUNCTIONAL:SAV,Seagrass,NA,SAV species found in brackish to saline marine environments.
-APHIA:801,FUNCTIONAL:MACROALGAE,Chlorophyta,Phylum (Division),NA
-APHIA:852,FUNCTIONAL:MACROALGAE,Rhodophyta,Phylum (Division),NA
-APHIA:830,FUNCTIONAL:MACROALGAE,Phaeophyceae,Class,NA
-APHIA:196239,FUNCTIONAL:NONMARINESAV,Potamogetonaceae,Family,NA
-APHIA:234029,FUNCTIONAL:NONMARINESAV,Ruppiaceae,Family,NA
-APHIA:143768,FUNCTIONAL:SEAGRASS,Cymodoceaceae,Family,NA
-APHIA:143751,FUNCTIONAL:SEAGRASS,Hydrocharitaceae,Family,NA
-APHIA:143769,FUNCTIONAL:SEAGRASS,Posidoniaceae,Family,NA
-APHIA:143770,FUNCTIONAL:SEAGRASS,Zosteraceae,Family,NA
-APHIA:1304953,APHIA:801,Chlorophytina,Subphylum (Subdivision),NA
-APHIA:493826,APHIA:852,Eurhodophytina,Subphylum (Subdivision),NA
-APHIA:1304855,APHIA:830,Dictyotophycidae,Subclass,NA
-APHIA:1304856,APHIA:830,Fucophycidae,Subclass,NA
-APHIA:416210,APHIA:196239,Potamogeton,Genus,NA
-APHIA:416221,APHIA:196239,Zannichellia,Genus,NA
-APHIA:588572,APHIA:196239,Stuckenia,Genus,NA
-APHIA:234030,APHIA:234029,Ruppia,Genus,NA
-APHIA:144231,APHIA:143768,Cymodocea,Genus,NA
-APHIA:206309,APHIA:143768,Syringodium,Genus,NA
-APHIA:205141,APHIA:143768,Halodule,Genus,NA
-APHIA:205656,APHIA:143768,Thalassodendron,Genus,NA
-APHIA:1473916,APHIA:143768,Oceana,Genus,NA
-APHIA:144192,APHIA:143751,Halophila,Genus,NA
-APHIA:206854,APHIA:143751,Thalassia,Genus,NA
-APHIA:205672,APHIA:143751,Enhalus,Genus,NA
-APHIA:144232,APHIA:143769,Posidonia,Genus,NA
-APHIA:144233,APHIA:143770,Zostera,Genus,NA
-APHIA:146216,APHIA:1304953,Ulvophyceae,Class,NA
-APHIA:368670,APHIA:493826,Florideophyceae,Class,NA
-APHIA:839,APHIA:1304855,Dictyotales,Order,NA
-APHIA:844,APHIA:1304856,Fucales,Order,NA
-APHIA:842,APHIA:1304856,Ectocarpales,Order,NA
-APHIA:416212,APHIA:416210,Potamogeton perfoliatus,Species,NA
-APHIA:416222,APHIA:416221,Zannichellia palustris,Species,NA
-APHIA:715997,APHIA:416221,Zannichellia major,Species,NA
-APHIA:588573,APHIA:588572,Stuckenia pectinata,Species,NA
-APHIA:234031,APHIA:234030,Ruppia maritima,Species,NA
-APHIA:416218,APHIA:234030,Ruppia cirrhosa,Species,NA
-APHIA:145793,APHIA:144231,Cymodocea nodosa,Species,NA
-APHIA:208921,APHIA:144231,Cymodocea rotundata,Species,NA
-APHIA:374715,APHIA:206309,Syringodium filiforme,Species,NA
-APHIA:374716,APHIA:206309,Syringodium isoetifolium,Species,NA
-APHIA:208924,APHIA:205141,Halodule uninervis,Species,NA
-APHIA:208925,APHIA:205141,Halodule wrightii,Species,NA
-APHIA:626404,APHIA:205141,Halodule pinifolia,Species,NA
-APHIA:1533045,APHIA:205141,Halodule emarginata,Species,NA
-APHIA:220228,APHIA:205656,Thalassodendron ciliatum,Species,NA
-APHIA:1473917,APHIA:1473916,Oceana serrulata,Species,NA
-APHIA:145713,APHIA:144192,Halophila decipiens,Species,NA
-APHIA:145714,APHIA:144192,Halophila stipulacea,Species,NA
-APHIA:208930,APHIA:144192,Halophila ovalis,Species,NA
-APHIA:374722,APHIA:144192,Halophila engelmannii,Species,NA
-APHIA:208931,APHIA:206854,Thalassia hemprichii,Species,NA
-APHIA:374720,APHIA:206854,Thalassia testudinum,Species,NA
-APHIA:208932,APHIA:205672,Enhalus acoroides,Species,NA
-APHIA:145794,APHIA:144232,Posidonia oceanica,Species,NA
-APHIA:495077,APHIA:144233,Zostera marina,Species,NA
-APHIA:495081,APHIA:144233,Zostera muelleri,Species,NA
-APHIA:495082,APHIA:144233,Zostera noltii,Species,NA
-APHIA:593702,APHIA:144233,Zostera nigricaulis,Species,NA
-APHIA:808,APHIA:146216,Bryopsidales,Order,NA
-APHIA:18815,APHIA:146216,Dasycladales,Order,NA
-APHIA:813,APHIA:146216,Cladophorales,Order,NA
-APHIA:827,APHIA:146216,Ulvales,Order,NA
-APHIA:824,APHIA:146216,Ulotrichales,Order,NA
-APHIA:368687,APHIA:368670,Corallinophycidae,Subclass,NA
-APHIA:196243,APHIA:368670,Rhodymeniophycidae,Subclass,NA
-APHIA:143716,APHIA:839,Dictyotaceae,Family,NA
-APHIA:143725,APHIA:844,Sargassaceae,Family,NA
-APHIA:143723,APHIA:844,Fucaceae,Family,NA
-APHIA:143717,APHIA:842,Ectocarpaceae,Family,NA
-APHIA:143777,APHIA:842,Scytosiphonaceae,Family,NA
-APHIA:143668,APHIA:808,Caulerpaceae,Family,NA
-APHIA:368714,APHIA:808,Dichotomosiphonaceae,Family,NA
-APHIA:1649443,APHIA:808,Halimedineae,Suborder,NA
-APHIA:1649444,APHIA:808,Bryopsidineae,Suborder,NA
-APHIA:143702,APHIA:18815,Dasycladaceae,Family,NA
-APHIA:143703,APHIA:18815,Polyphysaceae,Family,NA
-APHIA:143780,APHIA:813,Valoniaceae,Family,NA
-APHIA:143686,APHIA:813,Anadyomenaceae,Family,NA
-APHIA:143794,APHIA:827,Ulvaceae,Family,NA
-APHIA:143790,APHIA:824,Ulotrichaceae,Family,NA
-APHIA:15308,APHIA:368687,Corallinales,Order,NA
-APHIA:1306465,APHIA:368687,Hapalidiales,Order,NA
-APHIA:860,APHIA:196243,Ceramiales,Order,NA
-APHIA:871,APHIA:196243,Gigartinales,Order,NA
-APHIA:493830,APHIA:196243,Peyssonneliales,Order,NA
-APHIA:146315,APHIA:196243,Gelidiales,Order,NA
-APHIA:876,APHIA:196243,Gracilariales,Order,NA
-APHIA:15241,APHIA:196243,Rhodymeniales,Order,NA
-APHIA:172641,APHIA:143716,Dictyoteae,Tribe,NA
-APHIA:163008,APHIA:143716,Zonarieae,Tribe,NA
-APHIA:144126,APHIA:143725,Cystoseira,Genus,NA
-APHIA:144132,APHIA:143725,Sargassum,Genus,NA
-APHIA:144129,APHIA:143723,Fucus,Genus,NA
-APHIA:144099,APHIA:143717,Ectocarpus,Genus,NA
-APHIA:1652948,APHIA:143777,Hydroclathreae,Tribe,NA
-APHIA:143816,APHIA:143668,Caulerpa,Genus,NA
-APHIA:143819,APHIA:368714,Avrainvillea,Genus,NA
-APHIA:368715,APHIA:1649443,Halimedaceae,Family,NA
-APHIA:143666,APHIA:1649444,Bryopsidaceae,Family,NA
-APHIA:1633705,APHIA:143702,Dasycladoideae,Subfamily,NA
-APHIA:144059,APHIA:143703,Acetabularia,Genus,NA
-APHIA:144267,APHIA:143780,Valonia,Genus,NA
-APHIA:143992,APHIA:143686,Anadyomene,Genus,NA
-APHIA:144296,APHIA:143794,Ulva,Genus,NA
-APHIA:144295,APHIA:143794,Percursaria,Genus,NA
-APHIA:144287,APHIA:143790,Ulothrix,Genus,NA
-APHIA:1646220,APHIA:15308,Corallinineae,Suborder,NA
-APHIA:368755,APHIA:1306465,Hapalidiaceae,Family,NA
-APHIA:143673,APHIA:860,Delesseriaceae,Family,NA
-APHIA:493878,APHIA:860,Callithamniaceae,Family,NA
-APHIA:143674,APHIA:860,Rhodomelaceae,Family,NA
-APHIA:143733,APHIA:871,Gigartinaceae,Family,NA
-APHIA:143731,APHIA:871,Cystocloniaceae,Family,NA
-APHIA:143739,APHIA:871,Polyidaceae,Family,NA
-APHIA:143744,APHIA:871,Solieriaceae,Family,NA
-APHIA:143699,APHIA:493830,Peyssonneliaceae,Family,NA
-APHIA:368765,APHIA:146315,Pterocladiaceae,Family,NA
-APHIA:143748,APHIA:876,Gracilariaceae,Family,NA
-APHIA:143773,APHIA:15241,Champiaceae,Family,NA
-APHIA:143776,APHIA:15241,Rhodymeniaceae,Family,NA
-APHIA:144086,APHIA:172641,Dictyota,Genus,NA
-APHIA:369437,APHIA:172641,Canistrocarpus,Genus,NA
-APHIA:144087,APHIA:163008,Lobophora,Genus,NA
-APHIA:144088,APHIA:163008,Padina,Genus,NA
-APHIA:145546,APHIA:144129,Fucus serratus,Species,NA
-APHIA:145410,APHIA:144099,Ectocarpus siliculosus,Species,NA
-APHIA:144253,APHIA:1652948,Colpomenia,Genus,NA
-APHIA:144471,APHIA:143816,Caulerpa prolifera,Species,NA
-APHIA:144472,APHIA:143816,Caulerpa racemosa,Species,NA
-APHIA:144474,APHIA:143816,Caulerpa sertularioides,Species,NA
-APHIA:221177,APHIA:143819,Avrainvillea nigricans,Species,NA
-APHIA:1649447,APHIA:368715,Halimedeae,Tribe,NA
-APHIA:1635982,APHIA:368715,Udoteeae,Tribe,NA
-APHIA:143812,APHIA:143666,Bryopsis,Genus,NA
-APHIA:1635736,APHIA:1633705,Batophoreae,Tribe,NA
-APHIA:1633706,APHIA:1633705,Dasycladeae,Tribe,NA
-APHIA:494795,APHIA:144059,Acetabularia acetabulum,Species,NA
-APHIA:145012,APHIA:143992,Anadyomene stellata,Species,NA
-APHIA:145984,APHIA:144296,Ulva lactuca,Species,NA
-APHIA:234471,APHIA:144296,Ulva intestinalis,Species,NA
-APHIA:145979,APHIA:144295,Percursaria percursa,Species,NA
-APHIA:145930,APHIA:144287,Ulothrix speciosa,Species,NA
-APHIA:143691,APHIA:1646220,Corallinaceae,Family,NA
-APHIA:144018,APHIA:368755,Lithothamnion,Genus,NA
-APHIA:1647394,APHIA:493878,Spyridioideae,Subfamily,NA
-APHIA:494004,APHIA:143674,Chondrieae,Tribe,NA
-APHIA:494006,APHIA:143674,Laurencieae,Tribe,NA
-APHIA:144153,APHIA:143733,Chondracanthus,Genus,NA
-APHIA:144157,APHIA:143731,Hypnea,Genus,NA
-APHIA:144172,APHIA:143739,Polyides,Genus,NA
-APHIA:206475,APHIA:143744,Eucheuma,Genus,NA
-APHIA:144051,APHIA:143699,Peyssonnelia,Genus,NA
-APHIA:144136,APHIA:368765,Pterocladia,Genus,NA
-APHIA:1309270,APHIA:143748,Gracilarioideae,Subfamily,NA
-APHIA:144237,APHIA:143773,Champia,Genus,NA
-APHIA:144247,APHIA:143776,Botryocladia,Genus,NA
-APHIA:145367,APHIA:144086,Dictyota dichotoma,Species,NA
-APHIA:377141,APHIA:369437,Canistrocarpus cervicornis,Species,NA
-APHIA:145381,APHIA:144087,Lobophora variegata,Species,NA
-APHIA:145385,APHIA:144088,Padina pavonica,Species,NA
-APHIA:145857,APHIA:144253,Colpomenia sinuosa,Species,NA
-APHIA:381797,APHIA:221177,Avrainvillea nigricans f. spongiosa,Forma,NA
-APHIA:143820,APHIA:1649447,Halimeda,Genus,NA
-APHIA:143821,APHIA:1635982,Penicillus,Genus,NA
-APHIA:144000,APHIA:1635982,Flabellia,Genus,NA
-APHIA:204078,APHIA:1635982,Udotea,Genus,NA
-APHIA:370153,APHIA:1635982,Rhipocephalus,Genus,NA
-APHIA:144452,APHIA:143812,Bryopsis hypnoides,Species,NA
-APHIA:144056,APHIA:1635736,Batophora,Genus,NA
-APHIA:144058,APHIA:1633706,Dasycladus,Genus,NA
-APHIA:163505,APHIA:143691,Corallinoideae,Subfamily,NA
-APHIA:172526,APHIA:1647394,Spyridieae,Tribe,NA
-APHIA:143900,APHIA:494004,Acanthophora,Genus,NA
-APHIA:143914,APHIA:494006,Laurencia,Genus,NA
-APHIA:213951,APHIA:144153,Chondracanthus chamissoi,Species,NA
-APHIA:145634,APHIA:144157,Hypnea musciformis,Species,NA
-APHIA:145635,APHIA:144157,Hypnea spinella,Species,NA
-APHIA:145668,APHIA:144172,Polyides rotunda,Species,NA
-APHIA:213998,APHIA:206475,Eucheuma denticulatum,Species,NA
-APHIA:1309271,APHIA:1309270,Gracilarieae,Tribe,NA
-APHIA:220965,APHIA:144247,Botryocladia leptopoda,Species,NA
-APHIA:144481,APHIA:143820,Halimeda discoidea,Species,NA
-APHIA:144482,APHIA:143820,Halimeda opuntia,Species,NA
-APHIA:144483,APHIA:143820,Halimeda tuna,Species,NA
-APHIA:211515,APHIA:143820,Halimeda copiosa,Species,NA
-APHIA:211519,APHIA:143820,Halimeda incrassata,Species,NA
-APHIA:373717,APHIA:143820,Halimeda monile,Species,NA
-APHIA:144484,APHIA:143821,Penicillus capitatus,Species,NA
-APHIA:145094,APHIA:144000,Flabellia petiolata,Species,NA
-APHIA:211535,APHIA:204078,Udotea flabellum,Species,NA
-APHIA:373299,APHIA:204078,Udotea conglutinata,Species,NA
-APHIA:373295,APHIA:370153,Rhipocephalus phoenix,Species,NA
-APHIA:145301,APHIA:144058,Dasycladus vermicularis,Species,NA
-APHIA:172523,APHIA:163505,Janieae,Tribe,NA
-APHIA:143866,APHIA:172526,Spyridia,Genus,NA
-APHIA:211768,APHIA:143900,Acanthophora spicifera,Species,NA
-APHIA:144827,APHIA:143914,Laurencia obtusa,Species,NA
-APHIA:144188,APHIA:1309271,Gracilaria,Genus,NA
-APHIA:1327605,APHIA:1309271,Crassiphycus,Genus,NA
-APHIA:1327785,APHIA:1309271,Agarophyton,Genus,NA
-APHIA:382524,APHIA:373295,Rhipocephalus phoenix f. brevifolius,Forma,NA
-APHIA:144012,APHIA:172523,Jania,Genus,NA
-APHIA:236157,APHIA:144188,Gracilaria vermiculophylla,Species,NA
-APHIA:1327608,APHIA:1327605,Crassiphycus usneoides,Species,NA
-APHIA:1379887,APHIA:1327785,Agarophyton chilense,Species,NA
+ water’s surface, often forming large stands or beds.",macrophytes
+FUNCTIONAL:MACROALGAE,FUNCTIONAL:MACROPHYTES,Macroalgae,NA,"Large, multicellular marine algae, also known as seaweed.",macrophytes
+FUNCTIONAL:NONMARINESAV,FUNCTIONAL:SAV,Non-marine SAV,NA,SAV species found primarily in brackish to freshwater habitats.,macrophytes
+FUNCTIONAL:SEAGRASS,FUNCTIONAL:SAV,Seagrass,NA,SAV species found in brackish to saline marine environments.,macrophytes
+APHIA:801,FUNCTIONAL:MACROALGAE,Chlorophyta,Phylum (Division),NA,macrophytes
+APHIA:852,FUNCTIONAL:MACROALGAE,Rhodophyta,Phylum (Division),NA,macrophytes
+APHIA:830,FUNCTIONAL:MACROALGAE,Phaeophyceae,Class,NA,macrophytes
+APHIA:196239,FUNCTIONAL:NONMARINESAV,Potamogetonaceae,Family,NA,macrophytes
+APHIA:234029,FUNCTIONAL:NONMARINESAV,Ruppiaceae,Family,NA,macrophytes
+APHIA:143768,FUNCTIONAL:SEAGRASS,Cymodoceaceae,Family,NA,macrophytes
+APHIA:143751,FUNCTIONAL:SEAGRASS,Hydrocharitaceae,Family,NA,macrophytes
+APHIA:143769,FUNCTIONAL:SEAGRASS,Posidoniaceae,Family,NA,macrophytes
+APHIA:143770,FUNCTIONAL:SEAGRASS,Zosteraceae,Family,NA,macrophytes
+APHIA:1304953,APHIA:801,Chlorophytina,Subphylum (Subdivision),NA,macrophytes
+APHIA:493826,APHIA:852,Eurhodophytina,Subphylum (Subdivision),NA,macrophytes
+APHIA:1304855,APHIA:830,Dictyotophycidae,Subclass,NA,macrophytes
+APHIA:1304856,APHIA:830,Fucophycidae,Subclass,NA,macrophytes
+APHIA:416210,APHIA:196239,Potamogeton,Genus,NA,macrophytes
+APHIA:416221,APHIA:196239,Zannichellia,Genus,NA,macrophytes
+APHIA:588572,APHIA:196239,Stuckenia,Genus,NA,macrophytes
+APHIA:234030,APHIA:234029,Ruppia,Genus,NA,macrophytes
+APHIA:144231,APHIA:143768,Cymodocea,Genus,NA,macrophytes
+APHIA:206309,APHIA:143768,Syringodium,Genus,NA,macrophytes
+APHIA:205141,APHIA:143768,Halodule,Genus,NA,macrophytes
+APHIA:205656,APHIA:143768,Thalassodendron,Genus,NA,macrophytes
+APHIA:1473916,APHIA:143768,Oceana,Genus,NA,macrophytes
+APHIA:144192,APHIA:143751,Halophila,Genus,NA,macrophytes
+APHIA:206854,APHIA:143751,Thalassia,Genus,NA,macrophytes
+APHIA:205672,APHIA:143751,Enhalus,Genus,NA,macrophytes
+APHIA:144232,APHIA:143769,Posidonia,Genus,NA,macrophytes
+APHIA:144233,APHIA:143770,Zostera,Genus,NA,macrophytes
+APHIA:146216,APHIA:1304953,Ulvophyceae,Class,NA,macrophytes
+APHIA:368670,APHIA:493826,Florideophyceae,Class,NA,macrophytes
+APHIA:839,APHIA:1304855,Dictyotales,Order,NA,macrophytes
+APHIA:844,APHIA:1304856,Fucales,Order,NA,macrophytes
+APHIA:842,APHIA:1304856,Ectocarpales,Order,NA,macrophytes
+APHIA:416212,APHIA:416210,Potamogeton perfoliatus,Species,NA,macrophytes
+APHIA:416222,APHIA:416221,Zannichellia palustris,Species,NA,macrophytes
+APHIA:715997,APHIA:416221,Zannichellia major,Species,NA,macrophytes
+APHIA:588573,APHIA:588572,Stuckenia pectinata,Species,NA,macrophytes
+APHIA:234031,APHIA:234030,Ruppia maritima,Species,NA,macrophytes
+APHIA:416218,APHIA:234030,Ruppia cirrhosa,Species,NA,macrophytes
+APHIA:145793,APHIA:144231,Cymodocea nodosa,Species,NA,macrophytes
+APHIA:208921,APHIA:144231,Cymodocea rotundata,Species,NA,macrophytes
+APHIA:374715,APHIA:206309,Syringodium filiforme,Species,NA,macrophytes
+APHIA:374716,APHIA:206309,Syringodium isoetifolium,Species,NA,macrophytes
+APHIA:208924,APHIA:205141,Halodule uninervis,Species,NA,macrophytes
+APHIA:208925,APHIA:205141,Halodule wrightii,Species,NA,macrophytes
+APHIA:626404,APHIA:205141,Halodule pinifolia,Species,NA,macrophytes
+APHIA:1533045,APHIA:205141,Halodule emarginata,Species,NA,macrophytes
+APHIA:220228,APHIA:205656,Thalassodendron ciliatum,Species,NA,macrophytes
+APHIA:1473917,APHIA:1473916,Oceana serrulata,Species,NA,macrophytes
+APHIA:145713,APHIA:144192,Halophila decipiens,Species,NA,macrophytes
+APHIA:145714,APHIA:144192,Halophila stipulacea,Species,NA,macrophytes
+APHIA:208930,APHIA:144192,Halophila ovalis,Species,NA,macrophytes
+APHIA:374722,APHIA:144192,Halophila engelmannii,Species,NA,macrophytes
+APHIA:208931,APHIA:206854,Thalassia hemprichii,Species,NA,macrophytes
+APHIA:374720,APHIA:206854,Thalassia testudinum,Species,NA,macrophytes
+APHIA:208932,APHIA:205672,Enhalus acoroides,Species,NA,macrophytes
+APHIA:145794,APHIA:144232,Posidonia oceanica,Species,NA,macrophytes
+APHIA:495077,APHIA:144233,Zostera marina,Species,NA,macrophytes
+APHIA:495081,APHIA:144233,Zostera muelleri,Species,NA,macrophytes
+APHIA:495082,APHIA:144233,Zostera noltii,Species,NA,macrophytes
+APHIA:593702,APHIA:144233,Zostera nigricaulis,Species,NA,macrophytes
+APHIA:808,APHIA:146216,Bryopsidales,Order,NA,macrophytes
+APHIA:18815,APHIA:146216,Dasycladales,Order,NA,macrophytes
+APHIA:813,APHIA:146216,Cladophorales,Order,NA,macrophytes
+APHIA:827,APHIA:146216,Ulvales,Order,NA,macrophytes
+APHIA:824,APHIA:146216,Ulotrichales,Order,NA,macrophytes
+APHIA:368687,APHIA:368670,Corallinophycidae,Subclass,NA,macrophytes
+APHIA:196243,APHIA:368670,Rhodymeniophycidae,Subclass,NA,macrophytes
+APHIA:143716,APHIA:839,Dictyotaceae,Family,NA,macrophytes
+APHIA:143725,APHIA:844,Sargassaceae,Family,NA,macrophytes
+APHIA:143723,APHIA:844,Fucaceae,Family,NA,macrophytes
+APHIA:143717,APHIA:842,Ectocarpaceae,Family,NA,macrophytes
+APHIA:143777,APHIA:842,Scytosiphonaceae,Family,NA,macrophytes
+APHIA:143668,APHIA:808,Caulerpaceae,Family,NA,macrophytes
+APHIA:368714,APHIA:808,Dichotomosiphonaceae,Family,NA,macrophytes
+APHIA:1649443,APHIA:808,Halimedineae,Suborder,NA,macrophytes
+APHIA:1649444,APHIA:808,Bryopsidineae,Suborder,NA,macrophytes
+APHIA:143702,APHIA:18815,Dasycladaceae,Family,NA,macrophytes
+APHIA:143703,APHIA:18815,Polyphysaceae,Family,NA,macrophytes
+APHIA:143780,APHIA:813,Valoniaceae,Family,NA,macrophytes
+APHIA:143686,APHIA:813,Anadyomenaceae,Family,NA,macrophytes
+APHIA:143794,APHIA:827,Ulvaceae,Family,NA,macrophytes
+APHIA:143790,APHIA:824,Ulotrichaceae,Family,NA,macrophytes
+APHIA:15308,APHIA:368687,Corallinales,Order,NA,macrophytes
+APHIA:1306465,APHIA:368687,Hapalidiales,Order,NA,macrophytes
+APHIA:860,APHIA:196243,Ceramiales,Order,NA,macrophytes
+APHIA:871,APHIA:196243,Gigartinales,Order,NA,macrophytes
+APHIA:493830,APHIA:196243,Peyssonneliales,Order,NA,macrophytes
+APHIA:146315,APHIA:196243,Gelidiales,Order,NA,macrophytes
+APHIA:876,APHIA:196243,Gracilariales,Order,NA,macrophytes
+APHIA:15241,APHIA:196243,Rhodymeniales,Order,NA,macrophytes
+APHIA:172641,APHIA:143716,Dictyoteae,Tribe,NA,macrophytes
+APHIA:163008,APHIA:143716,Zonarieae,Tribe,NA,macrophytes
+APHIA:144126,APHIA:143725,Cystoseira,Genus,NA,macrophytes
+APHIA:144132,APHIA:143725,Sargassum,Genus,NA,macrophytes
+APHIA:144129,APHIA:143723,Fucus,Genus,NA,macrophytes
+APHIA:144099,APHIA:143717,Ectocarpus,Genus,NA,macrophytes
+APHIA:1652948,APHIA:143777,Hydroclathreae,Tribe,NA,macrophytes
+APHIA:143816,APHIA:143668,Caulerpa,Genus,NA,macrophytes
+APHIA:143819,APHIA:368714,Avrainvillea,Genus,NA,macrophytes
+APHIA:368715,APHIA:1649443,Halimedaceae,Family,NA,macrophytes
+APHIA:143666,APHIA:1649444,Bryopsidaceae,Family,NA,macrophytes
+APHIA:1633705,APHIA:143702,Dasycladoideae,Subfamily,NA,macrophytes
+APHIA:144059,APHIA:143703,Acetabularia,Genus,NA,macrophytes
+APHIA:144267,APHIA:143780,Valonia,Genus,NA,macrophytes
+APHIA:143992,APHIA:143686,Anadyomene,Genus,NA,macrophytes
+APHIA:144296,APHIA:143794,Ulva,Genus,NA,macrophytes
+APHIA:144295,APHIA:143794,Percursaria,Genus,NA,macrophytes
+APHIA:144287,APHIA:143790,Ulothrix,Genus,NA,macrophytes
+APHIA:1646220,APHIA:15308,Corallinineae,Suborder,NA,macrophytes
+APHIA:368755,APHIA:1306465,Hapalidiaceae,Family,NA,macrophytes
+APHIA:143673,APHIA:860,Delesseriaceae,Family,NA,macrophytes
+APHIA:493878,APHIA:860,Callithamniaceae,Family,NA,macrophytes
+APHIA:143674,APHIA:860,Rhodomelaceae,Family,NA,macrophytes
+APHIA:143733,APHIA:871,Gigartinaceae,Family,NA,macrophytes
+APHIA:143731,APHIA:871,Cystocloniaceae,Family,NA,macrophytes
+APHIA:143739,APHIA:871,Polyidaceae,Family,NA,macrophytes
+APHIA:143744,APHIA:871,Solieriaceae,Family,NA,macrophytes
+APHIA:143699,APHIA:493830,Peyssonneliaceae,Family,NA,macrophytes
+APHIA:368765,APHIA:146315,Pterocladiaceae,Family,NA,macrophytes
+APHIA:143748,APHIA:876,Gracilariaceae,Family,NA,macrophytes
+APHIA:143773,APHIA:15241,Champiaceae,Family,NA,macrophytes
+APHIA:143776,APHIA:15241,Rhodymeniaceae,Family,NA,macrophytes
+APHIA:144086,APHIA:172641,Dictyota,Genus,NA,macrophytes
+APHIA:369437,APHIA:172641,Canistrocarpus,Genus,NA,macrophytes
+APHIA:144087,APHIA:163008,Lobophora,Genus,NA,macrophytes
+APHIA:144088,APHIA:163008,Padina,Genus,NA,macrophytes
+APHIA:145546,APHIA:144129,Fucus serratus,Species,NA,macrophytes
+APHIA:145410,APHIA:144099,Ectocarpus siliculosus,Species,NA,macrophytes
+APHIA:144253,APHIA:1652948,Colpomenia,Genus,NA,macrophytes
+APHIA:144471,APHIA:143816,Caulerpa prolifera,Species,NA,macrophytes
+APHIA:144472,APHIA:143816,Caulerpa racemosa,Species,NA,macrophytes
+APHIA:144474,APHIA:143816,Caulerpa sertularioides,Species,NA,macrophytes
+APHIA:221177,APHIA:143819,Avrainvillea nigricans,Species,NA,macrophytes
+APHIA:1649447,APHIA:368715,Halimedeae,Tribe,NA,macrophytes
+APHIA:1635982,APHIA:368715,Udoteeae,Tribe,NA,macrophytes
+APHIA:143812,APHIA:143666,Bryopsis,Genus,NA,macrophytes
+APHIA:1635736,APHIA:1633705,Batophoreae,Tribe,NA,macrophytes
+APHIA:1633706,APHIA:1633705,Dasycladeae,Tribe,NA,macrophytes
+APHIA:494795,APHIA:144059,Acetabularia acetabulum,Species,NA,macrophytes
+APHIA:145012,APHIA:143992,Anadyomene stellata,Species,NA,macrophytes
+APHIA:145984,APHIA:144296,Ulva lactuca,Species,NA,macrophytes
+APHIA:234471,APHIA:144296,Ulva intestinalis,Species,NA,macrophytes
+APHIA:145979,APHIA:144295,Percursaria percursa,Species,NA,macrophytes
+APHIA:145930,APHIA:144287,Ulothrix speciosa,Species,NA,macrophytes
+APHIA:143691,APHIA:1646220,Corallinaceae,Family,NA,macrophytes
+APHIA:144018,APHIA:368755,Lithothamnion,Genus,NA,macrophytes
+APHIA:1647394,APHIA:493878,Spyridioideae,Subfamily,NA,macrophytes
+APHIA:494004,APHIA:143674,Chondrieae,Tribe,NA,macrophytes
+APHIA:494006,APHIA:143674,Laurencieae,Tribe,NA,macrophytes
+APHIA:144153,APHIA:143733,Chondracanthus,Genus,NA,macrophytes
+APHIA:144157,APHIA:143731,Hypnea,Genus,NA,macrophytes
+APHIA:144172,APHIA:143739,Polyides,Genus,NA,macrophytes
+APHIA:206475,APHIA:143744,Eucheuma,Genus,NA,macrophytes
+APHIA:144051,APHIA:143699,Peyssonnelia,Genus,NA,macrophytes
+APHIA:144136,APHIA:368765,Pterocladia,Genus,NA,macrophytes
+APHIA:1309270,APHIA:143748,Gracilarioideae,Subfamily,NA,macrophytes
+APHIA:144237,APHIA:143773,Champia,Genus,NA,macrophytes
+APHIA:144247,APHIA:143776,Botryocladia,Genus,NA,macrophytes
+APHIA:145367,APHIA:144086,Dictyota dichotoma,Species,NA,macrophytes
+APHIA:377141,APHIA:369437,Canistrocarpus cervicornis,Species,NA,macrophytes
+APHIA:145381,APHIA:144087,Lobophora variegata,Species,NA,macrophytes
+APHIA:145385,APHIA:144088,Padina pavonica,Species,NA,macrophytes
+APHIA:145857,APHIA:144253,Colpomenia sinuosa,Species,NA,macrophytes
+APHIA:381797,APHIA:221177,Avrainvillea nigricans f. spongiosa,Forma,NA,macrophytes
+APHIA:143820,APHIA:1649447,Halimeda,Genus,NA,macrophytes
+APHIA:143821,APHIA:1635982,Penicillus,Genus,NA,macrophytes
+APHIA:144000,APHIA:1635982,Flabellia,Genus,NA,macrophytes
+APHIA:204078,APHIA:1635982,Udotea,Genus,NA,macrophytes
+APHIA:370153,APHIA:1635982,Rhipocephalus,Genus,NA,macrophytes
+APHIA:144452,APHIA:143812,Bryopsis hypnoides,Species,NA,macrophytes
+APHIA:144056,APHIA:1635736,Batophora,Genus,NA,macrophytes
+APHIA:144058,APHIA:1633706,Dasycladus,Genus,NA,macrophytes
+APHIA:163505,APHIA:143691,Corallinoideae,Subfamily,NA,macrophytes
+APHIA:172526,APHIA:1647394,Spyridieae,Tribe,NA,macrophytes
+APHIA:143900,APHIA:494004,Acanthophora,Genus,NA,macrophytes
+APHIA:143914,APHIA:494006,Laurencia,Genus,NA,macrophytes
+APHIA:213951,APHIA:144153,Chondracanthus chamissoi,Species,NA,macrophytes
+APHIA:145634,APHIA:144157,Hypnea musciformis,Species,NA,macrophytes
+APHIA:145635,APHIA:144157,Hypnea spinella,Species,NA,macrophytes
+APHIA:145668,APHIA:144172,Polyides rotunda,Species,NA,macrophytes
+APHIA:213998,APHIA:206475,Eucheuma denticulatum,Species,NA,macrophytes
+APHIA:1309271,APHIA:1309270,Gracilarieae,Tribe,NA,macrophytes
+APHIA:220965,APHIA:144247,Botryocladia leptopoda,Species,NA,macrophytes
+APHIA:144481,APHIA:143820,Halimeda discoidea,Species,NA,macrophytes
+APHIA:144482,APHIA:143820,Halimeda opuntia,Species,NA,macrophytes
+APHIA:144483,APHIA:143820,Halimeda tuna,Species,NA,macrophytes
+APHIA:211515,APHIA:143820,Halimeda copiosa,Species,NA,macrophytes
+APHIA:211519,APHIA:143820,Halimeda incrassata,Species,NA,macrophytes
+APHIA:373717,APHIA:143820,Halimeda monile,Species,NA,macrophytes
+APHIA:144484,APHIA:143821,Penicillus capitatus,Species,NA,macrophytes
+APHIA:145094,APHIA:144000,Flabellia petiolata,Species,NA,macrophytes
+APHIA:211535,APHIA:204078,Udotea flabellum,Species,NA,macrophytes
+APHIA:373299,APHIA:204078,Udotea conglutinata,Species,NA,macrophytes
+APHIA:373295,APHIA:370153,Rhipocephalus phoenix,Species,NA,macrophytes
+APHIA:145301,APHIA:144058,Dasycladus vermicularis,Species,NA,macrophytes
+APHIA:172523,APHIA:163505,Janieae,Tribe,NA,macrophytes
+APHIA:143866,APHIA:172526,Spyridia,Genus,NA,macrophytes
+APHIA:211768,APHIA:143900,Acanthophora spicifera,Species,NA,macrophytes
+APHIA:144827,APHIA:143914,Laurencia obtusa,Species,NA,macrophytes
+APHIA:144188,APHIA:1309271,Gracilaria,Genus,NA,macrophytes
+APHIA:1327605,APHIA:1309271,Crassiphycus,Genus,NA,macrophytes
+APHIA:1327785,APHIA:1309271,Agarophyton,Genus,NA,macrophytes
+APHIA:382524,APHIA:373295,Rhipocephalus phoenix f. brevifolius,Forma,NA,macrophytes
+APHIA:144012,APHIA:172523,Jania,Genus,NA,macrophytes
+APHIA:236157,APHIA:144188,Gracilaria vermiculophylla,Species,NA,macrophytes
+APHIA:1327608,APHIA:1327605,Crassiphycus usneoides,Species,NA,macrophytes
+APHIA:1379887,APHIA:1327785,Agarophyton chilense,Species,NA,macrophytes
