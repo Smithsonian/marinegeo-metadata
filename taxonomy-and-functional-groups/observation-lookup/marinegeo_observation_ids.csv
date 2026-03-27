@@ -1,13 +1,13 @@
 scientific_name,scientific_id
-unidentified epifauna,FUNCTIONAL:6
-unidentified epiphytes,FUNCTIONAL:5
-unidentified epibionts,FUNCTIONAL:4
-unidentified SAV,FUNCTIONAL:3
-unidentified fouling,FUNCTIONAL:2
-unidentified macroalgae,FUNCTIONAL:1
-no species observed,FUNCTIONAL:0
-NOT PRESENT,FUNCTIONAL:0
-Debris,FUNCTIONAL:0
+unidentified epifauna,FUNCTIONAL:EPIFAUNA
+unidentified epiphytes,FUNCTIONAL:EPIPHYTES
+unidentified epibionts,FUNCTIONAL:EPIBIONTS
+unidentified SAV,FUNCTIONAL:SAV
+unidentified fouling,FUNCTIONAL:FOULING
+unidentified macroalgae,FUNCTIONAL:MACROALGAE
+no species observed,FUNCTIONAL:BARE
+NOT PRESENT,FUNCTIONAL:BARE
+Debris,FUNCTIONAL:BARE
 Mollusca,APHIA:51
 Polyplacophora,APHIA:55
 Gastropoda,APHIA:101
