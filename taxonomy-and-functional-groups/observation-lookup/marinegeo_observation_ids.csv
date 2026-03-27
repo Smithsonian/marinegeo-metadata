@@ -42,6 +42,7 @@ Nematoda,APHIA:799
 Chlorophyta,APHIA:801
 Phaeophyceae,APHIA:830
 Rhodophyta,APHIA:852
+Rhodophyta spp,APHIA:852
 Annelida,APHIA:882
 Polychaeta,APHIA:883
 Eunicida,APHIA:895
@@ -411,7 +412,7 @@ Percursaria percursa,APHIA:145979
 Ulva lactuca,APHIA:145984
 Bryozoa,APHIA:146142
 Cyanobacteria,APHIA:146537
-Lyngbya,APHIA:146538
+Lyngbya sp,APHIA:146538
 Chironomus,APHIA:146802
 Aora typica,APHIA:146895
 Melita nitida,APHIA:146922
