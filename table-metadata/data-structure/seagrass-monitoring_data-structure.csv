@@ -41,7 +41,7 @@ Seagrass Monitoring,shoot-count-monitoring-v1,2,quadrat,INT,enforce,TRUE
 Seagrass Monitoring,shoot-count-monitoring-v1,2,sample_collection_date,DATE,enforce,TRUE
 Seagrass Monitoring,shoot-count-monitoring-v1,2,scientific_name,STRING,enforce,TRUE
 Seagrass Monitoring,shoot-count-monitoring-v1,2,shoot_count,INT,warn,
-Seagrass Monitoring,shoot-count-monitoring-v1,2,flowers_present,STRING,allow,
+Seagrass Monitoring,shoot-count-monitoring-v1,2,flowers_present,BOOL,allow,
 Seagrass Monitoring,shoot-count-monitoring-v1,2,density_quadrat_dimensions,STRING,warn,
 Seagrass Monitoring,shoot-count-monitoring-v1,2,shoot_density_m2,DOUBLE,warn,
 Seagrass Monitoring,shoot-count-monitoring-v1,2,shoot_count_sample_notes,STRING,allow,
