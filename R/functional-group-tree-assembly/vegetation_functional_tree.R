@@ -39,12 +39,15 @@ lapply(seagrass_families, function(x){
 # Splitting Algae into functional groups will wait
 
 algae <- vegetation$AddChild("FUNCTIONAL:ALGAE", node_name = "Algae", definition = "Plantlike photosynthetic organisms, from single-celled to large, multicellular marine algae.")
-# "Macroalgae"
-algae_ids <- c("APHIA:801", "APHIA:852", "APHIA:830")
-lapply(algae_ids, function(x){
+
+# Macroalgae
+macroalgae <- algae$AddChild("FUNCTIONAL:MACROALGAE", node_name = "Macroalgae")
+macroalgae_ids <- c("APHIA:801", "APHIA:852", "APHIA:830")
+lapply(macroalgae_ids, function(x){
   new_node <- Clone(FindNode(taxa_tree, x))
-  algae$AddChildNode(new_node)
+  macroalgae$AddChildNode(new_node)
 })
+
 # Other algae: Cyanobacteria (including Dapis pleousa, Lyngbya sp)
 algae_ids <- c("APHIA:146537")
 lapply(algae_ids, function(x){

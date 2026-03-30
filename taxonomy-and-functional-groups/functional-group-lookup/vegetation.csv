@@ -4,9 +4,7 @@ FUNCTIONAL:SAV,FUNCTIONAL:VEGETATION,Seagrass,NA,"Rooted, vascular plants that g
 FUNCTIONAL:ALGAE,FUNCTIONAL:VEGETATION,Algae,NA,"Plantlike photosynthetic organisms, from single-celled to large, multicellular marine algae.",vegetation
 FUNCTIONAL:NONMARINESAV,FUNCTIONAL:SAV,Non-marine SAV,NA,SAV species found primarily in brackish to freshwater habitats.,vegetation
 FUNCTIONAL:SEAGRASS,FUNCTIONAL:SAV,Marine Seagrass,NA,SAV species found in brackish to saline marine environments.,vegetation
-APHIA:801,FUNCTIONAL:ALGAE,Chlorophyta,Phylum (Division),NA,vegetation
-APHIA:852,FUNCTIONAL:ALGAE,Rhodophyta,Phylum (Division),NA,vegetation
-APHIA:830,FUNCTIONAL:ALGAE,Phaeophyceae,Class,NA,vegetation
+FUNCTIONAL:MACROALGAE,FUNCTIONAL:ALGAE,Macroalgae,NA,NA,vegetation
 APHIA:146537,FUNCTIONAL:ALGAE,Cyanobacteria,Phylum,NA,vegetation
 APHIA:196239,FUNCTIONAL:NONMARINESAV,Potamogetonaceae,Family,NA,vegetation
 APHIA:234029,FUNCTIONAL:NONMARINESAV,Ruppiaceae,Family,NA,vegetation
@@ -14,10 +12,9 @@ APHIA:143768,FUNCTIONAL:SEAGRASS,Cymodoceaceae,Family,NA,vegetation
 APHIA:143751,FUNCTIONAL:SEAGRASS,Hydrocharitaceae,Family,NA,vegetation
 APHIA:143769,FUNCTIONAL:SEAGRASS,Posidoniaceae,Family,NA,vegetation
 APHIA:143770,FUNCTIONAL:SEAGRASS,Zosteraceae,Family,NA,vegetation
-APHIA:1304953,APHIA:801,Chlorophytina,Subphylum (Subdivision),NA,vegetation
-APHIA:493826,APHIA:852,Eurhodophytina,Subphylum (Subdivision),NA,vegetation
-APHIA:1304855,APHIA:830,Dictyotophycidae,Subclass,NA,vegetation
-APHIA:1304856,APHIA:830,Fucophycidae,Subclass,NA,vegetation
+APHIA:801,FUNCTIONAL:MACROALGAE,Chlorophyta,Phylum (Division),NA,vegetation
+APHIA:852,FUNCTIONAL:MACROALGAE,Rhodophyta,Phylum (Division),NA,vegetation
+APHIA:830,FUNCTIONAL:MACROALGAE,Phaeophyceae,Class,NA,vegetation
 APHIA:146542,APHIA:146537,Cyanophyceae,Class,NA,vegetation
 APHIA:416210,APHIA:196239,Potamogeton,Genus,NA,vegetation
 APHIA:416221,APHIA:196239,Zannichellia,Genus,NA,vegetation
@@ -33,11 +30,10 @@ APHIA:206854,APHIA:143751,Thalassia,Genus,NA,vegetation
 APHIA:205672,APHIA:143751,Enhalus,Genus,NA,vegetation
 APHIA:144232,APHIA:143769,Posidonia,Genus,NA,vegetation
 APHIA:144233,APHIA:143770,Zostera,Genus,NA,vegetation
-APHIA:146216,APHIA:1304953,Ulvophyceae,Class,NA,vegetation
-APHIA:368670,APHIA:493826,Florideophyceae,Class,NA,vegetation
-APHIA:839,APHIA:1304855,Dictyotales,Order,NA,vegetation
-APHIA:844,APHIA:1304856,Fucales,Order,NA,vegetation
-APHIA:842,APHIA:1304856,Ectocarpales,Order,NA,vegetation
+APHIA:1304953,APHIA:801,Chlorophytina,Subphylum (Subdivision),NA,vegetation
+APHIA:493826,APHIA:852,Eurhodophytina,Subphylum (Subdivision),NA,vegetation
+APHIA:1304855,APHIA:830,Dictyotophycidae,Subclass,NA,vegetation
+APHIA:1304856,APHIA:830,Fucophycidae,Subclass,NA,vegetation
 APHIA:368682,APHIA:146542,Oscillatoriophycidae,Subclass,NA,vegetation
 APHIA:1653506,APHIA:146542,Coleofasciculales,Order,NA,vegetation
 APHIA:416212,APHIA:416210,Potamogeton perfoliatus,Species,NA,vegetation
@@ -68,6 +64,14 @@ APHIA:495077,APHIA:144233,Zostera marina,Species,NA,vegetation
 APHIA:495081,APHIA:144233,Zostera muelleri,Species,NA,vegetation
 APHIA:495082,APHIA:144233,Zostera noltii,Species,NA,vegetation
 APHIA:593702,APHIA:144233,Zostera nigricaulis,Species,NA,vegetation
+APHIA:146216,APHIA:1304953,Ulvophyceae,Class,NA,vegetation
+APHIA:368670,APHIA:493826,Florideophyceae,Class,NA,vegetation
+APHIA:839,APHIA:1304855,Dictyotales,Order,NA,vegetation
+APHIA:844,APHIA:1304856,Fucales,Order,NA,vegetation
+APHIA:842,APHIA:1304856,Ectocarpales,Order,NA,vegetation
+APHIA:146603,APHIA:368682,Oscillatoriales,Order,NA,vegetation
+APHIA:146543,APHIA:368682,Chroococcales,Order,NA,vegetation
+APHIA:836365,APHIA:1653506,Coleofasciculaceae,Family,NA,vegetation
 APHIA:808,APHIA:146216,Bryopsidales,Order,NA,vegetation
 APHIA:18815,APHIA:146216,Dasycladales,Order,NA,vegetation
 APHIA:813,APHIA:146216,Cladophorales,Order,NA,vegetation
@@ -80,9 +84,9 @@ APHIA:143725,APHIA:844,Sargassaceae,Family,NA,vegetation
 APHIA:143723,APHIA:844,Fucaceae,Family,NA,vegetation
 APHIA:143717,APHIA:842,Ectocarpaceae,Family,NA,vegetation
 APHIA:143777,APHIA:842,Scytosiphonaceae,Family,NA,vegetation
-APHIA:146603,APHIA:368682,Oscillatoriales,Order,NA,vegetation
-APHIA:146543,APHIA:368682,Chroococcales,Order,NA,vegetation
-APHIA:836365,APHIA:1653506,Coleofasciculaceae,Family,NA,vegetation
+APHIA:836366,APHIA:146603,Microcoleaceae,Family,NA,vegetation
+APHIA:1653525,APHIA:146543,Geminocystaceae,Family,NA,vegetation
+APHIA:178510,APHIA:836365,Symploca,Genus,NA,vegetation
 APHIA:143668,APHIA:808,Caulerpaceae,Family,NA,vegetation
 APHIA:368714,APHIA:808,Dichotomosiphonaceae,Family,NA,vegetation
 APHIA:1649443,APHIA:808,Halimedineae,Suborder,NA,vegetation
@@ -108,9 +112,9 @@ APHIA:144132,APHIA:143725,Sargassum,Genus,NA,vegetation
 APHIA:144129,APHIA:143723,Fucus,Genus,NA,vegetation
 APHIA:144099,APHIA:143717,Ectocarpus,Genus,NA,vegetation
 APHIA:1652948,APHIA:143777,Hydroclathreae,Tribe,NA,vegetation
-APHIA:836366,APHIA:146603,Microcoleaceae,Family,NA,vegetation
-APHIA:1653525,APHIA:146543,Geminocystaceae,Family,NA,vegetation
-APHIA:178510,APHIA:836365,Symploca,Genus,NA,vegetation
+APHIA:146538,APHIA:836366,Lyngbya,Genus,NA,vegetation
+APHIA:1660763,APHIA:836366,Dapis,Genus,NA,vegetation
+APHIA:573277,APHIA:1653525,Cyanobacterium,Genus,NA,vegetation
 APHIA:143816,APHIA:143668,Caulerpa,Genus,NA,vegetation
 APHIA:143819,APHIA:368714,Avrainvillea,Genus,NA,vegetation
 APHIA:368715,APHIA:1649443,Halimedaceae,Family,NA,vegetation
@@ -143,9 +147,7 @@ APHIA:144088,APHIA:163008,Padina,Genus,NA,vegetation
 APHIA:145546,APHIA:144129,Fucus serratus,Species,NA,vegetation
 APHIA:145410,APHIA:144099,Ectocarpus siliculosus,Species,NA,vegetation
 APHIA:144253,APHIA:1652948,Colpomenia,Genus,NA,vegetation
-APHIA:146538,APHIA:836366,Lyngbya,Genus,NA,vegetation
-APHIA:1660763,APHIA:836366,Dapis,Genus,NA,vegetation
-APHIA:573277,APHIA:1653525,Cyanobacterium,Genus,NA,vegetation
+APHIA:1660764,APHIA:1660763,Dapis pleousa,Species,NA,vegetation
 APHIA:144471,APHIA:143816,Caulerpa prolifera,Species,NA,vegetation
 APHIA:144472,APHIA:143816,Caulerpa racemosa,Species,NA,vegetation
 APHIA:144474,APHIA:143816,Caulerpa sertularioides,Species,NA,vegetation
@@ -180,7 +182,6 @@ APHIA:377141,APHIA:369437,Canistrocarpus cervicornis,Species,NA,vegetation
 APHIA:145381,APHIA:144087,Lobophora variegata,Species,NA,vegetation
 APHIA:145385,APHIA:144088,Padina pavonica,Species,NA,vegetation
 APHIA:145857,APHIA:144253,Colpomenia sinuosa,Species,NA,vegetation
-APHIA:1660764,APHIA:1660763,Dapis pleousa,Species,NA,vegetation
 APHIA:381797,APHIA:221177,Avrainvillea nigricans f. spongiosa,Forma,NA,vegetation
 APHIA:143820,APHIA:1649447,Halimeda,Genus,NA,vegetation
 APHIA:143821,APHIA:1635982,Penicillus,Genus,NA,vegetation
