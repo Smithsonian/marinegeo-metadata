@@ -1,0 +1,43 @@
+partner_code,site_code,site_name,habitat,latitude,longitude
+USA-PIS,MGE-001,MGEO01,oyster reef,NA,NA
+USA-PIS,MGE-002,MGEO02,oyster reef,NA,NA
+USA-PIS,MGE-003,MGEO03,oyster reef,NA,NA
+USA-RCR,MIM-001,Middle Marsh,oyster reef,NA,NA
+USA-RCR,HOI-001,Horse Island,oyster reef,NA,NA
+USA-RCR,DIC-001,Ditch Creek,oyster reef,NA,NA
+USA-GAL,SDI-001,South Deer Islands,oyster reef,NA,NA
+USA-GAL,SPI-001,Spoil Islands,oyster reef,NA,NA
+USA-GAL,NDI-001,North Deer Islands,oyster reef,NA,NA
+USA-TMR,SCO-001,Stokes Creek Oyster,oyster reef,NA,NA
+USA-TMR,CCO-001,Capo Creek Oyster,oyster reef,NA,NA
+USA-TMR,DCO-001,Deep Creek Oyster,oyster reef,NA,NA
+USA-SRI,FUD-001,Fuel Dock,oyster reef,NA,NA
+USA-SRI,NAT-001,Nature Trail,oyster reef,NA,NA
+USA-SRI,PRI-001,Priests,oyster reef,NA,NA
+USA-PDI,TAO-001,Tajamar Oyster,oyster reef,NA,NA
+USA-PDI,PFO-001,Packery Flats Oyster,oyster reef,NA,NA
+USA-PDI,MAO-001,Marker 37 Oyster,oyster reef,NA,NA
+USA-BGS,LIK-001,Lime Kiln,oyster reef,NA,NA
+USA-BGS,CRR-001,Cross Rocks,oyster reef,NA,NA
+USA-BGS,HAC-001,Harlowe Creek,oyster reef,NA,NA
+USA-SPI,HUC-001,Hunt Camp,oyster reef,NA,NA
+USA-SPI,DEC-001,Dean Creek,oyster reef,NA,NA
+USA-SPI,UGA-001,UGAMI,oyster reef,NA,NA
+USA-IRN,ML1-001,ML1,oyster reef,NA,NA
+USA-IRN,ML2-001,ML2,oyster reef,NA,NA
+USA-IRN,ML3-001,ML3,oyster reef,NA,NA
+USA-CHC,CCO-002,Clambank Creek Oyster,oyster reef,NA,NA
+USA-CHC,BCO-001,Bly Creek Oyster,oyster reef,NA,NA
+USA-CHC,OMC-001,Old Man Creek Oyster,oyster reef,NA,NA
+CAN-PEI,COW-001,Cows,oyster reef,NA,NA
+CAN-PEI,PRI-002,Primrose,oyster reef,NA,NA
+CAN-PEI,STR-001,Stratford,oyster reef,NA,NA
+USA-SGI,EAH-001,East Hole 1,oyster reef,NA,NA
+USA-SGI,EAH-002,East Hole 2,oyster reef,NA,NA
+USA-SGI,EAH-003,East Hole 3,oyster reef,NA,NA
+USA-DEB,DUP-001,Dupont 1,oyster reef,NA,NA
+USA-DEB,DUP-002,Dupont 2,oyster reef,NA,NA
+USA-DEB,DUP-003,Dupont 3,oyster reef,NA,NA
+USA-HTR,HUD-001,Hampton U Dock,oyster reef,NA,NA
+USA-HTR,SEL-001,Settlers Landing,oyster reef,NA,NA
+USA-HTR,PCH-001,Pine Cone Harbour,oyster reef,NA,NA

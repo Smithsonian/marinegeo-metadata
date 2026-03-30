@@ -1,0 +1,12 @@
+partner_code,site_code,site_name,habitat,latitude,longitude
+PAN-BDT,STS-001,STRI Seagrass,seagrass,9.3523525,-82.2584075
+PAN-BDT,ALS-001,Almirante Seagrass,seagrass,9.291205,-82.3433725
+PAN-BDT,JPS-001,Juan Point Seagrass,seagrass,9.297045714285714,-82.29285285714286
+PAN-BDT,STT-001,STRI Tower,NA,NA,NA
+PAN-BDT,ALC-001,Almirante Coral,coral reef,NA,NA
+PAN-BDT,CCC-001,Crawl Cay Coral,coral reef,NA,NA
+PAN-BDT,JPC-001,Juan Point Coral,coral reef,NA,NA
+PAN-BDT,STC-001,STRI Coral,coral reef,NA,NA
+PAN-BDT,BDT-001,Bocas del Toro Dock,artificial,NA,NA
+PAN-BDT,BAD-001,Bastimentos Dock,artificial,NA,NA
+PAN-BDT,TBD-001,Tranquilo Bay Dock,artificial,NA,NA

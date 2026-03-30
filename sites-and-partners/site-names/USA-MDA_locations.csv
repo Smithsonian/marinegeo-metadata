@@ -1,0 +1,22 @@
+partner_code,site_code,site_name,habitat,latitude,longitude
+USA-MDA,BIB-001,Big Island BS,bare sediment,NA,NA
+USA-MDA,BIC-001,Big Island CWD,coarse woody debris,NA,NA
+USA-MDA,CCS-002,Cadle Creek SAV,seagrass,38.879558333333335,-76.51483
+USA-MDA,CBB-001,Canninghouse Bay BS,bare sediment,NA,NA
+USA-MDA,CBC-002,Canninghouse Bay CWD,coarse woody debris,NA,NA
+USA-MDA,CBS-005,Canninghouse Bay SAV,seagrass,38.87529037142857,-76.49700291428572
+USA-MDA,FPB-001,Fox Point BS,bare sediment,NA,NA
+USA-MDA,FPC-001,Fox Point CWD,coarse woody debris,NA,NA
+USA-MDA,FPS-001,Fox Point SAV,seagrass,NA,NA
+USA-MDA,GCM-001,GCREW Marsh,salt marsh,NA,NA
+USA-MDA,GBO-001,Glebe Bay Oyster,oyster reef,NA,NA
+USA-MDA,RRM-001,Rhode River Marsh,salt marsh,NA,NA
+USA-MDA,SCB-001,Sellman Creek BS,bare sediment,NA,NA
+USA-MDA,SCC-001,Sellman Creek CWD,coarse woody debris,NA,NA
+USA-MDA,SCM-001,Sellman Creek Marsh,salt marsh,NA,NA
+USA-MDA,SCS-001,Sellman Creek SAV,seagrass,38.89419,-76.53438625
+USA-MDA,SED-001,SERC Dock,artificial,NA,NA
+USA-MDA,SET-001,SERC Tower,NA,NA,NA
+USA-MDA,SRO-001,Severn River Oyster,oyster reef,38.99853,-76.49601
+USA-MDA,WRO-001,West River Oyster,oyster reef,38.48842,-76.53719
+USA-MDA,SRO-002,South River Oyster,oyster reef,38.93193,-76.53781
