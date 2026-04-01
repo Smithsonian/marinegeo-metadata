@@ -36,8 +36,6 @@ lapply(seagrass_families, function(x){
   seagrass$AddChildNode(new_node)
 })
 
-# Splitting Algae into functional groups will wait
-
 algae <- vegetation$AddChild("FUNCTIONAL:ALGAE", node_name = "Algae", definition = "Plantlike photosynthetic organisms, from single-celled to large, multicellular marine algae.")
 
 # Macroalgae
