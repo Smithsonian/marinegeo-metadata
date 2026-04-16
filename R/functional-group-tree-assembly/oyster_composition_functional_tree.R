@@ -31,7 +31,7 @@ Sediment <- oyster_composition$AddChild("FUNCTIONAL:SEDIMENT", node_name = "Sedi
 Rock <- oyster_composition$AddChild("FUNCTIONAL:ROCK", node_name = "Rock")
 
 # Oysters:
-oysters <- oyster_composition$AddChild("FUNCTIONAL:OYSTER", node_name = "Oysters")
+oysters <- oyster_composition$AddChild("FUNCTIONAL:OYSTER", node_name = "Oyster Material")
 
 # Large Shell Material + Cultch
 lsm_and_c <- oysters$AddChild("FUNCTIONAL:LARGE_SHELL_MATERIAL_AND_CULTCH", node_name = "Cultch & Large Shell Material")
@@ -64,5 +64,7 @@ print(oyster_composition, "node_name", "definition")
 output_network_df <- ToDataFrameNetwork(oyster_composition, "node_name", "rank", "definition", direction = "descend")
 
 output_network_df %>%
-  mutate(tree_name = "oyster_composition") %>%
+  mutate(tree_name = "oyster_composition",
+         rank = NA) %>%
+  select(from, to, node_name, rank, definition, tree_name) %>%
   write_csv("taxonomy-and-functional-groups/functional-group-lookup/oyster_composition.csv")

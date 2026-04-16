@@ -2,6 +2,11 @@
 
 # Fouling panels are a one-level functional/morpho tree, with some nested taxonomic ranks.
 
+# [1] "Mobile"               "Encrusting bryozoan"  "Anemone"              "Arborescent bryozoan" "Barnacles"            "Amphipod tubes"       "Mussel"              
+# [8] "Other bivalves"       "Colonial ascidian"    "Other polychaetes"    "Solitary ascidian"    "Kamptozoa"            "Sponge"               "Sabellid"            
+# [15] "Hydroid"              "Oyster"               "Crepidula"            "Serpulidae"           "Fish eggs"            "Other"                "n/a"                 
+# [22] "Turf algae"           "Vermetid"             "Ser"                  "Terebellid"          
+
 library(data.tree)
 library(tidyverse)
 library(marinegeo.utils)

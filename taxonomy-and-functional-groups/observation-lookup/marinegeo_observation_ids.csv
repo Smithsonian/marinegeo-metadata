@@ -1,13 +1,34 @@
 scientific_name,scientific_id
+Sponge,FUNCTIONAL:SPONGE
 unidentified epifauna,FUNCTIONAL:EPIFAUNA
 unidentified epiphytes,FUNCTIONAL:EPIPHYTES
 unidentified epibionts,FUNCTIONAL:EPIBIONTS
 unidentified SAV,FUNCTIONAL:SAV
 unidentified fouling,FUNCTIONAL:FOULING
+Algae,FUNCTIONAL:ALGAE
+Macroalgae,FUNCTIONAL:MACROALGAE
 unidentified macroalgae,FUNCTIONAL:MACROALGAE
+filamentous algae,FUNCTIONAL:FILAMENTOUSALGAE
+Mussel,FUNCTIONAL:MUSSEL
+Mud Crab,FUNCTIONAL:MUDCRAB
+Crab,FUNCTIONAL:CRAB
+Seagrass,FUNCTIONAL:SEAGRASS
 no species observed,FUNCTIONAL:BARE
 NOT PRESENT,FUNCTIONAL:BARE
 Debris,FUNCTIONAL:BARE
+Sediment,FUNCTIONAL:SEDIMENT
+Rock,FUNCTIONAL:ROCK
+Oyster,FUNCTIONAL:OYSTER
+Large shell material and cultch,FUNCTIONAL:LARGE_SHELL_MATERIAL_AND_CULTCH
+Large shell material,FUNCTIONAL:LARGE_SHELL_MATERIAL
+Live oyster,FUNCTIONAL:LIVE_OYSTER
+Gaper oyster,FUNCTIONAL:GAPER_OYSTER
+Box oyster,FUNCTIONAL:BOX_OYSTER
+Cultch,FUNCTIONAL:CULTCH
+Shell hash,FUNCTIONAL:SHELL_HASH
+Shell hash (gravel texture),FUNCTIONAL:SHELL_HASH_GRAVEL
+Ascophyllum,APHIA:144128
+Condyliactis sp,APHIA:100701
 Mollusca,APHIA:51
 Polyplacophora,APHIA:55
 Gastropoda,APHIA:101
@@ -37,6 +58,7 @@ Veneridae,APHIA:243
 Veneridae spp.,APHIA:243
 Trochidae,APHIA:443
 Porifera,APHIA:558
+Porifera sp,APHIA:558
 Platyhelminthes,APHIA:793
 Nematoda,APHIA:799
 Chlorophyta,APHIA:801
@@ -83,6 +105,7 @@ Nudibranchia,APHIA:1762
 Nudibranchia spp.,APHIA:1762
 Chordata,APHIA:1821
 Ascidiacea,APHIA:1839
+Ascidian sp,APHIA:1839
 Ascidian,APHIA:1839
 Oligochaeta,APHIA:2036
 Hirudinea,APHIA:2041
@@ -354,6 +377,7 @@ Pusillina inconspicua,APHIA:141334
 Pusillina sarsii,APHIA:141341
 Rissoa membranacea,APHIA:141359
 Rissoa parva,APHIA:141365
+Amphiroa sp,APHIA:144003
 Skeneopsis planorbis,APHIA:141539
 Macoma balthica,APHIA:141579
 Tricladida,APHIA:142028
@@ -361,17 +385,23 @@ Delesseriaceae,APHIA:143673
 Gigartinaceae,APHIA:143733
 Caulerpa,APHIA:143816
 Avrainvillea,APHIA:143819
+Avrainvillea sp,APHIA:143819
 Halimeda,APHIA:143820
+Halimeda sp,APHIA:143820
 Halimeda spp.,APHIA:143820
 Penicillus,APHIA:143821
+Penicillus sp,APHIA:143821
 Spyridia,APHIA:143866
 Acanthophora,APHIA:143900
 Laurencia,APHIA:143914
 Jania,APHIA:144012
+Jania sp,APHIA:144012
 Lithothamnion,APHIA:144018
 Peyssonnelia,APHIA:144051
 Batophora,APHIA:144056
+Batophora sp,APHIA:144056
 Dictyota,APHIA:144086
+Dictyota sp,APHIA:144086
 Lobophora spp.,APHIA:144087
 Padina,APHIA:144088
 Cystoseira,APHIA:144126
@@ -381,6 +411,8 @@ Pterocladia,APHIA:144136
 Gracilaria,APHIA:144188
 Champia,APHIA:144237
 Valonia,APHIA:144267
+Valonia sp,APHIA:144267
+Ventricaria,APHIA:144267
 Ulva,APHIA:144296
 Bryopsis hypnoides,APHIA:144452
 Caulerpa prolifera,APHIA:144471
@@ -623,6 +655,7 @@ Modulus spp.,APHIA:196286
 Eatoniellidae,APHIA:196894
 Stegastes spp.,APHIA:203822
 Udotea,APHIA:204078
+Udotea sp,APHIA:204078
 Isophyllia,APHIA:204354
 Chevalia,APHIA:204416
 Agaricia,APHIA:204464
@@ -1034,6 +1067,7 @@ Paguristes tortugae,APHIA:368299
 Petrochirus diogenes,APHIA:368346
 Leptasterias hexactis,APHIA:369177
 Rhipocephalus,APHIA:370153
+Rhipocephalus sp,APHIA:370153
 Batillaria,APHIA:370445
 Udotea conglutinata,APHIA:373299
 Halimeda monile,APHIA:373717
@@ -1266,7 +1300,6 @@ Nasageneia quinsana,APHIA:550331
 Achelous sebae,APHIA:557888
 Chromodoris kempfi,APHIA:558675
 Lobatus costatus,APHIA:565363
-Cyanobacterium sp.,APHIA:573277
 Ecrobia truncata,APHIA:574096
 Diffalaba,APHIA:575794
 Lunella undulata,APHIA:579271

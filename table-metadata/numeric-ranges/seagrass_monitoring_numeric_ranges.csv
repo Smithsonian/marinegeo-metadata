@@ -1,8 +1,8 @@
 ﻿table_id,column_name,range_type,max_fail,min_fail,max_warn,min_warn
 seagrass-cover-monitoring-v1,transect,inclusive,,0,3,1
 seagrass-cover-monitoring-v1,quadrat,inclusive,,0,50,0
-seagrass-cover-monitoring-v1,point_count,inclusive,,10,81,
-seagrass-cover-monitoring-v1,points_in_quadrat,,,,,
+seagrass-cover-monitoring-v1,point_count,inclusive,,0,81,
+seagrass-cover-monitoring-v1,points_in_quadrat,inclusive,,,144,
 seagrass-cover-monitoring-v1,percent_cover,inclusive,200,0,100,
 seagrass-macroinvertebrates-monitoring-v1,transect,inclusive,,0,3,1
 seagrass-macroinvertebrates-monitoring-v1,quadrat,inclusive,,0,50,0
