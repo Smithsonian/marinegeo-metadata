@@ -23,6 +23,7 @@ shoot-count-monitoring-v1,flowers_present,TRUE
 shoot-count-monitoring-v1,flowers_present,FALSE
 shoot-count-monitoring-v1,density_quadrat_dimensions,20cm circumference
 shoot-count-monitoring-v1,density_quadrat_dimensions,25x25cm
+shoot-count-monitoring-v1,density_quadrat_dimensions,50x50cm
 shoot-count-monitoring-v1,density_quadrat_dimensions,75x75cm
 sheath-and-epibiont-monitoring-v1,grazing_scars_present,TRUE
 sheath-and-epibiont-monitoring-v1,grazing_scars_present,FALSE
