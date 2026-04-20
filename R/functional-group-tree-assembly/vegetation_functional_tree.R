@@ -6,78 +6,82 @@ library(data.tree)
 library(tidyverse)
 library(marinegeo.utils)
 
-taxa <- read_csv("taxonomy-and-functional-groups/taxonomic-lookup/marinegeo_taxonomic_lookup.csv") %>%
-  select(parent_id, scientific_id, everything()) %>%
-  mutate(parent_id = replace_na(parent_id, "top node")) %>%
-  rename(node_name = name)
+taxa_raw <- read_csv("taxonomy-and-functional-groups/taxonomic-lookup/marinegeo_taxonomic_lookup.csv") 
 
-taxa_tree <- FromDataFrameNetwork(taxa, check = c("check", "no-warn", "no-check"))
-print(taxa_tree, "node_name", "rank")
+# taxon names are used as node IDs, with scientific IDs as an attribute. 
+# Therefore there cannot be any duplicate taxon names
+taxa_dupe_names <- taxa_raw %>%
+  count(name) %>% 
+  filter(n > 1) %>%
+  pull(name)
+
+taxa <- taxa_raw %>%
+  mutate(name = case_when(
+    name %in% taxa_dupe_names ~ paste0(name, "-", id),
+    T ~ name
+  ))
+
+# Build a lookup to map parent scientific_id -> parent name
+parent_names <- taxa %>%
+  select(scientific_id, name) %>%
+  rename(parent_id = scientific_id,
+         parent_name = name)
+
+# Use name as node identifier, scientific_id as attribute
+taxa_network <- taxa %>%
+  left_join(parent_names, by = c("parent_id")) %>%
+  mutate(parent_name = replace_na(parent_name, "top node")) %>%
+  rename(child_name = name) %>%
+  select(parent_name, child_name, scientific_id, rank)
+
+taxa_tree <- FromDataFrameNetwork(taxa_network, check = "no-warn")
+print(taxa_tree, "scientific_id", "rank")
 
 # Build the tree
 # Functional groups are sourced from the functional group lookup
-vegetation <- Node$new("FUNCTIONAL:VEGETATION", node_name = "Vegetation", definition = "Aquatic micro- and macroscopic photosynthetic organisms growing in or near water")
+vegetation <- Node$new("Vegetation", scientific_id = "FUNCTIONAL:VEGETATION", definition = "Aquatic micro- and macroscopic photosynthetic organisms growing in or near water")
 
-# Seagrass, defined inclusively (Seagrass = SAV, here). 
-sav <- vegetation$AddChild("FUNCTIONAL:SAV", node_name = "Seagrass", definition = "Rooted, vascular plants that grow underwater or just up to the
- water’s surface, often forming large stands or beds.")
+# Seagrass, defined inclusively (Seagrass = SAV, here).
+sav <- vegetation$AddChild("Seagrass", scientific_id = "FUNCTIONAL:SAV", definition = "Rooted, vascular plants that grow underwater or just up to the
+ water's surface, often forming large stands or beds.")
 
-nonmarine_sav <- sav$AddChild("FUNCTIONAL:NONMARINESAV", node_name = "Non-marine SAV", definition = "SAV species found primarily in brackish to freshwater habitats.")
-nonmarine_sav_ids <- c("APHIA:196239", "APHIA:234029")
+nonmarine_sav <- sav$AddChild("Non-marine SAV", scientific_id = "FUNCTIONAL:NONMARINESAV", definition = "SAV species found primarily in brackish to freshwater habitats.")
+nonmarine_sav_ids <- c("Potamogetonaceae", "Ruppiaceae")
 lapply(nonmarine_sav_ids, function(x){
   new_node <- Clone(FindNode(taxa_tree, x))
   nonmarine_sav$AddChildNode(new_node)
 })
 
-seagrass <- sav$AddChild("FUNCTIONAL:SEAGRASS", node_name = "Marine Seagrass", definition = "SAV species found in brackish to saline marine environments.")
-seagrass_families <- c("APHIA:143768", "APHIA:143751", "APHIA:143769", "APHIA:143770")
+seagrass <- sav$AddChild("Marine Seagrass", scientific_id = "FUNCTIONAL:SEAGRASS", definition = "SAV species found in brackish to saline marine environments.")
+seagrass_families <- c("Cymodoceaceae", "Hydrocharitaceae", "Posidoniaceae", "Zosteraceae")
 lapply(seagrass_families, function(x){
   new_node <- Clone(FindNode(taxa_tree, x))
   seagrass$AddChildNode(new_node)
 })
 
-algae <- vegetation$AddChild("FUNCTIONAL:ALGAE", node_name = "Algae", definition = "Plantlike photosynthetic organisms, from single-celled to large, multicellular marine algae.")
+algae <- vegetation$AddChild("Algae", scientific_id = "FUNCTIONAL:ALGAE", definition = "Plantlike photosynthetic organisms, from single-celled to large, multicellular marine algae.")
 
 # Macroalgae
-macroalgae <- algae$AddChild("FUNCTIONAL:MACROALGAE", node_name = "Macroalgae")
-macroalgae_ids <- c("APHIA:801", "APHIA:852", "APHIA:830")
+macroalgae <- algae$AddChild("Macroalgae", scientific_id = "FUNCTIONAL:MACROALGAE")
+macroalgae_ids <- c("Chlorophyta", "Rhodophyta", "Phaeophyceae")
 lapply(macroalgae_ids, function(x){
   new_node <- Clone(FindNode(taxa_tree, x))
   macroalgae$AddChildNode(new_node)
 })
 
 # Other algae: Cyanobacteria (including Dapis pleousa, Lyngbya sp)
-algae_ids <- c("APHIA:146537")
+algae_ids <- c("Cyanobacteria")
 lapply(algae_ids, function(x){
   new_node <- Clone(FindNode(taxa_tree, x))
   algae$AddChildNode(new_node)
 })
 
 vegetation
-print(vegetation, "node_name")
-print(vegetation, "node_name", "rank")
- 
-output_network_df <- ToDataFrameNetwork(vegetation, "node_name", "rank", "definition", direction = "descend")
+print(vegetation, "scientific_id")
+print(vegetation, "scientific_id", "rank")
+
+output_network_df <- ToDataFrameNetwork(vegetation, "scientific_id", "rank", "definition", direction = "descend")
 
 output_network_df %>%
   mutate(tree_name = "vegetation") %>%
   write_csv("taxonomy-and-functional-groups/functional-group-lookup/vegetation.csv")
-
-# Test out list
-
-sp <- "Zostera marina"
-
-obs_table <- read_csv("taxonomy-and-functional-groups/observation-lookup/marinegeo_observation_ids.csv")
-
-id <- obs_table %>%
-  filter(scientific_name == sp) %>%
-  pull(scientific_id)
-
-found <- FindNode(vegetation, id)
-
-parents <- found$path
-
-x <- ToDataFrameNetwork(vegetation, "node_name", "rank", "definition", direction = "descend")
-
-x %>%
-  filter(from %in% parents)

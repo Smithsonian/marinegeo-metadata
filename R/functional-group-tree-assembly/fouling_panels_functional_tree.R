@@ -2,41 +2,35 @@
 
 # Fouling panels are a one-level functional/morpho tree, with some nested taxonomic ranks.
 
-# [1] "Mobile"               "Encrusting bryozoan"  "Anemone"              "Arborescent bryozoan" "Barnacles"            "Amphipod tubes"       "Mussel"              
-# [8] "Other bivalves"       "Colonial ascidian"    "Other polychaetes"    "Solitary ascidian"    "Kamptozoa"            "Sponge"               "Sabellid"            
-# [15] "Hydroid"              "Oyster"               "Crepidula"            "Serpulidae"           "Fish eggs"            "Other"                "n/a"                 
-# [22] "Turf algae"           "Vermetid"             "Ser"                  "Terebellid"          
+# [1] "Mobile"               "Encrusting bryozoan"  "Anemone"              "Arborescent bryozoan" "Barnacles"            "Amphipod tubes"       "Mussel"
+# [8] "Other bivalves"       "Colonial ascidian"    "Other polychaetes"    "Solitary ascidian"    "Kamptozoa"            "Sponge"               "Sabellid"
+# [15] "Hydroid"              "Oyster"               "Crepidula"            "Serpulidae"           "Fish eggs"            "Other"                "n/a"
+# [22] "Turf algae"           "Vermetid"             "Ser"                  "Terebellid"
 
 library(data.tree)
 library(tidyverse)
 library(marinegeo.utils)
 
 obs_df <- read_csv(list.files("taxonomy-and-functional-groups/observation-lookup/", full.names = T))
-taxa <- read_csv("taxonomy-and-functional-groups/taxonomic-lookup/marinegeo_taxonomic_lookup.csv") %>%
-  select(parent_id, scientific_id, everything()) %>%
-  mutate(parent_id = replace_na(parent_id, "top node")) %>%
-  rename(node_name = name)
-
-taxa_tree <- FromDataFrameNetwork(taxa, check = c("check", "no-warn", "no-check"))
-print(taxa_tree, "node_name", "rank")
 
 fouling_group_assignments_in <- read_csv("R/fouling-panels-assembly/fouling_lookup.csv")
 
 fouling_group_assignments <- fouling_group_assignments_in %>%
-  left_join(obs_df) 
+  left_join(obs_df)
 
 # Evaluate NA IDs
 # Make sure Turf Algae is manually added
 fouling_group_assignments %>%
-  filter(is.na(scientific_id)) 
+  filter(is.na(scientific_id))
 
 # Things to watch out for:
 # 1. node name != node ID - this happens below when the name is also the group (e.g., FUNCTIONAL:FISH_EGGS)
-# 2. there are IDs > 1 due to different names. 
+# 2. there are IDs > 1 due to different names.
 
-# Evaluate dupes - if all can be condensed by using resolver name instead of scientific_name, 
+# Evaluate dupes - if all can be condensed by using resolver name instead of scientific_name,
 # you're good to advance in script
 dupes <- fouling_group_assignments %>% count(scientific_id) %>% filter(n>1) %>% pull(scientific_id)
+
 fouling_group_assignments %>%
   filter(!is.na(scientific_id)) %>%
   filter(scientific_id %in% dupes)
@@ -55,10 +49,10 @@ fouling_group_assignments <- fouling_group_assignments %>%
   rename(node_name = scientific_name)
 
 # Build the tree
-# Create pathString defining relationships
-fouling_group_assignments$pathString <- paste("fouling", 
-                                              fouling_group_assignments$node_id, 
-                                              fouling_group_assignments$scientific_id, 
+# Create pathString using display names as identifiers
+fouling_group_assignments$pathString <- paste("fouling",
+                                              fouling_group_assignments$fg,
+                                              fouling_group_assignments$node_name,
                                               sep = "/")
 
 # You cannot have Scientific IDs, which reflect functional IDs, nested under itself
@@ -75,46 +69,43 @@ solo_fgs <- fouling_group_assignments %>%
          scientific_id %in% solo_ids)
 
 fouling <- as.Node(fouling_group_assignments %>%
-                     filter(scientific_id != node_id))
+                     filter(scientific_id != node_id) %>%
+                     select(pathString, scientific_id))
+# scientific_id is set as an attribute on leaf (species) nodes via as.Node()
 
-amphipod_tubes <- fouling$AddChild("FUNCTIONAL:AMPHIPOD_TUBES", node_name = "Amphipod tubes")
-Anemone        <- fouling$AddChild("FUNCTIONAL:ANEMONE", node_name = "Anemone")
-Barnacles       <- fouling$AddChild("FUNCTIONAL:BARNACLES", node_name = "Barnacles")
-Fisheggs <- fouling$AddChild("FUNCTIONAL:FISH_EGGS", node_name = "Fish eggs")
+# Set scientific_id on functional group (intermediate) nodes
+fg_id_lookup <- fouling_group_assignments %>%
+  distinct(fg, node_id) %>%
+  rename(fg_scientific_id = node_id)
 
-# Make sure if Turf Algae isn't already in the table: 
+for (i in seq_len(nrow(fg_id_lookup))) {
+  fg_node <- FindNode(fouling, fg_id_lookup$fg[i])
+  if (!is.null(fg_node)) {
+    fg_node$scientific_id <- fg_id_lookup$fg_scientific_id[i]
+  }
+}
+
+amphipod_tubes <- fouling$AddChild("Amphipod tubes", scientific_id = "FUNCTIONAL:AMPHIPOD_TUBES")
+Anemone        <- fouling$AddChild("Anemone", scientific_id = "FUNCTIONAL:ANEMONE")
+Barnacles       <- fouling$AddChild("Barnacles", scientific_id = "FUNCTIONAL:BARNACLES")
+Fisheggs <- fouling$AddChild("Fish eggs", scientific_id = "FUNCTIONAL:FISH_EGGS")
+
+# Make sure if Turf Algae isn't already in the table:
 check <- fouling_group_assignments %>%
   filter(scientific_id != node_id) %>%
   filter(node_id == "FUNCTIONAL:TURF_ALGAE")
 
 if(nrow(check) == 0){
-  turf_algae <- fouling$AddChild("FUNCTIONAL:TURF_ALGAE", node_name = "Turf Algae")
+  turf_algae <- fouling$AddChild("Turf Algae", scientific_id = "FUNCTIONAL:TURF_ALGAE")
 }
 
-print(fouling, "node_name", limit = 20)
+print(fouling, "scientific_id", limit = 20)
 
-output_network_df <- ToDataFrameNetwork(fouling, "node_name", direction = "descend")
-head(output_network_df)
-
-# Add node name for groups
-group_df <- fouling_group_assignments_in %>%
-  count(fg) %>%
-  mutate(from = paste0(
-    "FUNCTIONAL:",
-    toupper(gsub(" ", "_", fg))
-  )) %>%
-  select(-n) %>%
-  rename(new_node_name = fg)
-  
+output_network_df <- ToDataFrameNetwork(fouling, "scientific_id", direction = "descend")
 
 output_network_df %>%
   mutate(tree_name = "fouling",
-        rank = NA,
-      definition = NA) %>%
-  left_join(group_df) %>%
-  mutate(node_name = case_when(
-    is.na(node_name) ~ new_node_name,
-    T ~ node_name
-  )) %>%
-  select(from, to, node_name, rank, definition, tree_name) %>%
+         rank = NA,
+         definition = NA) %>%
+  select(from, to, scientific_id, rank, definition, tree_name) %>%
   write_csv("taxonomy-and-functional-groups/functional-group-lookup/fouling.csv")

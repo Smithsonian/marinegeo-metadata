@@ -1,257 +1,259 @@
-from,to,node_name,rank,definition,tree_name
-FUNCTIONAL:MOBILE,fouling,Mobile,NA,NA,fouling
-FUNCTIONAL:ENCRUSTING_BRYOZOAN,fouling,Encrusting bryozoan,NA,NA,fouling
-FUNCTIONAL:ANEMONE,fouling,Anemone,NA,NA,fouling
-FUNCTIONAL:ARBORESCENT_BRYOZOAN,fouling,Arborescent bryozoan,NA,NA,fouling
-FUNCTIONAL:BARNACLES,fouling,Barnacles,NA,NA,fouling
-FUNCTIONAL:MUSSEL,fouling,Mussel,NA,NA,fouling
-FUNCTIONAL:OTHER_BIVALVES,fouling,Other bivalves,NA,NA,fouling
-FUNCTIONAL:COLONIAL_ASCIDIAN,fouling,Colonial ascidian,NA,NA,fouling
-FUNCTIONAL:OTHER_POLYCHAETES,fouling,Other polychaetes,NA,NA,fouling
-FUNCTIONAL:SOLITARY_ASCIDIAN,fouling,Solitary ascidian,NA,NA,fouling
-FUNCTIONAL:KAMPTOZOA,fouling,Kamptozoa,NA,NA,fouling
-FUNCTIONAL:SPONGE,fouling,Sponge,NA,NA,fouling
-FUNCTIONAL:SABELLID,fouling,Sabellid,NA,NA,fouling
-FUNCTIONAL:HYDROID,fouling,Hydroid,NA,NA,fouling
-FUNCTIONAL:AMPHIPOD_TUBES,fouling,Amphipod tubes,NA,NA,fouling
-FUNCTIONAL:OYSTER,fouling,Oyster,NA,NA,fouling
-FUNCTIONAL:CREPIDULA,fouling,Crepidula,NA,NA,fouling
-FUNCTIONAL:SERPULIDAE,fouling,Serpulidae,NA,NA,fouling
-FUNCTIONAL:VERMETID,fouling,Vermetid,NA,NA,fouling
-FUNCTIONAL:SER,fouling,Ser,NA,NA,fouling
-FUNCTIONAL:TEREBELLID,fouling,Terebellid,NA,NA,fouling
-FUNCTIONAL:FISH_EGGS,fouling,Fish eggs,NA,NA,fouling
-FUNCTIONAL:TURF_ALGAE,fouling,Turf Algae,NA,NA,fouling
-APHIA:160065,FUNCTIONAL:MOBILE,Acteocina canaliculata,NA,NA,fouling
-APHIA:106978,FUNCTIONAL:MOBILE,Alpheus sp,NA,NA,fouling
-APHIA:101445,FUNCTIONAL:MOBILE,Ampelisca sp,NA,NA,fouling
-UNDEFINED:AMPHITHOE_LONGIMANA,FUNCTIONAL:MOBILE,Amphithoe longimana,NA,NA,fouling
-UNDEFINED:AMPHITHOE_RAMONDI,FUNCTIONAL:MOBILE,Amphithoe ramondi,NA,NA,fouling
-UNDEFINED:AMPHITHOE_SP,FUNCTIONAL:MOBILE,Amphithoe sp,NA,NA,fouling
-APHIA:157220,FUNCTIONAL:MOBILE,Armandia maculata,NA,NA,fouling
-APHIA:160102,FUNCTIONAL:MOBILE,Astyris lunata,NA,NA,fouling
-UNDEFINED:BITTIUM_VARIABILIS,FUNCTIONAL:MOBILE,Bittium variabilis,NA,NA,fouling
-APHIA:420437,FUNCTIONAL:MOBILE,Boonea impressa,NA,NA,fouling
-APHIA:131279,FUNCTIONAL:MOBILE,Branchiosyllis exilis,NA,NA,fouling
-APHIA:138940,FUNCTIONAL:MOBILE,Bulla striata,NA,NA,fouling
-APHIA:419588,FUNCTIONAL:MOBILE,Caecum floridanum,NA,NA,fouling
-APHIA:137718,FUNCTIONAL:MOBILE,Caecum sp,NA,NA,fouling
-APHIA:107379,FUNCTIONAL:MOBILE,Callinectes sapidus,NA,NA,fouling
-APHIA:101830,FUNCTIONAL:MOBILE,Caprella equilibra,NA,NA,fouling
-APHIA:101846,FUNCTIONAL:MOBILE,Caprella penantis,NA,NA,fouling
-APHIA:106674,FUNCTIONAL:MOBILE,Caridea,NA,NA,fouling
-APHIA:130372,FUNCTIONAL:MOBILE,Ceratonereis mirabilis,NA,NA,fouling
-APHIA:419522,FUNCTIONAL:MOBILE,Cerithium lutosum,NA,NA,fouling
-APHIA:160203,FUNCTIONAL:MOBILE,Circulus liratus,NA,NA,fouling
-APHIA:160222,FUNCTIONAL:MOBILE,Costoanachis avara,NA,NA,fouling
-APHIA:1137,FUNCTIONAL:MOBILE,Cumacea,NA,NA,fouling
-APHIA:138426,FUNCTIONAL:MOBILE,Cymatium sp,NA,NA,fouling
-APHIA:1130,FUNCTIONAL:MOBILE,Decapoda,NA,NA,fouling
-UNDEFINED:DECOPODA,FUNCTIONAL:MOBILE,Decopoda,NA,NA,fouling
-APHIA:129443,FUNCTIONAL:MOBILE,Eteone sp,NA,NA,fouling
-APHIA:333326,FUNCTIONAL:MOBILE,Eunice macrobranchia,NA,NA,fouling
-APHIA:256604,FUNCTIONAL:MOBILE,Eurydice littoralis,NA,NA,fouling
-APHIA:158416,FUNCTIONAL:MOBILE,Eurypanopeus depressus,NA,NA,fouling
-UNDEFINED:EXOCORALLANA_CF_TRICORNIS,FUNCTIONAL:MOBILE,Exocorallana cf tricornis,NA,NA,fouling
-APHIA:333453,FUNCTIONAL:MOBILE,Exogone dispar,NA,NA,fouling
-APHIA:101537,FUNCTIONAL:MOBILE,Gammarus sp,NA,NA,fouling
-FUNCTIONAL:GASTROPOD_EGGS,FUNCTIONAL:MOBILE,Gastropod eggs,NA,NA,fouling
-APHIA:101,FUNCTIONAL:MOBILE,Gastropoda,NA,NA,fouling
-APHIA:211405,FUNCTIONAL:MOBILE,Grandidierella bonnieroides,NA,NA,fouling
-APHIA:420524,FUNCTIONAL:MOBILE,Haminoea antillarum,NA,NA,fouling
-APHIA:129491,FUNCTIONAL:MOBILE,Harmothoe sp,NA,NA,fouling
-APHIA:158424,FUNCTIONAL:MOBILE,Hexapanopeus angustifrons,NA,NA,fouling
-UNDEFINED:HIPPOLYTE_PLEURACANTHUS,FUNCTIONAL:MOBILE,Hippolyte pleuracanthus,NA,NA,fouling
-APHIA:123083,FUNCTIONAL:MOBILE,Holothuroidea,NA,NA,fouling
-APHIA:421444,FUNCTIONAL:MOBILE,Hourstonius laguna,NA,NA,fouling
-APHIA:101571,FUNCTIONAL:MOBILE,Jassa cf slatteryi,NA,NA,fouling
-APHIA:422677,FUNCTIONAL:MOBILE,Lembos unifasciatus,NA,NA,fouling
-APHIA:136235,FUNCTIONAL:MOBILE,Leptochelia rapax complex,NA,NA,fouling
-APHIA:389832,FUNCTIONAL:MOBILE,Leucothoe ashleyae,NA,NA,fouling
-APHIA:107335,FUNCTIONAL:MOBILE,Libinia dubia,NA,NA,fouling
-APHIA:129337,FUNCTIONAL:MOBILE,Lumbrineris sp,NA,NA,fouling
-APHIA:158036,FUNCTIONAL:MOBILE,Lysianopsis alba,NA,NA,fouling
-UNDEFINED:MAERA_MIRANDA,FUNCTIONAL:MOBILE,Maera miranda,NA,NA,fouling
-UNDEFINED:MAJIIDAE,FUNCTIONAL:MOBILE,Majiidae,NA,NA,fouling
-APHIA:130075,FUNCTIONAL:MOBILE,Marphysa sanguinea,NA,NA,fouling
-APHIA:419905,FUNCTIONAL:MOBILE,Marshallora modesta,NA,NA,fouling
-APHIA:160363,FUNCTIONAL:MOBILE,Marshallora nigrocincta,NA,NA,fouling
-APHIA:419602,FUNCTIONAL:MOBILE,Meioceras nitidum,NA,NA,fouling
-UNDEFINED:MENIPPE_MERCINARIA,FUNCTIONAL:MOBILE,Menippe mercinaria,NA,NA,fouling
-APHIA:158428,FUNCTIONAL:MOBILE,Mithrax sp,NA,NA,fouling
-APHIA:160395,FUNCTIONAL:MOBILE,Nassarius acutus,NA,NA,fouling
-UNDEFINED:NEANTHES_SUCCINEA,FUNCTIONAL:MOBILE,Neanthes succinea,NA,NA,fouling
-APHIA:152391,FUNCTIONAL:MOBILE,Nemertea,NA,NA,fouling
-APHIA:174956,FUNCTIONAL:MOBILE,Neoleprea sp A GofMex,NA,NA,fouling
-APHIA:22496,FUNCTIONAL:MOBILE,Nereididae,NA,NA,fouling
-UNDEFINED:NERIES_SP,FUNCTIONAL:MOBILE,Neries sp,NA,NA,fouling
-UNDEFINED:NERITINA_VIRGINEA,FUNCTIONAL:MOBILE,Neritina virginea,NA,NA,fouling
-APHIA:420457,FUNCTIONAL:MOBILE,Odostomia laevigata,NA,NA,fouling
-APHIA:123084,FUNCTIONAL:MOBILE,Ophiuroidea,NA,NA,fouling
-APHIA:106687,FUNCTIONAL:MOBILE,Paguroidea,NA,NA,fouling
-UNDEFINED:PALAEMONETES_SP,FUNCTIONAL:MOBILE,Palaemonetes sp,NA,NA,fouling
-APHIA:158436,FUNCTIONAL:MOBILE,Panopeus herbstii,NA,NA,fouling
-APHIA:422085,FUNCTIONAL:MOBILE,Panopeus obesus,NA,NA,fouling
-APHIA:422086,FUNCTIONAL:MOBILE,Panopeus occidentalis,NA,NA,fouling
-APHIA:106937,FUNCTIONAL:MOBILE,Panopeus sp,NA,NA,fouling
-UNDEFINED:PARACAPRELLA_TENIUS,FUNCTIONAL:MOBILE,Paracaprella tenius,NA,NA,fouling
-APHIA:261817,FUNCTIONAL:MOBILE,Paracerceis caudata,NA,NA,fouling
-APHIA:261839,FUNCTIONAL:MOBILE,Paradella dianae,NA,NA,fouling
-APHIA:903,FUNCTIONAL:MOBILE,Paraonidae,NA,NA,fouling
-APHIA:160440,FUNCTIONAL:MOBILE,Parvanachis obesa,NA,NA,fouling
-UNDEFINED:PEDICELLARIA_SP,FUNCTIONAL:MOBILE,Pedicellaria sp,NA,NA,fouling
-UNDEFINED:PERICLIMENEUS_S,FUNCTIONAL:MOBILE,Periclimeneus s,NA,NA,fouling
-UNDEFINED:PERICLIMENEUS_SP,FUNCTIONAL:MOBILE,Periclimeneus sp,NA,NA,fouling
-APHIA:396707,FUNCTIONAL:MOBILE,Petrolisthes armatus,NA,NA,fouling
-APHIA:102383,FUNCTIONAL:MOBILE,Photis longicaudata,NA,NA,fouling
-APHIA:548675,FUNCTIONAL:MOBILE,Photis sarae,NA,NA,fouling
-APHIA:101563,FUNCTIONAL:MOBILE,Photis sp,NA,NA,fouling
-APHIA:931,FUNCTIONAL:MOBILE,Phyllodocidae,NA,NA,fouling
-APHIA:422105,FUNCTIONAL:MOBILE,Pilumnus sayi,NA,NA,fouling
-UNDEFINED:PINNIXA_FLORIDANA,FUNCTIONAL:MOBILE,Pinnixa floridana,NA,NA,fouling
-UNDEFINED:PODARKE_SP,FUNCTIONAL:MOBILE,Podarke sp,NA,NA,fouling
-APHIA:420149,FUNCTIONAL:MOBILE,Prunum apicinum,NA,NA,fouling
-APHIA:1302,FUNCTIONAL:MOBILE,Pycnogonida,NA,NA,fouling
-APHIA:421521,FUNCTIONAL:MOBILE,Quadrimaera miranda,NA,NA,fouling
-APHIA:107414,FUNCTIONAL:MOBILE,Rhithropanopeus harrisii,NA,NA,fouling
-APHIA:160053,FUNCTIONAL:MOBILE,Sinum perspectivum,NA,NA,fouling
-APHIA:220727,FUNCTIONAL:MOBILE,Sphaeroma walkeri,NA,NA,fouling
-APHIA:103175,FUNCTIONAL:MOBILE,Stenothoe valida,NA,NA,fouling
-APHIA:142245,FUNCTIONAL:MOBILE,Stylochus sp,NA,NA,fouling
-APHIA:948,FUNCTIONAL:MOBILE,Syllidae,NA,NA,fouling
-UNDEFINED:SYNALPHEUS_BREVECARPUS,FUNCTIONAL:MOBILE,Synalpheus brevecarpus,NA,NA,fouling
-APHIA:106982,FUNCTIONAL:MOBILE,Synalpheus sp,NA,NA,fouling
-APHIA:1133,FUNCTIONAL:MOBILE,Tanaidacea,NA,NA,fouling
-UNDEFINED:TRYPANOSYLLUS_SP,FUNCTIONAL:MOBILE,Trypanosyllus sp,NA,NA,fouling
-APHIA:111066,FUNCTIONAL:ENCRUSTING_BRYOZOAN,Aetea sica,NA,NA,fouling
-UNDEFINED:BOWERBANKIA_GRACILIS,FUNCTIONAL:ENCRUSTING_BRYOZOAN,Bowerbankia gracilis,NA,NA,fouling
-APHIA:146142,FUNCTIONAL:ENCRUSTING_BRYOZOAN,Bryozoa,NA,NA,fouling
-APHIA:394868,FUNCTIONAL:ENCRUSTING_BRYOZOAN,Celleporaria brunnea,NA,NA,fouling
-APHIA:422328,FUNCTIONAL:ENCRUSTING_BRYOZOAN,Celleporaria sherryae,NA,NA,fouling
-APHIA:205020,FUNCTIONAL:ENCRUSTING_BRYOZOAN,Celleporaria sp,NA,NA,fouling
-APHIA:607852,FUNCTIONAL:ENCRUSTING_BRYOZOAN,Conopeum chesapeakensis,NA,NA,fouling
-APHIA:159808,FUNCTIONAL:ENCRUSTING_BRYOZOAN,Conopeum tenuissimum,NA,NA,fouling
-APHIA:111389,FUNCTIONAL:ENCRUSTING_BRYOZOAN,Hippopodina feegeensis,NA,NA,fouling
-UNDEFINED:HIPPOPODINA_INDICA,FUNCTIONAL:ENCRUSTING_BRYOZOAN,Hippopodina indica,NA,NA,fouling
-APHIA:469112,FUNCTIONAL:ENCRUSTING_BRYOZOAN,Hippoporina indica,NA,NA,fouling
-UNDEFINED:NOELLA_STIPATA,FUNCTIONAL:ENCRUSTING_BRYOZOAN,Noella stipata,NA,NA,fouling
-APHIA:422348,FUNCTIONAL:ENCRUSTING_BRYOZOAN,Parasmittina nitida,NA,NA,fouling
-APHIA:422362,FUNCTIONAL:ENCRUSTING_BRYOZOAN,Schizoporella floridana,NA,NA,fouling
-APHIA:422363,FUNCTIONAL:ENCRUSTING_BRYOZOAN,Schizoporella pungens,NA,NA,fouling
-APHIA:111592,FUNCTIONAL:ENCRUSTING_BRYOZOAN,Watersipora subtorquata,NA,NA,fouling
-APHIA:422418,FUNCTIONAL:ARBORESCENT_BRYOZOAN,Amathia alternata,NA,NA,fouling
-APHIA:111656,FUNCTIONAL:ARBORESCENT_BRYOZOAN,Amathia distans,NA,NA,fouling
-APHIA:851589,FUNCTIONAL:ARBORESCENT_BRYOZOAN,Amathia gracilis,NA,NA,fouling
-APHIA:851581,FUNCTIONAL:ARBORESCENT_BRYOZOAN,Amathia verticillata,NA,NA,fouling
-UNDEFINED:AMATHIA_VIDOCICI,FUNCTIONAL:ARBORESCENT_BRYOZOAN,Amathia vidocici,NA,NA,fouling
-APHIA:111631,FUNCTIONAL:ARBORESCENT_BRYOZOAN,Anguinella palmata,NA,NA,fouling
-APHIA:111158,FUNCTIONAL:ARBORESCENT_BRYOZOAN,Bugula neritina,NA,NA,fouling
-UNDEFINED:BUGULA_STOLONIFERA,FUNCTIONAL:ARBORESCENT_BRYOZOAN,Bugula stolonifera,NA,NA,fouling
-APHIA:422314,FUNCTIONAL:ARBORESCENT_BRYOZOAN,Catenicella uberrima,NA,NA,fouling
-APHIA:448282,FUNCTIONAL:ARBORESCENT_BRYOZOAN,Caulibugula armata,NA,NA,fouling
-APHIA:738972,FUNCTIONAL:ARBORESCENT_BRYOZOAN,Cradoscrupocellaria atlantica,NA,NA,fouling
-APHIA:738973,FUNCTIONAL:ARBORESCENT_BRYOZOAN,Cradoscrupocellaria bertholletii,NA,NA,fouling
-APHIA:111696,FUNCTIONAL:ARBORESCENT_BRYOZOAN,Crisia eburnea,NA,NA,fouling
-APHIA:760385,FUNCTIONAL:ARBORESCENT_BRYOZOAN,Licornia regularis,NA,NA,fouling
-APHIA:111512,FUNCTIONAL:ARBORESCENT_BRYOZOAN,Savignyella lafontii,NA,NA,fouling
-APHIA:152168,FUNCTIONAL:ARBORESCENT_BRYOZOAN,Tridentata sp,NA,NA,fouling
-APHIA:111673,FUNCTIONAL:ARBORESCENT_BRYOZOAN,Victorella pavida,NA,NA,fouling
-UNDEFINED:AMYGDALUM_PAPYRIUM,FUNCTIONAL:MUSSEL,Amygdalum papyrium,NA,NA,fouling
-APHIA:505948,FUNCTIONAL:MUSSEL,Arcuatula papyria,NA,NA,fouling
-APHIA:397026,FUNCTIONAL:MUSSEL,Brachidontes exustus,NA,NA,fouling
-UNDEFINED:MIODIOLUS_MODIOLUS,FUNCTIONAL:MUSSEL,Miodiolus modiolus,NA,NA,fouling
-APHIA:420707,FUNCTIONAL:MUSSEL,Musculus lateralis,NA,NA,fouling
-APHIA:156887,FUNCTIONAL:MUSSEL,Mytilopsis leucophaeata,NA,NA,fouling
-APHIA:156734,FUNCTIONAL:OTHER_BIVALVES,Anadara transversa,NA,NA,fouling
-APHIA:156737,FUNCTIONAL:OTHER_BIVALVES,Anomia simplex,NA,NA,fouling
-APHIA:207901,FUNCTIONAL:OTHER_BIVALVES,Pinctada imbricata,NA,NA,fouling
-APHIA:420734,FUNCTIONAL:OTHER_BIVALVES,Pinctada longisquamosa,NA,NA,fouling
-APHIA:420973,FUNCTIONAL:OTHER_BIVALVES,Sphenia fragilis,NA,NA,fouling
-APHIA:249816,FUNCTIONAL:COLONIAL_ASCIDIAN,Aplidium antillense,NA,NA,fouling
-APHIA:103471,FUNCTIONAL:COLONIAL_ASCIDIAN,Aplidium sp,NA,NA,fouling
-UNDEFINED:BOTRYLLOIDES_NIGRUM,FUNCTIONAL:COLONIAL_ASCIDIAN,Botrylloides nigrum,NA,NA,fouling
-APHIA:215992,FUNCTIONAL:COLONIAL_ASCIDIAN,Botryllus planus,NA,NA,fouling
-APHIA:103862,FUNCTIONAL:COLONIAL_ASCIDIAN,Botryllus schlosseri,NA,NA,fouling
-APHIA:103529,FUNCTIONAL:COLONIAL_ASCIDIAN,Botryllus sp nov,NA,NA,fouling
-APHIA:103554,FUNCTIONAL:COLONIAL_ASCIDIAN,Clavelina oblonga,NA,NA,fouling
-APHIA:250323,FUNCTIONAL:COLONIAL_ASCIDIAN,Clavelina picta,NA,NA,fouling
-APHIA:103439,FUNCTIONAL:COLONIAL_ASCIDIAN,Didemnidae,NA,NA,fouling
-APHIA:212506,FUNCTIONAL:COLONIAL_ASCIDIAN,Didemnum perlucidum,NA,NA,fouling
-APHIA:252853,FUNCTIONAL:COLONIAL_ASCIDIAN,Didemnum psammatodes,NA,NA,fouling
-APHIA:103456,FUNCTIONAL:COLONIAL_ASCIDIAN,Didemnum sp,NA,NA,fouling
-APHIA:250134,FUNCTIONAL:COLONIAL_ASCIDIAN,Diplosoma glandulosum,NA,NA,fouling
-APHIA:103579,FUNCTIONAL:COLONIAL_ASCIDIAN,Diplosoma listerianum,NA,NA,fouling
-APHIA:103457,FUNCTIONAL:COLONIAL_ASCIDIAN,Diplosoma sp,NA,NA,fouling
-APHIA:103582,FUNCTIONAL:COLONIAL_ASCIDIAN,Diplosoma spongiforme,NA,NA,fouling
-APHIA:103604,FUNCTIONAL:COLONIAL_ASCIDIAN,Distaplia bermudensis,NA,NA,fouling
-APHIA:103756,FUNCTIONAL:COLONIAL_ASCIDIAN,Ecteinascidia turbinata,NA,NA,fouling
-APHIA:250201,FUNCTIONAL:COLONIAL_ASCIDIAN,Eudistoma capsulatum,NA,NA,fouling
-APHIA:250236,FUNCTIONAL:COLONIAL_ASCIDIAN,Eudistoma olivaceum,NA,NA,fouling
-APHIA:103465,FUNCTIONAL:COLONIAL_ASCIDIAN,Eudistoma sp nov,NA,NA,fouling
-APHIA:103459,FUNCTIONAL:COLONIAL_ASCIDIAN,Lissoclinum sp,NA,NA,fouling
-APHIA:103761,FUNCTIONAL:COLONIAL_ASCIDIAN,Perophora viridis,NA,NA,fouling
-APHIA:103895,FUNCTIONAL:COLONIAL_ASCIDIAN,Polyandrocarpa zorritensis,NA,NA,fouling
-APHIA:215891,FUNCTIONAL:COLONIAL_ASCIDIAN,Polyclinum constellatum,NA,NA,fouling
-APHIA:251435,FUNCTIONAL:COLONIAL_ASCIDIAN,Symplegma brakenhielmi,NA,NA,fouling
-APHIA:212500,FUNCTIONAL:COLONIAL_ASCIDIAN,Symplegma rubra,NA,NA,fouling
-APHIA:129199,FUNCTIONAL:OTHER_POLYCHAETES,Arabella sp,NA,NA,fouling
-APHIA:209871,FUNCTIONAL:OTHER_POLYCHAETES,Cirriformia filigera,NA,NA,fouling
-UNDEFINED:DORVILLIA_SP,FUNCTIONAL:OTHER_POLYCHAETES,Dorvillia sp,NA,NA,fouling
-APHIA:330550,FUNCTIONAL:OTHER_POLYCHAETES,Phragmatopoma caudata,NA,NA,fouling
-APHIA:131143,FUNCTIONAL:OTHER_POLYCHAETES,Polydora cornuta,NA,NA,fouling
-APHIA:249968,FUNCTIONAL:SOLITARY_ASCIDIAN,Ascidia archaia,NA,NA,fouling
-APHIA:249981,FUNCTIONAL:SOLITARY_ASCIDIAN,Ascidia curvata,NA,NA,fouling
-APHIA:103483,FUNCTIONAL:SOLITARY_ASCIDIAN,Ascidia sp,NA,NA,fouling
-APHIA:215940,FUNCTIONAL:SOLITARY_ASCIDIAN,Ascidia sydneiensis,NA,NA,fouling
-APHIA:103830,FUNCTIONAL:SOLITARY_ASCIDIAN,Herdmania momus,NA,NA,fouling
-APHIA:103838,FUNCTIONAL:SOLITARY_ASCIDIAN,Microcosmus exasperatus,NA,NA,fouling
-APHIA:103788,FUNCTIONAL:SOLITARY_ASCIDIAN,Molgula manhattensis,NA,NA,fouling
-APHIA:103790,FUNCTIONAL:SOLITARY_ASCIDIAN,Molgula occidentalis,NA,NA,fouling
-APHIA:103725,FUNCTIONAL:SOLITARY_ASCIDIAN,Phallusia nigra,NA,NA,fouling
-APHIA:103926,FUNCTIONAL:SOLITARY_ASCIDIAN,Styela canopus,NA,NA,fouling
-APHIA:103936,FUNCTIONAL:SOLITARY_ASCIDIAN,Styela plicata,NA,NA,fouling
-APHIA:111800,FUNCTIONAL:KAMPTOZOA,Barentsia benedeni,NA,NA,fouling
-APHIA:168252,FUNCTIONAL:SPONGE,Biemna caribea,NA,NA,fouling
-APHIA:131804,FUNCTIONAL:SPONGE,Ciocalypta sp,NA,NA,fouling
-APHIA:131729,FUNCTIONAL:SPONGE,Clathrina sp,NA,NA,fouling
-APHIA:132005,FUNCTIONAL:SPONGE,Geodia sp,NA,NA,fouling
-APHIA:131807,FUNCTIONAL:SPONGE,Halichondria cf magniconulosa,NA,NA,fouling
-UNDEFINED:HALICLONA_IMPLEXIFORMIS,FUNCTIONAL:SPONGE,Haliclona implexiformis,NA,NA,fouling
-APHIA:166490,FUNCTIONAL:SPONGE,Haliclona tubulifera,NA,NA,fouling
-UNDEFINED:MYCALE_MICROSIGMATOSA,FUNCTIONAL:SPONGE,Mycale microsigmatosa,NA,NA,fouling
-APHIA:558,FUNCTIONAL:SPONGE,Porifera,NA,NA,fouling
-APHIA:132251,FUNCTIONAL:SPONGE,Sycon ciliatum,NA,NA,fouling
-APHIA:404078,FUNCTIONAL:SPONGE,Tedania ignis,NA,NA,fouling
-APHIA:421069,FUNCTIONAL:SABELLID,Bispira brunnea,NA,NA,fouling
-APHIA:421070,FUNCTIONAL:SABELLID,Branchiomma bairdi,NA,NA,fouling
-APHIA:209930,FUNCTIONAL:SABELLID,Branchiomma nigromaculatum,NA,NA,fouling
-APHIA:530659,FUNCTIONAL:SABELLID,Parasabella aberrans,NA,NA,fouling
-APHIA:1299057,FUNCTIONAL:SABELLID,Parasabella crassichaetae,NA,NA,fouling
-APHIA:530927,FUNCTIONAL:SABELLID,Parasabella microphthalma,NA,NA,fouling
-APHIA:325958,FUNCTIONAL:SABELLID,Parasabella sp,NA,NA,fouling
-APHIA:985,FUNCTIONAL:SABELLID,Sabellidae,NA,NA,fouling
-APHIA:157917,FUNCTIONAL:HYDROID,Bougainvillia carolinensis,NA,NA,fouling
-APHIA:1267,FUNCTIONAL:HYDROID,Cnidaria,NA,NA,fouling
-APHIA:117545,FUNCTIONAL:HYDROID,Eudendrium carneum,NA,NA,fouling
-APHIA:117093,FUNCTIONAL:HYDROID,Eudendrium sp,NA,NA,fouling
-APHIA:1337,FUNCTIONAL:HYDROID,Hydrozoa,NA,NA,fouling
-APHIA:117034,FUNCTIONAL:HYDROID,Obelia sp,NA,NA,fouling
-APHIA:117234,FUNCTIONAL:HYDROID,Sertularia sp,NA,NA,fouling
-APHIA:140657,FUNCTIONAL:OYSTER,Crassostrea virginica,NA,NA,fouling
-APHIA:420736,FUNCTIONAL:OYSTER,Isognomon alatus,NA,NA,fouling
-APHIA:419702,FUNCTIONAL:CREPIDULA,Crepidula atrasolea,NA,NA,fouling
-APHIA:419703,FUNCTIONAL:CREPIDULA,Crepidula depressa,NA,NA,fouling
-APHIA:137722,FUNCTIONAL:CREPIDULA,Crepidula sp,NA,NA,fouling
-APHIA:597421,FUNCTIONAL:CREPIDULA,Sigapatella novaezelandiae,NA,NA,fouling
-APHIA:129563,FUNCTIONAL:SERPULIDAE,Filograna sp,NA,NA,fouling
-APHIA:131000,FUNCTIONAL:SERPULIDAE,Hydroides dianthus,NA,NA,fouling
-UNDEFINED:HYDROIDES_DIRAMPHUS,FUNCTIONAL:SERPULIDAE,Hydroides diramphus,NA,NA,fouling
-APHIA:131002,FUNCTIONAL:SERPULIDAE,Hydroides elegans,NA,NA,fouling
-APHIA:333645,FUNCTIONAL:SERPULIDAE,Hydroides sanctaecrucis,NA,NA,fouling
-APHIA:129566,FUNCTIONAL:SERPULIDAE,Hydroides sp,NA,NA,fouling
-APHIA:988,FUNCTIONAL:SERPULIDAE,Serpulidae,NA,NA,fouling
-UNDEFINED:SPIRORBIDAE,FUNCTIONAL:SERPULIDAE,Spirorbidae,NA,NA,fouling
-APHIA:419554,FUNCTIONAL:VERMETID,Petaloconchus varians,NA,NA,fouling
-APHIA:369269,FUNCTIONAL:SER,Salmacina huxleyi,NA,NA,fouling
-UNDEFINED:STREBLOSOMA_VERRILLI,FUNCTIONAL:TEREBELLID,Streblosoma verrilli,NA,NA,fouling
-APHIA:982,FUNCTIONAL:TEREBELLID,Terebellidae,NA,NA,fouling
+from,to,scientific_id,rank,definition,tree_name
+fouling/Mobile,fouling,FUNCTIONAL:MOBILE,NA,NA,fouling
+fouling/Encrusting bryozoan,fouling,FUNCTIONAL:ENCRUSTING_BRYOZOAN,NA,NA,fouling
+fouling/Anemone,fouling,FUNCTIONAL:ANEMONE,NA,NA,fouling
+fouling/Arborescent bryozoan,fouling,FUNCTIONAL:ARBORESCENT_BRYOZOAN,NA,NA,fouling
+fouling/Barnacles,fouling,FUNCTIONAL:BARNACLES,NA,NA,fouling
+fouling/Mussel,fouling,FUNCTIONAL:MUSSEL,NA,NA,fouling
+fouling/Other bivalves,fouling,FUNCTIONAL:OTHER_BIVALVES,NA,NA,fouling
+fouling/Colonial ascidian,fouling,FUNCTIONAL:COLONIAL_ASCIDIAN,NA,NA,fouling
+fouling/Other polychaetes,fouling,FUNCTIONAL:OTHER_POLYCHAETES,NA,NA,fouling
+fouling/Solitary ascidian,fouling,FUNCTIONAL:SOLITARY_ASCIDIAN,NA,NA,fouling
+fouling/Kamptozoa,fouling,FUNCTIONAL:KAMPTOZOA,NA,NA,fouling
+fouling/Sponge,fouling,FUNCTIONAL:SPONGE,NA,NA,fouling
+fouling/Sabellid,fouling,FUNCTIONAL:SABELLID,NA,NA,fouling
+fouling/Hydroid,fouling,FUNCTIONAL:HYDROID,NA,NA,fouling
+fouling/Amphipod tubes,fouling,FUNCTIONAL:AMPHIPOD_TUBES,NA,NA,fouling
+fouling/Oyster,fouling,FUNCTIONAL:OYSTER,NA,NA,fouling
+fouling/Crepidula,fouling,FUNCTIONAL:CREPIDULA,NA,NA,fouling
+fouling/Serpulidae,fouling,FUNCTIONAL:SERPULIDAE,NA,NA,fouling
+fouling/Vermetid,fouling,FUNCTIONAL:VERMETID,NA,NA,fouling
+fouling/Ser,fouling,FUNCTIONAL:SER,NA,NA,fouling
+fouling/Terebellid,fouling,FUNCTIONAL:TEREBELLID,NA,NA,fouling
+fouling/Fish eggs,fouling,FUNCTIONAL:FISH_EGGS,NA,NA,fouling
+fouling/Turf Algae,fouling,FUNCTIONAL:TURF_ALGAE,NA,NA,fouling
+fouling/Mobile/Acteocina canaliculata,fouling/Mobile,APHIA:160065,NA,NA,fouling
+fouling/Mobile/Alpheus sp,fouling/Mobile,APHIA:106978,NA,NA,fouling
+fouling/Mobile/Ampelisca sp,fouling/Mobile,APHIA:101445,NA,NA,fouling
+fouling/Mobile/Amphithoe longimana,fouling/Mobile,UNDEFINED:AMPHITHOE_LONGIMANA,NA,NA,fouling
+fouling/Mobile/Amphithoe ramondi,fouling/Mobile,UNDEFINED:AMPHITHOE_RAMONDI,NA,NA,fouling
+fouling/Mobile/Amphithoe sp,fouling/Mobile,UNDEFINED:AMPHITHOE_SP,NA,NA,fouling
+fouling/Mobile/Armandia maculata,fouling/Mobile,APHIA:157220,NA,NA,fouling
+fouling/Mobile/Astyris lunata,fouling/Mobile,APHIA:160102,NA,NA,fouling
+fouling/Mobile/Bittium variabilis,fouling/Mobile,UNDEFINED:BITTIUM_VARIABILIS,NA,NA,fouling
+fouling/Mobile/Boonea impressa,fouling/Mobile,APHIA:420437,NA,NA,fouling
+fouling/Mobile/Branchiosyllis exilis,fouling/Mobile,APHIA:131279,NA,NA,fouling
+fouling/Mobile/Bulla striata,fouling/Mobile,APHIA:138940,NA,NA,fouling
+fouling/Mobile/Caecum floridanum,fouling/Mobile,APHIA:419588,NA,NA,fouling
+fouling/Mobile/Caecum sp,fouling/Mobile,APHIA:137718,NA,NA,fouling
+fouling/Mobile/Callinectes sapidus,fouling/Mobile,APHIA:107379,NA,NA,fouling
+fouling/Mobile/Caprella equilibra,fouling/Mobile,APHIA:101830,NA,NA,fouling
+fouling/Mobile/Caprella penantis,fouling/Mobile,APHIA:101846,NA,NA,fouling
+fouling/Mobile/Caridea,fouling/Mobile,APHIA:106674,NA,NA,fouling
+fouling/Mobile/Ceratonereis mirabilis,fouling/Mobile,APHIA:130372,NA,NA,fouling
+fouling/Mobile/Cerithium lutosum,fouling/Mobile,APHIA:419522,NA,NA,fouling
+fouling/Mobile/Circulus liratus,fouling/Mobile,APHIA:160203,NA,NA,fouling
+fouling/Mobile/Costoanachis avara,fouling/Mobile,APHIA:160222,NA,NA,fouling
+fouling/Mobile/Cumacea,fouling/Mobile,APHIA:1137,NA,NA,fouling
+fouling/Mobile/Cymatium sp,fouling/Mobile,APHIA:138426,NA,NA,fouling
+fouling/Mobile/Decapoda,fouling/Mobile,APHIA:1130,NA,NA,fouling
+fouling/Mobile/Decopoda,fouling/Mobile,UNDEFINED:DECOPODA,NA,NA,fouling
+fouling/Mobile/Eteone sp,fouling/Mobile,APHIA:129443,NA,NA,fouling
+fouling/Mobile/Eunice macrobranchia,fouling/Mobile,APHIA:333326,NA,NA,fouling
+fouling/Mobile/Eurydice littoralis,fouling/Mobile,APHIA:256604,NA,NA,fouling
+fouling/Mobile/Eurypanopeus depressus,fouling/Mobile,APHIA:158416,NA,NA,fouling
+fouling/Mobile/Exocorallana cf tricornis,fouling/Mobile,UNDEFINED:EXOCORALLANA_CF_TRICORNIS,NA,NA,fouling
+fouling/Mobile/Exogone dispar,fouling/Mobile,APHIA:333453,NA,NA,fouling
+fouling/Mobile/Gammarus sp,fouling/Mobile,APHIA:101537,NA,NA,fouling
+fouling/Mobile/Gastropod eggs,fouling/Mobile,FUNCTIONAL:GASTROPOD_EGGS,NA,NA,fouling
+fouling/Mobile/Gastropoda,fouling/Mobile,APHIA:101,NA,NA,fouling
+fouling/Mobile/Grandidierella bonnieroides,fouling/Mobile,APHIA:211405,NA,NA,fouling
+fouling/Mobile/Haminoea antillarum,fouling/Mobile,APHIA:420524,NA,NA,fouling
+fouling/Mobile/Harmothoe sp,fouling/Mobile,APHIA:129491,NA,NA,fouling
+fouling/Mobile/Hexapanopeus angustifrons,fouling/Mobile,APHIA:158424,NA,NA,fouling
+fouling/Mobile/Hippolyte pleuracanthus,fouling/Mobile,UNDEFINED:HIPPOLYTE_PLEURACANTHUS,NA,NA,fouling
+fouling/Mobile/Holothuroidea,fouling/Mobile,APHIA:123083,NA,NA,fouling
+fouling/Mobile/Hourstonius laguna,fouling/Mobile,APHIA:421444,NA,NA,fouling
+fouling/Mobile/Jassa cf slatteryi,fouling/Mobile,APHIA:101571,NA,NA,fouling
+fouling/Mobile/Lembos unifasciatus,fouling/Mobile,APHIA:422677,NA,NA,fouling
+fouling/Mobile/Leptochelia rapax complex,fouling/Mobile,APHIA:136235,NA,NA,fouling
+fouling/Mobile/Leucothoe ashleyae,fouling/Mobile,APHIA:389832,NA,NA,fouling
+fouling/Mobile/Libinia dubia,fouling/Mobile,APHIA:107335,NA,NA,fouling
+fouling/Mobile/Lumbrineris sp,fouling/Mobile,APHIA:129337,NA,NA,fouling
+fouling/Mobile/Lysianopsis alba,fouling/Mobile,APHIA:158036,NA,NA,fouling
+fouling/Mobile/Maera miranda,fouling/Mobile,UNDEFINED:MAERA_MIRANDA,NA,NA,fouling
+fouling/Mobile/Majiidae,fouling/Mobile,UNDEFINED:MAJIIDAE,NA,NA,fouling
+fouling/Mobile/Marphysa sanguinea,fouling/Mobile,APHIA:130075,NA,NA,fouling
+fouling/Mobile/Marshallora modesta,fouling/Mobile,APHIA:419905,NA,NA,fouling
+fouling/Mobile/Marshallora nigrocincta,fouling/Mobile,APHIA:160363,NA,NA,fouling
+fouling/Mobile/Meioceras nitidum,fouling/Mobile,APHIA:419602,NA,NA,fouling
+fouling/Mobile/Menippe mercinaria,fouling/Mobile,UNDEFINED:MENIPPE_MERCINARIA,NA,NA,fouling
+fouling/Mobile/Mithrax sp,fouling/Mobile,APHIA:158428,NA,NA,fouling
+fouling/Mobile/Nassarius acutus,fouling/Mobile,APHIA:160395,NA,NA,fouling
+fouling/Mobile/Neanthes succinea,fouling/Mobile,UNDEFINED:NEANTHES_SUCCINEA,NA,NA,fouling
+fouling/Mobile/Nemertea,fouling/Mobile,APHIA:152391,NA,NA,fouling
+fouling/Mobile/Neoleprea sp A GofMex,fouling/Mobile,APHIA:174956,NA,NA,fouling
+fouling/Mobile/Nereididae,fouling/Mobile,APHIA:22496,NA,NA,fouling
+fouling/Mobile/Neries sp,fouling/Mobile,UNDEFINED:NERIES_SP,NA,NA,fouling
+fouling/Mobile/Neritina virginea,fouling/Mobile,UNDEFINED:NERITINA_VIRGINEA,NA,NA,fouling
+fouling/Mobile/Odostomia laevigata,fouling/Mobile,APHIA:420457,NA,NA,fouling
+fouling/Mobile/Ophiuroidea,fouling/Mobile,APHIA:123084,NA,NA,fouling
+fouling/Mobile/Paguroidea,fouling/Mobile,APHIA:106687,NA,NA,fouling
+fouling/Mobile/Palaemonetes sp,fouling/Mobile,UNDEFINED:PALAEMONETES_SP,NA,NA,fouling
+fouling/Mobile/Panopeus herbstii,fouling/Mobile,APHIA:158436,NA,NA,fouling
+fouling/Mobile/Panopeus obesus,fouling/Mobile,APHIA:422085,NA,NA,fouling
+fouling/Mobile/Panopeus occidentalis,fouling/Mobile,APHIA:422086,NA,NA,fouling
+fouling/Mobile/Panopeus sp,fouling/Mobile,APHIA:106937,NA,NA,fouling
+fouling/Mobile/Paracaprella tenius,fouling/Mobile,UNDEFINED:PARACAPRELLA_TENIUS,NA,NA,fouling
+fouling/Mobile/Paracerceis caudata,fouling/Mobile,APHIA:261817,NA,NA,fouling
+fouling/Mobile/Paradella dianae,fouling/Mobile,APHIA:261839,NA,NA,fouling
+fouling/Mobile/Paraonidae,fouling/Mobile,APHIA:903,NA,NA,fouling
+fouling/Mobile/Parvanachis obesa,fouling/Mobile,APHIA:160440,NA,NA,fouling
+fouling/Mobile/Pedicellaria sp,fouling/Mobile,UNDEFINED:PEDICELLARIA_SP,NA,NA,fouling
+fouling/Mobile/Periclimeneus s,fouling/Mobile,UNDEFINED:PERICLIMENEUS_S,NA,NA,fouling
+fouling/Mobile/Periclimeneus sp,fouling/Mobile,UNDEFINED:PERICLIMENEUS_SP,NA,NA,fouling
+fouling/Mobile/Petrolisthes armatus,fouling/Mobile,APHIA:396707,NA,NA,fouling
+fouling/Mobile/Photis longicaudata,fouling/Mobile,APHIA:102383,NA,NA,fouling
+fouling/Mobile/Photis sarae,fouling/Mobile,APHIA:548675,NA,NA,fouling
+fouling/Mobile/Photis sp,fouling/Mobile,APHIA:101563,NA,NA,fouling
+fouling/Mobile/Phyllodocidae,fouling/Mobile,APHIA:931,NA,NA,fouling
+fouling/Mobile/Pilumnus sayi,fouling/Mobile,APHIA:422105,NA,NA,fouling
+fouling/Mobile/Pinnixa floridana,fouling/Mobile,UNDEFINED:PINNIXA_FLORIDANA,NA,NA,fouling
+fouling/Mobile/Podarke sp,fouling/Mobile,UNDEFINED:PODARKE_SP,NA,NA,fouling
+fouling/Mobile/Prunum apicinum,fouling/Mobile,APHIA:420149,NA,NA,fouling
+fouling/Mobile/Pycnogonida,fouling/Mobile,APHIA:1302,NA,NA,fouling
+fouling/Mobile/Quadrimaera miranda,fouling/Mobile,APHIA:421521,NA,NA,fouling
+fouling/Mobile/Rhithropanopeus harrisii,fouling/Mobile,APHIA:107414,NA,NA,fouling
+fouling/Mobile/Sinum perspectivum,fouling/Mobile,APHIA:160053,NA,NA,fouling
+fouling/Mobile/Sphaeroma walkeri,fouling/Mobile,APHIA:220727,NA,NA,fouling
+fouling/Mobile/Stenothoe valida,fouling/Mobile,APHIA:103175,NA,NA,fouling
+fouling/Mobile/Stylochus sp,fouling/Mobile,APHIA:142245,NA,NA,fouling
+fouling/Mobile/Syllidae,fouling/Mobile,APHIA:948,NA,NA,fouling
+fouling/Mobile/Synalpheus brevecarpus,fouling/Mobile,UNDEFINED:SYNALPHEUS_BREVECARPUS,NA,NA,fouling
+fouling/Mobile/Synalpheus sp,fouling/Mobile,APHIA:106982,NA,NA,fouling
+fouling/Mobile/Tanaidacea,fouling/Mobile,APHIA:1133,NA,NA,fouling
+fouling/Mobile/Trypanosyllus sp,fouling/Mobile,UNDEFINED:TRYPANOSYLLUS_SP,NA,NA,fouling
+fouling/Encrusting bryozoan/Aetea sica,fouling/Encrusting bryozoan,APHIA:111066,NA,NA,fouling
+fouling/Encrusting bryozoan/Bowerbankia gracilis,fouling/Encrusting bryozoan,UNDEFINED:BOWERBANKIA_GRACILIS,NA,NA,fouling
+fouling/Encrusting bryozoan/Bryozoa,fouling/Encrusting bryozoan,APHIA:146142,NA,NA,fouling
+fouling/Encrusting bryozoan/Celleporaria brunnea,fouling/Encrusting bryozoan,APHIA:394868,NA,NA,fouling
+fouling/Encrusting bryozoan/Celleporaria sherryae,fouling/Encrusting bryozoan,APHIA:422328,NA,NA,fouling
+fouling/Encrusting bryozoan/Celleporaria sp,fouling/Encrusting bryozoan,APHIA:205020,NA,NA,fouling
+fouling/Encrusting bryozoan/Conopeum chesapeakensis,fouling/Encrusting bryozoan,APHIA:607852,NA,NA,fouling
+fouling/Encrusting bryozoan/Conopeum tenuissimum,fouling/Encrusting bryozoan,APHIA:159808,NA,NA,fouling
+fouling/Encrusting bryozoan/Hippopodina feegeensis,fouling/Encrusting bryozoan,APHIA:111389,NA,NA,fouling
+fouling/Encrusting bryozoan/Hippopodina indica,fouling/Encrusting bryozoan,UNDEFINED:HIPPOPODINA_INDICA,NA,NA,fouling
+fouling/Encrusting bryozoan/Hippoporina indica,fouling/Encrusting bryozoan,APHIA:469112,NA,NA,fouling
+fouling/Encrusting bryozoan/Noella stipata,fouling/Encrusting bryozoan,UNDEFINED:NOELLA_STIPATA,NA,NA,fouling
+fouling/Encrusting bryozoan/Parasmittina nitida,fouling/Encrusting bryozoan,APHIA:422348,NA,NA,fouling
+fouling/Encrusting bryozoan/Schizoporella floridana,fouling/Encrusting bryozoan,APHIA:422362,NA,NA,fouling
+fouling/Encrusting bryozoan/Schizoporella pungens,fouling/Encrusting bryozoan,APHIA:422363,NA,NA,fouling
+fouling/Encrusting bryozoan/Watersipora subtorquata,fouling/Encrusting bryozoan,APHIA:111592,NA,NA,fouling
+fouling/Arborescent bryozoan/Amathia alternata,fouling/Arborescent bryozoan,APHIA:422418,NA,NA,fouling
+fouling/Arborescent bryozoan/Amathia distans,fouling/Arborescent bryozoan,APHIA:111656,NA,NA,fouling
+fouling/Arborescent bryozoan/Amathia gracilis,fouling/Arborescent bryozoan,APHIA:851589,NA,NA,fouling
+fouling/Arborescent bryozoan/Amathia verticillata,fouling/Arborescent bryozoan,APHIA:851581,NA,NA,fouling
+fouling/Arborescent bryozoan/Amathia vidocici,fouling/Arborescent bryozoan,UNDEFINED:AMATHIA_VIDOCICI,NA,NA,fouling
+fouling/Arborescent bryozoan/Anguinella palmata,fouling/Arborescent bryozoan,APHIA:111631,NA,NA,fouling
+fouling/Arborescent bryozoan/Bugula neritina,fouling/Arborescent bryozoan,APHIA:111158,NA,NA,fouling
+fouling/Arborescent bryozoan/Bugula stolonifera,fouling/Arborescent bryozoan,UNDEFINED:BUGULA_STOLONIFERA,NA,NA,fouling
+fouling/Arborescent bryozoan/Catenicella uberrima,fouling/Arborescent bryozoan,APHIA:422314,NA,NA,fouling
+fouling/Arborescent bryozoan/Caulibugula armata,fouling/Arborescent bryozoan,APHIA:448282,NA,NA,fouling
+fouling/Arborescent bryozoan/Cradoscrupocellaria atlantica,fouling/Arborescent bryozoan,APHIA:738972,NA,NA,fouling
+fouling/Arborescent bryozoan/Cradoscrupocellaria bertholletii,fouling/Arborescent bryozoan,APHIA:738973,NA,NA,fouling
+fouling/Arborescent bryozoan/Crisia eburnea,fouling/Arborescent bryozoan,APHIA:111696,NA,NA,fouling
+fouling/Arborescent bryozoan/Licornia regularis,fouling/Arborescent bryozoan,APHIA:760385,NA,NA,fouling
+fouling/Arborescent bryozoan/Savignyella lafontii,fouling/Arborescent bryozoan,APHIA:111512,NA,NA,fouling
+fouling/Arborescent bryozoan/Tridentata sp,fouling/Arborescent bryozoan,APHIA:152168,NA,NA,fouling
+fouling/Arborescent bryozoan/Victorella pavida,fouling/Arborescent bryozoan,APHIA:111673,NA,NA,fouling
+fouling/Mussel/Amygdalum papyrium,fouling/Mussel,UNDEFINED:AMYGDALUM_PAPYRIUM,NA,NA,fouling
+fouling/Mussel/Arcuatula papyria,fouling/Mussel,APHIA:505948,NA,NA,fouling
+fouling/Mussel/Brachidontes exustus,fouling/Mussel,APHIA:397026,NA,NA,fouling
+fouling/Mussel/Miodiolus modiolus,fouling/Mussel,UNDEFINED:MIODIOLUS_MODIOLUS,NA,NA,fouling
+fouling/Mussel/Musculus lateralis,fouling/Mussel,APHIA:420707,NA,NA,fouling
+fouling/Mussel/Mytilopsis leucophaeata,fouling/Mussel,APHIA:156887,NA,NA,fouling
+fouling/Other bivalves/Anadara transversa,fouling/Other bivalves,APHIA:156734,NA,NA,fouling
+fouling/Other bivalves/Anomia simplex,fouling/Other bivalves,APHIA:156737,NA,NA,fouling
+fouling/Other bivalves/Pinctada imbricata,fouling/Other bivalves,APHIA:207901,NA,NA,fouling
+fouling/Other bivalves/Pinctada longisquamosa,fouling/Other bivalves,APHIA:420734,NA,NA,fouling
+fouling/Other bivalves/Sphenia fragilis,fouling/Other bivalves,APHIA:420973,NA,NA,fouling
+fouling/Colonial ascidian/Aplidium antillense,fouling/Colonial ascidian,APHIA:249816,NA,NA,fouling
+fouling/Colonial ascidian/Aplidium sp,fouling/Colonial ascidian,APHIA:103471,NA,NA,fouling
+fouling/Colonial ascidian/Botrylloides nigrum,fouling/Colonial ascidian,UNDEFINED:BOTRYLLOIDES_NIGRUM,NA,NA,fouling
+fouling/Colonial ascidian/Botryllus planus,fouling/Colonial ascidian,APHIA:215992,NA,NA,fouling
+fouling/Colonial ascidian/Botryllus schlosseri,fouling/Colonial ascidian,APHIA:103862,NA,NA,fouling
+fouling/Colonial ascidian/Botryllus sp,fouling/Colonial ascidian,APHIA:103529,NA,NA,fouling
+fouling/Colonial ascidian/Botryllus sp nov,fouling/Colonial ascidian,APHIA:103529,NA,NA,fouling
+fouling/Colonial ascidian/Clavelina oblonga,fouling/Colonial ascidian,APHIA:103554,NA,NA,fouling
+fouling/Colonial ascidian/Clavelina picta,fouling/Colonial ascidian,APHIA:250323,NA,NA,fouling
+fouling/Colonial ascidian/Didemnidae,fouling/Colonial ascidian,APHIA:103439,NA,NA,fouling
+fouling/Colonial ascidian/Didemnum perlucidum,fouling/Colonial ascidian,APHIA:212506,NA,NA,fouling
+fouling/Colonial ascidian/Didemnum psammatodes,fouling/Colonial ascidian,APHIA:252853,NA,NA,fouling
+fouling/Colonial ascidian/Didemnum sp,fouling/Colonial ascidian,APHIA:103456,NA,NA,fouling
+fouling/Colonial ascidian/Diplosoma glandulosum,fouling/Colonial ascidian,APHIA:250134,NA,NA,fouling
+fouling/Colonial ascidian/Diplosoma listerianum,fouling/Colonial ascidian,APHIA:103579,NA,NA,fouling
+fouling/Colonial ascidian/Diplosoma sp,fouling/Colonial ascidian,APHIA:103457,NA,NA,fouling
+fouling/Colonial ascidian/Diplosoma spongiforme,fouling/Colonial ascidian,APHIA:103582,NA,NA,fouling
+fouling/Colonial ascidian/Distaplia bermudensis,fouling/Colonial ascidian,APHIA:103604,NA,NA,fouling
+fouling/Colonial ascidian/Ecteinascidia turbinata,fouling/Colonial ascidian,APHIA:103756,NA,NA,fouling
+fouling/Colonial ascidian/Eudistoma capsulatum,fouling/Colonial ascidian,APHIA:250201,NA,NA,fouling
+fouling/Colonial ascidian/Eudistoma olivaceum,fouling/Colonial ascidian,APHIA:250236,NA,NA,fouling
+fouling/Colonial ascidian/Eudistoma sp,fouling/Colonial ascidian,APHIA:103465,NA,NA,fouling
+fouling/Colonial ascidian/Eudistoma sp nov,fouling/Colonial ascidian,APHIA:103465,NA,NA,fouling
+fouling/Colonial ascidian/Lissoclinum sp,fouling/Colonial ascidian,APHIA:103459,NA,NA,fouling
+fouling/Colonial ascidian/Perophora viridis,fouling/Colonial ascidian,APHIA:103761,NA,NA,fouling
+fouling/Colonial ascidian/Polyandrocarpa zorritensis,fouling/Colonial ascidian,APHIA:103895,NA,NA,fouling
+fouling/Colonial ascidian/Polyclinum constellatum,fouling/Colonial ascidian,APHIA:215891,NA,NA,fouling
+fouling/Colonial ascidian/Symplegma brakenhielmi,fouling/Colonial ascidian,APHIA:251435,NA,NA,fouling
+fouling/Colonial ascidian/Symplegma rubra,fouling/Colonial ascidian,APHIA:212500,NA,NA,fouling
+fouling/Other polychaetes/Arabella sp,fouling/Other polychaetes,APHIA:129199,NA,NA,fouling
+fouling/Other polychaetes/Cirriformia filigera,fouling/Other polychaetes,APHIA:209871,NA,NA,fouling
+fouling/Other polychaetes/Dorvillia sp,fouling/Other polychaetes,UNDEFINED:DORVILLIA_SP,NA,NA,fouling
+fouling/Other polychaetes/Phragmatopoma caudata,fouling/Other polychaetes,APHIA:330550,NA,NA,fouling
+fouling/Other polychaetes/Polydora cornuta,fouling/Other polychaetes,APHIA:131143,NA,NA,fouling
+fouling/Solitary ascidian/Ascidia archaia,fouling/Solitary ascidian,APHIA:249968,NA,NA,fouling
+fouling/Solitary ascidian/Ascidia curvata,fouling/Solitary ascidian,APHIA:249981,NA,NA,fouling
+fouling/Solitary ascidian/Ascidia sp,fouling/Solitary ascidian,APHIA:103483,NA,NA,fouling
+fouling/Solitary ascidian/Ascidia sydneiensis,fouling/Solitary ascidian,APHIA:215940,NA,NA,fouling
+fouling/Solitary ascidian/Herdmania momus,fouling/Solitary ascidian,APHIA:103830,NA,NA,fouling
+fouling/Solitary ascidian/Microcosmus exasperatus,fouling/Solitary ascidian,APHIA:103838,NA,NA,fouling
+fouling/Solitary ascidian/Molgula manhattensis,fouling/Solitary ascidian,APHIA:103788,NA,NA,fouling
+fouling/Solitary ascidian/Molgula occidentalis,fouling/Solitary ascidian,APHIA:103790,NA,NA,fouling
+fouling/Solitary ascidian/Phallusia nigra,fouling/Solitary ascidian,APHIA:103725,NA,NA,fouling
+fouling/Solitary ascidian/Styela canopus,fouling/Solitary ascidian,APHIA:103926,NA,NA,fouling
+fouling/Solitary ascidian/Styela plicata,fouling/Solitary ascidian,APHIA:103936,NA,NA,fouling
+fouling/Kamptozoa/Barentsia benedeni,fouling/Kamptozoa,APHIA:111800,NA,NA,fouling
+fouling/Sponge/Biemna caribea,fouling/Sponge,APHIA:168252,NA,NA,fouling
+fouling/Sponge/Ciocalypta sp,fouling/Sponge,APHIA:131804,NA,NA,fouling
+fouling/Sponge/Clathrina sp,fouling/Sponge,APHIA:131729,NA,NA,fouling
+fouling/Sponge/Geodia sp,fouling/Sponge,APHIA:132005,NA,NA,fouling
+fouling/Sponge/Halichondria cf magniconulosa,fouling/Sponge,APHIA:131807,NA,NA,fouling
+fouling/Sponge/Haliclona implexiformis,fouling/Sponge,UNDEFINED:HALICLONA_IMPLEXIFORMIS,NA,NA,fouling
+fouling/Sponge/Haliclona tubulifera,fouling/Sponge,APHIA:166490,NA,NA,fouling
+fouling/Sponge/Mycale microsigmatosa,fouling/Sponge,UNDEFINED:MYCALE_MICROSIGMATOSA,NA,NA,fouling
+fouling/Sponge/Porifera,fouling/Sponge,APHIA:558,NA,NA,fouling
+fouling/Sponge/Sycon ciliatum,fouling/Sponge,APHIA:132251,NA,NA,fouling
+fouling/Sponge/Tedania ignis,fouling/Sponge,APHIA:404078,NA,NA,fouling
+fouling/Sabellid/Bispira brunnea,fouling/Sabellid,APHIA:421069,NA,NA,fouling
+fouling/Sabellid/Branchiomma bairdi,fouling/Sabellid,APHIA:421070,NA,NA,fouling
+fouling/Sabellid/Branchiomma nigromaculatum,fouling/Sabellid,APHIA:209930,NA,NA,fouling
+fouling/Sabellid/Parasabella aberrans,fouling/Sabellid,APHIA:530659,NA,NA,fouling
+fouling/Sabellid/Parasabella crassichaetae,fouling/Sabellid,APHIA:1299057,NA,NA,fouling
+fouling/Sabellid/Parasabella microphthalma,fouling/Sabellid,APHIA:530927,NA,NA,fouling
+fouling/Sabellid/Parasabella sp,fouling/Sabellid,APHIA:325958,NA,NA,fouling
+fouling/Sabellid/Sabellidae,fouling/Sabellid,APHIA:985,NA,NA,fouling
+fouling/Hydroid/Bougainvillia carolinensis,fouling/Hydroid,APHIA:157917,NA,NA,fouling
+fouling/Hydroid/Cnidaria,fouling/Hydroid,APHIA:1267,NA,NA,fouling
+fouling/Hydroid/Eudendrium carneum,fouling/Hydroid,APHIA:117545,NA,NA,fouling
+fouling/Hydroid/Eudendrium sp,fouling/Hydroid,APHIA:117093,NA,NA,fouling
+fouling/Hydroid/Hydrozoa,fouling/Hydroid,APHIA:1337,NA,NA,fouling
+fouling/Hydroid/Obelia sp,fouling/Hydroid,APHIA:117034,NA,NA,fouling
+fouling/Hydroid/Sertularia sp,fouling/Hydroid,APHIA:117234,NA,NA,fouling
+fouling/Oyster/Crassostrea virginica,fouling/Oyster,APHIA:140657,NA,NA,fouling
+fouling/Oyster/Isognomon alatus,fouling/Oyster,APHIA:420736,NA,NA,fouling
+fouling/Crepidula/Crepidula atrasolea,fouling/Crepidula,APHIA:419702,NA,NA,fouling
+fouling/Crepidula/Crepidula depressa,fouling/Crepidula,APHIA:419703,NA,NA,fouling
+fouling/Crepidula/Crepidula sp,fouling/Crepidula,APHIA:137722,NA,NA,fouling
+fouling/Crepidula/Sigapatella novaezelandiae,fouling/Crepidula,APHIA:597421,NA,NA,fouling
+fouling/Serpulidae/Filograna sp,fouling/Serpulidae,APHIA:129563,NA,NA,fouling
+fouling/Serpulidae/Hydroides dianthus,fouling/Serpulidae,APHIA:131000,NA,NA,fouling
+fouling/Serpulidae/Hydroides diramphus,fouling/Serpulidae,UNDEFINED:HYDROIDES_DIRAMPHUS,NA,NA,fouling
+fouling/Serpulidae/Hydroides elegans,fouling/Serpulidae,APHIA:131002,NA,NA,fouling
+fouling/Serpulidae/Hydroides sanctaecrucis,fouling/Serpulidae,APHIA:333645,NA,NA,fouling
+fouling/Serpulidae/Hydroides sp,fouling/Serpulidae,APHIA:129566,NA,NA,fouling
+fouling/Serpulidae/Serpulidae,fouling/Serpulidae,APHIA:988,NA,NA,fouling
+fouling/Serpulidae/Spirorbidae,fouling/Serpulidae,UNDEFINED:SPIRORBIDAE,NA,NA,fouling
+fouling/Vermetid/Petaloconchus varians,fouling/Vermetid,APHIA:419554,NA,NA,fouling
+fouling/Ser/Salmacina huxleyi,fouling/Ser,APHIA:369269,NA,NA,fouling
+fouling/Terebellid/Streblosoma verrilli,fouling/Terebellid,UNDEFINED:STREBLOSOMA_VERRILLI,NA,NA,fouling
+fouling/Terebellid/Terebellidae,fouling/Terebellid,APHIA:982,NA,NA,fouling
