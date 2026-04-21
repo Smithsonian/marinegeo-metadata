@@ -1,0 +1,14 @@
+protocol,table_id,level,column_name,data_type,missing_values,uuid_identity
+taxonomy-and-functional-groups,observation_lookup,1,scientific_name,STRING,,TRUE
+taxonomy-and-functional-groups,observation_lookup,1,scientific_id,STRING,,
+taxonomy-and-functional-groups,taxonomic_lookup,1,scientific_id,STRING,,TRUE
+taxonomy-and-functional-groups,taxonomic_lookup,1,name,STRING,,
+taxonomy-and-functional-groups,taxonomic_lookup,1,rank,STRING,,
+taxonomy-and-functional-groups,taxonomic_lookup,1,id,INT,,
+taxonomy-and-functional-groups,taxonomic_lookup,1,parent_id,STRING,,
+taxonomy-and-functional-groups,functional_group_lookup,1,from,STRING,,TRUE
+taxonomy-and-functional-groups,functional_group_lookup,1,to,STRING,,TRUE
+taxonomy-and-functional-groups,functional_group_lookup,1,scientific_id,STRING,,
+taxonomy-and-functional-groups,functional_group_lookup,1,rank,STRING,,
+taxonomy-and-functional-groups,functional_group_lookup,1,definition,STRING,,
+taxonomy-and-functional-groups,functional_group_lookup,1,tree_name,STRING,,TRUE
