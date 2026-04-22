@@ -3,7 +3,8 @@ library(tidyverse)
 
 read_table <- function(table_path, label) {
   tryCatch(
-    readr::read_csv(list.files(table_path, full.names = TRUE)),
+    readr::read_csv(list.files(table_path, full.names = TRUE),
+                    show_col_types = F),
     error = function(e) {
       message(label, ": error reading CSV — ", conditionMessage(e))
       NULL
