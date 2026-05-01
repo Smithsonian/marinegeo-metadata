@@ -19,7 +19,7 @@ Fouling Community Monitoring,fouling_biomass_v1,2,site_code,STRING,enforce,TRUE
 Fouling Community Monitoring,fouling_biomass_v1,2,site_name,STRING,enforce,
 Fouling Community Monitoring,fouling_biomass_v1,2,panel_id,STRING,enforce,TRUE
 Fouling Community Monitoring,fouling_biomass_v1,2,panel_retrieval_date,DATE,warn,
-Fouling Community Monitoring,fouling_sessile_v1,2,panel_deployment_period,STRING,warn,
+Fouling Community Monitoring,fouling_biomass_v1,2,panel_deployment_period,STRING,warn,
 Fouling Community Monitoring,fouling_biomass_v1,2,panel_weight_predeployment_g,DOUBLE,warn,
 Fouling Community Monitoring,fouling_biomass_v1,2,panel_wet_weight_g,DOUBLE,warn,
 Fouling Community Monitoring,fouling_biomass_v1,2,community_biomass_g,DOUBLE,warn,
