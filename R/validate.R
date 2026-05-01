@@ -1,5 +1,5 @@
 library(marinegeo.utils)
-library(tidyverse)
+library(readr, quietly = TRUE, warn.conflicts = FALSE)
 
 read_table <- function(table_path, label) {
   tryCatch(
@@ -48,7 +48,11 @@ report_qc <- function(data, table_id, label) {
 }
 
 report_qc(observation_lookup, "observation_lookup", "Observation Lookup Table")
+cat("----")
 report_qc(taxonomic_lookup, "taxonomic_lookup", "Taxonomic Lookup Table")
+cat("----")
 report_qc(functional_group_lookup, "functional_group_lookup", "Functional Group/Morphological Lookup Table")
+cat("----")
 report_qc(site_lookup, "site_lookup", "MarineGEO Site Lookup Table")
+cat("----")
 report_qc(partner_lookup, "partner_lookup", "MarineGEO Partner Lookup Table")
