@@ -25,6 +25,17 @@ functional_group_lookup <- read_table(
   "Functional Group/Morphological Lookup Table"
 )
 
+site_lookup <- read_table(
+  "./sites-and-partners/site-names/",
+  "MarineGEO Site Lookup Table"
+)
+partner_lookup <- read_table(
+  "./sites-and-partners/partner-codes/",
+  "MarineGEO Partner Lookup Table"
+)
+
+
+
 report_qc <- function(data, table_id, label) {
   if (is.null(data)) return(invisible(NULL))
   result <- utl_qc_summarize(qc_run(data, table_id = table_id), type = "failures")
@@ -39,3 +50,5 @@ report_qc <- function(data, table_id, label) {
 report_qc(observation_lookup, "observation_lookup", "Observation Lookup Table")
 report_qc(taxonomic_lookup, "taxonomic_lookup", "Taxonomic Lookup Table")
 report_qc(functional_group_lookup, "functional_group_lookup", "Functional Group/Morphological Lookup Table")
+report_qc(site_lookup, "site_lookup", "MarineGEO Site Lookup Table")
+report_qc(partner_lookup, "partner_lookup", "MarineGEO Partner Lookup Table")

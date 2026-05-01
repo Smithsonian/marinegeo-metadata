@@ -12,3 +12,14 @@ taxonomy-and-functional-groups,functional_group_lookup,1,scientific_id,STRING,,
 taxonomy-and-functional-groups,functional_group_lookup,1,rank,STRING,,
 taxonomy-and-functional-groups,functional_group_lookup,1,definition,STRING,,
 taxonomy-and-functional-groups,functional_group_lookup,1,tree_name,STRING,,TRUE
+sites-and-partners,site_lookup,1,partner_code,STRING,enforce,
+sites-and-partners,site_lookup,1,site_code,STRING,enforce,TRUE
+sites-and-partners,site_lookup,1,site_name,STRING,enforce,
+sites-and-partners,site_lookup,1,habitat,STRING,,
+sites-and-partners,site_lookup,1,latitude,DOUBLE,,
+sites-and-partners,site_lookup,1,longitude,DOUBLE,,
+sites-and-partners,partner_lookup,1,partner_code,STRING,enforce,TRUE
+sites-and-partners,partner_lookup,1,partner_name,STRING,enforce,
+sites-and-partners,partner_lookup,1,institution,STRING,,
+sites-and-partners,partner_lookup,1,country,STRING,,
+sites-and-partners,partner_lookup,1,partner_type,STRING,warn,

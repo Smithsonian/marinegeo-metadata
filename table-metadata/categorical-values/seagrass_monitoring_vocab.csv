@@ -11,11 +11,6 @@ seagrass-cover-monitoring-v1,cover_code,1
 seagrass-cover-monitoring-v1,cover_code,2
 seagrass-cover-monitoring-v1,cover_code,3
 seagrass-cover-monitoring-v1,cover_code,4
-seagrass-cover-monitoring-v1,sediment_type,mixed
-seagrass-cover-monitoring-v1,sediment_type,mud
-seagrass-cover-monitoring-v1,sediment_type,sand
-seagrass-cover-monitoring-v1,sediment_type,shell
-seagrass-cover-monitoring-v1,sediment_type,rock
 seagrass-cover-monitoring-v1,cover_quadrat_dimensions,50x50cm
 seagrass-cover-monitoring-v1,cover_quadrat_dimensions,100x100cm
 seagrass-cover-monitoring-v1,cover_quadrat_dimensions,150x150cm
