@@ -4,10 +4,10 @@ Fouling Community Monitoring,fouling-panel-metadata-v1,2,partner_code,STRING,enf
 Fouling Community Monitoring,fouling-panel-metadata-v1,2,site_code,STRING,enforce,TRUE
 Fouling Community Monitoring,fouling-panel-metadata-v1,2,site_name,STRING,enforce,
 Fouling Community Monitoring,fouling-panel-metadata-v1,2,panel_id,STRING,enforce,TRUE
-Fouling Community Monitoring,fouling-panel-metadata-v1,2,panel_deployment_date,DATE,warn,
-Fouling Community Monitoring,fouling-panel-metadata-v1,2,panel_retrieval_date,DATE,warn,
-Fouling Community Monitoring,fouling-panel-metadata-v1,2,panel_deployment_period,STRING,warn,
-Fouling Community Monitoring,fouling-panel-metadata-v1,2,panel_deployment_length_days,INT,warn,
+Fouling Community Monitoring,fouling-panel-metadata-v1,2,deployment_date,DATE,warn,
+Fouling Community Monitoring,fouling-panel-metadata-v1,2,retrieval_date,DATE,warn,
+Fouling Community Monitoring,fouling-panel-metadata-v1,2,deployment_period,STRING,warn,
+Fouling Community Monitoring,fouling-panel-metadata-v1,2,deployment_length_days,INT,warn,
 Fouling Community Monitoring,fouling-panel-metadata-v1,2,latitude,DOUBLE,warn,
 Fouling Community Monitoring,fouling-panel-metadata-v1,2,longitude,DOUBLE,warn,
 Fouling Community Monitoring,fouling-panel-metadata-v1,2,sample_metadata_notes,STRING,,
@@ -19,8 +19,8 @@ Fouling Community Monitoring,fouling-biomass-v1,2,partner_code,STRING,enforce,TR
 Fouling Community Monitoring,fouling-biomass-v1,2,site_code,STRING,enforce,TRUE
 Fouling Community Monitoring,fouling-biomass-v1,2,site_name,STRING,enforce,
 Fouling Community Monitoring,fouling-biomass-v1,2,panel_id,STRING,enforce,TRUE
-Fouling Community Monitoring,fouling-biomass-v1,2,panel_retrieval_date,DATE,warn,
-Fouling Community Monitoring,fouling-biomass-v1,2,panel_deployment_period,STRING,warn,
+Fouling Community Monitoring,fouling-biomass-v1,2,retrieval_date,DATE,warn,
+Fouling Community Monitoring,fouling-biomass-v1,2,deployment_period,STRING,warn,
 Fouling Community Monitoring,fouling-biomass-v1,2,panel_weight_predeployment_g,DOUBLE,warn,
 Fouling Community Monitoring,fouling-biomass-v1,2,panel_wet_weight_g,DOUBLE,warn,
 Fouling Community Monitoring,fouling-biomass-v1,2,community_biomass_g,DOUBLE,warn,
@@ -34,8 +34,8 @@ Fouling Community Monitoring,fouling-sessile-v1,2,partner_code,STRING,enforce,TR
 Fouling Community Monitoring,fouling-sessile-v1,2,site_code,STRING,enforce,TRUE
 Fouling Community Monitoring,fouling-sessile-v1,2,site_name,STRING,enforce,
 Fouling Community Monitoring,fouling-sessile-v1,2,panel_id,STRING,enforce,TRUE
-Fouling Community Monitoring,fouling-sessile-v1,2,panel_retrieval_date,DATE,warn,TRUE
-Fouling Community Monitoring,fouling-sessile-v1,2,panel_deployment_period,STRING,warn,
+Fouling Community Monitoring,fouling-sessile-v1,2,retrieval_date,DATE,warn,TRUE
+Fouling Community Monitoring,fouling-sessile-v1,2,deployment_period,STRING,warn,
 Fouling Community Monitoring,fouling-sessile-v1,2,scientific_name,STRING,enforce,TRUE
 Fouling Community Monitoring,fouling-sessile-v1,2,identification_notes,STRING,,
 Fouling Community Monitoring,fouling-sessile-v1,2,photo_filename,STRING,,
@@ -48,8 +48,8 @@ Fouling Community Monitoring,fouling-cover-v1,2,partner_code,STRING,enforce,TRUE
 Fouling Community Monitoring,fouling-cover-v1,2,site_code,STRING,enforce,TRUE
 Fouling Community Monitoring,fouling-cover-v1,2,site_name,STRING,enforce,
 Fouling Community Monitoring,fouling-cover-v1,2,panel_id,STRING,enforce,TRUE
-Fouling Community Monitoring,fouling-cover-v1,2,panel_retrieval_date,DATE,warn,TRUE
-Fouling Community Monitoring,fouling-cover-v1,2,panel_deployment_period,STRING,warn,
+Fouling Community Monitoring,fouling-cover-v1,2,retrieval_date,DATE,warn,TRUE
+Fouling Community Monitoring,fouling-cover-v1,2,deployment_period,STRING,warn,
 Fouling Community Monitoring,fouling-cover-v1,2,morpho_functional_group,STRING,enforce,TRUE
 Fouling Community Monitoring,fouling-cover-v1,2,scientific_name,STRING,enforce,TRUE
 Fouling Community Monitoring,fouling-cover-v1,2,identification_notes,STRING,,
