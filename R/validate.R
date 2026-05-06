@@ -1,5 +1,6 @@
 library(marinegeo.utils)
 library(readr, quietly = TRUE, warn.conflicts = FALSE)
+library(dplyr, quietly = TRUE, warn.conflicts = FALSE)
 
 read_table <- function(table_path, label) {
   tryCatch(
@@ -47,6 +48,23 @@ report_qc <- function(data, table_id, label) {
   }
 }
 
+groups <- c("Seagrass", "Algae")
+
+df <- tibble(
+  "scientific_name" = c("Zostera marina", "unidentified macroalgae")
+) %>%
+  mutate(group = marinegeo.utils::utl_mg_assign_functional_groups("vegetation", groups, scientific_name))
+
+if(all(df$group == groups)){
+  seagrass_functional_group_test <- "Seagrass Functional Group Test passed"
+} else {
+  seagrass_functional_group_test <- c(
+    "FAIL: Seagrass Functional Group Test",
+    "\n",
+    "Test returns:", df$group
+  )
+}
+
 cat("\n")
 report_qc(observation_lookup, "observation_lookup", "Observation Lookup Table")
 cat("\n")
@@ -70,3 +88,7 @@ cat("\n")
 cat("\n")
 report_qc(partner_lookup, "partner_lookup", "MarineGEO Partner Lookup Table")
 cat("\n")
+cat("----")
+cat("\n")
+cat("\n")
+seagrass_functional_group_test
