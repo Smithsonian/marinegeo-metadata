@@ -48,6 +48,9 @@ report_qc <- function(data, table_id, label) {
   }
 }
 
+#### Test Functional Group Assignment ####
+
+## ... Seagrass ####
 groups <- c("Seagrass", "Algae")
 
 df <- tibble(
@@ -64,6 +67,15 @@ if(all(df$group == groups)){
     "Test returns:", df$group
   )
 }
+
+## ... Fouling ####
+scientific_names <- c("Aetea sica", "Aiptasia pallida")
+groups <- c("Seagrass", "Algae")
+
+df <- tibble(
+  scientific_name = scientific_names
+) %>%
+  mutate(group = marinegeo.utils::utl_mg_assign_functional_groups("fouling", groups, scientific_name))
 
 cat("\n")
 report_qc(observation_lookup, "observation_lookup", "Observation Lookup Table")
