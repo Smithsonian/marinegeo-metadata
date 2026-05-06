@@ -1,8 +1,8 @@
 protocol,level,table_name,table_id,short_name,directory,script_directory,location
-Fouling Panel Monitoring,2,Fouling Panel Cover,fouling-cover-v1,cover,marinegeo-fouling-monitoring/L2-data/fouling-cover-v1,,
-Fouling Panel Monitoring,2,Fouling Panel Biomass,fouling-biomass-v1,biomass,marinegeo-fouling-monitoring/L2-data/fouling-biomass-v1,,
-Fouling Panel Monitoring,2,Fouling Panel Metadata,fouling-panel-metadata-v1,metadata,marinegeo-fouling-monitoring/L2-data/fouling-panel-metadata-v1,,
-Fouling Panel Monitoring,2,Fouling Panel Sessile Species,fouling-sessile-v1,sessile,marinegeo-fouling-monitoring/L2-data/fouling-sessile-v1,,
+Fouling Panel Monitoring,2,Fouling Panel Cover,fouling-cover-v1,cover,marinegeo-fouling-monitoring/L2-data/fouling-cover-v1,,github
+Fouling Panel Monitoring,2,Fouling Panel Biomass,fouling-biomass-v1,biomass,marinegeo-fouling-monitoring/L2-data/fouling-biomass-v1,,github
+Fouling Panel Monitoring,2,Fouling Panel Metadata,fouling-panel-metadata-v1,metadata,marinegeo-fouling-monitoring/L2-data/fouling-panel-metadata-v1,,github
+Fouling Panel Monitoring,2,Fouling Panel Sessile Species,fouling-sessile-v1,sessile,marinegeo-fouling-monitoring/L2-data/fouling-sessile-v1,,github
 Oyster Reef Monitoring,2,Oyster Transect Metadata,oyster-transect-metadata-monitoring-v1,transect,marinegeo-oyster-monitoring/L2-data/oyster-transect-metadata-monitoring-v1,,github
 Oyster Reef Monitoring,2,Oyster Composition,oyster-composition-monitoring-v1,composition,marinegeo-oyster-monitoring/L2-data/oyster-composition-monitoring-v1,,github
 Oyster Reef Monitoring,2,Oyster Sessile Invertebrates,oyster-sessile-inverts-monitoring-v1,sessile,marinegeo-oyster-monitoring/L2-data/oyster-sessile-inverts-monitoring-v1,,github
