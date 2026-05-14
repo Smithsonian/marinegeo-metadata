@@ -1,4 +1,5 @@
 protocol,level,table_name,table_id,short_name,directory,script_directory,location
+MarineGEO DarwinCore Tables,3,MG-DwC Event,mg-darwincore-event,mg_event,marinegeo-to-DwC/mg-DwC-tables/mg-darwincore-event,,
 Fouling Panel Monitoring,2,Fouling Panel Cover,fouling-cover-v1,cover,marinegeo-fouling-monitoring/L2-data/fouling-cover-v1,,github
 Fouling Panel Monitoring,2,Fouling Panel Biomass,fouling-biomass-v1,biomass,marinegeo-fouling-monitoring/L2-data/fouling-biomass-v1,,github
 Fouling Panel Monitoring,2,Fouling Panel Metadata,fouling-panel-metadata-v1,metadata,marinegeo-fouling-monitoring/L2-data/fouling-panel-metadata-v1,,github
