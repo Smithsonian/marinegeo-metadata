@@ -69,7 +69,7 @@ if(all(df$group == groups)){
 }
 
 ## ... Fouling ####
-scientific_names <- c("Aetea sica", "Aiptasia pallida")
+scientific_names <- c("Zostera marina", "unidentified macroalgae")
 groups <- c("Seagrass", "Algae")
 
 df <- tibble(
