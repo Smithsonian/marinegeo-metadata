@@ -50,3 +50,5 @@ rsconnect/
 
 *.Rproj
 .positai
+
+*.DS_Store
