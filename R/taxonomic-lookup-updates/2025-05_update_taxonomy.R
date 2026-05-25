@@ -20,6 +20,22 @@ df_obs_updated <- df_obs %>%
 
 write_csv(df_obs_updated, "taxonomy-and-functional-groups/observation-lookup/marinegeo_observation_ids.csv")
 
+## Addtl updates
+
+df_obs <- read_csv(list.files("taxonomy-and-functional-groups/observation-lookup/", full.names = T))
+
+df_obs_updated <- df_obs %>%
+  filter(scientific_id != "UNDEFINED:AMPHIBALANUS_TOTAL") %>%
+  mutate(scientific_name = case_when(
+    scientific_id == "UNDEFINED:AMPHIBALANUS_DEAD" ~ "Amphibalanus (dead)",
+    scientific_id == "UNDEFINED:AMPHIBALANUS_LIVE" ~ "Amphibalanus (live)",
+    T ~ scientific_name
+  ))
+
+write_csv(df_obs_updated, "taxonomy-and-functional-groups/observation-lookup/marinegeo_observation_ids.csv")
+
+## taxa updates
+
 df_taxa <- read_csv("taxonomy-and-functional-groups/taxonomic-lookup/marinegeo_taxonomic_lookup.csv")
 
 df_taxa_updated <- df_taxa %>%
