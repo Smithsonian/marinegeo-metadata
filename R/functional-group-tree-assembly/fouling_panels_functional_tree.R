@@ -13,15 +13,22 @@ library(marinegeo.utils)
 
 obs_df <- read_csv(list.files("taxonomy-and-functional-groups/observation-lookup/", full.names = T))
 
-fouling_group_assignments_in <- read_csv("R/fouling-panels-assembly/fouling_lookup.csv")
+fouling_group_assignments_in <- read_csv("R/fouling-panels-assembly/fouling_lookup.csv") %>%
+  mutate(scientific_name = trimws(
+    str_remove(
+      scientific_name, regex("\\s+spp?\\.?\\b.*$",
+                             ignore_case = T)
+    ))) %>%
+  filter(scientific_name != "Elasmopus cf rapax") # dupe of Elasmopus
 
 fouling_group_assignments <- fouling_group_assignments_in %>%
-  left_join(obs_df)
+  left_join(obs_df) %>%
+  distinct()
 
 # Evaluate NA IDs
 # Make sure Turf Algae is manually added
 fouling_group_assignments %>%
-  filter(is.na(scientific_id))
+  filter(is.na(scientific_id)) 
 
 # Things to watch out for:
 # 1. node name != node ID - this happens below when the name is also the group (e.g., FUNCTIONAL:FISH_EGGS)
