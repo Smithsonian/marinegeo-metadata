@@ -83,6 +83,8 @@ seagrass_functional_group_test <- tryCatch({
   return(seagrass_functional_group_test)
 })
 
+## Output Results ####
+
 cat("\n")
 report_qc(observation_lookup, "observation_lookup", "Observation Lookup Table")
 cat("\n")
@@ -110,3 +112,7 @@ cat("----")
 cat("\n")
 cat("\n")
 cat(seagrass_functional_group_test)
+cat("\n")
+cat("----")
+cat("\n")
+cat("\n")

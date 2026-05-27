@@ -17,7 +17,7 @@ taxa_dupe_names <- taxa_raw %>%
 
 taxa <- taxa_raw %>%
   mutate(name = case_when(
-    name %in% taxa_dupe_names ~ paste0(name, "-", id),
+    name %in% taxa_dupe_names ~ paste0(name, "-", rank, "-", id),
     T ~ name
   ))
 
@@ -69,6 +69,8 @@ lapply(macroalgae_ids, function(x){
   macroalgae$AddChildNode(new_node)
 })
 
+macroalgae$AddChild("Red branching macroalgae", scientific_id = "FUNCTIONAL:RED_BRANCHING_MACROALGAE")
+
 # Other algae: Cyanobacteria (including Dapis pleousa, Lyngbya sp)
 algae_ids <- c("Cyanobacteria")
 lapply(algae_ids, function(x){
@@ -78,7 +80,9 @@ lapply(algae_ids, function(x){
 
 vegetation
 print(vegetation, "scientific_id")
-print(vegetation, "scientific_id", "rank")
+
+# Verify enrollment: 
+# View(print(vegetation, "scientific_id", "rank", limit = NULL))
 
 output_network_df <- ToDataFrameNetwork(vegetation, "scientific_id", "rank", "definition", direction = "descend")
 

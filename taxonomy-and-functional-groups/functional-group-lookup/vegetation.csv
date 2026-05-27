@@ -15,6 +15,7 @@ Zosteraceae,Marine Seagrass,urn:lsid:marinespecies.org:taxname:143770,Family,NA,
 Chlorophyta,Macroalgae,urn:lsid:marinespecies.org:taxname:801,Phylum (Division),NA,vegetation
 Rhodophyta,Macroalgae,urn:lsid:marinespecies.org:taxname:852,Phylum (Division),NA,vegetation
 Phaeophyceae,Macroalgae,urn:lsid:marinespecies.org:taxname:830,Class,NA,vegetation
+Red branching macroalgae,Macroalgae,FUNCTIONAL:RED_BRANCHING_MACROALGAE,NA,NA,vegetation
 Cyanophyceae,Cyanobacteria,urn:lsid:marinespecies.org:taxname:146542,Class,NA,vegetation
 Potamogeton,Potamogetonaceae,urn:lsid:marinespecies.org:taxname:416210,Genus,NA,vegetation
 Zannichellia,Potamogetonaceae,urn:lsid:marinespecies.org:taxname:416221,Genus,NA,vegetation
