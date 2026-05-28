@@ -6,16 +6,16 @@ Non-marine SAV,Seagrass,FUNCTIONAL:NONMARINESAV,NA,SAV species found primarily i
 Marine Seagrass,Seagrass,FUNCTIONAL:SEAGRASS,NA,SAV species found in brackish to saline marine environments.,vegetation
 Macroalgae,Algae,FUNCTIONAL:MACROALGAE,NA,NA,vegetation
 Cyanobacteria,Algae,urn:lsid:marinespecies.org:taxname:146537,Phylum,NA,vegetation
+Filamentous Algae,Algae,FUNCTIONAL:FILAMENTOUS_ALGAE,NA,NA,vegetation
 Potamogetonaceae,Non-marine SAV,urn:lsid:marinespecies.org:taxname:196239,Family,NA,vegetation
 Ruppiaceae,Non-marine SAV,urn:lsid:marinespecies.org:taxname:234029,Family,NA,vegetation
 Cymodoceaceae,Marine Seagrass,urn:lsid:marinespecies.org:taxname:143768,Family,NA,vegetation
 Hydrocharitaceae,Marine Seagrass,urn:lsid:marinespecies.org:taxname:143751,Family,NA,vegetation
 Posidoniaceae,Marine Seagrass,urn:lsid:marinespecies.org:taxname:143769,Family,NA,vegetation
 Zosteraceae,Marine Seagrass,urn:lsid:marinespecies.org:taxname:143770,Family,NA,vegetation
-Chlorophyta,Macroalgae,urn:lsid:marinespecies.org:taxname:801,Phylum (Division),NA,vegetation
-Rhodophyta,Macroalgae,urn:lsid:marinespecies.org:taxname:852,Phylum (Division),NA,vegetation
-Phaeophyceae,Macroalgae,urn:lsid:marinespecies.org:taxname:830,Class,NA,vegetation
-Red branching macroalgae,Macroalgae,FUNCTIONAL:RED_BRANCHING_MACROALGAE,NA,NA,vegetation
+Green Algae,Macroalgae,FUNCTIONAL:GREEN_ALGAE,NA,NA,vegetation
+Red Algae,Macroalgae,FUNCTIONAL:RED_ALGAE,NA,NA,vegetation
+Brown Algae,Macroalgae,FUNCTIONAL:BROWN_ALGAE,NA,NA,vegetation
 Cyanophyceae,Cyanobacteria,urn:lsid:marinespecies.org:taxname:146542,Class,NA,vegetation
 Potamogeton,Potamogetonaceae,urn:lsid:marinespecies.org:taxname:416210,Genus,NA,vegetation
 Zannichellia,Potamogetonaceae,urn:lsid:marinespecies.org:taxname:416221,Genus,NA,vegetation
@@ -31,10 +31,10 @@ Enhalus,Hydrocharitaceae,urn:lsid:marinespecies.org:taxname:205672,Genus,NA,vege
 Thalassia,Hydrocharitaceae,urn:lsid:marinespecies.org:taxname:206854,Genus,NA,vegetation
 Posidonia,Posidoniaceae,urn:lsid:marinespecies.org:taxname:144232,Genus,NA,vegetation
 Zostera,Zosteraceae,urn:lsid:marinespecies.org:taxname:144233,Genus,NA,vegetation
-Chlorophytina,Chlorophyta,urn:lsid:marinespecies.org:taxname:1304953,Subphylum (Subdivision),NA,vegetation
-Eurhodophytina,Rhodophyta,urn:lsid:marinespecies.org:taxname:493826,Subphylum (Subdivision),NA,vegetation
-Dictyotophycidae,Phaeophyceae,urn:lsid:marinespecies.org:taxname:1304855,Subclass,NA,vegetation
-Fucophycidae,Phaeophyceae,urn:lsid:marinespecies.org:taxname:1304856,Subclass,NA,vegetation
+Chlorophyta,Green Algae,urn:lsid:marinespecies.org:taxname:801,Phylum (Division),NA,vegetation
+Rhodophyta,Red Algae,urn:lsid:marinespecies.org:taxname:852,Phylum (Division),NA,vegetation
+Red branching macroalgae,Red Algae,FUNCTIONAL:RED_BRANCHING_MACROALGAE,NA,NA,vegetation
+Phaeophyceae,Brown Algae,urn:lsid:marinespecies.org:taxname:830,Class,NA,vegetation
 Oscillatoriophycidae,Cyanophyceae,urn:lsid:marinespecies.org:taxname:368682,Subclass,NA,vegetation
 Coleofasciculales,Cyanophyceae,urn:lsid:marinespecies.org:taxname:1653506,Order,NA,vegetation
 Potamogeton perfoliatus,Potamogeton,urn:lsid:marinespecies.org:taxname:416212,Species,NA,vegetation
@@ -66,14 +66,21 @@ Zostera marina,Zostera,urn:lsid:marinespecies.org:taxname:495077,Species,NA,vege
 Zostera muelleri,Zostera,urn:lsid:marinespecies.org:taxname:495081,Species,NA,vegetation
 Zostera noltii,Zostera,urn:lsid:marinespecies.org:taxname:495082,Species,NA,vegetation
 Zostera nigricaulis,Zostera,urn:lsid:marinespecies.org:taxname:593702,Species,NA,vegetation
+Chlorophytina,Chlorophyta,urn:lsid:marinespecies.org:taxname:1304953,Subphylum (Subdivision),NA,vegetation
+Eurhodophytina,Rhodophyta,urn:lsid:marinespecies.org:taxname:493826,Subphylum (Subdivision),NA,vegetation
+Dictyotophycidae,Phaeophyceae,urn:lsid:marinespecies.org:taxname:1304855,Subclass,NA,vegetation
+Fucophycidae,Phaeophyceae,urn:lsid:marinespecies.org:taxname:1304856,Subclass,NA,vegetation
+Chroococcales,Oscillatoriophycidae,urn:lsid:marinespecies.org:taxname:146543,Order,NA,vegetation
+Oscillatoriales,Oscillatoriophycidae,urn:lsid:marinespecies.org:taxname:146603,Order,NA,vegetation
+Coleofasciculaceae,Coleofasciculales,urn:lsid:marinespecies.org:taxname:836365,Family,NA,vegetation
 Ulvophyceae,Chlorophytina,urn:lsid:marinespecies.org:taxname:146216,Class,NA,vegetation
 Florideophyceae,Eurhodophytina,urn:lsid:marinespecies.org:taxname:368670,Class,NA,vegetation
 Dictyotales,Dictyotophycidae,urn:lsid:marinespecies.org:taxname:839,Order,NA,vegetation
 Ectocarpales,Fucophycidae,urn:lsid:marinespecies.org:taxname:842,Order,NA,vegetation
 Fucales,Fucophycidae,urn:lsid:marinespecies.org:taxname:844,Order,NA,vegetation
-Chroococcales,Oscillatoriophycidae,urn:lsid:marinespecies.org:taxname:146543,Order,NA,vegetation
-Oscillatoriales,Oscillatoriophycidae,urn:lsid:marinespecies.org:taxname:146603,Order,NA,vegetation
-Coleofasciculaceae,Coleofasciculales,urn:lsid:marinespecies.org:taxname:836365,Family,NA,vegetation
+Geminocystaceae,Chroococcales,urn:lsid:marinespecies.org:taxname:1653525,Family,NA,vegetation
+Microcoleaceae,Oscillatoriales,urn:lsid:marinespecies.org:taxname:836366,Family,NA,vegetation
+Symploca,Coleofasciculaceae,urn:lsid:marinespecies.org:taxname:178510,Genus,NA,vegetation
 Bryopsidales,Ulvophyceae,urn:lsid:marinespecies.org:taxname:808,Order,NA,vegetation
 Cladophorales,Ulvophyceae,urn:lsid:marinespecies.org:taxname:813,Order,NA,vegetation
 Ulotrichales,Ulvophyceae,urn:lsid:marinespecies.org:taxname:824,Order,NA,vegetation
@@ -86,9 +93,9 @@ Ectocarpaceae,Ectocarpales,urn:lsid:marinespecies.org:taxname:143717,Family,NA,v
 Scytosiphonaceae,Ectocarpales,urn:lsid:marinespecies.org:taxname:143777,Family,NA,vegetation
 Fucaceae,Fucales,urn:lsid:marinespecies.org:taxname:143723,Family,NA,vegetation
 Sargassaceae,Fucales,urn:lsid:marinespecies.org:taxname:143725,Family,NA,vegetation
-Geminocystaceae,Chroococcales,urn:lsid:marinespecies.org:taxname:1653525,Family,NA,vegetation
-Microcoleaceae,Oscillatoriales,urn:lsid:marinespecies.org:taxname:836366,Family,NA,vegetation
-Symploca,Coleofasciculaceae,urn:lsid:marinespecies.org:taxname:178510,Genus,NA,vegetation
+Cyanobacterium,Geminocystaceae,urn:lsid:marinespecies.org:taxname:573277,Genus,NA,vegetation
+Lyngbya,Microcoleaceae,urn:lsid:marinespecies.org:taxname:146538,Genus,NA,vegetation
+Dapis,Microcoleaceae,urn:lsid:marinespecies.org:taxname:1660763,Genus,NA,vegetation
 Caulerpaceae,Bryopsidales,urn:lsid:marinespecies.org:taxname:143668,Family,NA,vegetation
 Codiaceae,Bryopsidales,urn:lsid:marinespecies.org:taxname:143689,Family,NA,vegetation
 Dichotomosiphonaceae,Bryopsidales,urn:lsid:marinespecies.org:taxname:368714,Family,NA,vegetation
@@ -116,9 +123,7 @@ Ascophyllum,Fucaceae,urn:lsid:marinespecies.org:taxname:144128,Genus,NA,vegetati
 Fucus,Fucaceae,urn:lsid:marinespecies.org:taxname:144129,Genus,NA,vegetation
 Cystoseira,Sargassaceae,urn:lsid:marinespecies.org:taxname:144126,Genus,NA,vegetation
 Sargassum,Sargassaceae,urn:lsid:marinespecies.org:taxname:144132,Genus,NA,vegetation
-Cyanobacterium,Geminocystaceae,urn:lsid:marinespecies.org:taxname:573277,Genus,NA,vegetation
-Lyngbya,Microcoleaceae,urn:lsid:marinespecies.org:taxname:146538,Genus,NA,vegetation
-Dapis,Microcoleaceae,urn:lsid:marinespecies.org:taxname:1660763,Genus,NA,vegetation
+Dapis pleousa,Dapis,urn:lsid:marinespecies.org:taxname:1660764,Species,NA,vegetation
 Caulerpa,Caulerpaceae,urn:lsid:marinespecies.org:taxname:143816,Genus,NA,vegetation
 Codium,Codiaceae,urn:lsid:marinespecies.org:taxname:143999,Genus,NA,vegetation
 Avrainvillea,Dichotomosiphonaceae,urn:lsid:marinespecies.org:taxname:143819,Genus,NA,vegetation
@@ -152,7 +157,6 @@ Canistrocarpus,Dictyoteae,urn:lsid:marinespecies.org:taxname:369437,Genus,NA,veg
 Ectocarpus siliculosus,Ectocarpus,urn:lsid:marinespecies.org:taxname:145410,Species,NA,vegetation
 Colpomenia,Hydroclathreae,urn:lsid:marinespecies.org:taxname:144253,Genus,NA,vegetation
 Fucus serratus,Fucus,urn:lsid:marinespecies.org:taxname:145546,Species,NA,vegetation
-Dapis pleousa,Dapis,urn:lsid:marinespecies.org:taxname:1660764,Species,NA,vegetation
 Caulerpa prolifera,Caulerpa,urn:lsid:marinespecies.org:taxname:144471,Species,NA,vegetation
 Caulerpa racemosa,Caulerpa,urn:lsid:marinespecies.org:taxname:144472,Species,NA,vegetation
 Caulerpa sertularioides,Caulerpa,urn:lsid:marinespecies.org:taxname:144474,Species,NA,vegetation
