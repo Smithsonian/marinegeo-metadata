@@ -58,24 +58,32 @@ df <- tibble(
 ) %>%
   mutate(group = marinegeo.utils::utl_mg_assign_functional_groups("vegetation", groups, scientific_name))
 
-if(all(df$group == groups)){
-  seagrass_functional_group_test <- "Seagrass Functional Group Test passed"
-} else {
+seagrass_functional_group_test <- tryCatch({
+  
+  if(all(df$group == groups)){
+    seagrass_functional_group_test <- "Seagrass Functional Group Test passed"
+  } else {
+    seagrass_functional_group_test <- c(
+      "FAIL: Seagrass Functional Group Test",
+      "\n",
+      "Test returns:", df$group
+    )
+    
+    return(seagrass_functional_group_test)
+  }
+  
+}, error = function(e){
+  
   seagrass_functional_group_test <- c(
     "FAIL: Seagrass Functional Group Test",
     "\n",
     "Test returns:", df$group
   )
-}
+  
+  return(seagrass_functional_group_test)
+})
 
-## ... Fouling ####
-scientific_names <- c("Zostera marina", "unidentified macroalgae")
-groups <- c("Seagrass", "Algae")
-
-df <- tibble(
-  scientific_name = scientific_names
-) %>%
-  mutate(group = marinegeo.utils::utl_mg_assign_functional_groups("fouling", groups, scientific_name))
+## Output Results ####
 
 cat("\n")
 report_qc(observation_lookup, "observation_lookup", "Observation Lookup Table")
@@ -103,4 +111,8 @@ cat("\n")
 cat("----")
 cat("\n")
 cat("\n")
-seagrass_functional_group_test
+cat(seagrass_functional_group_test)
+cat("\n")
+cat("----")
+cat("\n")
+cat("\n")

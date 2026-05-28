@@ -6,18 +6,18 @@ library(data.tree)
 library(tidyverse)
 library(marinegeo.utils)
 
-taxa_raw <- read_csv("taxonomy-and-functional-groups/taxonomic-lookup/marinegeo_taxonomic_lookup.csv") 
+taxa_raw <- read_csv("taxonomy-and-functional-groups/taxonomic-lookup/marinegeo_taxonomic_lookup.csv")
 
-# taxon names are used as node IDs, with scientific IDs as an attribute. 
+# taxon names are used as node IDs, with scientific IDs as an attribute.
 # Therefore there cannot be any duplicate taxon names
 taxa_dupe_names <- taxa_raw %>%
-  count(name) %>% 
+  count(name) %>%
   filter(n > 1) %>%
   pull(name)
 
 taxa <- taxa_raw %>%
   mutate(name = case_when(
-    name %in% taxa_dupe_names ~ paste0(name, "-", id),
+    name %in% taxa_dupe_names ~ paste0(name, "-", rank, "-", id),
     T ~ name
   ))
 
@@ -63,11 +63,32 @@ algae <- vegetation$AddChild("Algae", scientific_id = "FUNCTIONAL:ALGAE", defini
 
 # Macroalgae
 macroalgae <- algae$AddChild("Macroalgae", scientific_id = "FUNCTIONAL:MACROALGAE")
-macroalgae_ids <- c("Chlorophyta", "Rhodophyta", "Phaeophyceae")
-lapply(macroalgae_ids, function(x){
-  new_node <- Clone(FindNode(taxa_tree, x))
-  macroalgae$AddChildNode(new_node)
-})
+
+# Green Algae
+green_algae <- macroalgae$AddChild("Green Algae", scientific_id = "FUNCTIONAL:GREEN_ALGAE")
+green_algae_node <- Clone(FindNode(taxa_tree, "Chlorophyta"))
+green_algae$AddChildNode(green_algae_node)
+
+# Red Algae
+red_algae <- macroalgae$AddChild("Red Algae", scientific_id = "FUNCTIONAL:RED_ALGAE")
+red_algae_node <- Clone(FindNode(taxa_tree, "Rhodophyta"))
+red_algae$AddChildNode(red_algae_node)
+
+# Add additional node for red branching macroalgae, no taxonomic assumptions:
+red_algae$AddChild("Red branching macroalgae", scientific_id = "FUNCTIONAL:RED_BRANCHING_MACROALGAE")
+
+# Brown Algae
+brown_algae <- macroalgae$AddChild("Brown Algae", scientific_id = "FUNCTIONAL:BROWN_ALGAE")
+brown_algae_node <- Clone(FindNode(taxa_tree, "Phaeophyceae"))
+brown_algae$AddChildNode(brown_algae_node)
+
+# macroalgae_ids <- c("Chlorophyta", "Rhodophyta", "Phaeophyceae")
+# lapply(macroalgae_ids, function(x){
+#   new_node <- Clone(FindNode(taxa_tree, x))
+#   macroalgae$AddChildNode(new_node)
+# })
+#
+# macroalgae$AddChild("Red branching macroalgae", scientific_id = "FUNCTIONAL:RED_BRANCHING_MACROALGAE")
 
 # Other algae: Cyanobacteria (including Dapis pleousa, Lyngbya sp)
 algae_ids <- c("Cyanobacteria")
@@ -76,9 +97,13 @@ lapply(algae_ids, function(x){
   algae$AddChildNode(new_node)
 })
 
+filamentous_algae <- algae$AddChild("Filamentous Algae", scientific_id = "FUNCTIONAL:FILAMENTOUS_ALGAE")
+
 vegetation
 print(vegetation, "scientific_id")
-print(vegetation, "scientific_id", "rank")
+
+# Verify enrollment:
+# View(print(vegetation, "scientific_id", "rank", limit = NULL))
 
 output_network_df <- ToDataFrameNetwork(vegetation, "scientific_id", "rank", "definition", direction = "descend")
 
