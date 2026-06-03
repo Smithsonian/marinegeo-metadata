@@ -31,6 +31,7 @@ Enhalus,Hydrocharitaceae,urn:lsid:marinespecies.org:taxname:205672,Genus,NA,vege
 Thalassia,Hydrocharitaceae,urn:lsid:marinespecies.org:taxname:206854,Genus,NA,vegetation
 Posidonia,Posidoniaceae,urn:lsid:marinespecies.org:taxname:144232,Genus,NA,vegetation
 Zostera,Zosteraceae,urn:lsid:marinespecies.org:taxname:144233,Genus,NA,vegetation
+Heterozostera,Zosteraceae,urn:lsid:marinespecies.org:taxname:369762,Genus,NA,vegetation
 Chlorophyta,Green Algae,urn:lsid:marinespecies.org:taxname:801,Phylum (Division),NA,vegetation
 Rhodophyta,Red Algae,urn:lsid:marinespecies.org:taxname:852,Phylum (Division),NA,vegetation
 Red branching macroalgae,Red Algae,FUNCTIONAL:RED_BRANCHING_MACROALGAE,NA,NA,vegetation
@@ -66,6 +67,7 @@ Zostera marina,Zostera,urn:lsid:marinespecies.org:taxname:495077,Species,NA,vege
 Zostera muelleri,Zostera,urn:lsid:marinespecies.org:taxname:495081,Species,NA,vegetation
 Zostera noltii,Zostera,urn:lsid:marinespecies.org:taxname:495082,Species,NA,vegetation
 Zostera nigricaulis,Zostera,urn:lsid:marinespecies.org:taxname:593702,Species,NA,vegetation
+Heterozostera nigricaulis,Heterozostera,urn:lsid:marinespecies.org:taxname:669498,Species,NA,vegetation
 Chlorophytina,Chlorophyta,urn:lsid:marinespecies.org:taxname:1304953,Subphylum (Subdivision),NA,vegetation
 Eurhodophytina,Rhodophyta,urn:lsid:marinespecies.org:taxname:493826,Subphylum (Subdivision),NA,vegetation
 Dictyotophycidae,Phaeophyceae,urn:lsid:marinespecies.org:taxname:1304855,Subclass,NA,vegetation
@@ -131,6 +133,7 @@ Halimedaceae,Halimedineae,urn:lsid:marinespecies.org:taxname:368715,Family,NA,ve
 Bryopsidaceae,Bryopsidineae,urn:lsid:marinespecies.org:taxname:143666,Family,NA,vegetation
 Anadyomene,Anadyomenaceae,urn:lsid:marinespecies.org:taxname:143992,Genus,NA,vegetation
 Valonia,Valoniaceae,urn:lsid:marinespecies.org:taxname:144267,Genus,NA,vegetation
+Ventricaria,Valoniaceae,urn:lsid:marinespecies.org:taxname:144268,Genus,NA,vegetation
 Ulothrix,Ulotrichaceae,urn:lsid:marinespecies.org:taxname:144287,Genus,NA,vegetation
 Percursaria,Ulvaceae,urn:lsid:marinespecies.org:taxname:144295,Genus,NA,vegetation
 Ulva,Ulvaceae,urn:lsid:marinespecies.org:taxname:144296,Genus,NA,vegetation
@@ -166,6 +169,7 @@ Udoteeae,Halimedaceae,urn:lsid:marinespecies.org:taxname:1635982,Tribe,NA,vegeta
 Halimedeae,Halimedaceae,urn:lsid:marinespecies.org:taxname:1649447,Tribe,NA,vegetation
 Bryopsis,Bryopsidaceae,urn:lsid:marinespecies.org:taxname:143812,Genus,NA,vegetation
 Anadyomene stellata,Anadyomene,urn:lsid:marinespecies.org:taxname:145012,Species,NA,vegetation
+Ventricaria ventricosa,Ventricaria,urn:lsid:marinespecies.org:taxname:145885,Species,NA,vegetation
 Ulothrix speciosa,Ulothrix,urn:lsid:marinespecies.org:taxname:145930,Species,NA,vegetation
 Percursaria percursa,Percursaria,urn:lsid:marinespecies.org:taxname:145979,Species,NA,vegetation
 Ulva lactuca,Ulva,urn:lsid:marinespecies.org:taxname:145984,Species,NA,vegetation
@@ -240,3 +244,5 @@ Crassiphycus usneoides,Crassiphycus,urn:lsid:marinespecies.org:taxname:1327608,S
 Agarophyton chilense,Agarophyton,urn:lsid:marinespecies.org:taxname:1379887,Species,NA,vegetation
 Jania,Janieae,urn:lsid:marinespecies.org:taxname:144012,Genus,NA,vegetation
 Amphiroa,Amphiroeae,urn:lsid:marinespecies.org:taxname:144003,Genus,NA,vegetation
+Amphiroa fragilissima,Amphiroa,urn:lsid:marinespecies.org:taxname:145099,Species,NA,vegetation
+Amphiroa hancockii,Amphiroa,urn:lsid:marinespecies.org:taxname:372911,Species,NA,vegetation
