@@ -811,6 +811,7 @@ urn:lsid:marinespecies.org:taxname:127399,Canthidermis sufflamen,Species,127399,
 urn:lsid:marinespecies.org:taxname:127402,Diodon holocanthus,Species,127402,urn:lsid:marinespecies.org:taxname:126231
 urn:lsid:marinespecies.org:taxname:127403,Diodon hystrix,Species,127403,urn:lsid:marinespecies.org:taxname:126231
 urn:lsid:marinespecies.org:taxname:127411,Canthigaster rostrata,Species,127411,urn:lsid:marinespecies.org:taxname:126238
+urn:lsid:marinespecies.org:taxname:129096,Siboglinidae,Family,129096,urn:lsid:marinespecies.org:taxname:901
 urn:lsid:marinespecies.org:taxname:129187,Hermodice,Genus,129187,urn:lsid:marinespecies.org:taxname:863342
 urn:lsid:marinespecies.org:taxname:129199,Arabella,Genus,129199,urn:lsid:marinespecies.org:taxname:22610
 urn:lsid:marinespecies.org:taxname:129211,Capitella,Genus,129211,urn:lsid:marinespecies.org:taxname:921
@@ -2191,6 +2192,7 @@ urn:lsid:marinespecies.org:taxname:322554,Ophiodromini,Tribe,322554,urn:lsid:mar
 urn:lsid:marinespecies.org:taxname:322588,Terebellinae,Subfamily,322588,urn:lsid:marinespecies.org:taxname:982
 urn:lsid:marinespecies.org:taxname:324345,Namanereidinae,Subfamily,324345,urn:lsid:marinespecies.org:taxname:22496
 urn:lsid:marinespecies.org:taxname:324346,Nereidinae,Subfamily,324346,urn:lsid:marinespecies.org:taxname:22496
+urn:lsid:marinespecies.org:taxname:324628,Riftia,Genus,324628,urn:lsid:marinespecies.org:taxname:129096
 urn:lsid:marinespecies.org:taxname:325031,Brachysyllis,Genus,325031,urn:lsid:marinespecies.org:taxname:948
 urn:lsid:marinespecies.org:taxname:325241,Phragmatopoma,Genus,325241,urn:lsid:marinespecies.org:taxname:979
 urn:lsid:marinespecies.org:taxname:325342,Decapodiformes,Superorder,325342,urn:lsid:marinespecies.org:taxname:11709
