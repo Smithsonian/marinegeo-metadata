@@ -23,8 +23,8 @@ add_new_observation_id <- function(scientific_name, scientific_id){
 
   # Open observation lookup table and check if provided scientific name
   # value is already present in the target table. If so, cancel the operation
-  obs_df <- readr::read_csv(list.files(
-    "taxonomy-and-functional-groups/observation-lookup/", full.names = T),
+  obs_df <- readr::read_csv(
+    "taxonomy-and-functional-groups/observation-lookup/marinegeo_observation_ids.csv",
     show_col_types = FALSE
   )
 
@@ -87,8 +87,8 @@ add_new_observation_id <- function(scientific_name, scientific_id){
         "Verified new observation successfully added to observation lookup table:\n",
         paste(capture.output(
           dplyr::anti_join(
-            readr::read_csv(list.files(
-              "taxonomy-and-functional-groups/observation-lookup/", full.names = T),
+            readr::read_csv(
+              "taxonomy-and-functional-groups/observation-lookup/marinegeo_observation_ids.csv",
               show_col_types = FALSE
             ),
             obs_df, dplyr::join_by(scientific_name, scientific_id))
