@@ -10,7 +10,6 @@ Oyster Reef Monitoring,2,Oyster Length,oyster-length-monitoring-v1,length,marine
 Oyster Reef Monitoring,2,Oyster Density,oyster-count-monitoring-v1,count,marinegeo-oyster-monitoring/L2-data/oyster-density-monitoring-v1,,github
 Oyster Reef Monitoring,2,Oyster Habitat Complexity,oyster-habitat-complexity-monitoring-v1,complexity,marinegeo-oyster-monitoring/L2-data/oyster-complexity-monitoring-v1,,github
 Oyster Reef Monitoring,2,Oyster Biobox Data,oyster-biobox-monitoring-v1,biobox,marinegeo-oyster-monitoring/L2-data/oyster-biobox-annual-monitoring-v1,,github
-Oyster Reef Monitoring,2,Oyster Canopy Taxa,oyster-canopy-taxa-monitoring-v1,canopy,marinegeo-oyster-monitoring/L2-data/oyster-reef-area-annual-monitoring-v1,,github
 Reef Life Survey,1,Reef Life Survey Data (L1),reef-life-survey-data-marinegeo-input,,marinegeo-reef-life-survey/L1-data/rls-data,,github
 Reef Life Survey,1,Reef Life Survey Dive Roster (L1),,,marinegeo-reef-life-survey/L1-data/rls-data,,github
 Reef Life Survey,2,Reef Life Survey Data (L2),reef-life-survey-data-marinegeo-v1,,marinegeo-reef-life-survey/L2-data/reef-life-survey-data-marinegeo-v1,marinegeo-reef-life-survey/scripts/reef-life-survey-data-marinegeo-v1,github
