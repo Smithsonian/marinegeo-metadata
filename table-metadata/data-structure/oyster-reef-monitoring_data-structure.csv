@@ -1,4 +1,4 @@
-﻿protocol,table_id,level,column_name,data_type,missing_values,uuid_identity
+protocol,table_id,level,column_name,data_type,missing_values,uuid_identity
 Oyster Reef Monitoring,oyster-transect-metadata-monitoring-v1,2,sample_event_id,STRING,,
 Oyster Reef Monitoring,oyster-transect-metadata-monitoring-v1,2,partner_code,STRING,,
 Oyster Reef Monitoring,oyster-transect-metadata-monitoring-v1,2,site_name,STRING,,
@@ -24,7 +24,6 @@ Oyster Reef Monitoring,oyster-substrate-composition-monitoring-v1,2,transect,TIN
 Oyster Reef Monitoring,oyster-substrate-composition-monitoring-v1,2,sample_collection_date,DATE,,
 Oyster Reef Monitoring,oyster-substrate-composition-monitoring-v1,2,quadrat,TINYINT,,
 Oyster Reef Monitoring,oyster-substrate-composition-monitoring-v1,2,cover_type,STRING,,
-Oyster Reef Monitoring,oyster-substrate-composition-monitoring-v1,2,scientific_name,STRING,,
 Oyster Reef Monitoring,oyster-substrate-composition-monitoring-v1,2,point_count,INT,,
 Oyster Reef Monitoring,oyster-substrate-composition-monitoring-v1,2,points_in_quadrat,INT,,
 Oyster Reef Monitoring,oyster-substrate-composition-monitoring-v1,2,percent_cover,DOUBLE,,
