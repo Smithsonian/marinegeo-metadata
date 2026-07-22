@@ -26,6 +26,7 @@ Oyster Reef Monitoring,oyster-substrate-composition-monitoring-v1,2,site_name,ST
 Oyster Reef Monitoring,oyster-substrate-composition-monitoring-v1,2,transect,TINYINT,enforce,TRUE
 Oyster Reef Monitoring,oyster-substrate-composition-monitoring-v1,2,quadrat,TINYINT,enforce,TRUE
 Oyster Reef Monitoring,oyster-substrate-composition-monitoring-v1,2,sample_collection_date,DATE,enforce,TRUE
+Oyster Reef Monitoring,oyster-substrate-composition-monitoring-v1,2,scientific_name,STRING,allow,TRUE
 Oyster Reef Monitoring,oyster-substrate-composition-monitoring-v1,2,cover_type,STRING,enforce,TRUE
 Oyster Reef Monitoring,oyster-substrate-composition-monitoring-v1,2,point_count,INT,warn,
 Oyster Reef Monitoring,oyster-substrate-composition-monitoring-v1,2,points_in_quadrat,INT,enforce,
