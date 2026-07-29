@@ -261,8 +261,28 @@ fouling_group_assignments %>%
 ### Other Gastropods
 
 # I assume this refers to sessile gastropods, which cement or attach shells to surfaces
+# Previous key had "Crepidula" and "Vermetid" as distinct categories - is this a missing category in the updated schema?
+
+
+# Forams
+
+
+# Tube-building amphipods
+ids <- fouling_group_assignments %>%
+  filter(fg == "Amphipod tubes") %>%
+  filter(!is.na(scientific_id)) %>%
+  pull(scientific_id)
+
+classifications_df %>%
+  filter(scientific_id %in% ids) %>%
+  count(Phylum, Subphylum, Class, Order, Family)
+
+# Leave this open.. what other types of amphipods are in the lookup? I assume they are all in the mobile grouping
 
 ## Algae
+ 
+# All can be assigned as functional groups
+# No current species IDs in fouling lookup
 
 # Red fleshy algae
 
@@ -275,21 +295,6 @@ fouling_group_assignments %>%
 # Brown algae
 
 # Algal turf
-
-# Forams
-
-# Tube-building amphipods
-
-ids <- fouling_group_assignments %>%
-  filter(fg == "Amphipod tubes") %>%
-  filter(!is.na(scientific_id)) %>%
-  pull(scientific_id)
-
-classifications_df %>%
-  filter(scientific_id %in% ids) %>%
-  count(Phylum, Subphylum, Class, Order, Family)
-
-# Leave this open.. what other types of amphipods are in the lookup? I assume they are all in the mobile grouping
 
 # Sediment
 
