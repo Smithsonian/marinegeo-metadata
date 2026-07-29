@@ -1,3 +1,36 @@
+get_taxonomic_tree <- function(df){
+  
+  # taxon names are used as node IDs, with scientific IDs as an attribute.
+  # Therefore there cannot be any duplicate taxon names
+  taxa_dupe_names <- df %>%
+    count(name) %>%
+    filter(n > 1) %>%
+    pull(name)
+  
+  taxa <- df %>%
+    mutate(name = case_when(
+      name %in% taxa_dupe_names ~ paste0(name, "-", rank, "-", id),
+      T ~ name
+    ))
+  
+  # Build a lookup to map parent scientific_id -> parent name
+  parent_names <- taxa %>%
+    select(scientific_id, name) %>%
+    rename(parent_id = scientific_id,
+           parent_name = name)
+  
+  # Use name as node identifier, scientific_id as attribute
+  taxa_network <- taxa %>%
+    left_join(parent_names, by = c("parent_id")) %>%
+    mutate(parent_name = replace_na(parent_name, "top node")) %>%
+    rename(child_name = name) %>%
+    select(parent_name, child_name, scientific_id, rank)
+  
+  taxa_tree <- FromDataFrameNetwork(taxa_network, check = "no-warn")
+  
+  return(taxa_tree)
+}
+
 get_wide_form_taxonomy <- function(df){
   
   classifications_df <- taxa_df |>

@@ -7,7 +7,7 @@ library(marinegeo.utils)
 obs_df <- read_csv(list.files("taxonomy-and-functional-groups/observation-lookup/", full.names = T))
 taxa_df <- read_csv(list.files("taxonomy-and-functional-groups/taxonomic-lookup/", full.names = T))
 
-source("R/taxonomic-lookup-updates/get_wide_form_taxonomy.R")
+source("R/taxonomic-lookup-updates/taxonomy_helpers.R")
 
 classifications_df <- get_wide_form_taxonomy(taxa_df)
 
@@ -23,22 +23,36 @@ fouling_group_assignments <- fouling_group_assignments_in %>%
   left_join(obs_df) %>%
   distinct()
   
+taxa_tree <- get_taxonomic_tree(taxa_df)
+print(taxa_tree, "scientific_id", "rank")
+taxa_tree_df <- ToDataFrameNetwork(taxa_tree, "scientific_id", "rank", direction = "descend")
+
+fouling <- Node$new("Fouling Cover", scientific_id = "PROTOCOL:FOULING-COVER")
+
 # phylum: Cnidarians
 
 ### Hydroids
-hydroids <- classifications_df %>%
+hydroids_wide <- classifications_df %>%
   filter(Phylum == "Cnidaria",
          Class == "Hydrozoa")
 
 # Cnidaria gets assigned to hydroid
 fouling_group_assignments %>%
   filter(fg == "Hydroid",
-         !scientific_id %in% hydroids$scientific_id)
+         !scientific_id %in% hydroids_wide$scientific_id)
+
+hydroids <- fouling$AddChild("Hydroids", scientific_id = "FUNCTIONAL:HYDROIDS")
+
+ids <- "Hydrozoa"
+lapply(ids, function(x){
+  new_node <- Clone(FindNode(taxa_tree, x))
+  hydroids$AddChildNode(new_node)
+})
 
 # Class: Anthozoa (corals and sea anemones)
 
 ### Anemones
-anemones <- classifications_df %>%
+anemones_wide <- classifications_df %>%
   filter(Phylum == "Cnidaria",
          Subphylum == "Anthozoa",
          # Class == "Hexacorallia
@@ -47,7 +61,15 @@ anemones <- classifications_df %>%
 # Two species are undefined
 fouling_group_assignments %>%
   filter(fg == "Anemone",
-         !scientific_id %in% anemones$scientific_id)
+         !scientific_id %in% anemones_wide$scientific_id)
+
+anemones <- fouling$AddChild("Anemones", scientific_id = "FUNCTIONAL:ANEMONES")
+
+ids <- "Actiniaria"
+lapply(ids, function(x){
+  new_node <- Clone(FindNode(taxa_tree, x))
+  hydroids$AddChildNode(new_node)
+})
 
 ### Corals
 classifications_df %>%
@@ -56,7 +78,9 @@ classifications_df %>%
          Class %in% c("Hexacorallia", "Octocorallia"),
          Order != "Actiniaria")
 
-# No corals in the initial fouling group assigment df
+# No corals in the initial fouling group assignment df
+
+corals <- fouling$AddChild("Corals", scientific_id = "FUNCTIONAL:CORALS")
 
 # phylum: Porifera
 
@@ -301,8 +325,6 @@ classifications_df %>%
 # Other
 
 # Open Space
-
-
 
 # print(fouling, "scientific_id", limit = 20)
 # 
