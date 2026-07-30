@@ -1,0 +1,61 @@
+from,to,scientific_id,label,code,rank,definition,tree_name
+Hydroids,Fouling Cover,FUNCTIONAL:HYDROIDS,Hydroids,NA,NA,NA,fouling
+Anemones,Fouling Cover,FUNCTIONAL:ANEMONES,Anemones,NA,NA,NA,fouling
+Corals,Fouling Cover,FUNCTIONAL:CORALS,Corals,NA,NA,NA,fouling
+Sabellid Polychaetes,Fouling Cover,FUNCTIONAL:SABELLIDS,Sabellid Polychaetes,NA,NA,NA,fouling
+Hydrozoa,Hydroids,urn:lsid:marinespecies.org:taxname:1337,NA,NA,Class,NA,fouling
+Actiniaria,Anemones,urn:lsid:marinespecies.org:taxname:1360,NA,NA,Order,NA,fouling
+Sabellidae,Sabellid Polychaetes,urn:lsid:marinespecies.org:taxname:985,NA,NA,Family,NA,fouling
+Hydroidolina,Hydrozoa,urn:lsid:marinespecies.org:taxname:19494,NA,NA,Subclass,NA,fouling
+Enthemonae,Actiniaria,urn:lsid:marinespecies.org:taxname:888371,NA,NA,Suborder,NA,fouling
+Sabellinae,Sabellidae,urn:lsid:marinespecies.org:taxname:154917,NA,NA,Subfamily,NA,fouling
+Siphonophorae,Hydroidolina,urn:lsid:marinespecies.org:taxname:1371,NA,NA,Order,NA,fouling
+Anthoathecata,Hydroidolina,urn:lsid:marinespecies.org:taxname:13551,NA,NA,Order,NA,fouling
+Leptothecata,Hydroidolina,urn:lsid:marinespecies.org:taxname:13552,NA,NA,Order,NA,fouling
+Actinioidea,Enthemonae,urn:lsid:marinespecies.org:taxname:853973,NA,NA,Superfamily,NA,fouling
+Metridioidea,Enthemonae,urn:lsid:marinespecies.org:taxname:854224,NA,NA,Superfamily,NA,fouling
+Bispira,Sabellinae,urn:lsid:marinespecies.org:taxname:129523,NA,NA,Genus,NA,fouling
+Branchiomma,Sabellinae,urn:lsid:marinespecies.org:taxname:129524,NA,NA,Genus,NA,fouling
+Parasabella,Sabellinae,urn:lsid:marinespecies.org:taxname:325958,NA,NA,Genus,NA,fouling
+Calycophorae,Siphonophorae,urn:lsid:marinespecies.org:taxname:135333,NA,NA,Suborder,NA,fouling
+Capitata,Anthoathecata,urn:lsid:marinespecies.org:taxname:16351,NA,NA,Suborder,NA,fouling
+Filifera,Anthoathecata,urn:lsid:marinespecies.org:taxname:16352,NA,NA,Suborder,NA,fouling
+Campanulariidae,Leptothecata,urn:lsid:marinespecies.org:taxname:1606,NA,NA,Family,NA,fouling
+Sertularioidea,Leptothecata,urn:lsid:marinespecies.org:taxname:1041959,NA,NA,Superfamily,NA,fouling
+Actiniidae,Actinioidea,urn:lsid:marinespecies.org:taxname:100653,NA,NA,Family,NA,fouling
+Aiptasiidae,Metridioidea,urn:lsid:marinespecies.org:taxname:100656,NA,NA,Family,NA,fouling
+Diadumenidae,Metridioidea,urn:lsid:marinespecies.org:taxname:100664,NA,NA,Family,NA,fouling
+Bispira brunnea,Bispira,urn:lsid:marinespecies.org:taxname:421069,NA,NA,Species,NA,fouling
+Branchiomma nigromaculatum,Branchiomma,urn:lsid:marinespecies.org:taxname:209930,NA,NA,Species,NA,fouling
+Branchiomma bairdi,Branchiomma,urn:lsid:marinespecies.org:taxname:421070,NA,NA,Species,NA,fouling
+Parasabella aberrans,Parasabella,urn:lsid:marinespecies.org:taxname:530659,NA,NA,Species,NA,fouling
+Parasabella microphthalma,Parasabella,urn:lsid:marinespecies.org:taxname:530927,NA,NA,Species,NA,fouling
+Parasabella crassichaetae,Parasabella,urn:lsid:marinespecies.org:taxname:1299057,NA,NA,Species,NA,fouling
+Abylidae,Calycophorae,urn:lsid:marinespecies.org:taxname:135336,NA,NA,Family,NA,fouling
+Milleporidae,Capitata,urn:lsid:marinespecies.org:taxname:196235,NA,NA,Family,NA,fouling
+Bougainvilliidae,Filifera,urn:lsid:marinespecies.org:taxname:1594,NA,NA,Family,NA,fouling
+Eudendriidae,Filifera,urn:lsid:marinespecies.org:taxname:1600,NA,NA,Family,NA,fouling
+Stylasteridae,Filifera,urn:lsid:marinespecies.org:taxname:22805,NA,NA,Family,NA,fouling
+Obelia,Campanulariidae,urn:lsid:marinespecies.org:taxname:117034,NA,NA,Genus,NA,fouling
+Sertulariidae,Sertularioidea,urn:lsid:marinespecies.org:taxname:1614,NA,NA,Family,NA,fouling
+Condylactis,Actiniidae,urn:lsid:marinespecies.org:taxname:100701,NA,NA,Genus,NA,fouling
+Aiptasia,Aiptasiidae,urn:lsid:marinespecies.org:taxname:100718,NA,NA,Genus,NA,fouling
+Exaiptasia,Aiptasiidae,urn:lsid:marinespecies.org:taxname:888636,NA,NA,Genus,NA,fouling
+Diadumene,Diadumenidae,urn:lsid:marinespecies.org:taxname:100728,NA,NA,Genus,NA,fouling
+Abylinae,Abylidae,urn:lsid:marinespecies.org:taxname:709060,NA,NA,Subfamily,NA,fouling
+Millepora,Milleporidae,urn:lsid:marinespecies.org:taxname:205902,NA,NA,Genus,NA,fouling
+Bougainvillia,Bougainvilliidae,urn:lsid:marinespecies.org:taxname:117015,NA,NA,Genus,NA,fouling
+Eudendrium,Eudendriidae,urn:lsid:marinespecies.org:taxname:117093,NA,NA,Genus,NA,fouling
+Stylaster,Stylasteridae,urn:lsid:marinespecies.org:taxname:117246,NA,NA,Genus,NA,fouling
+Sertularia,Sertulariidae,urn:lsid:marinespecies.org:taxname:117234,NA,NA,Genus,NA,fouling
+Tridentata,Sertulariidae,urn:lsid:marinespecies.org:taxname:152168,NA,NA,Genus,NA,fouling
+Aiptasia pallida,Aiptasia,urn:lsid:marinespecies.org:taxname:283486,NA,NA,Species,NA,fouling
+Exaiptasia pallida,Exaiptasia,urn:lsid:marinespecies.org:taxname:888637,NA,NA,Species,NA,fouling
+Diadumene leucolena,Diadumene,urn:lsid:marinespecies.org:taxname:158230,NA,NA,Species,NA,fouling
+Abyla,Abylinae,urn:lsid:marinespecies.org:taxname:135351,NA,NA,Genus,NA,fouling
+Millepora alcicornis,Millepora,urn:lsid:marinespecies.org:taxname:210726,NA,NA,Species,NA,fouling
+Millepora complanata,Millepora,urn:lsid:marinespecies.org:taxname:287421,NA,NA,Species,NA,fouling
+Millepora squarrosa,Millepora,urn:lsid:marinespecies.org:taxname:287425,NA,NA,Species,NA,fouling
+Bougainvillia carolinensis,Bougainvillia,urn:lsid:marinespecies.org:taxname:157917,NA,NA,Species,NA,fouling
+Eudendrium carneum,Eudendrium,urn:lsid:marinespecies.org:taxname:117545,NA,NA,Species,NA,fouling
+Stylaster roseus,Stylaster,urn:lsid:marinespecies.org:taxname:285905,NA,NA,Species,NA,fouling

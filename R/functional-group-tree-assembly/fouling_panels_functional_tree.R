@@ -2,7 +2,6 @@
 
 library(data.tree)
 library(tidyverse)
-library(marinegeo.utils)
 
 obs_df <- read_csv(list.files("taxonomy-and-functional-groups/observation-lookup/", full.names = T))
 taxa_df <- read_csv(list.files("taxonomy-and-functional-groups/taxonomic-lookup/", full.names = T))
@@ -41,7 +40,10 @@ fouling_group_assignments %>%
   filter(fg == "Hydroid",
          !scientific_id %in% hydroids_wide$scientific_id)
 
-hydroids <- fouling$AddChild("Hydroids", scientific_id = "FUNCTIONAL:HYDROIDS")
+hydroids <- fouling$AddChild("Hydroids", 
+                             scientific_id = "FUNCTIONAL:HYDROIDS",
+                             label = "Hydroids",
+                             code = "hyd")
 
 ids <- "Hydrozoa"
 lapply(ids, function(x){
@@ -63,12 +65,15 @@ fouling_group_assignments %>%
   filter(fg == "Anemone",
          !scientific_id %in% anemones_wide$scientific_id)
 
-anemones <- fouling$AddChild("Anemones", scientific_id = "FUNCTIONAL:ANEMONES")
+anemones <- fouling$AddChild("Anemones", 
+                             scientific_id = "FUNCTIONAL:ANEMONES",
+                             label = "Anemones",
+                             code = "ane")
 
 ids <- "Actiniaria"
 lapply(ids, function(x){
   new_node <- Clone(FindNode(taxa_tree, x))
-  hydroids$AddChildNode(new_node)
+  anemones$AddChildNode(new_node)
 })
 
 ### Corals
@@ -80,7 +85,10 @@ classifications_df %>%
 
 # No corals in the initial fouling group assignment df
 
-corals <- fouling$AddChild("Corals", scientific_id = "FUNCTIONAL:CORALS")
+corals <- fouling$AddChild("Corals", 
+                           scientific_id = "FUNCTIONAL:CORALS",
+                           label = "Corals",
+                           code = "coral")
 
 # phylum: Porifera
 
@@ -109,14 +117,25 @@ fouling_group_assignments %>%
          !scientific_id %in% serpulids$scientific_id)
 
 ### Sabellid Polychaetes
-sabellids <- classifications_df %>%
+sabellids_wide <- classifications_df %>%
   filter(Phylum == "Annelida",
          Class == "Polychaeta",
          Family == "Sabellidae")
 
 fouling_group_assignments %>%
   filter(fg == "Sabellid",
-         !scientific_id %in% sabellids$scientific_id)
+         !scientific_id %in% sabellids_wide$scientific_id)
+
+sabellids <- fouling$AddChild("Sabellid Polychaetes", 
+                             scientific_id = "FUNCTIONAL:SABELLIDS",
+                             label = "Sabellid Polychaetes",
+                             code = "sab_poly")
+
+ids <- "Sabellidae"
+lapply(ids, function(x){
+  new_node <- Clone(FindNode(taxa_tree, x))
+  sabellids$AddChildNode(new_node)
+})
 
 ### Other Polychaetes
 poly_other <- classifications_df %>%
@@ -326,13 +345,14 @@ classifications_df %>%
 
 # Open Space
 
-# print(fouling, "scientific_id", limit = 20)
-# 
-# output_network_df <- ToDataFrameNetwork(fouling, "scientific_id", direction = "descend")
-# 
-# output_network_df %>%
-#   mutate(tree_name = "fouling",
-#          rank = NA,
-#          definition = NA) %>%
-#   select(from, to, scientific_id, rank, definition, tree_name) %>%
-#   write_csv("taxonomy-and-functional-groups/functional-group-lookup/fouling.csv")
+fouling
+print(fouling, "scientific_id")
+
+# Verify enrollment:
+# View(print(fouling, "scientific_id", "label", "code", "rank", limit = NULL))
+
+output_network_df <- ToDataFrameNetwork(fouling, "scientific_id", "label", "code", "rank", direction = "descend")
+
+output_network_df %>%
+  mutate(tree_name = "fouling") %>%
+  write_csv("taxonomy-and-functional-groups/functional-group-lookup/fouling_cover.csv")

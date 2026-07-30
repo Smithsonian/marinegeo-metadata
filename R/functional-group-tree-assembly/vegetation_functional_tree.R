@@ -105,7 +105,7 @@ print(vegetation, "scientific_id")
 # Verify enrollment:
 # View(print(vegetation, "scientific_id", "rank", limit = NULL))
 
-output_network_df <- ToDataFrameNetwork(vegetation, "scientific_id", "rank", "definition", direction = "descend")
+output_network_df <- ToDataFrameNetwork(vegetation, "scientific_id", "label", "code", "rank", "definition", direction = "descend")
 
 output_network_df %>%
   mutate(tree_name = "vegetation") %>%

@@ -1,15 +1,15 @@
-from,to,scientific_id,rank,definition,tree_name
-Algae,Oyster Reef Composition,FUNCTIONAL:ALGAE,NA,NA,oyster_composition
-Barnacles,Oyster Reef Composition,FUNCTIONAL:BARNACLES,NA,NA,oyster_composition
-Bivalves,Oyster Reef Composition,FUNCTIONAL:BIVALVES,NA,NA,oyster_composition
-Ascidians,Oyster Reef Composition,FUNCTIONAL:ASCIDIANS,NA,NA,oyster_composition
-Sponges,Oyster Reef Composition,FUNCTIONAL:SPONGES,NA,NA,oyster_composition
-Sediment,Oyster Reef Composition,FUNCTIONAL:SEDIMENT,NA,NA,oyster_composition
-Rock,Oyster Reef Composition,FUNCTIONAL:ROCK,NA,NA,oyster_composition
-Oyster Material,Oyster Reef Composition,FUNCTIONAL:OYSTER,NA,NA,oyster_composition
-Cultch & Large Shell Material,Oyster Material,FUNCTIONAL:LARGE_SHELL_MATERIAL_AND_CULTCH,NA,NA,oyster_composition
-Shell hash,Oyster Material,FUNCTIONAL:SHELL_HASH,NA,NA,oyster_composition
-Large Shell Material,Cultch & Large Shell Material,FUNCTIONAL:LARGE_SHELL_MATERIAL,NA,NA,oyster_composition
-Cultch,Cultch & Large Shell Material,FUNCTIONAL:CULTCH,NA,single intact shells,oyster_composition
-Live Oyster,Large Shell Material,FUNCTIONAL:LIVE_OYSTER,NA,NA,oyster_composition
-Box Oyster,Large Shell Material,FUNCTIONAL:BOX_OYSTER,NA,"gaping dead with both shells still attached, no visible tissue",oyster_composition
+from,to,scientific_id,label,code,rank,definition,tree_name
+Algae,Oyster Reef Composition,FUNCTIONAL:ALGAE,NA,NA,NA,NA,oyster_composition
+Barnacles,Oyster Reef Composition,FUNCTIONAL:BARNACLES,NA,NA,NA,NA,oyster_composition
+Bivalves,Oyster Reef Composition,FUNCTIONAL:BIVALVES,NA,NA,NA,NA,oyster_composition
+Ascidians,Oyster Reef Composition,FUNCTIONAL:ASCIDIANS,NA,NA,NA,NA,oyster_composition
+Sponges,Oyster Reef Composition,FUNCTIONAL:SPONGES,NA,NA,NA,NA,oyster_composition
+Sediment,Oyster Reef Composition,FUNCTIONAL:SEDIMENT,NA,NA,NA,NA,oyster_composition
+Rock,Oyster Reef Composition,FUNCTIONAL:ROCK,NA,NA,NA,NA,oyster_composition
+Oyster Material,Oyster Reef Composition,FUNCTIONAL:OYSTER,NA,NA,NA,NA,oyster_composition
+Cultch & Large Shell Material,Oyster Material,FUNCTIONAL:LARGE_SHELL_MATERIAL_AND_CULTCH,NA,NA,NA,NA,oyster_composition
+Shell hash,Oyster Material,FUNCTIONAL:SHELL_HASH,NA,NA,NA,NA,oyster_composition
+Large Shell Material,Cultch & Large Shell Material,FUNCTIONAL:LARGE_SHELL_MATERIAL,NA,NA,NA,NA,oyster_composition
+Cultch,Cultch & Large Shell Material,FUNCTIONAL:CULTCH,NA,NA,NA,single intact shells,oyster_composition
+Live Oyster,Large Shell Material,FUNCTIONAL:LIVE_OYSTER,NA,NA,NA,NA,oyster_composition
+Box Oyster,Large Shell Material,FUNCTIONAL:BOX_OYSTER,NA,NA,NA,"gaping dead with both shells still attached, no visible tissue",oyster_composition
