@@ -58,10 +58,8 @@ oyster_composition
 print(oyster_composition, "scientific_id")
 print(oyster_composition, "scientific_id", "definition")
 
-output_network_df <- ToDataFrameNetwork(oyster_composition, "scientific_id", "rank", "definition", direction = "descend")
+output_network_df <- ToDataFrameNetwork(oyster_composition, "scientific_id", "label", "code", "rank", "definition", direction = "descend")
 
 output_network_df %>%
-  mutate(tree_name = "oyster_composition",
-         rank = NA) %>%
-  select(from, to, scientific_id, rank, definition, tree_name) %>%
+  mutate(tree_name = "oyster_composition") %>%
   write_csv("taxonomy-and-functional-groups/functional-group-lookup/oyster_composition.csv")
