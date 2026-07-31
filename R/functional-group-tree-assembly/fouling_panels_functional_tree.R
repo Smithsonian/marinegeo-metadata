@@ -42,7 +42,7 @@ fouling_group_assignments %>%
 
 hydroids <- fouling$AddChild("Hydroids", 
                              scientific_id = "FUNCTIONAL:HYDROIDS",
-                             label = "Hydroids",
+                             type = "primary",
                              code = "hyd")
 
 ids <- "Hydrozoa"
@@ -67,7 +67,7 @@ fouling_group_assignments %>%
 
 anemones <- fouling$AddChild("Anemones", 
                              scientific_id = "FUNCTIONAL:ANEMONES",
-                             label = "Anemones",
+                             type = "primary",
                              code = "ane")
 
 ids <- "Actiniaria"
@@ -87,7 +87,7 @@ classifications_df %>%
 
 corals <- fouling$AddChild("Corals", 
                            scientific_id = "FUNCTIONAL:CORALS",
-                           label = "Corals",
+                           type = "primary",
                            code = "coral")
 
 # phylum: Porifera
@@ -128,7 +128,7 @@ fouling_group_assignments %>%
 
 sabellids <- fouling$AddChild("Sabellid Polychaetes", 
                              scientific_id = "FUNCTIONAL:SABELLIDS",
-                             label = "Sabellid Polychaetes",
+                             type = "primary",
                              code = "sab_poly")
 
 ids <- "Sabellidae"
@@ -351,7 +351,7 @@ print(fouling, "scientific_id")
 # Verify enrollment:
 # View(print(fouling, "scientific_id", "label", "code", "rank", limit = NULL))
 
-output_network_df <- ToDataFrameNetwork(fouling, "scientific_id", "label", "code", "rank", direction = "descend")
+output_network_df <- ToDataFrameNetwork(fouling, "scientific_id", "type", "code", "rank", direction = "descend")
 
 output_network_df %>%
   mutate(tree_name = "fouling") %>%

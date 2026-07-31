@@ -58,7 +58,7 @@ oyster_composition
 print(oyster_composition, "scientific_id")
 print(oyster_composition, "scientific_id", "definition")
 
-output_network_df <- ToDataFrameNetwork(oyster_composition, "scientific_id", "label", "code", "rank", "definition", direction = "descend")
+output_network_df <- ToDataFrameNetwork(oyster_composition, "scientific_id", "type", "code", "rank", "definition", direction = "descend")
 
 output_network_df %>%
   mutate(tree_name = "oyster_composition") %>%

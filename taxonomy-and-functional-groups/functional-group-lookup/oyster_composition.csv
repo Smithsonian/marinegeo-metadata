@@ -1,4 +1,4 @@
-from,to,scientific_id,label,code,rank,definition,tree_name
+from,to,scientific_id,type,code,rank,definition,tree_name
 Algae,Oyster Reef Composition,FUNCTIONAL:ALGAE,NA,NA,NA,NA,oyster_composition
 Barnacles,Oyster Reef Composition,FUNCTIONAL:BARNACLES,NA,NA,NA,NA,oyster_composition
 Bivalves,Oyster Reef Composition,FUNCTIONAL:BIVALVES,NA,NA,NA,NA,oyster_composition

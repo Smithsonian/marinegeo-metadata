@@ -52,14 +52,14 @@ lapply(nonmarine_sav_ids, function(x){
   nonmarine_sav$AddChildNode(new_node)
 })
 
-seagrass <- sav$AddChild("Marine Seagrass", scientific_id = "FUNCTIONAL:SEAGRASS", definition = "SAV species found in brackish to saline marine environments.")
+seagrass <- sav$AddChild("Marine Seagrass", scientific_id = "FUNCTIONAL:SEAGRASS", type = "primary", definition = "SAV species found in brackish to saline marine environments.")
 seagrass_families <- c("Cymodoceaceae", "Hydrocharitaceae", "Posidoniaceae", "Zosteraceae")
 lapply(seagrass_families, function(x){
   new_node <- Clone(FindNode(taxa_tree, x))
   seagrass$AddChildNode(new_node)
 })
 
-algae <- vegetation$AddChild("Algae", scientific_id = "FUNCTIONAL:ALGAE", definition = "Plantlike photosynthetic organisms, from single-celled to large, multicellular marine algae.")
+algae <- vegetation$AddChild("Algae", scientific_id = "FUNCTIONAL:ALGAE", type = "primary", definition = "Plantlike photosynthetic organisms, from single-celled to large, multicellular marine algae.")
 
 # Macroalgae
 macroalgae <- algae$AddChild("Macroalgae", scientific_id = "FUNCTIONAL:MACROALGAE")
@@ -103,9 +103,9 @@ vegetation
 print(vegetation, "scientific_id")
 
 # Verify enrollment:
-# View(print(vegetation, "scientific_id", "rank", limit = NULL))
+# View(print(vegetation, "scientific_id", "type", "rank", limit = NULL))
 
-output_network_df <- ToDataFrameNetwork(vegetation, "scientific_id", "label", "code", "rank", "definition", direction = "descend")
+output_network_df <- ToDataFrameNetwork(vegetation, "scientific_id", "type", "code", "rank", "definition", direction = "descend")
 
 output_network_df %>%
   mutate(tree_name = "vegetation") %>%
