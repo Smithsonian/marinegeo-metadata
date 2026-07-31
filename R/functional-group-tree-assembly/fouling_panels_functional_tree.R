@@ -349,7 +349,7 @@ fouling
 print(fouling, "scientific_id")
 
 # Verify enrollment:
-# View(print(fouling, "scientific_id", "label", "code", "rank", limit = NULL))
+# View(print(fouling, "scientific_id", "type", "code", "rank", limit = NULL))
 
 output_network_df <- ToDataFrameNetwork(fouling, "scientific_id", "type", "code", "rank", direction = "descend")
 
