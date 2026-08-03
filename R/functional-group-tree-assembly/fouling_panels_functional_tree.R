@@ -199,7 +199,18 @@ fouling_group_assignments %>%
   filter(fg == "Oyster",
          !scientific_id %in% oysters_wide$scientific_id)
 
-### Bivalve Mussels
+oysters <- fouling$AddChild("Bivalve oysters", 
+                               scientific_id = "FUNCTIONAL:OYSTERS",
+                               type = "primary",
+                               code = "bi_oys")
+
+ids <- c("Ostreidae", "Isognomonidae")
+lapply(ids, function(x){
+  new_node <- Clone(FindNode(taxa_tree, x))
+  oysters$AddChildNode(new_node)
+})
+
+### Bivalve Mussels bi_mus
 mussels_wide <- classifications_df %>%
   filter(Phylum == "Mollusca",
          Class == "Bivalvia",
@@ -209,7 +220,18 @@ fouling_group_assignments %>%
   filter(fg == "Mussels",
          !scientific_id %in% mussels_wide$scientific_id)
 
-### Other Bivalves
+mussels <- fouling$AddChild("Bivalve mussels", 
+                            scientific_id = "FUNCTIONAL:MUSSELS",
+                            type = "primary",
+                            code = "bi_mus")
+
+ids <- "Mytilidae"
+lapply(ids, function(x){
+  new_node <- Clone(FindNode(taxa_tree, x))
+  mussels$AddChildNode(new_node)
+})
+
+### Other Bivalves (bi_other)
 bivalve_ids <- fouling_group_assignments %>%
   filter(fg == "Other bivalves") %>%
   filter(!is.na(scientific_id)) %>%
@@ -225,15 +247,32 @@ classifications_df %>%
 bivalves_other_wide <- classifications_df %>%
   filter(Phylum == "Mollusca",
          Class == "Bivalvia",
-         !Family %in% c("Ostreidae", "Isognomonidae", "Mytilidae"))
+         !Family %in% c("Ostreidae", "Isognomonidae", "Mytilidae")) %>%
+  filter(!is.na(Family))
+
+bivalves_other <- fouling$AddChild("Other bivalves", 
+                            scientific_id = "FUNCTIONAL:FOULING_OTHER_BIVALVES",
+                            type = "primary",
+                            code = "bi_other")
+
+ids <- unique(bivalves_other_wide$Family)
+lapply(ids, function(x){
+  new_node <- Clone(FindNode(taxa_tree, x))
+  bivalves_other$AddChildNode(new_node)
+})
 
 # phylum: Brachiopoda
 
-### Brachiopods
+### Brachiopods (brach)
 
 # no occurrences
 brachiopods_wide <- classifications_df %>%
   filter(Phylum == "Brachiopoda")
+
+brachiopods <- fouling$AddChild("Brachiopods", 
+                                   scientific_id = "FUNCTIONAL:BRACHIOPODS",
+                                   type = "primary",
+                                   code = "brach")
 
 # phylum: Bryozoa
 
@@ -248,7 +287,7 @@ classifications_df %>%
   filter(scientific_id %in% bryo_ids$scientific_id) %>%
   left_join(bryo_ids)
 
-### Encrusting bryozoans
+### Encrusting bryozoans (e_bryo)
 bryo_encrusting_wide <- classifications_df %>%
   #filter(!is.na(Family)) %>%
   filter(Phylum == "Bryozoa",
@@ -261,7 +300,21 @@ fouling_group_assignments %>%
   filter(fg == "Encrusting bryozoan",
          !scientific_id %in% bryo_encrusting_wide$scientific_id)
 
-### Arborescent bryozoans
+bryo_encrusting <- fouling$AddChild("Encrusting bryozoans", 
+                                   scientific_id = "FUNCTIONAL:ENCRUSTING_BRYOZOANS",
+                                   type = "primary",
+                                   code = "e_bryo")
+
+ids <- c("Aeteidae", "Hippopodinidae", "Watersiporidae", "Electridae", 
+         "Celleporidae", "Smittinidae", "Schizoporellidae", 
+         "Bitectiporidae")
+
+lapply(ids, function(x){
+  new_node <- Clone(FindNode(taxa_tree, x))
+  bryo_encrusting$AddChildNode(new_node)
+})
+
+### Arborescent bryozoans (a_bryo)
 bryo_arborescent_wide <- classifications_df %>%
   filter(Phylum == "Bryozoa",
          Family %in% c("Bugulidae", "Savignyellidae", "Nolellidae", "Vesiculariidae", 
@@ -272,6 +325,20 @@ bryo_arborescent_wide <- classifications_df %>%
 fouling_group_assignments %>%
   filter(fg == "Arborescent bryozoan",
          !scientific_id %in% bryo_arborescent_wide$scientific_id)
+
+bryo_arborescent <- fouling$AddChild("Arborescent bryozoans", 
+                                   scientific_id = "FUNCTIONAL:ARBORESCENT_BRYOZOANS",
+                                   type = "primary",
+                                   code = "a_bryo")
+
+ids <- c("Bugulidae", "Savignyellidae", "Nolellidae", "Vesiculariidae", 
+         "Victorellidae", "Crisiidae", "Sertulariidae", 
+         "Catenicellidae", "Candidae", "Vesiculariidae")
+
+lapply(ids, function(x){
+  new_node <- Clone(FindNode(taxa_tree, x))
+  bryo_arborescent$AddChildNode(new_node)
+})
 
 # phylum: Chordata
 
@@ -290,7 +357,7 @@ classifications_df %>%
   filter(scientific_id %in% ascidian_ids$scientific_id) %>%
   left_join(ascidian_ids)
 
-# Colonial ascidians
+# Colonial ascidians (col_asc)
 ascidians_colonial_wide <- classifications_df %>%
   filter(Phylum == "Chordata",
          Class == "Ascidiacea",
@@ -303,7 +370,21 @@ fouling_group_assignments %>%
   filter(fg == "Colonial ascidian",
          !scientific_id %in% ascidians_colonial_wide$scientific_id)
 
-# Solitary ascidians
+ascidians_colonial <- fouling$AddChild("Colonial ascidians", 
+                                   scientific_id = "FUNCTIONAL:COLONIAL_ASCIDIANS",
+                                   type = "primary",
+                                   code = "col_asc")
+
+ids <- c("Clavelinidae", "Didemnidae", "Holozoidae",
+         "Perophoridae", "Polyclinidae", "Polycitoridae", # Families
+         "Botryllus", "Polyandrocarpa", "Symplegma") # Genus (see above)
+
+lapply(ids, function(x){
+  new_node <- Clone(FindNode(taxa_tree, x))
+  ascidians_colonial$AddChildNode(new_node)
+})
+
+# Solitary ascidians (sol asci)
 ascidians_solitary_wide <- classifications_df %>%
   filter(Phylum == "Chordata",
          Class == "Ascidiacea",
@@ -314,9 +395,22 @@ fouling_group_assignments %>%
   filter(fg == "Solitary ascidian",
          !scientific_id %in% ascidians_solitary_wide$scientific_id)
 
+ascidians_solitary <- fouling$AddChild("Solitary ascidians", 
+                                   scientific_id = "FUNCTIONAL:SOLITARY_ASCIDIANS",
+                                   type = "primary",
+                                   code = "sol_asci")
+
+ids <- c("Ascidiidae", "Molgulidae", "Pyuridae", #Family
+         "Styela") # Genus (see above)
+
+lapply(ids, function(x){
+  new_node <- Clone(FindNode(taxa_tree, x))
+  ascidians_solitary$AddChildNode(new_node)
+})
+
 # phylum: Arthropoda
 
-### Barnacles
+### Barnacles (barn)
 barnacle_ids <- fouling_group_assignments %>%
   filter(!is.na(scientific_id)) %>%
   filter(fg == "Barnacles") %>%
@@ -335,10 +429,32 @@ fouling_group_assignments %>%
   filter(fg == "Barnacles",
          !scientific_id %in% barnacles_wide$scientific_id)
 
-### Other Gastropods
+barnacles <- fouling$AddChild("Barnacles", 
+                              scientific_id = "FUNCTIONAL:BARNACLES",
+                              type = "primary",
+                              code = "barn")
+
+ids <- "Cirripedia"
+lapply(ids, function(x){
+  new_node <- Clone(FindNode(taxa_tree, x))
+  barnacles$AddChildNode(new_node)
+})
+
+### Other Gastropods (crep?)
 
 # I assume this refers to sessile gastropods, which cement or attach shells to surfaces
 # Previous key had "Crepidula" and "Vermetid" as distinct categories - is this a missing category in the updated schema?
+
+other_gastropods <- fouling$AddChild("Other gastropods", 
+                              scientific_id = "FUNCTIONAL:FOULING_OTHER_GASTROPODS",
+                              type = "primary",
+                              code = "crep")
+
+ids <- "Crepidula"
+lapply(ids, function(x){
+  new_node <- Clone(FindNode(taxa_tree, x))
+  other_gastropods$AddChildNode(new_node)
+})
 
 
 ### Forams Phylum: foraminifera
@@ -454,14 +570,11 @@ open_space <- fouling$AddChild("Open space",
                           type = "primary",
                           code = "os")
 
-fouling
-print(fouling, "scientific_id")
-
 # Verify enrollment:
 # View(print(fouling, "scientific_id", "type", "code", "rank", limit = NULL))
 
 output_network_df <- ToDataFrameNetwork(fouling, "scientific_id", "type", "code", "rank", direction = "descend")
-
+#output_network_df %>% count(scientific_id) %>% filter(n > 1)
 output_network_df %>%
   mutate(tree_name = "fouling") %>%
   write_csv("taxonomy-and-functional-groups/functional-group-lookup/fouling_cover.csv")
