@@ -30,7 +30,7 @@ fouling <- Node$new("Fouling Cover", scientific_id = "PROTOCOL:FOULING-COVER")
 
 # phylum: Cnidarians
 
-### Hydroids
+### Hydroids ####
 hydroids_wide <- classifications_df %>%
   filter(Phylum == "Cnidaria",
          Class == "Hydrozoa")
@@ -53,7 +53,7 @@ lapply(ids, function(x){
 
 # Class: Anthozoa (corals and sea anemones)
 
-### Anemones
+### Anemones ####
 anemones_wide <- classifications_df %>%
   filter(Phylum == "Cnidaria",
          Subphylum == "Anthozoa",
@@ -76,7 +76,7 @@ lapply(ids, function(x){
   anemones$AddChildNode(new_node)
 })
 
-### Corals
+### Corals ####
 classifications_df %>%
   filter(Phylum == "Cnidaria",
          Subphylum == "Anthozoa",
@@ -92,7 +92,7 @@ corals <- fouling$AddChild("Corals",
 
 # phylum: Porifera
 
-### Sponges
+### Sponges ####
 sponges_wide <- classifications_df %>%
   filter(Phylum == "Porifera")
 
@@ -116,7 +116,7 @@ lapply(ids, function(x){
 
 # Polychaetes (Class: Polychaeta)
 
-### Serpulid Polychaetes
+### Serpulid Polychaetes ####
 serpulids_wide <- classifications_df %>%
   filter(Phylum == "Annelida",
          Class == "Polychaeta",
@@ -138,7 +138,7 @@ lapply(ids, function(x){
   serpulids$AddChildNode(new_node)
 })
 
-### Sabellid Polychaetes
+### Sabellid Polychaetes ####
 sabellids_wide <- classifications_df %>%
   filter(Phylum == "Annelida",
          Class == "Polychaeta",
@@ -159,11 +159,11 @@ lapply(ids, function(x){
   sabellids$AddChildNode(new_node)
 })
 
-### Other Polychaetes
+### Other Polychaetes ####
 poly_other_wide <- classifications_df %>%
   filter(Phylum == "Annelida",
          Class == "Polychaeta",
-         !Family %in% c("Sabellidae", "Sabellidae")) %>%
+         !Family %in% c("Serpulidae", "Sabellidae")) %>%
   filter(!is.na(Family)) # Need to get all non-NA families for enrollment
 
 # One undefined species
@@ -186,7 +186,7 @@ lapply(ids, function(x){
 
 # class: Bivalves
 
-### Bivalve Oysters
+### Bivalve Oysters ####
 oysters_wide <- classifications_df %>%
   filter(Phylum == "Mollusca",
          Class == "Bivalvia",
@@ -210,7 +210,7 @@ lapply(ids, function(x){
   oysters$AddChildNode(new_node)
 })
 
-### Bivalve Mussels bi_mus
+### Bivalve Mussels ####
 mussels_wide <- classifications_df %>%
   filter(Phylum == "Mollusca",
          Class == "Bivalvia",
@@ -231,7 +231,7 @@ lapply(ids, function(x){
   mussels$AddChildNode(new_node)
 })
 
-### Other Bivalves (bi_other)
+### Other Bivalves ####
 bivalve_ids <- fouling_group_assignments %>%
   filter(fg == "Other bivalves") %>%
   filter(!is.na(scientific_id)) %>%
@@ -263,7 +263,7 @@ lapply(ids, function(x){
 
 # phylum: Brachiopoda
 
-### Brachiopods (brach)
+### Brachiopods ####
 
 # no occurrences
 brachiopods_wide <- classifications_df %>%
@@ -287,7 +287,7 @@ classifications_df %>%
   filter(scientific_id %in% bryo_ids$scientific_id) %>%
   left_join(bryo_ids)
 
-### Encrusting bryozoans (e_bryo)
+### Encrusting bryozoans ####
 bryo_encrusting_wide <- classifications_df %>%
   #filter(!is.na(Family)) %>%
   filter(Phylum == "Bryozoa",
@@ -314,14 +314,16 @@ lapply(ids, function(x){
   bryo_encrusting$AddChildNode(new_node)
 })
 
-### Arborescent bryozoans (a_bryo)
+### Arborescent bryozoans ####
 bryo_arborescent_wide <- classifications_df %>%
   filter(Phylum == "Bryozoa",
          Family %in% c("Bugulidae", "Savignyellidae", "Nolellidae", "Vesiculariidae", 
-                       "Victorellidae", "Crisiidae", "Sertulariidae", 
+                       "Victorellidae", "Crisiidae", # "Sertulariidae", 
                        "Catenicellidae", "Candidae", "Vesiculariidae"))
 
 # 2 undefined, 1 "Tridentata" label (thought this went into encrusting?)
+# Tridentata is actually in the hydroid lineage, but this mistake brought Sertulariidae
+# into the classifications, which is not correct (see commented out, above and below)
 fouling_group_assignments %>%
   filter(fg == "Arborescent bryozoan",
          !scientific_id %in% bryo_arborescent_wide$scientific_id)
@@ -332,7 +334,7 @@ bryo_arborescent <- fouling$AddChild("Arborescent bryozoans",
                                    code = "a_bryo")
 
 ids <- c("Bugulidae", "Savignyellidae", "Nolellidae", "Vesiculariidae", 
-         "Victorellidae", "Crisiidae", "Sertulariidae", 
+         "Victorellidae", "Crisiidae", # "Sertulariidae", 
          "Catenicellidae", "Candidae", "Vesiculariidae")
 
 lapply(ids, function(x){
@@ -357,7 +359,8 @@ classifications_df %>%
   filter(scientific_id %in% ascidian_ids$scientific_id) %>%
   left_join(ascidian_ids)
 
-# Colonial ascidians (col_asc)
+### Colonial ascidians ####
+
 ascidians_colonial_wide <- classifications_df %>%
   filter(Phylum == "Chordata",
          Class == "Ascidiacea",
@@ -384,7 +387,7 @@ lapply(ids, function(x){
   ascidians_colonial$AddChildNode(new_node)
 })
 
-# Solitary ascidians (sol asci)
+# Solitary ascidians (sol asci) ####
 ascidians_solitary_wide <- classifications_df %>%
   filter(Phylum == "Chordata",
          Class == "Ascidiacea",
@@ -410,7 +413,7 @@ lapply(ids, function(x){
 
 # phylum: Arthropoda
 
-### Barnacles (barn)
+### Barnacles ####
 barnacle_ids <- fouling_group_assignments %>%
   filter(!is.na(scientific_id)) %>%
   filter(fg == "Barnacles") %>%
@@ -440,7 +443,7 @@ lapply(ids, function(x){
   barnacles$AddChildNode(new_node)
 })
 
-### Other Gastropods (crep?)
+### Other Gastropods ####
 
 # I assume this refers to sessile gastropods, which cement or attach shells to surfaces
 # Previous key had "Crepidula" and "Vermetid" as distinct categories - is this a missing category in the updated schema?
@@ -477,7 +480,7 @@ lapply(ids, function(x){
 })
 
 
-# Tube-building amphipods
+# Tube-building amphipods ####
 tube_amphipod_ids <- fouling_group_assignments %>%
   filter(fg == "Amphipod tubes") %>%
   filter(!is.na(scientific_id)) %>%
@@ -515,56 +518,56 @@ lapply(ids, function(x){
 # All can be assigned as functional groups
 # No current species IDs in fouling lookup
 
-# Red fleshy algae
+# Red fleshy algae ####
 
 red_fleshy_algae <- fouling$AddChild("Red fleshy algae", 
                                    scientific_id = "FUNCTIONAL:RED_FLESHY_ALGAE",
                                    type = "primary",
                                    code = "red_alg")
 
-# Red crust algae
+# Red crust algae ####
 red_crust_algae <- fouling$AddChild("Red crust algae", 
                                      scientific_id = "FUNCTIONAL:RED_CRUST_ALGAE",
                                      type = "primary",
                                      code = "red_crust")
 
-# Coralline algae
+# Coralline algae ####
 coralline_algae <- fouling$AddChild("Coralline algae", 
                                     scientific_id = "FUNCTIONAL:CORALLINE_ALGAE",
                                     type = "primary",
                                     code = "cor_alg")
 
-# Green algae
+# Green algae ####
 green_algae <- fouling$AddChild("Green algae", 
                                     scientific_id = "FUNCTIONAL:GREEN_ALGAE",
                                     type = "primary",
                                     code = "gr_alg")
 
-# Brown algae
+# Brown algae ####
 brown_algae <- fouling$AddChild("Brown algae", 
                                 scientific_id = "FUNCTIONAL:BROWN_ALGAE",
                                 type = "primary",
                                 code = "br_alg")
 
-# Algal turf
+# Algal turf ####
 algal_turf <- fouling$AddChild("Algal turf", 
                                 scientific_id = "FUNCTIONAL:ALGAL_TURF",
                                 type = "primary",
                                 code = "turf")
 
-# Sediment
+# Sediment ####
 sediment <- fouling$AddChild("Sediment", 
                                scientific_id = "FUNCTIONAL:SEDIMENT",
                                type = "primary",
                                code = "sed")
 
-# Other
+# Other ####
 other <- fouling$AddChild("Other", 
                              scientific_id = "FUNCTIONAL:FOULING_OTHER",
                              type = "primary",
                              code = "other")
 
-# Open Space
+# Open Space ####
 open_space <- fouling$AddChild("Open space", 
                           scientific_id = "FUNCTIONAL:OPEN_SPACE",
                           type = "primary",
