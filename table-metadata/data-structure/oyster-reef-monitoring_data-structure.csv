@@ -88,6 +88,7 @@ Oyster Reef Monitoring,oyster-biobox-monitoring-v1,2,site_code,STRING,enforce,TR
 Oyster Reef Monitoring,oyster-biobox-monitoring-v1,2,site_name,STRING,enforce,
 Oyster Reef Monitoring,oyster-biobox-monitoring-v1,2,biobox_deployment_date,DATE,warn,
 Oyster Reef Monitoring,oyster-biobox-monitoring-v1,2,biobox_recovery_date,DATE,warn,
+Oyster Reef Monitoring,oyster-biobox-monitoring-v1,2,biobox_id,DOUBLE,enforce,TRUE
 Oyster Reef Monitoring,oyster-biobox-monitoring-v1,2,biobox_latitude,DOUBLE,warn,
 Oyster Reef Monitoring,oyster-biobox-monitoring-v1,2,biobox_longitude,DOUBLE,warn,
 Oyster Reef Monitoring,oyster-biobox-monitoring-v1,2,scientific_name,STRING,enforce,TRUE
