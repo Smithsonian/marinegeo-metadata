@@ -14,7 +14,6 @@ Oyster Reef Monitoring,oyster-transect-metadata-monitoring-v1,2,depth_min_m,DOUB
 Oyster Reef Monitoring,oyster-transect-metadata-monitoring-v1,2,depth_max_m,DOUBLE,warn,
 Oyster Reef Monitoring,oyster-transect-metadata-monitoring-v1,2,intertidal_habitat,BOOL,warn,
 Oyster Reef Monitoring,oyster-transect-metadata-monitoring-v1,2,reef_building_oysters,BOOL,warn,
-Oyster Reef Monitoring,oyster-transect-metadata-monitoring-v1,2,density_methodology,STRING,warn,
 Oyster Reef Monitoring,oyster-transect-metadata-monitoring-v1,2,sample_metadata_notes,STRING,allow,
 Oyster Reef Monitoring,oyster-transect-metadata-monitoring-v1,2,table_id,STRING,enforce,TRUE
 Oyster Reef Monitoring,oyster-transect-metadata-monitoring-v1,2,row_uuid,STRING,enforce,
@@ -41,6 +40,7 @@ Oyster Reef Monitoring,oyster-length-monitoring-v1,2,site_code,STRING,enforce,TR
 Oyster Reef Monitoring,oyster-length-monitoring-v1,2,site_name,STRING,enforce,
 Oyster Reef Monitoring,oyster-length-monitoring-v1,2,transect,TINYINT,enforce,TRUE
 Oyster Reef Monitoring,oyster-length-monitoring-v1,2,quadrat,TINYINT,enforce,TRUE
+Oyster Reef Monitoring,oyster-length-monitoring-v1,2,sample_id,TINYINT,enforce,TRUE
 Oyster Reef Monitoring,oyster-length-monitoring-v1,2,sample_collection_date,DATE,enforce,TRUE
 Oyster Reef Monitoring,oyster-length-monitoring-v1,2,scientific_name,STRING,enforce,TRUE
 Oyster Reef Monitoring,oyster-length-monitoring-v1,2,identification_notes,STRING,allow,
