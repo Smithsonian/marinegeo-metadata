@@ -40,7 +40,7 @@ Oyster Reef Monitoring,oyster-length-monitoring-v1,2,site_code,STRING,enforce,TR
 Oyster Reef Monitoring,oyster-length-monitoring-v1,2,site_name,STRING,enforce,
 Oyster Reef Monitoring,oyster-length-monitoring-v1,2,transect,TINYINT,enforce,TRUE
 Oyster Reef Monitoring,oyster-length-monitoring-v1,2,quadrat,TINYINT,enforce,TRUE
-Oyster Reef Monitoring,oyster-length-monitoring-v1,2,sample_id,TINYINT,enforce,TRUE
+Oyster Reef Monitoring,oyster-length-monitoring-v1,2,sample_id,INT,enforce,TRUE
 Oyster Reef Monitoring,oyster-length-monitoring-v1,2,sample_collection_date,DATE,enforce,TRUE
 Oyster Reef Monitoring,oyster-length-monitoring-v1,2,scientific_name,STRING,enforce,TRUE
 Oyster Reef Monitoring,oyster-length-monitoring-v1,2,identification_notes,STRING,allow,
