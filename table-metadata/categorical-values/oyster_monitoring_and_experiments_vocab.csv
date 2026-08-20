@@ -25,8 +25,8 @@ oyster-count-monitoring-v1,live_or_box,live
 oyster-count-monitoring-v1,live_or_box,box
 oyster-count-monitoring-v1,density_methodology,excavation
 oyster-count-monitoring-v1,density_methodology,no excavation
-oyster-length-monitoring-v1,live_or_box,live
-oyster-length-monitoring-v1,live_or_box,box
+oyster-height-monitoring-v1,live_or_box,live
+oyster-height-monitoring-v1,live_or_box,box
 oyster-substrate-composition-monitoring-v1,cover_type,live oyster
 oyster-substrate-composition-monitoring-v1,cover_type,box oyster
 oyster-substrate-composition-monitoring-v1,cover_type,cultch
