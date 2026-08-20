@@ -13,9 +13,9 @@ oyster-habitat-complexity-monitoring-v1,chain_length_m,inclusive,,0,30,
 oyster-habitat-complexity-monitoring-v1,chain_distance_m,inclusive,,0,30,
 oyster-habitat-complexity-monitoring-v1,rugosity,inclusive,1,0,,
 oyster-habitat-complexity-monitoring-v1,max_cluster_height_cm,inclusive,,0,100,
-oyster-length-monitoring-v1,transect,inclusive,,0,3,1
-oyster-length-monitoring-v1,quadrat,inclusive,,,30,0
-oyster-length-monitoring-v1,height_mm,inclusive,,0,355,
+oyster-height-monitoring-v1,transect,inclusive,,0,3,1
+oyster-height-monitoring-v1,quadrat,inclusive,,,30,0
+oyster-height-monitoring-v1,height_mm,inclusive,,0,355,
 oyster-count-monitoring-v1,transect,inclusive,,0,3,1
 oyster-count-monitoring-v1,quadrat,inclusive,,,30,0
 oyster-count-monitoring-v1,count,,,,100,0
