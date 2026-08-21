@@ -31,21 +31,12 @@ lapply(ids, function(x){
 })
 
 #### Non-oyster bivalves ####
+
 bivalves_other_wide <- classifications_df %>%
   filter(Phylum == "Mollusca",
          Class == "Bivalvia",
          !Family %in% c("Ostreidae", "Isognomonidae", "Mytilidae")) %>%
   filter(!is.na(Family))
-
-bivalves_other <- oyster_density$AddChild("Non-oyster bivalves", 
-                                   scientific_id = "FUNCTIONAL:NON-OYSTER-BIVALVES",
-                                   type = "primary")
-
-ids <- unique(bivalves_other_wide$Family)
-lapply(ids, function(x){
-  new_node <- Clone(FindNode(taxa_tree, x))
-  bivalves_other$AddChildNode(new_node)
-})
 
 #### Gastropods ####
 gastropods <- oyster_density$AddChild("Gastropods", 
@@ -57,12 +48,3 @@ lapply(ids, function(x){
   new_node <- Clone(FindNode(taxa_tree, x))
   gastropods$AddChildNode(new_node)
 })
-
-# Verify enrollment:
-# View(print(oyster_density, "scientific_id", "type", "code", "rank", limit = NULL))
-
-output_network_df <- ToDataFrameNetwork(oyster_density, "scientific_id", "type", "code", "rank", "definition", direction = "descend")
-#output_network_df %>% count(scientific_id) %>% filter(n > 1)
-output_network_df %>%
-  mutate(tree_name = "oyster_density") %>%
-  write_csv("taxonomy-and-functional-groups/functional-group-lookup/oyster_density.csv")
