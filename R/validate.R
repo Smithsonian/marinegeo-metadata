@@ -35,16 +35,15 @@ partner_lookup <- read_table(
   "MarineGEO Partner Lookup Table"
 )
 
-
-
 report_qc <- function(data, table_id, label) {
   if (is.null(data)) return(invisible(NULL))
-  result <- utl_qc_summarize(qc_run(data, table_id = table_id), type = "failures")
-  if (nrow(result$failures) == 0) {
+  result <- qc_run(data, table_id = table_id) |>
+    filter(severity == "fail")
+  if (nrow(result) == 0) {
     message(label, ": no failures")
   } else {
     message(label, ":")
-    print(result$failures)
+    print(result)
   }
 }
 
@@ -116,3 +115,4 @@ cat("\n")
 cat("----")
 cat("\n")
 cat("\n")
+
