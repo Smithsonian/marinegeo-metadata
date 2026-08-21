@@ -25,6 +25,7 @@ oyster-count-monitoring-v1,live_or_box,live
 oyster-count-monitoring-v1,live_or_box,box
 oyster-count-monitoring-v1,density_methodology,excavation
 oyster-count-monitoring-v1,density_methodology,no excavation
+oyster-count-monitoring-v1,density_quadrat_dimensions,100cmx100cm
 oyster-height-monitoring-v1,live_or_box,live
 oyster-height-monitoring-v1,live_or_box,box
 oyster-substrate-composition-monitoring-v1,cover_type,live oyster

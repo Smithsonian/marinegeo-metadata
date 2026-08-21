@@ -62,7 +62,7 @@ Oyster Reef Monitoring,oyster-count-monitoring-v1,2,scientific_name,STRING,enfor
 Oyster Reef Monitoring,oyster-count-monitoring-v1,2,identification_notes,STRING,allow,
 Oyster Reef Monitoring,oyster-count-monitoring-v1,2,live_or_box,STRING,warn,TRUE
 Oyster Reef Monitoring,oyster-count-monitoring-v1,2,count,INT,warn,
-Oyster Reef Monitoring,oyster-count-monitoring-v1,2,quadrat_dimensions,STRING,warn,
+Oyster Reef Monitoring,oyster-count-monitoring-v1,2,density_quadrat_dimensions,STRING,warn,
 Oyster Reef Monitoring,oyster-count-monitoring-v1,2,density_m2,DOUBLE,warn,
 Oyster Reef Monitoring,oyster-count-monitoring-v1,2,sample_frequency_notes,STRING,allow,
 Oyster Reef Monitoring,oyster-count-monitoring-v1,2,table_id,STRING,enforce,TRUE
