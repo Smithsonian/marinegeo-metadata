@@ -576,7 +576,7 @@ open_space <- fouling$AddChild("Open space",
 # Verify enrollment:
 # View(print(fouling, "scientific_id", "type", "code", "rank", limit = NULL))
 
-output_network_df <- ToDataFrameNetwork(fouling, "scientific_id", "type", "code", "rank", direction = "descend")
+output_network_df <- ToDataFrameNetwork(fouling, "scientific_id", "type", "code", "rank", "definition", direction = "descend")
 #output_network_df %>% count(scientific_id) %>% filter(n > 1)
 output_network_df %>%
   mutate(tree_name = "fouling") %>%
