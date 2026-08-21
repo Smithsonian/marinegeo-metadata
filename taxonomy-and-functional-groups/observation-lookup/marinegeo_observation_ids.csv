@@ -221,6 +221,7 @@ Cyclopoida,urn:lsid:marinespecies.org:taxname:1101
 Harpacticoida,urn:lsid:marinespecies.org:taxname:1102
 Echiuroidea,urn:lsid:marinespecies.org:taxname:110342
 Cumella,urn:lsid:marinespecies.org:taxname:110416
+Thoracica,urn:lsid:marinespecies.org:taxname:1107
 Fissurellidae,urn:lsid:marinespecies.org:taxname:111
 Aetea sica,urn:lsid:marinespecies.org:taxname:111066
 Bugula neritina,urn:lsid:marinespecies.org:taxname:111158
@@ -372,6 +373,7 @@ Clathrina,urn:lsid:marinespecies.org:taxname:131729
 Ciocalypta,urn:lsid:marinespecies.org:taxname:131804
 Halichondria cf magniconulosa,urn:lsid:marinespecies.org:taxname:131807
 Geodia,urn:lsid:marinespecies.org:taxname:132005
+Cliona,urn:lsid:marinespecies.org:taxname:132026
 Sycon ciliatum,urn:lsid:marinespecies.org:taxname:132251
 Crassiphycus usneoides,urn:lsid:marinespecies.org:taxname:1327608
 Claremontiella nodulosa,urn:lsid:marinespecies.org:taxname:1335417
@@ -1335,9 +1337,11 @@ Isognomon alatus,urn:lsid:marinespecies.org:taxname:420736
 Pinna carnea,urn:lsid:marinespecies.org:taxname:420742
 Ctenoides scaber,urn:lsid:marinespecies.org:taxname:420747
 Chama sarda,urn:lsid:marinespecies.org:taxname:420819
+Angulus texanus,urn:lsid:marinespecies.org:taxname:420862
 Sphenia fragilis,urn:lsid:marinespecies.org:taxname:420973
 Bispira brunnea,urn:lsid:marinespecies.org:taxname:421069
 Branchiomma bairdi,urn:lsid:marinespecies.org:taxname:421070
+Amphibalanus amphitrite,urn:lsid:marinespecies.org:taxname:421137
 Amphibalanus eburneus,urn:lsid:marinespecies.org:taxname:421138
 Amphibalanus improvisus,urn:lsid:marinespecies.org:taxname:421139
 Amphibalanus reticulatus,urn:lsid:marinespecies.org:taxname:421140
