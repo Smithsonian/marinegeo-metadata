@@ -34,7 +34,7 @@ lapply(ids, function(x){
 bivalves_other_wide <- classifications_df %>%
   filter(Phylum == "Mollusca",
          Class == "Bivalvia",
-         !Family %in% c("Ostreidae", "Isognomonidae", "Mytilidae")) %>%
+         !Family %in% c("Ostreidae", "Isognomonidae")) %>%
   filter(!is.na(Family))
 
 bivalves_other <- oyster_density$AddChild("Non-oyster bivalves", 
@@ -56,6 +56,27 @@ ids <- c("Gastropoda")
 lapply(ids, function(x){
   new_node <- Clone(FindNode(taxa_tree, x))
   gastropods$AddChildNode(new_node)
+})
+
+#### All other sessile invertebrates ####
+sessile_inverts <- oyster_density$AddChild("Other sessile invertebrates", 
+                                           scientific_id = "FUNCTIONAL:OYS_DEN_OTHER_SESSILE_INVERTS",
+                                           type = "primary")
+
+sessile_inverts_wide <- classifications_df %>%
+  filter(Phylum %in% c("Porifera", "Cnidaria", "Bryozoa", "Brachiopoda") | 
+           Subphylum == "Tunicata" | # Chordata
+           Subclass == "Annelida" | # Arthropods
+           Family %in% c("Serpulidae", "Sabellidae") # Polychaetes
+  )
+
+ids <- c("Porifera", "Cnidaria", "Bryozoa", 
+         # "Brachiopoda", # None present
+         "Tunicata", "Serpulidae", "Sabellidae")
+
+lapply(ids, function(x){
+  new_node <- Clone(FindNode(taxa_tree, x))
+  sessile_inverts$AddChildNode(new_node)
 })
 
 # Verify enrollment:
