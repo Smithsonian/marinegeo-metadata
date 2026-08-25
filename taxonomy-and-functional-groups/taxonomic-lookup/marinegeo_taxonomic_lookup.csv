@@ -883,6 +883,7 @@ urn:lsid:marinespecies.org:taxname:131897,Biemna,Genus,131897,urn:lsid:marinespe
 urn:lsid:marinespecies.org:taxname:131907,Mycale,Genus,131907,urn:lsid:marinespecies.org:taxname:131649
 urn:lsid:marinespecies.org:taxname:131974,Tedania,Genus,131974,urn:lsid:marinespecies.org:taxname:131659
 urn:lsid:marinespecies.org:taxname:132005,Geodia,Genus,132005,urn:lsid:marinespecies.org:taxname:597252
+urn:lsid:marinespecies.org:taxname:132026,Cliona,Genus,132026,urn:lsid:marinespecies.org:taxname:170417
 urn:lsid:marinespecies.org:taxname:132251,Sycon ciliatum,Species,132251,urn:lsid:marinespecies.org:taxname:131723
 urn:lsid:marinespecies.org:taxname:135078,Oculinidae,Family,135078,urn:lsid:marinespecies.org:taxname:1517259
 urn:lsid:marinespecies.org:taxname:135079,Pocilloporidae,Family,135079,urn:lsid:marinespecies.org:taxname:1517259
@@ -1141,6 +1142,7 @@ urn:lsid:marinespecies.org:taxname:146217,Charophyceae,Class,146217,urn:lsid:mar
 urn:lsid:marinespecies.org:taxname:146315,Gelidiales,Order,146315,urn:lsid:marinespecies.org:taxname:196243
 urn:lsid:marinespecies.org:taxname:146419,Vertebrata,Subphylum,146419,urn:lsid:marinespecies.org:taxname:1821
 urn:lsid:marinespecies.org:taxname:146420,Tunicata,Subphylum,146420,urn:lsid:marinespecies.org:taxname:1821
+urn:lsid:marinespecies.org:taxname:146491,Angulus,Genus,146491,urn:lsid:marinespecies.org:taxname:225468
 urn:lsid:marinespecies.org:taxname:146537,Cyanobacteria,Phylum,146537,urn:lsid:marinespecies.org:taxname:1741194
 urn:lsid:marinespecies.org:taxname:146538,Lyngbya,Genus,146538,urn:lsid:marinespecies.org:taxname:836366
 urn:lsid:marinespecies.org:taxname:146542,Cyanophyceae,Class,146542,urn:lsid:marinespecies.org:taxname:146537
@@ -2499,9 +2501,11 @@ urn:lsid:marinespecies.org:taxname:420736,Isognomon alatus,Species,420736,urn:ls
 urn:lsid:marinespecies.org:taxname:420742,Pinna carnea,Species,420742,urn:lsid:marinespecies.org:taxname:138352
 urn:lsid:marinespecies.org:taxname:420747,Ctenoides scaber,Species,420747,urn:lsid:marinespecies.org:taxname:390579
 urn:lsid:marinespecies.org:taxname:420819,Chama sarda,Species,420819,urn:lsid:marinespecies.org:taxname:137775
+urn:lsid:marinespecies.org:taxname:420862,Angulus texanus,Species,420862,urn:lsid:marinespecies.org:taxname:146491
 urn:lsid:marinespecies.org:taxname:420973,Sphenia fragilis,Species,420973,urn:lsid:marinespecies.org:taxname:138212
 urn:lsid:marinespecies.org:taxname:421069,Bispira brunnea,Species,421069,urn:lsid:marinespecies.org:taxname:129523
 urn:lsid:marinespecies.org:taxname:421070,Branchiomma bairdi,Species,421070,urn:lsid:marinespecies.org:taxname:129524
+urn:lsid:marinespecies.org:taxname:421137,Amphibalanus amphitrite,Species,421137,urn:lsid:marinespecies.org:taxname:415046
 urn:lsid:marinespecies.org:taxname:421138,Amphibalanus eburneus,Species,421138,urn:lsid:marinespecies.org:taxname:415046
 urn:lsid:marinespecies.org:taxname:421139,Amphibalanus improvisus,Species,421139,urn:lsid:marinespecies.org:taxname:415046
 urn:lsid:marinespecies.org:taxname:421140,Amphibalanus reticulatus,Species,421140,urn:lsid:marinespecies.org:taxname:415046
