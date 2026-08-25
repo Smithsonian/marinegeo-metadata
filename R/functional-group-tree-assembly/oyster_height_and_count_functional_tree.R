@@ -66,17 +66,30 @@ sessile_inverts <- oyster_density$AddChild("Other sessile invertebrates",
 sessile_inverts_wide <- classifications_df %>%
   filter(Phylum %in% c("Porifera", "Cnidaria", "Bryozoa", "Brachiopoda") | 
            Subphylum == "Tunicata" | # Chordata
-           Subclass == "Annelida" | # Arthropods
+           Subclass == "Cirripedia" | # Barnacles
            Family %in% c("Serpulidae", "Sabellidae") # Polychaetes
   )
 
 ids <- c("Porifera", "Cnidaria", "Bryozoa", 
+         "Cirripedia",
          # "Brachiopoda", # None present
-         "Tunicata", "Serpulidae", "Sabellidae")
+         "Tunicata"
+         )
 
 lapply(ids, function(x){
   new_node <- Clone(FindNode(taxa_tree, x))
   sessile_inverts$AddChildNode(new_node)
+})
+
+
+polychaetes <- sessile_inverts$AddChild("Polychaeta", 
+                                        scientific_id = "urn:lsid:marinespecies.org:taxname:883")
+
+ids <- c("Serpulidae", "Sabellidae")
+
+lapply(ids, function(x){
+  new_node <- Clone(FindNode(taxa_tree, x))
+  polychaetes$AddChildNode(new_node)
 })
 
 # Verify enrollment:

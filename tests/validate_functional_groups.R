@@ -16,3 +16,6 @@ df_sci_ids %>%
                                                                        "Gastropods"), 
                                                                      scientific_name))
 )
+
+df_sci_ids %>%
+  filter(!scientific_id %in% output_network_df$scientific_id)
