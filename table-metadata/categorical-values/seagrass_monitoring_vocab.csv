@@ -4,6 +4,7 @@ seagrass-cover-monitoring-v1,cover_method,point count
 seagrass-cover-monitoring-v1,cover_method,percent bins
 seagrass-cover-monitoring-v1,cover_method,photoquadrats
 seagrass-cover-monitoring-v1,cover_method,visual estimation
+seagrass-cover-monitoring-v1,cover_method,method in notes
 seagrass-cover-monitoring-v1,cover_code,0
 seagrass-cover-monitoring-v1,cover_code,0.1
 seagrass-cover-monitoring-v1,cover_code,0.5
