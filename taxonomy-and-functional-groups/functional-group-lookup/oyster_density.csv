@@ -32,9 +32,9 @@ Gastropoda,Gastropods,urn:lsid:marinespecies.org:taxname:101,NA,NA,Class,NA,oyst
 Porifera,Other sessile invertebrates,urn:lsid:marinespecies.org:taxname:558,NA,NA,Phylum,NA,oyster_density
 Cnidaria,Other sessile invertebrates,urn:lsid:marinespecies.org:taxname:1267,NA,NA,Phylum,NA,oyster_density
 Bryozoa,Other sessile invertebrates,urn:lsid:marinespecies.org:taxname:146142,NA,NA,Phylum,NA,oyster_density
+Cirripedia,Other sessile invertebrates,urn:lsid:marinespecies.org:taxname:1082,NA,NA,Subclass,NA,oyster_density
 Tunicata,Other sessile invertebrates,urn:lsid:marinespecies.org:taxname:146420,NA,NA,Subphylum,NA,oyster_density
-Serpulidae,Other sessile invertebrates,urn:lsid:marinespecies.org:taxname:988,NA,NA,Family,NA,oyster_density
-Sabellidae,Other sessile invertebrates,urn:lsid:marinespecies.org:taxname:985,NA,NA,Family,NA,oyster_density
+Polychaeta,Other sessile invertebrates,urn:lsid:marinespecies.org:taxname:883,NA,NA,NA,NA,oyster_density
 Crassostreinae,Ostreidae,urn:lsid:marinespecies.org:taxname:510732,NA,NA,Subfamily,NA,oyster_density
 Isognomon,Isognomonidae,urn:lsid:marinespecies.org:taxname:138091,NA,NA,Genus,NA,oyster_density
 Ennucula,Nuculidae,urn:lsid:marinespecies.org:taxname:138261,NA,NA,Genus,NA,oyster_density
@@ -79,11 +79,10 @@ Anthozoa,Cnidaria,urn:lsid:marinespecies.org:taxname:1292,NA,NA,Subphylum,NA,oys
 Medusozoa,Cnidaria,urn:lsid:marinespecies.org:taxname:1740301,NA,NA,Subphylum,NA,oyster_density
 Stenolaemata,Bryozoa,urn:lsid:marinespecies.org:taxname:1794,NA,NA,Class,NA,oyster_density
 Gymnolaemata,Bryozoa,urn:lsid:marinespecies.org:taxname:1795,NA,NA,Class,NA,oyster_density
+Thoracica,Cirripedia,urn:lsid:marinespecies.org:taxname:1107,NA,NA,Infraclass,NA,oyster_density
 Ascidiacea,Tunicata,urn:lsid:marinespecies.org:taxname:1839,NA,NA,Class,NA,oyster_density
-Spirorbinae,Serpulidae,urn:lsid:marinespecies.org:taxname:989,NA,NA,Subfamily,NA,oyster_density
-Filograninae,Serpulidae,urn:lsid:marinespecies.org:taxname:886860,NA,NA,Subfamily,NA,oyster_density
-Serpulinae,Serpulidae,urn:lsid:marinespecies.org:taxname:1636466,NA,NA,Subfamily,NA,oyster_density
-Sabellinae,Sabellidae,urn:lsid:marinespecies.org:taxname:154917,NA,NA,Subfamily,NA,oyster_density
+Serpulidae,Polychaeta,urn:lsid:marinespecies.org:taxname:988,NA,NA,Family,NA,oyster_density
+Sabellidae,Polychaeta,urn:lsid:marinespecies.org:taxname:985,NA,NA,Family,NA,oyster_density
 Crassostrea,Crassostreinae,urn:lsid:marinespecies.org:taxname:138297,NA,NA,Genus,NA,oyster_density
 Isognomon alatus,Isognomon,urn:lsid:marinespecies.org:taxname:420736,NA,NA,Species,NA,oyster_density
 Ennucula niponica,Ennucula,urn:lsid:marinespecies.org:taxname:506596,NA,NA,Species,NA,oyster_density
@@ -146,15 +145,14 @@ Scyphozoa,Medusozoa,urn:lsid:marinespecies.org:taxname:135220,NA,NA,Class,NA,oys
 Cyclostomatida,Stenolaemata,urn:lsid:marinespecies.org:taxname:110724,NA,NA,Order,NA,oyster_density
 Cheilostomatida,Gymnolaemata,urn:lsid:marinespecies.org:taxname:110722,NA,NA,Order,NA,oyster_density
 Ctenostomatida,Gymnolaemata,urn:lsid:marinespecies.org:taxname:110723,NA,NA,Order,NA,oyster_density
+Thoracicalcarea,Thoracica,urn:lsid:marinespecies.org:taxname:1422167,NA,NA,Superorder,NA,oyster_density
 Aplousobranchia,Ascidiacea,urn:lsid:marinespecies.org:taxname:103434,NA,NA,Order,NA,oyster_density
 Phlebobranchia,Ascidiacea,urn:lsid:marinespecies.org:taxname:103435,NA,NA,Order,NA,oyster_density
 Stolidobranchia,Ascidiacea,urn:lsid:marinespecies.org:taxname:103436,NA,NA,Order,NA,oyster_density
-Filograna,Filograninae,urn:lsid:marinespecies.org:taxname:129563,NA,NA,Genus,NA,oyster_density
-Salmacina,Filograninae,urn:lsid:marinespecies.org:taxname:129578,NA,NA,Genus,NA,oyster_density
-Serpulini,Serpulinae,urn:lsid:marinespecies.org:taxname:1647419,NA,NA,Tribe,NA,oyster_density
-Bispira,Sabellinae,urn:lsid:marinespecies.org:taxname:129523,NA,NA,Genus,NA,oyster_density
-Branchiomma,Sabellinae,urn:lsid:marinespecies.org:taxname:129524,NA,NA,Genus,NA,oyster_density
-Parasabella,Sabellinae,urn:lsid:marinespecies.org:taxname:325958,NA,NA,Genus,NA,oyster_density
+Spirorbinae,Serpulidae,urn:lsid:marinespecies.org:taxname:989,NA,NA,Subfamily,NA,oyster_density
+Filograninae,Serpulidae,urn:lsid:marinespecies.org:taxname:886860,NA,NA,Subfamily,NA,oyster_density
+Serpulinae,Serpulidae,urn:lsid:marinespecies.org:taxname:1636466,NA,NA,Subfamily,NA,oyster_density
+Sabellinae,Sabellidae,urn:lsid:marinespecies.org:taxname:154917,NA,NA,Subfamily,NA,oyster_density
 Crassostrea virginica,Crassostrea,urn:lsid:marinespecies.org:taxname:140657,NA,NA,Species,NA,oyster_density
 Mytilus edulis,Mytilus,urn:lsid:marinespecies.org:taxname:140480,NA,NA,Species,NA,oyster_density
 Mytilus trossulus,Mytilus,urn:lsid:marinespecies.org:taxname:140482,NA,NA,Species,NA,oyster_density
@@ -233,6 +231,7 @@ Membraniporina,Cheilostomatida,urn:lsid:marinespecies.org:taxname:1371726,NA,NA,
 Aeteina,Cheilostomatida,urn:lsid:marinespecies.org:taxname:1371733,NA,NA,Suborder,NA,oyster_density
 Vesicularina,Ctenostomatida,urn:lsid:marinespecies.org:taxname:827141,NA,NA,Suborder,NA,oyster_density
 Victorellina,Ctenostomatida,urn:lsid:marinespecies.org:taxname:827149,NA,NA,Suborder,NA,oyster_density
+Balanomorpha,Thoracicalcarea,urn:lsid:marinespecies.org:taxname:106039,NA,NA,Order,NA,oyster_density
 Clavelinidae,Aplousobranchia,urn:lsid:marinespecies.org:taxname:103438,NA,NA,Family,NA,oyster_density
 Didemnidae,Aplousobranchia,urn:lsid:marinespecies.org:taxname:103439,NA,NA,Family,NA,oyster_density
 Polycitoridae,Aplousobranchia,urn:lsid:marinespecies.org:taxname:103440,NA,NA,Family,NA,oyster_density
@@ -243,14 +242,12 @@ Perophoridae,Phlebobranchia,urn:lsid:marinespecies.org:taxname:103447,NA,NA,Fami
 Molgulidae,Stolidobranchia,urn:lsid:marinespecies.org:taxname:103448,NA,NA,Family,NA,oyster_density
 Pyuridae,Stolidobranchia,urn:lsid:marinespecies.org:taxname:103449,NA,NA,Family,NA,oyster_density
 Styelidae,Stolidobranchia,urn:lsid:marinespecies.org:taxname:103450,NA,NA,Family,NA,oyster_density
-Salmacina huxleyi,Salmacina,urn:lsid:marinespecies.org:taxname:369269,NA,NA,Species,NA,oyster_density
-Hydroides,Serpulini,urn:lsid:marinespecies.org:taxname:129566,NA,NA,Genus,NA,oyster_density
-Bispira brunnea,Bispira,urn:lsid:marinespecies.org:taxname:421069,NA,NA,Species,NA,oyster_density
-Branchiomma nigromaculatum,Branchiomma,urn:lsid:marinespecies.org:taxname:209930,NA,NA,Species,NA,oyster_density
-Branchiomma bairdi,Branchiomma,urn:lsid:marinespecies.org:taxname:421070,NA,NA,Species,NA,oyster_density
-Parasabella aberrans,Parasabella,urn:lsid:marinespecies.org:taxname:530659,NA,NA,Species,NA,oyster_density
-Parasabella microphthalma,Parasabella,urn:lsid:marinespecies.org:taxname:530927,NA,NA,Species,NA,oyster_density
-Parasabella crassichaetae,Parasabella,urn:lsid:marinespecies.org:taxname:1299057,NA,NA,Species,NA,oyster_density
+Filograna,Filograninae,urn:lsid:marinespecies.org:taxname:129563,NA,NA,Genus,NA,oyster_density
+Salmacina,Filograninae,urn:lsid:marinespecies.org:taxname:129578,NA,NA,Genus,NA,oyster_density
+Serpulini,Serpulinae,urn:lsid:marinespecies.org:taxname:1647419,NA,NA,Tribe,NA,oyster_density
+Bispira,Sabellinae,urn:lsid:marinespecies.org:taxname:129523,NA,NA,Genus,NA,oyster_density
+Branchiomma,Sabellinae,urn:lsid:marinespecies.org:taxname:129524,NA,NA,Genus,NA,oyster_density
+Parasabella,Sabellinae,urn:lsid:marinespecies.org:taxname:325958,NA,NA,Genus,NA,oyster_density
 Nodipecten nodosus,Nodipecten,urn:lsid:marinespecies.org:taxname:225252,NA,NA,Species,NA,oyster_density
 Argopecten irradians,Argopecten,urn:lsid:marinespecies.org:taxname:156817,NA,NA,Species,NA,oyster_density
 Argopecten purpuratus,Argopecten,urn:lsid:marinespecies.org:taxname:394269,NA,NA,Species,NA,oyster_density
@@ -365,6 +362,8 @@ Membraniporoidea,Membraniporina,urn:lsid:marinespecies.org:taxname:153579,NA,NA,
 Aeteoidea,Aeteina,urn:lsid:marinespecies.org:taxname:153568,NA,NA,Superfamily,NA,oyster_density
 Vesicularioidea,Vesicularina,urn:lsid:marinespecies.org:taxname:827142,NA,NA,Superfamily,NA,oyster_density
 Victorelloidea,Victorellina,urn:lsid:marinespecies.org:taxname:827150,NA,NA,Superfamily,NA,oyster_density
+Balanoidea,Balanomorpha,urn:lsid:marinespecies.org:taxname:106041,NA,NA,Superfamily,NA,oyster_density
+Chthamaloidea,Balanomorpha,urn:lsid:marinespecies.org:taxname:106042,NA,NA,Superfamily,NA,oyster_density
 Clavelina,Clavelinidae,urn:lsid:marinespecies.org:taxname:103453,NA,NA,Genus,NA,oyster_density
 Didemnum,Didemnidae,urn:lsid:marinespecies.org:taxname:103456,NA,NA,Genus,NA,oyster_density
 Diplosoma,Didemnidae,urn:lsid:marinespecies.org:taxname:103457,NA,NA,Genus,NA,oyster_density
@@ -385,10 +384,14 @@ Botryllus,Styelidae,urn:lsid:marinespecies.org:taxname:103529,NA,NA,Genus,NA,oys
 Polyandrocarpa,Styelidae,urn:lsid:marinespecies.org:taxname:103537,NA,NA,Genus,NA,oyster_density
 Styela,Styelidae,urn:lsid:marinespecies.org:taxname:103543,NA,NA,Genus,NA,oyster_density
 Symplegma,Styelidae,urn:lsid:marinespecies.org:taxname:206885,NA,NA,Genus,NA,oyster_density
-Hydroides dianthus,Hydroides,urn:lsid:marinespecies.org:taxname:131000,NA,NA,Species,NA,oyster_density
-Hydroides elegans,Hydroides,urn:lsid:marinespecies.org:taxname:131002,NA,NA,Species,NA,oyster_density
-Hydroides sanctaecrucis,Hydroides,urn:lsid:marinespecies.org:taxname:333645,NA,NA,Species,NA,oyster_density
-Hydroides diramphus,Hydroides,urn:lsid:marinespecies.org:taxname:872636,NA,NA,Species,NA,oyster_density
+Salmacina huxleyi,Salmacina,urn:lsid:marinespecies.org:taxname:369269,NA,NA,Species,NA,oyster_density
+Hydroides,Serpulini,urn:lsid:marinespecies.org:taxname:129566,NA,NA,Genus,NA,oyster_density
+Bispira brunnea,Bispira,urn:lsid:marinespecies.org:taxname:421069,NA,NA,Species,NA,oyster_density
+Branchiomma nigromaculatum,Branchiomma,urn:lsid:marinespecies.org:taxname:209930,NA,NA,Species,NA,oyster_density
+Branchiomma bairdi,Branchiomma,urn:lsid:marinespecies.org:taxname:421070,NA,NA,Species,NA,oyster_density
+Parasabella aberrans,Parasabella,urn:lsid:marinespecies.org:taxname:530659,NA,NA,Species,NA,oyster_density
+Parasabella microphthalma,Parasabella,urn:lsid:marinespecies.org:taxname:530927,NA,NA,Species,NA,oyster_density
+Parasabella crassichaetae,Parasabella,urn:lsid:marinespecies.org:taxname:1299057,NA,NA,Species,NA,oyster_density
 Rissoellidae,Rissoelloidea,urn:lsid:marinespecies.org:taxname:1743,NA,NA,Family,NA,oyster_density
 Acteonidae,Acteonoidea,urn:lsid:marinespecies.org:taxname:155,NA,NA,Family,NA,oyster_density
 Nudibranchia,Nudipleura,urn:lsid:marinespecies.org:taxname:1762,NA,NA,Order,NA,oyster_density
@@ -558,6 +561,8 @@ Aeteidae,Aeteoidea,urn:lsid:marinespecies.org:taxname:110726,NA,NA,Family,NA,oys
 Vesiculariidae,Vesicularioidea,urn:lsid:marinespecies.org:taxname:110802,NA,NA,Family,NA,oyster_density
 Nolellidae,Victorelloidea,urn:lsid:marinespecies.org:taxname:110795,NA,NA,Family,NA,oyster_density
 Victorellidae,Victorelloidea,urn:lsid:marinespecies.org:taxname:110803,NA,NA,Family,NA,oyster_density
+Balanidae,Balanoidea,urn:lsid:marinespecies.org:taxname:106057,NA,NA,Family,NA,oyster_density
+Chthamalidae,Chthamaloidea,urn:lsid:marinespecies.org:taxname:106059,NA,NA,Family,NA,oyster_density
 Clavelina oblonga,Clavelina,urn:lsid:marinespecies.org:taxname:103554,NA,NA,Species,NA,oyster_density
 Clavelina picta,Clavelina,urn:lsid:marinespecies.org:taxname:250323,NA,NA,Species,NA,oyster_density
 Didemnum perlucidum,Didemnum,urn:lsid:marinespecies.org:taxname:212506,NA,NA,Species,NA,oyster_density
@@ -589,6 +594,10 @@ Styela canopus,Styela,urn:lsid:marinespecies.org:taxname:103926,NA,NA,Species,NA
 Styela plicata,Styela,urn:lsid:marinespecies.org:taxname:103936,NA,NA,Species,NA,oyster_density
 Symplegma rubra,Symplegma,urn:lsid:marinespecies.org:taxname:212500,NA,NA,Species,NA,oyster_density
 Symplegma brakenhielmi,Symplegma,urn:lsid:marinespecies.org:taxname:251435,NA,NA,Species,NA,oyster_density
+Hydroides dianthus,Hydroides,urn:lsid:marinespecies.org:taxname:131000,NA,NA,Species,NA,oyster_density
+Hydroides elegans,Hydroides,urn:lsid:marinespecies.org:taxname:131002,NA,NA,Species,NA,oyster_density
+Hydroides sanctaecrucis,Hydroides,urn:lsid:marinespecies.org:taxname:333645,NA,NA,Species,NA,oyster_density
+Hydroides diramphus,Hydroides,urn:lsid:marinespecies.org:taxname:872636,NA,NA,Species,NA,oyster_density
 Rissoella,Rissoellidae,urn:lsid:marinespecies.org:taxname:138438,NA,NA,Genus,NA,oyster_density
 Japonactaeon,Acteonidae,urn:lsid:marinespecies.org:taxname:415521,NA,NA,Genus,NA,oyster_density
 Tritonina,Nudibranchia,urn:lsid:marinespecies.org:taxname:1829315,NA,NA,Suborder,NA,oyster_density
@@ -786,6 +795,10 @@ Amathia,Vesiculariidae,urn:lsid:marinespecies.org:taxname:111022,NA,NA,Genus,NA,
 Bowerbankia,Vesiculariidae,urn:lsid:marinespecies.org:taxname:111023,NA,NA,Genus,NA,oyster_density
 Anguinella,Nolellidae,urn:lsid:marinespecies.org:taxname:111010,NA,NA,Genus,NA,oyster_density
 Victorella,Victorellidae,urn:lsid:marinespecies.org:taxname:111027,NA,NA,Genus,NA,oyster_density
+Balaninae,Balanidae,urn:lsid:marinespecies.org:taxname:106073,NA,NA,Subfamily,NA,oyster_density
+Megabalaninae,Balanidae,urn:lsid:marinespecies.org:taxname:106074,NA,NA,Subfamily,NA,oyster_density
+Amphibalaninae,Balanidae,urn:lsid:marinespecies.org:taxname:394026,NA,NA,Subfamily,NA,oyster_density
+Chthamalus,Chthamalidae,urn:lsid:marinespecies.org:taxname:106126,NA,NA,Genus,NA,oyster_density
 Rissoella caribaea,Rissoella,urn:lsid:marinespecies.org:taxname:420414,NA,NA,Species,NA,oyster_density
 Japonactaeon punctostriatus,Japonactaeon,urn:lsid:marinespecies.org:taxname:420514,NA,NA,Species,NA,oyster_density
 Tritonioidea,Tritonina,urn:lsid:marinespecies.org:taxname:412595,NA,NA,Superfamily,NA,oyster_density
@@ -956,6 +969,10 @@ Amathia gracilis,Amathia,urn:lsid:marinespecies.org:taxname:851589,NA,NA,Species
 Bowerbankia gracilis,Bowerbankia,urn:lsid:marinespecies.org:taxname:111665,NA,NA,Species,NA,oyster_density
 Anguinella palmata,Anguinella,urn:lsid:marinespecies.org:taxname:111631,NA,NA,Species,NA,oyster_density
 Victorella pavida,Victorella,urn:lsid:marinespecies.org:taxname:111673,NA,NA,Species,NA,oyster_density
+Balanus,Balaninae,urn:lsid:marinespecies.org:taxname:106122,NA,NA,Genus,NA,oyster_density
+Megabalanus,Megabalaninae,urn:lsid:marinespecies.org:taxname:106123,NA,NA,Genus,NA,oyster_density
+Amphibalanus,Amphibalaninae,urn:lsid:marinespecies.org:taxname:415046,NA,NA,Genus,NA,oyster_density
+Chthamalus fragilis,Chthamalus,urn:lsid:marinespecies.org:taxname:157793,NA,NA,Species,NA,oyster_density
 Tritoniidae,Tritonioidea,urn:lsid:marinespecies.org:taxname:183,NA,NA,Family,NA,oyster_density
 Corambidae,Onchidoridoidea,urn:lsid:marinespecies.org:taxname:10124,NA,NA,Family,NA,oyster_density
 Chromodorididae,Chromodoridoidea,urn:lsid:marinespecies.org:taxname:23003,NA,NA,Family,NA,oyster_density
@@ -1008,6 +1025,14 @@ Eudendrium carneum,Eudendrium,urn:lsid:marinespecies.org:taxname:117545,NA,NA,Sp
 Stylaster roseus,Stylaster,urn:lsid:marinespecies.org:taxname:285905,NA,NA,Species,NA,oyster_density
 Cassiopea,Cassiopeidae,urn:lsid:marinespecies.org:taxname:135253,NA,NA,Genus,NA,oyster_density
 Aurelia aurita,Aurelia,urn:lsid:marinespecies.org:taxname:135306,NA,NA,Species,NA,oyster_density
+Balanus trigonus,Balanus,urn:lsid:marinespecies.org:taxname:106223,NA,NA,Species,NA,oyster_density
+Megabalanus tintinnabulum,Megabalanus,urn:lsid:marinespecies.org:taxname:106225,NA,NA,Species,NA,oyster_density
+Megabalanus coccopoma,Megabalanus,urn:lsid:marinespecies.org:taxname:149682,NA,NA,Species,NA,oyster_density
+Amphibalanus amphitrite,Amphibalanus,urn:lsid:marinespecies.org:taxname:421137,NA,NA,Species,NA,oyster_density
+Amphibalanus eburneus,Amphibalanus,urn:lsid:marinespecies.org:taxname:421138,NA,NA,Species,NA,oyster_density
+Amphibalanus improvisus,Amphibalanus,urn:lsid:marinespecies.org:taxname:421139,NA,NA,Species,NA,oyster_density
+Amphibalanus reticulatus,Amphibalanus,urn:lsid:marinespecies.org:taxname:421140,NA,NA,Species,NA,oyster_density
+Amphibalanus venustus,Amphibalanus,urn:lsid:marinespecies.org:taxname:421142,NA,NA,Species,NA,oyster_density
 Tritoniinae,Tritoniidae,urn:lsid:marinespecies.org:taxname:1669234,NA,NA,Subfamily,NA,oyster_density
 Corambe,Corambidae,urn:lsid:marinespecies.org:taxname:137839,NA,NA,Genus,NA,oyster_density
 Chromodoridinae,Chromodorididae,urn:lsid:marinespecies.org:taxname:1370610,NA,NA,Subfamily,NA,oyster_density
