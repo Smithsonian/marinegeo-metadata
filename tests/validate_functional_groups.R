@@ -18,6 +18,10 @@ View(
                                                                        scientific_name))
 )
 
+View(
+  df_sci_ids %>% mutate(primary_group = utl_mg_assign_ancestor_labels(fg_tree = "oyster_density", scientific_names = scientific_name, type = "primary"))
+)
+
 tree <- marinegeo.utils::utl_mg_get_registry("functional_group_lookup") %>%
   filter(tree_name == "oyster_density")
 
