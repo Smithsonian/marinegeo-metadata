@@ -1,9 +1,8 @@
 from,to,scientific_id,type,code,rank,definition,tree_name
-Seagrass,Vegetation,FUNCTIONAL:SAV,NA,NA,NA,"Rooted, vascular plants that grow underwater or just up to the
- water's surface, often forming large stands or beds.",vegetation
+Seagrass,Vegetation,FUNCTIONAL:SAV,primary,NA,NA,"Rooted, vascular plants that grow underwater or just up to the water's surface, often forming large stands or beds.",vegetation
 Algae,Vegetation,FUNCTIONAL:ALGAE,primary,NA,NA,"Plantlike photosynthetic organisms, from single-celled to large, multicellular marine algae.",vegetation
 Non-marine SAV,Seagrass,FUNCTIONAL:NONMARINESAV,NA,NA,NA,SAV species found primarily in brackish to freshwater habitats.,vegetation
-Marine Seagrass,Seagrass,FUNCTIONAL:SEAGRASS,primary,NA,NA,SAV species found in brackish to saline marine environments.,vegetation
+Marine Seagrass,Seagrass,FUNCTIONAL:SEAGRASS,NA,NA,NA,SAV species found in brackish to saline marine environments.,vegetation
 Macroalgae,Algae,FUNCTIONAL:MACROALGAE,NA,NA,NA,NA,vegetation
 Cyanobacteria,Algae,urn:lsid:marinespecies.org:taxname:146537,NA,NA,Phylum,NA,vegetation
 Filamentous Algae,Algae,FUNCTIONAL:FILAMENTOUS_ALGAE,NA,NA,NA,NA,vegetation

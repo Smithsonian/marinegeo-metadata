@@ -42,8 +42,8 @@ print(taxa_tree, "scientific_id", "rank")
 vegetation <- Node$new("Vegetation", scientific_id = "FUNCTIONAL:VEGETATION", definition = "Aquatic micro- and macroscopic photosynthetic organisms growing in or near water")
 
 # Seagrass, defined inclusively (Seagrass = SAV, here).
-sav <- vegetation$AddChild("Seagrass", scientific_id = "FUNCTIONAL:SAV", definition = "Rooted, vascular plants that grow underwater or just up to the
- water's surface, often forming large stands or beds.")
+sav <- vegetation$AddChild("Seagrass", scientific_id = "FUNCTIONAL:SAV", type = "primary",
+                           definition = "Rooted, vascular plants that grow underwater or just up to the water's surface, often forming large stands or beds.")
 
 nonmarine_sav <- sav$AddChild("Non-marine SAV", scientific_id = "FUNCTIONAL:NONMARINESAV", definition = "SAV species found primarily in brackish to freshwater habitats.")
 nonmarine_sav_ids <- c("Potamogetonaceae", "Ruppiaceae")
@@ -52,7 +52,7 @@ lapply(nonmarine_sav_ids, function(x){
   nonmarine_sav$AddChildNode(new_node)
 })
 
-seagrass <- sav$AddChild("Marine Seagrass", scientific_id = "FUNCTIONAL:SEAGRASS", type = "primary", definition = "SAV species found in brackish to saline marine environments.")
+seagrass <- sav$AddChild("Marine Seagrass", scientific_id = "FUNCTIONAL:SEAGRASS", definition = "SAV species found in brackish to saline marine environments.")
 seagrass_families <- c("Cymodoceaceae", "Hydrocharitaceae", "Posidoniaceae", "Zosteraceae")
 lapply(seagrass_families, function(x){
   new_node <- Clone(FindNode(taxa_tree, x))
