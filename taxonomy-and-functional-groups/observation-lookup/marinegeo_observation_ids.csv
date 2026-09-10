@@ -45,9 +45,11 @@ Amphithoe ramondi,UNDEFINED:AMPHITHOE_RAMONDI
 Amphithoe,UNDEFINED:AMPHITHOE_SP
 Amygdalum papyrium,UNDEFINED:AMYGDALUM_PAPYRIUM
 Bittium variabilis,UNDEFINED:BITTIUM_VARIABILIS
-Botrylloides nigrum,UNDEFINED:BOTRYLLOIDES_NIGRUM
+Botrylloides nigrum,urn:lsid:marinespecies.org:taxname:252289
+Botrylloides niger,urn:lsid:marinespecies.org:taxname:252289
 Bowerbankia gracilis,UNDEFINED:BOWERBANKIA_GRACILIS
-Bugula stolonifera,UNDEFINED:BUGULA_STOLONIFERA
+Bugula stolonifera,urn:lsid:marinespecies.org:taxname:834018
+Bugulina stolonifera,urn:lsid:marinespecies.org:taxname:834018
 Decopoda,UNDEFINED:DECOPODA
 Dorvillia,UNDEFINED:DORVILLIA_SP
 Duetella incerta,UNDEFINED:DUETELLA_INCERTA
@@ -56,16 +58,17 @@ Exocorallana cf tricornis,UNDEFINED:EXOCORALLANA_CF_TRICORNIS
 Haliclona implexiformis,UNDEFINED:HALICLONA_IMPLEXIFORMIS
 Hippolyte pleuracanthus,UNDEFINED:HIPPOLYTE_PLEURACANTHUS
 Hippopodina indica,UNDEFINED:HIPPOPODINA_INDICA
-Hydroides diramphus,UNDEFINED:HYDROIDES_DIRAMPHUS
+Hydroides diramphus,urn:lsid:marinespecies.org:taxname:131001
+Hydroides dirampha,urn:lsid:marinespecies.org:taxname:131001
 Maera miranda,UNDEFINED:MAERA_MIRANDA
 Majiidae,UNDEFINED:MAJIIDAE
 Menippe mercinaria,UNDEFINED:MENIPPE_MERCINARIA
 Miodiolus modiolus,UNDEFINED:MIODIOLUS_MODIOLUS
-Mycale microsigmatosa,UNDEFINED:MYCALE_MICROSIGMATOSA
+Mycale microsigmatosa,urn:lsid:marinespecies.org:taxname:168590
 Neanthes succinea,UNDEFINED:NEANTHES_SUCCINEA
 Neries,UNDEFINED:NERIES_SP
 Neritina virginea,UNDEFINED:NERITINA_VIRGINEA
-Noella stipata,UNDEFINED:NOELLA_STIPATA
+Nolella stipata,urn:lsid:marinespecies.org:taxname:111636
 Palaemonetes,UNDEFINED:PALAEMONETES_SP
 Paracaprella tenius,UNDEFINED:PARACAPRELLA_TENIUS
 Pedicellaria,UNDEFINED:PEDICELLARIA_SP
