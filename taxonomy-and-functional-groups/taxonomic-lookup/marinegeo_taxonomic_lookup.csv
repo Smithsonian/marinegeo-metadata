@@ -548,6 +548,7 @@ urn:lsid:marinespecies.org:taxname:110975,Schizoporella,Genus,110975,urn:lsid:ma
 urn:lsid:marinespecies.org:taxname:110978,Parasmittina,Genus,110978,urn:lsid:marinespecies.org:taxname:110775
 urn:lsid:marinespecies.org:taxname:110991,Watersipora,Genus,110991,urn:lsid:marinespecies.org:taxname:110781
 urn:lsid:marinespecies.org:taxname:111010,Anguinella,Genus,111010,urn:lsid:marinespecies.org:taxname:110795
+urn:lsid:marinespecies.org:taxname:111011,Nolella,Genus,111011,urn:lsid:marinespecies.org:taxname:110795
 urn:lsid:marinespecies.org:taxname:111022,Amathia,Genus,111022,urn:lsid:marinespecies.org:taxname:110802
 urn:lsid:marinespecies.org:taxname:111023,Bowerbankia,Genus,111023,urn:lsid:marinespecies.org:taxname:110802
 urn:lsid:marinespecies.org:taxname:111027,Victorella,Genus,111027,urn:lsid:marinespecies.org:taxname:110803
@@ -559,6 +560,7 @@ urn:lsid:marinespecies.org:taxname:111389,Hippopodina feegeensis,Species,111389,
 urn:lsid:marinespecies.org:taxname:111512,Savignyella lafontii,Species,111512,urn:lsid:marinespecies.org:taxname:110970
 urn:lsid:marinespecies.org:taxname:111592,Watersipora subtorquata,Species,111592,urn:lsid:marinespecies.org:taxname:110991
 urn:lsid:marinespecies.org:taxname:111631,Anguinella palmata,Species,111631,urn:lsid:marinespecies.org:taxname:111010
+urn:lsid:marinespecies.org:taxname:111636,Nolella stipata,Species,111636,urn:lsid:marinespecies.org:taxname:111011
 urn:lsid:marinespecies.org:taxname:111656,Amathia distans,Species,111656,urn:lsid:marinespecies.org:taxname:111022
 urn:lsid:marinespecies.org:taxname:111665,Bowerbankia gracilis,Species,111665,urn:lsid:marinespecies.org:taxname:111023
 urn:lsid:marinespecies.org:taxname:111673,Victorella pavida,Species,111673,urn:lsid:marinespecies.org:taxname:111027
@@ -856,6 +858,7 @@ urn:lsid:marinespecies.org:taxname:130391,Neanthes succinea,Species,130391,urn:l
 urn:lsid:marinespecies.org:taxname:130593,Pectinaria granulata,Species,130593,urn:lsid:marinespecies.org:taxname:129437
 urn:lsid:marinespecies.org:taxname:130769,Harmothoe imbricata,Species,130769,urn:lsid:marinespecies.org:taxname:129491
 urn:lsid:marinespecies.org:taxname:131000,Hydroides dianthus,Species,131000,urn:lsid:marinespecies.org:taxname:129566
+urn:lsid:marinespecies.org:taxname:131001,Hydroides dirampha,Species,131001,urn:lsid:marinespecies.org:taxname:129566
 urn:lsid:marinespecies.org:taxname:131002,Hydroides elegans,Species,131002,urn:lsid:marinespecies.org:taxname:129566
 urn:lsid:marinespecies.org:taxname:131141,Polydora ciliata,Species,131141,urn:lsid:marinespecies.org:taxname:129619
 urn:lsid:marinespecies.org:taxname:131143,Polydora cornuta,Species,131143,urn:lsid:marinespecies.org:taxname:129619
@@ -1542,6 +1545,8 @@ urn:lsid:marinespecies.org:taxname:163505,Corallinoideae,Subfamily,163505,urn:ls
 urn:lsid:marinespecies.org:taxname:164811,Demospongiae,Class,164811,urn:lsid:marinespecies.org:taxname:558
 urn:lsid:marinespecies.org:taxname:166490,Haliclona tubulifera,Species,166490,urn:lsid:marinespecies.org:taxname:131834
 urn:lsid:marinespecies.org:taxname:168252,Biemna caribea,Species,168252,urn:lsid:marinespecies.org:taxname:131897
+urn:lsid:marinespecies.org:taxname:168568,Mycale (Carmia),Subgenus,168568,urn:lsid:marinespecies.org:taxname:131907
+urn:lsid:marinespecies.org:taxname:168590,Mycale (Carmia) microsigmatosa,Species,168590,urn:lsid:marinespecies.org:taxname:168568
 urn:lsid:marinespecies.org:taxname:170417,Clionaidae,Family,170417,urn:lsid:marinespecies.org:taxname:845506
 urn:lsid:marinespecies.org:taxname:172523,Janieae,Tribe,172523,urn:lsid:marinespecies.org:taxname:163505
 urn:lsid:marinespecies.org:taxname:172526,Spyridieae,Tribe,172526,urn:lsid:marinespecies.org:taxname:1647394
@@ -2737,6 +2742,7 @@ urn:lsid:marinespecies.org:taxname:565363,Lobatus costatus,Species,565363,urn:ls
 urn:lsid:marinespecies.org:taxname:573277,Cyanobacterium,Genus,573277,urn:lsid:marinespecies.org:taxname:1653525
 urn:lsid:marinespecies.org:taxname:573905,Naria,Genus,573905,urn:lsid:marinespecies.org:taxname:411674
 urn:lsid:marinespecies.org:taxname:574096,Ecrobia truncata,Species,574096,urn:lsid:marinespecies.org:taxname:238103
+urn:lsid:marinespecies.org:taxname:574248,Bugulina,Genus,574248,urn:lsid:marinespecies.org:taxname:110731
 urn:lsid:marinespecies.org:taxname:575794,Diffalaba,Genus,575794,urn:lsid:marinespecies.org:taxname:23065
 urn:lsid:marinespecies.org:taxname:577989,Aequipectinini,Tribe,577989,urn:lsid:marinespecies.org:taxname:393857
 urn:lsid:marinespecies.org:taxname:579271,Lunella undulata,Species,579271,urn:lsid:marinespecies.org:taxname:203942
@@ -2851,6 +2857,7 @@ urn:lsid:marinespecies.org:taxname:828326,Pseudodiploria clivosa,Species,828326,
 urn:lsid:marinespecies.org:taxname:828511,Comatuloidea,Superfamily,828511,urn:lsid:marinespecies.org:taxname:123093
 urn:lsid:marinespecies.org:taxname:828512,Comatulidae,Family,828512,urn:lsid:marinespecies.org:taxname:828511
 urn:lsid:marinespecies.org:taxname:828985,Comatellinae,Subfamily,828985,urn:lsid:marinespecies.org:taxname:828512
+urn:lsid:marinespecies.org:taxname:834018,Bugulina stolonifera,Species,834018,urn:lsid:marinespecies.org:taxname:574248
 urn:lsid:marinespecies.org:taxname:835177,Elacatinus cayman,Species,835177,urn:lsid:marinespecies.org:taxname:269045
 urn:lsid:marinespecies.org:taxname:835178,Elacatinus centralis,Species,835178,urn:lsid:marinespecies.org:taxname:269045
 urn:lsid:marinespecies.org:taxname:836365,Coleofasciculaceae,Family,836365,urn:lsid:marinespecies.org:taxname:1653506
