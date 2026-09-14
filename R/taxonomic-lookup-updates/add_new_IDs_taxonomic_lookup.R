@@ -12,7 +12,8 @@ missing_taxa <- obs_df %>%
 
 missing_taxa
 
-ids <- as.numeric(gsub(lsid_stem, "", missing_taxa$scientific_id))
+ids <- unique(as.numeric(gsub(lsid_stem, "", missing_taxa$scientific_id)))
+
 ids
 
 out <- classification(ids, db="worms")
