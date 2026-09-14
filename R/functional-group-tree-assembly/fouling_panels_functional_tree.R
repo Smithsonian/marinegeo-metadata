@@ -66,7 +66,7 @@ fouling_group_assignments %>%
          !scientific_id %in% anemones_wide$scientific_id)
 
 anemones <- fouling$AddChild("Anemones", 
-                             scientific_id = "FUNCTIONAL:ANEMONES",
+                             scientific_id = "FUNCTIONAL:ANEMONE",
                              type = "primary",
                              code = "ane")
 
@@ -102,7 +102,7 @@ fouling_group_assignments %>%
          !scientific_id %in% sponges_wide$scientific_id)
 
 sponges <- fouling$AddChild("Sponges", 
-                             scientific_id = "FUNCTIONAL:SPONGES",
+                             scientific_id = "FUNCTIONAL:SPONGE",
                              type = "primary",
                              code = "spg")
 

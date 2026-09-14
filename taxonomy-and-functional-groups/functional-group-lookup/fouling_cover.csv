@@ -1,8 +1,8 @@
 from,to,scientific_id,type,code,rank,definition,tree_name
 Hydroids,Fouling Cover,FUNCTIONAL:HYDROIDS,primary,hyd,NA,NA,fouling
-Anemones,Fouling Cover,FUNCTIONAL:ANEMONES,primary,ane,NA,NA,fouling
+Anemones,Fouling Cover,FUNCTIONAL:ANEMONE,primary,ane,NA,NA,fouling
 Corals,Fouling Cover,FUNCTIONAL:CORALS,primary,coral,NA,NA,fouling
-Sponges,Fouling Cover,FUNCTIONAL:SPONGES,primary,spg,NA,NA,fouling
+Sponges,Fouling Cover,FUNCTIONAL:SPONGE,primary,spg,NA,NA,fouling
 Serpulid Polychaetes,Fouling Cover,FUNCTIONAL:SERPULIDS,primary,ser_poly,NA,NA,fouling
 Sabellid Polychaetes,Fouling Cover,FUNCTIONAL:SABELLIDS,primary,sab_poly,NA,NA,fouling
 Other Polychaetes,Fouling Cover,FUNCTIONAL:NON_SER_SAB_POLY,primary,other_poly,NA,NA,fouling
@@ -202,8 +202,10 @@ Schizoporella,Schizoporellidae,urn:lsid:marinespecies.org:taxname:110975,NA,NA,G
 Hippoporina,Bitectiporidae,urn:lsid:marinespecies.org:taxname:110825,NA,NA,Genus,NA,fouling
 Bugula,Bugulidae,urn:lsid:marinespecies.org:taxname:110839,NA,NA,Genus,NA,fouling
 Caulibugula,Bugulidae,urn:lsid:marinespecies.org:taxname:225832,NA,NA,Genus,NA,fouling
+Bugulina,Bugulidae,urn:lsid:marinespecies.org:taxname:574248,NA,NA,Genus,NA,fouling
 Savignyella,Savignyellidae,urn:lsid:marinespecies.org:taxname:110970,NA,NA,Genus,NA,fouling
 Anguinella,Nolellidae,urn:lsid:marinespecies.org:taxname:111010,NA,NA,Genus,NA,fouling
+Nolella,Nolellidae,urn:lsid:marinespecies.org:taxname:111011,NA,NA,Genus,NA,fouling
 Amathia,Vesiculariidae,urn:lsid:marinespecies.org:taxname:111022,NA,NA,Genus,NA,fouling
 Bowerbankia,Vesiculariidae,urn:lsid:marinespecies.org:taxname:111023,NA,NA,Genus,NA,fouling
 Victorella,Victorellidae,urn:lsid:marinespecies.org:taxname:111027,NA,NA,Genus,NA,fouling
@@ -314,6 +316,7 @@ Anomia simplex,Anomia,urn:lsid:marinespecies.org:taxname:156737,NA,NA,Species,NA
 Astarte,Astartinae,urn:lsid:marinespecies.org:taxname:137683,NA,NA,Genus,NA,fouling
 Cerastodermatini,Lymnocardiinae,urn:lsid:marinespecies.org:taxname:1496553,NA,NA,Tribe,NA,fouling
 Tellina,Tellininae,urn:lsid:marinespecies.org:taxname:138533,NA,NA,Genus,NA,fouling
+Angulus,Tellininae,urn:lsid:marinespecies.org:taxname:146491,NA,NA,Genus,NA,fouling
 Ameritella,Tellininae,urn:lsid:marinespecies.org:taxname:849118,NA,NA,Genus,NA,fouling
 Macoma,Macominae,urn:lsid:marinespecies.org:taxname:138531,NA,NA,Genus,NA,fouling
 Austromacoma,Macominae,urn:lsid:marinespecies.org:taxname:879994,NA,NA,Genus,NA,fouling
@@ -349,9 +352,12 @@ Hippoporina indica,Hippoporina,urn:lsid:marinespecies.org:taxname:469112,NA,NA,S
 Bugula neritina,Bugula,urn:lsid:marinespecies.org:taxname:111158,NA,NA,Species,NA,fouling
 Bugula stolonifera,Bugula,urn:lsid:marinespecies.org:taxname:111164,NA,NA,Species,NA,fouling
 Caulibugula armata,Caulibugula,urn:lsid:marinespecies.org:taxname:448282,NA,NA,Species,NA,fouling
+Bugulina stolonifera,Bugulina,urn:lsid:marinespecies.org:taxname:834018,NA,NA,Species,NA,fouling
 Savignyella lafontii,Savignyella,urn:lsid:marinespecies.org:taxname:111512,NA,NA,Species,NA,fouling
 Anguinella palmata,Anguinella,urn:lsid:marinespecies.org:taxname:111631,NA,NA,Species,NA,fouling
+Nolella stipata,Nolella,urn:lsid:marinespecies.org:taxname:111636,NA,NA,Species,NA,fouling
 Amathia distans,Amathia,urn:lsid:marinespecies.org:taxname:111656,NA,NA,Species,NA,fouling
+Amathia vidovici,Amathia,urn:lsid:marinespecies.org:taxname:111663,NA,NA,Species,NA,fouling
 Amathia alternata,Amathia,urn:lsid:marinespecies.org:taxname:422418,NA,NA,Species,NA,fouling
 Amathia verticillata,Amathia,urn:lsid:marinespecies.org:taxname:851581,NA,NA,Species,NA,fouling
 Amathia gracilis,Amathia,urn:lsid:marinespecies.org:taxname:851589,NA,NA,Species,NA,fouling
@@ -442,6 +448,7 @@ Argopecten,Aequipectinini,urn:lsid:marinespecies.org:taxname:156816,NA,NA,Genus,
 Euvola,Amusiini,urn:lsid:marinespecies.org:taxname:205700,NA,NA,Genus,NA,fouling
 Mimachlamys,Mimachlamydini,urn:lsid:marinespecies.org:taxname:236718,NA,NA,Genus,NA,fouling
 Cerastoderma,Cerastodermatini,urn:lsid:marinespecies.org:taxname:137735,NA,NA,Genus,NA,fouling
+Angulus texanus,Angulus,urn:lsid:marinespecies.org:taxname:420862,NA,NA,Species,NA,fouling
 Ameritella mitchelli,Ameritella,urn:lsid:marinespecies.org:taxname:878513,NA,NA,Species,NA,fouling
 Macoma balthica,Macoma,urn:lsid:marinespecies.org:taxname:141579,NA,NA,Species,NA,fouling
 Austromacoma constricta,Austromacoma,urn:lsid:marinespecies.org:taxname:880005,NA,NA,Species,NA,fouling
@@ -477,6 +484,7 @@ Biemnidae,Biemnida,urn:lsid:marinespecies.org:taxname:150266,NA,NA,Family,NA,fou
 Clionaidae,Clionaida,urn:lsid:marinespecies.org:taxname:170417,NA,NA,Family,NA,fouling
 Halichondriidae,Suberitida,urn:lsid:marinespecies.org:taxname:131633,NA,NA,Family,NA,fouling
 Hydroides dianthus,Hydroides,urn:lsid:marinespecies.org:taxname:131000,NA,NA,Species,NA,fouling
+Hydroides dirampha,Hydroides,urn:lsid:marinespecies.org:taxname:131001,NA,NA,Species,NA,fouling
 Hydroides elegans,Hydroides,urn:lsid:marinespecies.org:taxname:131002,NA,NA,Species,NA,fouling
 Hydroides sanctaecrucis,Hydroides,urn:lsid:marinespecies.org:taxname:333645,NA,NA,Species,NA,fouling
 Hydroides diramphus,Hydroides,urn:lsid:marinespecies.org:taxname:872636,NA,NA,Species,NA,fouling
@@ -510,6 +518,7 @@ Tedania,Tedaniidae,urn:lsid:marinespecies.org:taxname:131974,NA,NA,Genus,NA,foul
 Geodiidae,Astrophorina,urn:lsid:marinespecies.org:taxname:131664,NA,NA,Family,NA,fouling
 Theneidae,Astrophorina,urn:lsid:marinespecies.org:taxname:131666,NA,NA,Family,NA,fouling
 Biemna,Biemnidae,urn:lsid:marinespecies.org:taxname:131897,NA,NA,Genus,NA,fouling
+Cliona,Clionaidae,urn:lsid:marinespecies.org:taxname:132026,NA,NA,Genus,NA,fouling
 Ciocalypta,Halichondriidae,urn:lsid:marinespecies.org:taxname:131804,NA,NA,Genus,NA,fouling
 Halichondria,Halichondriidae,urn:lsid:marinespecies.org:taxname:131807,NA,NA,Genus,NA,fouling
 Balanidae,Balanoidea,urn:lsid:marinespecies.org:taxname:106057,NA,NA,Family,NA,fouling
@@ -528,6 +537,7 @@ Stylaster roseus,Stylaster,urn:lsid:marinespecies.org:taxname:285905,NA,NA,Speci
 Sycon ciliatum,Sycon,urn:lsid:marinespecies.org:taxname:132251,NA,NA,Species,NA,fouling
 Haliclona tubulifera,Haliclona,urn:lsid:marinespecies.org:taxname:166490,NA,NA,Species,NA,fouling
 Haliclona implexiformis,Haliclona,urn:lsid:marinespecies.org:taxname:345570,NA,NA,Species,NA,fouling
+Mycale (Carmia),Mycale,urn:lsid:marinespecies.org:taxname:168568,NA,NA,Subgenus,NA,fouling
 Mycale microsigmatosa,Mycale,urn:lsid:marinespecies.org:taxname:192555,NA,NA,Species,NA,fouling
 Tedania ignis,Tedania,urn:lsid:marinespecies.org:taxname:404078,NA,NA,Species,NA,fouling
 Geodiinae,Geodiidae,urn:lsid:marinespecies.org:taxname:597252,NA,NA,Subfamily,NA,fouling
@@ -543,6 +553,7 @@ Amphistegina,Amphisteginidae,urn:lsid:marinespecies.org:taxname:112080,NA,NA,Gen
 Pararotaliinae,Calcarinidae,urn:lsid:marinespecies.org:taxname:111938,NA,NA,Subfamily,NA,fouling
 Calcarina,Calcarinidae,urn:lsid:marinespecies.org:taxname:112119,NA,NA,Genus,NA,fouling
 Baculogypsina,Calcarinidae,urn:lsid:marinespecies.org:taxname:484701,NA,NA,Genus,NA,fouling
+Mycale (Carmia) microsigmatosa,Mycale (Carmia),urn:lsid:marinespecies.org:taxname:168590,NA,NA,Species,NA,fouling
 Geodia,Geodiinae,urn:lsid:marinespecies.org:taxname:132005,NA,NA,Genus,NA,fouling
 Balanus,Balaninae,urn:lsid:marinespecies.org:taxname:106122,NA,NA,Genus,NA,fouling
 Megabalanus,Megabalaninae,urn:lsid:marinespecies.org:taxname:106123,NA,NA,Genus,NA,fouling
@@ -556,6 +567,7 @@ Baculogypsina sphaerulata,Baculogypsina,urn:lsid:marinespecies.org:taxname:48470
 Balanus trigonus,Balanus,urn:lsid:marinespecies.org:taxname:106223,NA,NA,Species,NA,fouling
 Megabalanus tintinnabulum,Megabalanus,urn:lsid:marinespecies.org:taxname:106225,NA,NA,Species,NA,fouling
 Megabalanus coccopoma,Megabalanus,urn:lsid:marinespecies.org:taxname:149682,NA,NA,Species,NA,fouling
+Amphibalanus amphitrite,Amphibalanus,urn:lsid:marinespecies.org:taxname:421137,NA,NA,Species,NA,fouling
 Amphibalanus eburneus,Amphibalanus,urn:lsid:marinespecies.org:taxname:421138,NA,NA,Species,NA,fouling
 Amphibalanus improvisus,Amphibalanus,urn:lsid:marinespecies.org:taxname:421139,NA,NA,Species,NA,fouling
 Amphibalanus reticulatus,Amphibalanus,urn:lsid:marinespecies.org:taxname:421140,NA,NA,Species,NA,fouling
