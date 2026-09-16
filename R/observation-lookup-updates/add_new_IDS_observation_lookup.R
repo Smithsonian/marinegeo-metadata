@@ -1,5 +1,6 @@
 # scientific_name <- "red branching macroalgae"
 # scientific_id <- "FUNCTIONAL:RED_BRANCHING_ALGAE"
+# scientific_id <- "urn:lsid:marinespecies.org:taxname:123"
 # add_new_observation_id(scientific_name, scientific_id)
 
 add_new_observation_id <- function(scientific_name, scientific_id){
