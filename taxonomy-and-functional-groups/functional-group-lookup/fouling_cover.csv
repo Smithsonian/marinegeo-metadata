@@ -105,6 +105,7 @@ Polycitoridae,Colonial ascidians,urn:lsid:marinespecies.org:taxname:103440,NA,NA
 Botryllus,Colonial ascidians,urn:lsid:marinespecies.org:taxname:103529,NA,NA,Genus,NA,fouling
 Polyandrocarpa,Colonial ascidians,urn:lsid:marinespecies.org:taxname:103537,NA,NA,Genus,NA,fouling
 Symplegma,Colonial ascidians,urn:lsid:marinespecies.org:taxname:206885,NA,NA,Genus,NA,fouling
+Botrylloides,Colonial ascidians,urn:lsid:marinespecies.org:taxname:103528,NA,NA,Genus,NA,fouling
 Ascidiidae,Solitary ascidians,urn:lsid:marinespecies.org:taxname:103443,NA,NA,Family,NA,fouling
 Molgulidae,Solitary ascidians,urn:lsid:marinespecies.org:taxname:103448,NA,NA,Family,NA,fouling
 Pyuridae,Solitary ascidians,urn:lsid:marinespecies.org:taxname:103449,NA,NA,Family,NA,fouling
@@ -228,6 +229,8 @@ Botryllus planus,Botryllus,urn:lsid:marinespecies.org:taxname:215992,NA,NA,Speci
 Polyandrocarpa zorritensis,Polyandrocarpa,urn:lsid:marinespecies.org:taxname:103895,NA,NA,Species,NA,fouling
 Symplegma rubra,Symplegma,urn:lsid:marinespecies.org:taxname:212500,NA,NA,Species,NA,fouling
 Symplegma brakenhielmi,Symplegma,urn:lsid:marinespecies.org:taxname:251435,NA,NA,Species,NA,fouling
+Botrylloides nigrum,Botrylloides,urn:lsid:marinespecies.org:taxname:215857,NA,NA,Species,NA,fouling
+Botrylloides niger,Botrylloides,urn:lsid:marinespecies.org:taxname:252289,NA,NA,Species,NA,fouling
 Ascidia,Ascidiidae,urn:lsid:marinespecies.org:taxname:103483,NA,NA,Genus,NA,fouling
 Phallusia,Ascidiidae,urn:lsid:marinespecies.org:taxname:103485,NA,NA,Genus,NA,fouling
 Molgula,Molgulidae,urn:lsid:marinespecies.org:taxname:103509,NA,NA,Genus,NA,fouling
