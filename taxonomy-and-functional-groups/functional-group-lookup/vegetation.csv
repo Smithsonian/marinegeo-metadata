@@ -101,6 +101,7 @@ Dichotomosiphonaceae,Bryopsidales,urn:lsid:marinespecies.org:taxname:368714,NA,N
 Halimedineae,Bryopsidales,urn:lsid:marinespecies.org:taxname:1649443,NA,NA,Suborder,NA,vegetation
 Bryopsidineae,Bryopsidales,urn:lsid:marinespecies.org:taxname:1649444,NA,NA,Suborder,NA,vegetation
 Anadyomenaceae,Cladophorales,urn:lsid:marinespecies.org:taxname:143686,NA,NA,Family,NA,vegetation
+Cladophoraceae,Cladophorales,urn:lsid:marinespecies.org:taxname:143687,NA,NA,Family,NA,vegetation
 Valoniaceae,Cladophorales,urn:lsid:marinespecies.org:taxname:143780,NA,NA,Family,NA,vegetation
 Ulotrichaceae,Ulotrichales,urn:lsid:marinespecies.org:taxname:143790,NA,NA,Family,NA,vegetation
 Ulvaceae,Ulvales,urn:lsid:marinespecies.org:taxname:143794,NA,NA,Family,NA,vegetation
@@ -129,6 +130,7 @@ Avrainvillea,Dichotomosiphonaceae,urn:lsid:marinespecies.org:taxname:143819,NA,N
 Halimedaceae,Halimedineae,urn:lsid:marinespecies.org:taxname:368715,NA,NA,Family,NA,vegetation
 Bryopsidaceae,Bryopsidineae,urn:lsid:marinespecies.org:taxname:143666,NA,NA,Family,NA,vegetation
 Anadyomene,Anadyomenaceae,urn:lsid:marinespecies.org:taxname:143992,NA,NA,Genus,NA,vegetation
+Chaetomorpha,Cladophoraceae,urn:lsid:marinespecies.org:taxname:143995,NA,NA,Genus,NA,vegetation
 Valonia,Valoniaceae,urn:lsid:marinespecies.org:taxname:144267,NA,NA,Genus,NA,vegetation
 Ulothrix,Ulotrichaceae,urn:lsid:marinespecies.org:taxname:144287,NA,NA,Genus,NA,vegetation
 Percursaria,Ulvaceae,urn:lsid:marinespecies.org:taxname:144295,NA,NA,Genus,NA,vegetation
@@ -175,6 +177,7 @@ Batophoreae,Dasycladoideae,urn:lsid:marinespecies.org:taxname:1635736,NA,NA,Trib
 Acetabularia acetabulum,Acetabularia,urn:lsid:marinespecies.org:taxname:494795,NA,NA,Species,NA,vegetation
 Chondrieae,Rhodomelaceae,urn:lsid:marinespecies.org:taxname:494004,NA,NA,Tribe,NA,vegetation
 Laurencieae,Rhodomelaceae,urn:lsid:marinespecies.org:taxname:494006,NA,NA,Tribe,NA,vegetation
+Alsidieae,Rhodomelaceae,urn:lsid:marinespecies.org:taxname:1306119,NA,NA,Tribe,NA,vegetation
 Spyridioideae,Callithamniaceae,urn:lsid:marinespecies.org:taxname:1647394,NA,NA,Subfamily,NA,vegetation
 Hypnea,Cystocloniaceae,urn:lsid:marinespecies.org:taxname:144157,NA,NA,Genus,NA,vegetation
 Chondracanthus,Gigartinaceae,urn:lsid:marinespecies.org:taxname:144153,NA,NA,Genus,NA,vegetation
@@ -204,6 +207,8 @@ Dasycladus,Dasycladeae,urn:lsid:marinespecies.org:taxname:144058,NA,NA,Genus,NA,
 Batophora,Batophoreae,urn:lsid:marinespecies.org:taxname:144056,NA,NA,Genus,NA,vegetation
 Acanthophora,Chondrieae,urn:lsid:marinespecies.org:taxname:143900,NA,NA,Genus,NA,vegetation
 Laurencia,Laurencieae,urn:lsid:marinespecies.org:taxname:143914,NA,NA,Genus,NA,vegetation
+Palisada,Laurencieae,urn:lsid:marinespecies.org:taxname:369984,NA,NA,Genus,NA,vegetation
+Digenea,Alsidieae,urn:lsid:marinespecies.org:taxname:143909,NA,NA,Genus,NA,vegetation
 Spyridieae,Spyridioideae,urn:lsid:marinespecies.org:taxname:172526,NA,NA,Tribe,NA,vegetation
 Hypnea musciformis,Hypnea,urn:lsid:marinespecies.org:taxname:145634,NA,NA,Species,NA,vegetation
 Hypnea spinella,Hypnea,urn:lsid:marinespecies.org:taxname:145635,NA,NA,Species,NA,vegetation

@@ -1043,6 +1043,7 @@ urn:lsid:marinespecies.org:taxname:143668,Caulerpaceae,Family,143668,urn:lsid:ma
 urn:lsid:marinespecies.org:taxname:143673,Delesseriaceae,Family,143673,urn:lsid:marinespecies.org:taxname:860
 urn:lsid:marinespecies.org:taxname:143674,Rhodomelaceae,Family,143674,urn:lsid:marinespecies.org:taxname:860
 urn:lsid:marinespecies.org:taxname:143686,Anadyomenaceae,Family,143686,urn:lsid:marinespecies.org:taxname:813
+urn:lsid:marinespecies.org:taxname:143687,Cladophoraceae,Family,143687,urn:lsid:marinespecies.org:taxname:813
 urn:lsid:marinespecies.org:taxname:143689,Codiaceae,Family,143689,urn:lsid:marinespecies.org:taxname:808
 urn:lsid:marinespecies.org:taxname:143691,Corallinaceae,Family,143691,urn:lsid:marinespecies.org:taxname:1646220
 urn:lsid:marinespecies.org:taxname:143699,Peyssonneliaceae,Family,143699,urn:lsid:marinespecies.org:taxname:493830
@@ -1074,8 +1075,10 @@ urn:lsid:marinespecies.org:taxname:143820,Halimeda,Genus,143820,urn:lsid:marines
 urn:lsid:marinespecies.org:taxname:143821,Penicillus,Genus,143821,urn:lsid:marinespecies.org:taxname:1635982
 urn:lsid:marinespecies.org:taxname:143866,Spyridia,Genus,143866,urn:lsid:marinespecies.org:taxname:172526
 urn:lsid:marinespecies.org:taxname:143900,Acanthophora,Genus,143900,urn:lsid:marinespecies.org:taxname:494004
+urn:lsid:marinespecies.org:taxname:143909,Digenea,Genus,143909,urn:lsid:marinespecies.org:taxname:1306119
 urn:lsid:marinespecies.org:taxname:143914,Laurencia,Genus,143914,urn:lsid:marinespecies.org:taxname:494006
 urn:lsid:marinespecies.org:taxname:143992,Anadyomene,Genus,143992,urn:lsid:marinespecies.org:taxname:143686
+urn:lsid:marinespecies.org:taxname:143995,Chaetomorpha,Genus,143995,urn:lsid:marinespecies.org:taxname:143687
 urn:lsid:marinespecies.org:taxname:143999,Codium,Genus,143999,urn:lsid:marinespecies.org:taxname:143689
 urn:lsid:marinespecies.org:taxname:144000,Flabellia,Genus,144000,urn:lsid:marinespecies.org:taxname:1635982
 urn:lsid:marinespecies.org:taxname:144003,Amphiroa,Genus,144003,urn:lsid:marinespecies.org:taxname:1309282
@@ -2267,6 +2270,7 @@ urn:lsid:marinespecies.org:taxname:368898,Heterokonta,Infrakingdom,368898,urn:ls
 urn:lsid:marinespecies.org:taxname:369177,Leptasterias hexactis,Species,369177,urn:lsid:marinespecies.org:taxname:123222
 urn:lsid:marinespecies.org:taxname:369269,Salmacina huxleyi,Species,369269,urn:lsid:marinespecies.org:taxname:129578
 urn:lsid:marinespecies.org:taxname:369437,Canistrocarpus,Genus,369437,urn:lsid:marinespecies.org:taxname:172641
+urn:lsid:marinespecies.org:taxname:369984,Palisada,Genus,369984,urn:lsid:marinespecies.org:taxname:494006
 urn:lsid:marinespecies.org:taxname:370153,Rhipocephalus,Genus,370153,urn:lsid:marinespecies.org:taxname:1635982
 urn:lsid:marinespecies.org:taxname:370444,Batillariidae,Family,370444,urn:lsid:marinespecies.org:taxname:14769
 urn:lsid:marinespecies.org:taxname:370445,Batillaria,Genus,370445,urn:lsid:marinespecies.org:taxname:370444
@@ -3003,6 +3007,7 @@ urn:lsid:marinespecies.org:taxname:1304855,Dictyotophycidae,Subclass,1304855,urn
 urn:lsid:marinespecies.org:taxname:1304856,Fucophycidae,Subclass,1304856,urn:lsid:marinespecies.org:taxname:830
 urn:lsid:marinespecies.org:taxname:1304944,Lithophyllaceae,Family,1304944,urn:lsid:marinespecies.org:taxname:1646220
 urn:lsid:marinespecies.org:taxname:1304953,Chlorophytina,Subphylum (Subdivision),1304953,urn:lsid:marinespecies.org:taxname:801
+urn:lsid:marinespecies.org:taxname:1306119,Alsidieae,Tribe,1306119,urn:lsid:marinespecies.org:taxname:143674
 urn:lsid:marinespecies.org:taxname:1306465,Hapalidiales,Order,1306465,urn:lsid:marinespecies.org:taxname:368687
 urn:lsid:marinespecies.org:taxname:1309270,Gracilarioideae,Subfamily,1309270,urn:lsid:marinespecies.org:taxname:143748
 urn:lsid:marinespecies.org:taxname:1309271,Gracilarieae,Tribe,1309271,urn:lsid:marinespecies.org:taxname:1309270

@@ -2,6 +2,8 @@
 # scientific_id <- "FUNCTIONAL:RED_BRANCHING_ALGAE"
 # add_new_observation_id(scientific_name, scientific_id)
 
+# add_new_observation_id("", "urn:lsid:marinespecies.org:taxname:")
+
 add_new_observation_id <- function(scientific_name, scientific_id){
 
   # Cancel operation if assumptions about input are not met
