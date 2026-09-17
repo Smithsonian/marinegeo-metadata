@@ -1,6 +1,6 @@
 scientific_name,scientific_id
 algae,FUNCTIONAL:ALGAE
-amphipod tubes,FUNCTIONAL:AMPHIPOD_TUBES
+amphipod tubes,FUNCTIONAL:TUBE_BUILDING_AMPHIPODS
 anemone,FUNCTIONAL:ANEMONE
 no species observed,FUNCTIONAL:BARE
 NOT PRESENT,FUNCTIONAL:BARE
