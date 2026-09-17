@@ -26,6 +26,7 @@ macroalgae,FUNCTIONAL:MACROALGAE
 unidentified macroalgae,FUNCTIONAL:MACROALGAE
 mud crab,FUNCTIONAL:MUDCRAB
 mussel,FUNCTIONAL:MUSSEL
+open space,FUNCTIONAL:OPEN_SPACE
 oyster,FUNCTIONAL:OYSTER
 red algae,FUNCTIONAL:RED_ALGAE
 red branching macroalgae,FUNCTIONAL:RED_BRANCHING_MACROALGAE
@@ -67,7 +68,6 @@ Periclimeneus s,UNDEFINED:PERICLIMENEUS_S
 Periclimeneus,UNDEFINED:PERICLIMENEUS_SP
 Pinnixa floridana,UNDEFINED:PINNIXA_FLORIDANA
 Podarke,UNDEFINED:PODARKE_SP
-Spirorbidae,UNDEFINED:SPIRORBIDAE
 Streblosoma verrilli,UNDEFINED:STREBLOSOMA_VERRILLI
 Synalpheus brevecarpus,UNDEFINED:SYNALPHEUS_BREVECARPUS
 Trypanosyllus,UNDEFINED:TRYPANOSYLLUS_SP
@@ -1581,6 +1581,7 @@ Sabellidae,urn:lsid:marinespecies.org:taxname:985
 Maguimithrax spinosissimus,urn:lsid:marinespecies.org:taxname:987079
 Serpulidae,urn:lsid:marinespecies.org:taxname:988
 Spirorbinae,urn:lsid:marinespecies.org:taxname:989
+Spirorbidae,urn:lsid:marinespecies.org:taxname:989
 Lepidoptera,urn:lsid:marinespecies.org:taxname:989022
 Gobioclinus bucciferus,urn:lsid:marinespecies.org:taxname:993098
 Gobioclinus gobio,urn:lsid:marinespecies.org:taxname:993099
