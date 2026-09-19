@@ -235,6 +235,7 @@ Ascidia,Ascidiidae,urn:lsid:marinespecies.org:taxname:103483,NA,NA,Genus,NA,foul
 Phallusia,Ascidiidae,urn:lsid:marinespecies.org:taxname:103485,NA,NA,Genus,NA,fouling
 Molgula,Molgulidae,urn:lsid:marinespecies.org:taxname:103509,NA,NA,Genus,NA,fouling
 Microcosmus,Pyuridae,urn:lsid:marinespecies.org:taxname:103522,NA,NA,Genus,NA,fouling
+Pyura,Pyuridae,urn:lsid:marinespecies.org:taxname:103524,NA,NA,Genus,NA,fouling
 Herdmania,Pyuridae,urn:lsid:marinespecies.org:taxname:233993,NA,NA,Genus,NA,fouling
 Styela canopus,Styela,urn:lsid:marinespecies.org:taxname:103926,NA,NA,Species,NA,fouling
 Styela plicata,Styela,urn:lsid:marinespecies.org:taxname:103936,NA,NA,Species,NA,fouling
@@ -258,6 +259,7 @@ Actinioidea,Enthemonae,urn:lsid:marinespecies.org:taxname:853973,NA,NA,Superfami
 Metridioidea,Enthemonae,urn:lsid:marinespecies.org:taxname:854224,NA,NA,Superfamily,NA,fouling
 Calcaronea,Calcarea,urn:lsid:marinespecies.org:taxname:131584,NA,NA,Subclass,NA,fouling
 Calcinea,Calcarea,urn:lsid:marinespecies.org:taxname:131585,NA,NA,Subclass,NA,fouling
+Keratosa,Demospongiae,urn:lsid:marinespecies.org:taxname:366651,NA,NA,Subclass,NA,fouling
 Heteroscleromorpha,Demospongiae,urn:lsid:marinespecies.org:taxname:607950,NA,NA,Subclass,NA,fouling
 Filograna,Filograninae,urn:lsid:marinespecies.org:taxname:129563,NA,NA,Genus,NA,fouling
 Salmacina,Filograninae,urn:lsid:marinespecies.org:taxname:129578,NA,NA,Genus,NA,fouling
@@ -342,6 +344,7 @@ Pinctada imbricata,Pinctada,urn:lsid:marinespecies.org:taxname:207901,NA,NA,Spec
 Pinctada longisquamosa,Pinctada,urn:lsid:marinespecies.org:taxname:420734,NA,NA,Species,NA,fouling
 Mytilopsis,Dreisseninae,urn:lsid:marinespecies.org:taxname:156885,NA,NA,Genus,NA,fouling
 Aetea sica,Aetea,urn:lsid:marinespecies.org:taxname:111066,NA,NA,Species,NA,fouling
+Aetea truncata,Aetea,urn:lsid:marinespecies.org:taxname:111067,NA,NA,Species,NA,fouling
 Hippopodina feegeensis,Hippopodina,urn:lsid:marinespecies.org:taxname:111389,NA,NA,Species,NA,fouling
 Watersipora subtorquata,Watersipora,urn:lsid:marinespecies.org:taxname:111592,NA,NA,Species,NA,fouling
 Conopeum tenuissimum,Conopeum,urn:lsid:marinespecies.org:taxname:159808,NA,NA,Species,NA,fouling
@@ -407,6 +410,7 @@ Aiptasiidae,Metridioidea,urn:lsid:marinespecies.org:taxname:100656,NA,NA,Family,
 Diadumenidae,Metridioidea,urn:lsid:marinespecies.org:taxname:100664,NA,NA,Family,NA,fouling
 Leucosolenida,Calcaronea,urn:lsid:marinespecies.org:taxname:131591,NA,NA,Order,NA,fouling
 Clathrinida,Calcinea,urn:lsid:marinespecies.org:taxname:131593,NA,NA,Order,NA,fouling
+Dendroceratida,Keratosa,urn:lsid:marinespecies.org:taxname:131594,NA,NA,Order,NA,fouling
 Haplosclerida,Heteroscleromorpha,urn:lsid:marinespecies.org:taxname:131598,NA,NA,Order,NA,fouling
 Poecilosclerida,Heteroscleromorpha,urn:lsid:marinespecies.org:taxname:131599,NA,NA,Order,NA,fouling
 Tetractinellida,Heteroscleromorpha,urn:lsid:marinespecies.org:taxname:597812,NA,NA,Order,NA,fouling
@@ -479,6 +483,7 @@ Exaiptasia,Aiptasiidae,urn:lsid:marinespecies.org:taxname:888636,NA,NA,Genus,NA,
 Diadumene,Diadumenidae,urn:lsid:marinespecies.org:taxname:100728,NA,NA,Genus,NA,fouling
 Syconidae,Leucosolenida,urn:lsid:marinespecies.org:taxname:1447711,NA,NA,Family,NA,fouling
 Clathrinidae,Clathrinida,urn:lsid:marinespecies.org:taxname:131619,NA,NA,Family,NA,fouling
+Darwinellidae,Dendroceratida,urn:lsid:marinespecies.org:taxname:131623,NA,NA,Family,NA,fouling
 Chalinidae,Haplosclerida,urn:lsid:marinespecies.org:taxname:131636,NA,NA,Family,NA,fouling
 Mycalidae,Poecilosclerida,urn:lsid:marinespecies.org:taxname:131649,NA,NA,Family,NA,fouling
 Tedaniidae,Poecilosclerida,urn:lsid:marinespecies.org:taxname:131659,NA,NA,Family,NA,fouling
@@ -515,6 +520,7 @@ Exaiptasia pallida,Exaiptasia,urn:lsid:marinespecies.org:taxname:888637,NA,NA,Sp
 Diadumene leucolena,Diadumene,urn:lsid:marinespecies.org:taxname:158230,NA,NA,Species,NA,fouling
 Sycon,Syconidae,urn:lsid:marinespecies.org:taxname:131723,NA,NA,Genus,NA,fouling
 Clathrina,Clathrinidae,urn:lsid:marinespecies.org:taxname:131729,NA,NA,Genus,NA,fouling
+Darwinella,Darwinellidae,urn:lsid:marinespecies.org:taxname:131740,NA,NA,Genus,NA,fouling
 Haliclona,Chalinidae,urn:lsid:marinespecies.org:taxname:131834,NA,NA,Genus,NA,fouling
 Mycale,Mycalidae,urn:lsid:marinespecies.org:taxname:131907,NA,NA,Genus,NA,fouling
 Tedania,Tedaniidae,urn:lsid:marinespecies.org:taxname:131974,NA,NA,Genus,NA,fouling
@@ -538,10 +544,12 @@ Bougainvillia carolinensis,Bougainvillia,urn:lsid:marinespecies.org:taxname:1579
 Eudendrium carneum,Eudendrium,urn:lsid:marinespecies.org:taxname:117545,NA,NA,Species,NA,fouling
 Stylaster roseus,Stylaster,urn:lsid:marinespecies.org:taxname:285905,NA,NA,Species,NA,fouling
 Sycon ciliatum,Sycon,urn:lsid:marinespecies.org:taxname:132251,NA,NA,Species,NA,fouling
+Darwinella rosacea,Darwinella,urn:lsid:marinespecies.org:taxname:164872,NA,NA,Species,NA,fouling
 Haliclona tubulifera,Haliclona,urn:lsid:marinespecies.org:taxname:166490,NA,NA,Species,NA,fouling
 Haliclona implexiformis,Haliclona,urn:lsid:marinespecies.org:taxname:345570,NA,NA,Species,NA,fouling
 Mycale (Carmia),Mycale,urn:lsid:marinespecies.org:taxname:168568,NA,NA,Subgenus,NA,fouling
 Mycale microsigmatosa,Mycale,urn:lsid:marinespecies.org:taxname:192555,NA,NA,Species,NA,fouling
+Tedania (Tedania),Tedania,urn:lsid:marinespecies.org:taxname:169545,NA,NA,Subgenus,NA,fouling
 Tedania ignis,Tedania,urn:lsid:marinespecies.org:taxname:404078,NA,NA,Species,NA,fouling
 Geodiinae,Geodiidae,urn:lsid:marinespecies.org:taxname:597252,NA,NA,Subfamily,NA,fouling
 Dorvillia,Theneidae,urn:lsid:marinespecies.org:taxname:184684,NA,NA,Genus,NA,fouling

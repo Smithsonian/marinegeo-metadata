@@ -1,6 +1,5 @@
 scientific_name,scientific_id
 algae,FUNCTIONAL:ALGAE
-amphipod tubes,FUNCTIONAL:TUBE_BUILDING_AMPHIPODS
 anemone,FUNCTIONAL:ANEMONE
 no species observed,FUNCTIONAL:BARE
 NOT PRESENT,FUNCTIONAL:BARE
@@ -37,13 +36,13 @@ sediment,FUNCTIONAL:SEDIMENT
 shell hash,FUNCTIONAL:SHELL_HASH
 shell hash (gravel texture),FUNCTIONAL:SHELL_HASH_GRAVEL
 sponge,FUNCTIONAL:SPONGE
+amphipod tubes,FUNCTIONAL:TUBE_BUILDING_AMPHIPODS
 Aiptasia pallida,UNDEFINED:AIPTASIA_PALLIDA
 Amphibalanus (dead),UNDEFINED:AMPHIBALANUS_DEAD
 Amphibalanus (live),UNDEFINED:AMPHIBALANUS_LIVE
 Amphithoe longimana,UNDEFINED:AMPHITHOE_LONGIMANA
 Amphithoe ramondi,UNDEFINED:AMPHITHOE_RAMONDI
 Amphithoe,UNDEFINED:AMPHITHOE_SP
-Amygdalum papyrium,UNDEFINED:AMYGDALUM_PAPYRIUM
 Bittium variabilis,UNDEFINED:BITTIUM_VARIABILIS
 Bowerbankia gracilis,UNDEFINED:BOWERBANKIA_GRACILIS
 Decopoda,UNDEFINED:DECOPODA
@@ -138,6 +137,7 @@ Eudistoma,urn:lsid:marinespecies.org:taxname:103465
 Aplidium,urn:lsid:marinespecies.org:taxname:103471
 Ascidia,urn:lsid:marinespecies.org:taxname:103483
 Perophora,urn:lsid:marinespecies.org:taxname:103504
+Pyura,urn:lsid:marinespecies.org:taxname:103524
 Botryllus,urn:lsid:marinespecies.org:taxname:103529
 Clavelina oblonga,urn:lsid:marinespecies.org:taxname:103554
 Diplosoma listerianum,urn:lsid:marinespecies.org:taxname:103579
@@ -220,6 +220,7 @@ Thoracica,urn:lsid:marinespecies.org:taxname:1107
 Aetea,urn:lsid:marinespecies.org:taxname:110819
 Fissurellidae,urn:lsid:marinespecies.org:taxname:111
 Aetea sica,urn:lsid:marinespecies.org:taxname:111066
+Aetea truncata,urn:lsid:marinespecies.org:taxname:111067
 Bugula neritina,urn:lsid:marinespecies.org:taxname:111158
 Hippopodina feegeensis,urn:lsid:marinespecies.org:taxname:111389
 Savignyella lafontii,urn:lsid:marinespecies.org:taxname:111512
@@ -741,11 +742,13 @@ Spurwinkia salsa,urn:lsid:marinespecies.org:taxname:160412
 Parvanachis obesa,urn:lsid:marinespecies.org:taxname:160440
 Pyrgocythara plicosa,urn:lsid:marinespecies.org:taxname:160476
 Azurina multilineata,urn:lsid:marinespecies.org:taxname:1623786
+Darwinella rosacea,urn:lsid:marinespecies.org:taxname:164872
 Dapis pleousa,urn:lsid:marinespecies.org:taxname:1660764
 Haliclona tubulifera,urn:lsid:marinespecies.org:taxname:166490
 Pareques lineatus,urn:lsid:marinespecies.org:taxname:1667999
 Biemna caribea,urn:lsid:marinespecies.org:taxname:168252
 Mycale microsigmatosa,urn:lsid:marinespecies.org:taxname:168590
+Tedania,urn:lsid:marinespecies.org:taxname:169545
 Clionaidae,urn:lsid:marinespecies.org:taxname:170417
 Volutella muricata,urn:lsid:marinespecies.org:taxname:1736039
 Neoleprea,urn:lsid:marinespecies.org:taxname:174956
@@ -1454,6 +1457,7 @@ Zostera noltei,urn:lsid:marinespecies.org:taxname:495082
 Ctenoides scabra,urn:lsid:marinespecies.org:taxname:505429
 Arcuatula senhousia,urn:lsid:marinespecies.org:taxname:505946
 Arcuatula papyria,urn:lsid:marinespecies.org:taxname:505948
+Amygdalum papyrium,urn:lsid:marinespecies.org:taxname:505948
 Ennucula niponica,urn:lsid:marinespecies.org:taxname:506596
 Nucula pisum,urn:lsid:marinespecies.org:taxname:506660
 Solemya pusilla,urn:lsid:marinespecies.org:taxname:507129
