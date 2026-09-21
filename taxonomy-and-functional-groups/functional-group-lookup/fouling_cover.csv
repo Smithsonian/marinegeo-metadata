@@ -326,6 +326,7 @@ Ameritella,Tellininae,urn:lsid:marinespecies.org:taxname:849118,NA,NA,Genus,NA,f
 Macoma,Macominae,urn:lsid:marinespecies.org:taxname:138531,NA,NA,Genus,NA,fouling
 Austromacoma,Macominae,urn:lsid:marinespecies.org:taxname:879994,NA,NA,Genus,NA,fouling
 Donax vittatus,Donax,urn:lsid:marinespecies.org:taxname:139604,NA,NA,Species,NA,fouling
+Mercenaria,Venerinae,urn:lsid:marinespecies.org:taxname:138642,NA,NA,Genus,NA,fouling
 Chione,Venerinae,urn:lsid:marinespecies.org:taxname:206343,NA,NA,Genus,NA,fouling
 Gemma,Gemminae,urn:lsid:marinespecies.org:taxname:156802,NA,NA,Genus,NA,fouling
 Mya,Myinae,urn:lsid:marinespecies.org:taxname:138211,NA,NA,Genus,NA,fouling
@@ -457,8 +458,10 @@ Mimachlamys,Mimachlamydini,urn:lsid:marinespecies.org:taxname:236718,NA,NA,Genus
 Cerastoderma,Cerastodermatini,urn:lsid:marinespecies.org:taxname:137735,NA,NA,Genus,NA,fouling
 Angulus texanus,Angulus,urn:lsid:marinespecies.org:taxname:420862,NA,NA,Species,NA,fouling
 Ameritella mitchelli,Ameritella,urn:lsid:marinespecies.org:taxname:878513,NA,NA,Species,NA,fouling
+Ameritella texana,Ameritella,urn:lsid:marinespecies.org:taxname:878522,NA,NA,Species,NA,fouling
 Macoma balthica,Macoma,urn:lsid:marinespecies.org:taxname:141579,NA,NA,Species,NA,fouling
 Austromacoma constricta,Austromacoma,urn:lsid:marinespecies.org:taxname:880005,NA,NA,Species,NA,fouling
+Mercenaria mercenaria,Mercenaria,urn:lsid:marinespecies.org:taxname:141919,NA,NA,Species,NA,fouling
 Chione cancellata,Chione,urn:lsid:marinespecies.org:taxname:397040,NA,NA,Species,NA,fouling
 Gemma gemma,Gemma,urn:lsid:marinespecies.org:taxname:156803,NA,NA,Species,NA,fouling
 Sphenia fragilis,Sphenia,urn:lsid:marinespecies.org:taxname:420973,NA,NA,Species,NA,fouling
