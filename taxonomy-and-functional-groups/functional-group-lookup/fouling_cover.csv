@@ -397,6 +397,7 @@ Molgula manhattensis,Molgula,urn:lsid:marinespecies.org:taxname:103788,NA,NA,Spe
 Molgula occidentalis,Molgula,urn:lsid:marinespecies.org:taxname:103790,NA,NA,Species,NA,fouling
 Microcosmus exasperatus,Microcosmus,urn:lsid:marinespecies.org:taxname:103838,NA,NA,Species,NA,fouling
 Herdmania momus,Herdmania,urn:lsid:marinespecies.org:taxname:103830,NA,NA,Species,NA,fouling
+Herdmania pallida,Herdmania,urn:lsid:marinespecies.org:taxname:250697,NA,NA,Species,NA,fouling
 Thoracicalcarea,Thoracica,urn:lsid:marinespecies.org:taxname:1422167,NA,NA,Superorder,NA,fouling
 Miliolida,Tubothalamea,urn:lsid:marinespecies.org:taxname:163156,NA,NA,Order,NA,fouling
 Textulariana,Globothalamea,urn:lsid:marinespecies.org:taxname:736978,NA,NA,Subclass,NA,fouling
@@ -533,6 +534,7 @@ Biemna,Biemnidae,urn:lsid:marinespecies.org:taxname:131897,NA,NA,Genus,NA,foulin
 Cliona,Clionaidae,urn:lsid:marinespecies.org:taxname:132026,NA,NA,Genus,NA,fouling
 Ciocalypta,Halichondriidae,urn:lsid:marinespecies.org:taxname:131804,NA,NA,Genus,NA,fouling
 Halichondria,Halichondriidae,urn:lsid:marinespecies.org:taxname:131807,NA,NA,Genus,NA,fouling
+Hymeniacidon,Halichondriidae,urn:lsid:marinespecies.org:taxname:131808,NA,NA,Genus,NA,fouling
 Balanidae,Balanoidea,urn:lsid:marinespecies.org:taxname:106057,NA,NA,Family,NA,fouling
 Chthamalidae,Chthamaloidea,urn:lsid:marinespecies.org:taxname:106059,NA,NA,Family,NA,fouling
 Soritidae,Soritoidea,urn:lsid:marinespecies.org:taxname:111902,NA,NA,Family,NA,fouling
@@ -557,6 +559,7 @@ Tedania ignis,Tedania,urn:lsid:marinespecies.org:taxname:404078,NA,NA,Species,NA
 Geodiinae,Geodiidae,urn:lsid:marinespecies.org:taxname:597252,NA,NA,Subfamily,NA,fouling
 Dorvillia,Theneidae,urn:lsid:marinespecies.org:taxname:184684,NA,NA,Genus,NA,fouling
 Biemna caribea,Biemna,urn:lsid:marinespecies.org:taxname:168252,NA,NA,Species,NA,fouling
+Hymeniacidon heliophila,Hymeniacidon,urn:lsid:marinespecies.org:taxname:132652,NA,NA,Species,NA,fouling
 Balaninae,Balanidae,urn:lsid:marinespecies.org:taxname:106073,NA,NA,Subfamily,NA,fouling
 Megabalaninae,Balanidae,urn:lsid:marinespecies.org:taxname:106074,NA,NA,Subfamily,NA,fouling
 Amphibalaninae,Balanidae,urn:lsid:marinespecies.org:taxname:394026,NA,NA,Subfamily,NA,fouling
