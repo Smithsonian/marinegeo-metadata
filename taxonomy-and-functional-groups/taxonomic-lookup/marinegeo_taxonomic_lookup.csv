@@ -889,6 +889,7 @@ urn:lsid:marinespecies.org:taxname:131729,Clathrina,Genus,131729,urn:lsid:marine
 urn:lsid:marinespecies.org:taxname:131740,Darwinella,Genus,131740,urn:lsid:marinespecies.org:taxname:131623
 urn:lsid:marinespecies.org:taxname:131804,Ciocalypta,Genus,131804,urn:lsid:marinespecies.org:taxname:131633
 urn:lsid:marinespecies.org:taxname:131807,Halichondria,Genus,131807,urn:lsid:marinespecies.org:taxname:131633
+urn:lsid:marinespecies.org:taxname:131808,Hymeniacidon,Genus,131808,urn:lsid:marinespecies.org:taxname:131633
 urn:lsid:marinespecies.org:taxname:131834,Haliclona,Genus,131834,urn:lsid:marinespecies.org:taxname:131636
 urn:lsid:marinespecies.org:taxname:131897,Biemna,Genus,131897,urn:lsid:marinespecies.org:taxname:150266
 urn:lsid:marinespecies.org:taxname:131907,Mycale,Genus,131907,urn:lsid:marinespecies.org:taxname:131649
@@ -896,6 +897,7 @@ urn:lsid:marinespecies.org:taxname:131974,Tedania,Genus,131974,urn:lsid:marinesp
 urn:lsid:marinespecies.org:taxname:132005,Geodia,Genus,132005,urn:lsid:marinespecies.org:taxname:597252
 urn:lsid:marinespecies.org:taxname:132026,Cliona,Genus,132026,urn:lsid:marinespecies.org:taxname:170417
 urn:lsid:marinespecies.org:taxname:132251,Sycon ciliatum,Species,132251,urn:lsid:marinespecies.org:taxname:131723
+urn:lsid:marinespecies.org:taxname:132652,Hymeniacidon heliophila,Species,132652,urn:lsid:marinespecies.org:taxname:131808
 urn:lsid:marinespecies.org:taxname:135078,Oculinidae,Family,135078,urn:lsid:marinespecies.org:taxname:1517259
 urn:lsid:marinespecies.org:taxname:135079,Pocilloporidae,Family,135079,urn:lsid:marinespecies.org:taxname:1517259
 urn:lsid:marinespecies.org:taxname:135080,Rhizangiidae,Family,135080,urn:lsid:marinespecies.org:taxname:1517258
@@ -1879,6 +1881,7 @@ urn:lsid:marinespecies.org:taxname:250134,Diplosoma glandulosum,Species,250134,u
 urn:lsid:marinespecies.org:taxname:250201,Eudistoma capsulatum,Species,250201,urn:lsid:marinespecies.org:taxname:103465
 urn:lsid:marinespecies.org:taxname:250236,Eudistoma olivaceum,Species,250236,urn:lsid:marinespecies.org:taxname:103465
 urn:lsid:marinespecies.org:taxname:250323,Clavelina picta,Species,250323,urn:lsid:marinespecies.org:taxname:103453
+urn:lsid:marinespecies.org:taxname:250697,Herdmania pallida,Species,250697,urn:lsid:marinespecies.org:taxname:233993
 urn:lsid:marinespecies.org:taxname:251435,Symplegma brakenhielmi,Species,251435,urn:lsid:marinespecies.org:taxname:206885
 urn:lsid:marinespecies.org:taxname:252289,Botrylloides niger,Species,252289,urn:lsid:marinespecies.org:taxname:103528
 urn:lsid:marinespecies.org:taxname:252853,Didemnum psammatodes,Species,252853,urn:lsid:marinespecies.org:taxname:103456
