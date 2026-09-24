@@ -4,7 +4,7 @@ USA-MDA,BIC-001,Big Island CWD,coarse woody debris,NA,NA
 USA-MDA,CCS-002,Cadle Creek SAV,seagrass,38.879558333333335,-76.51483
 USA-MDA,CBB-001,Canninghouse Bay BS,bare sediment,NA,NA
 USA-MDA,CBC-002,Canninghouse Bay CWD,coarse woody debris,NA,NA
-USA-MDA,CBS-005,Canninghouse Bay SAV,seagrass,38.87529037142857,-76.49700291428572
+USA-MDA,CBS-005,Canninghouse Bay SAV,seagrass,38.87529037142857,-76.49700291
 USA-MDA,FPB-001,Fox Point BS,bare sediment,NA,NA
 USA-MDA,FPC-001,Fox Point CWD,coarse woody debris,NA,NA
 USA-MDA,FPS-001,Fox Point SAV,seagrass,NA,NA
@@ -20,3 +20,5 @@ USA-MDA,SET-001,SERC Tower,NA,NA,NA
 USA-MDA,SRO-001,Severn River Oyster,oyster reef,38.99853,-76.49601
 USA-MDA,WRO-001,West River Oyster,oyster reef,38.48842,-76.53719
 USA-MDA,SRO-002,South River Oyster,oyster reef,38.93193,-76.53781
+USA-MDA,SHP-001,Sheepshead Cove Dock,artificial,,
+USA-MDA,CID-001,Corn Island Dock,artificial,,
