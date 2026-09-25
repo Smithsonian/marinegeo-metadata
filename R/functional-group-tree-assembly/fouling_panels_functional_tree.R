@@ -261,6 +261,10 @@ lapply(ids, function(x){
   bivalves_other$AddChildNode(new_node)
 })
 
+bivalve_clams <- bivalves_other$AddChild("Clams",
+                                         scientific_id = "FUNCTIONAL:CLAMS")
+                                         #type = "primary",
+                                         #code = "bi_other")
 # phylum: Brachiopoda
 
 ### Brachiopods ####
