@@ -31,6 +31,7 @@ Thalassia,Hydrocharitaceae,urn:lsid:marinespecies.org:taxname:206854,NA,NA,Genus
 Posidonia,Posidoniaceae,urn:lsid:marinespecies.org:taxname:144232,NA,NA,Genus,NA,vegetation
 Zostera,Zosteraceae,urn:lsid:marinespecies.org:taxname:144233,NA,NA,Genus,NA,vegetation
 Chlorophyta,Green Algae,urn:lsid:marinespecies.org:taxname:801,NA,NA,Phylum (Division),NA,vegetation
+Green calcified algae,Green Algae,FUNCTIONAL:GREEN_ALGAE_CALCIFIED,NA,NA,NA,NA,vegetation
 Rhodophyta,Red Algae,urn:lsid:marinespecies.org:taxname:852,NA,NA,Phylum (Division),NA,vegetation
 Red branching macroalgae,Red Algae,FUNCTIONAL:RED_BRANCHING_MACROALGAE,NA,NA,NA,NA,vegetation
 Phaeophyceae,Brown Algae,urn:lsid:marinespecies.org:taxname:830,NA,NA,Class,NA,vegetation

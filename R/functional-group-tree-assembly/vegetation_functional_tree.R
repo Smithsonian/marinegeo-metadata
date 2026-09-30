@@ -69,6 +69,8 @@ green_algae <- macroalgae$AddChild("Green Algae", scientific_id = "FUNCTIONAL:GR
 green_algae_node <- Clone(FindNode(taxa_tree, "Chlorophyta"))
 green_algae$AddChildNode(green_algae_node)
 
+calcified_green_algae <- green_algae$AddChild("Green calcified algae", scientific_id = "FUNCTIONAL:GREEN_ALGAE_CALCIFIED")
+
 # Red Algae
 red_algae <- macroalgae$AddChild("Red Algae", scientific_id = "FUNCTIONAL:RED_ALGAE")
 red_algae_node <- Clone(FindNode(taxa_tree, "Rhodophyta"))
