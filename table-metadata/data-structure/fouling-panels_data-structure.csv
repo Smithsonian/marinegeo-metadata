@@ -54,7 +54,6 @@ Fouling Community Monitoring,fouling-cover-v1,2,panel_id,STRING,enforce,TRUE
 Fouling Community Monitoring,fouling-cover-v1,2,deployment_date,DATE,warn,
 Fouling Community Monitoring,fouling-cover-v1,2,retrieval_date,DATE,warn,
 Fouling Community Monitoring,fouling-cover-v1,2,deployment_period,STRING,enforce,TRUE
-Fouling Community Monitoring,fouling-cover-v1,2,morpho_functional_group,STRING,enforce,TRUE
 Fouling Community Monitoring,fouling-cover-v1,2,scientific_name,STRING,enforce,TRUE
 Fouling Community Monitoring,fouling-cover-v1,2,identification_notes,STRING,,
 Fouling Community Monitoring,fouling-cover-v1,2,point_count,INT,enforce,
