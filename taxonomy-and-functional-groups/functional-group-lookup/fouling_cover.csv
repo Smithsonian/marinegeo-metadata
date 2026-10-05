@@ -115,15 +115,15 @@ Pyuridae,Solitary ascidians,urn:lsid:marinespecies.org:taxname:103449,NA,NA,Fami
 Styela,Solitary ascidians,urn:lsid:marinespecies.org:taxname:103543,NA,NA,Genus,NA,fouling
 Cirripedia,Barnacles,urn:lsid:marinespecies.org:taxname:1082,NA,NA,Subclass,NA,fouling
 Crepidula,Other gastropods,urn:lsid:marinespecies.org:taxname:137722,NA,NA,Genus,NA,fouling
+Vermetidae,Other gastropods,urn:lsid:marinespecies.org:taxname:23139,NA,NA,Family,NA,fouling
 Foraminifera,Forams,urn:lsid:marinespecies.org:taxname:1410,NA,NA,Phylum,NA,fouling
 Elasmopus,Tube-building amphipods,urn:lsid:marinespecies.org:taxname:101671,NA,NA,Genus,NA,fouling
 Cymadusa,Tube-building amphipods,urn:lsid:marinespecies.org:taxname:101460,NA,NA,Genus,NA,fouling
 Ericthonius brasiliensis,Tube-building amphipods,urn:lsid:marinespecies.org:taxname:102401,NA,NA,Species,NA,fouling
 Podocerus brasiliensis,Tube-building amphipods,urn:lsid:marinespecies.org:taxname:214744,NA,NA,Species,NA,fouling
-Monocorophium acherusicum,Tube-building amphipods,urn:lsid:marinespecies.org:taxname:225814,NA,NA,Species,NA,fouling
 Dulichiella appendiculata,Tube-building amphipods,urn:lsid:marinespecies.org:taxname:421504,NA,NA,Species,NA,fouling
-Laticorophium baconi,Tube-building amphipods,urn:lsid:marinespecies.org:taxname:421577,NA,NA,Species,NA,fouling
 Cerapus cudjoe,Tube-building amphipods,urn:lsid:marinespecies.org:taxname:421589,NA,NA,Species,NA,fouling
+Corophiidae,Tube-building amphipods,urn:lsid:marinespecies.org:taxname:101376,NA,NA,Family,NA,fouling
 Hydroidolina,Hydrozoa,urn:lsid:marinespecies.org:taxname:19494,NA,NA,Subclass,NA,fouling
 Enthemonae,Actiniaria,urn:lsid:marinespecies.org:taxname:888371,NA,NA,Suborder,NA,fouling
 Calcarea,Porifera,urn:lsid:marinespecies.org:taxname:559,NA,NA,Class,NA,fouling
@@ -250,6 +250,7 @@ Crepidula convexa,Crepidula,urn:lsid:marinespecies.org:taxname:160228,NA,NA,Spec
 Crepidula atrasolea,Crepidula,urn:lsid:marinespecies.org:taxname:419702,NA,NA,Species,NA,fouling
 Crepidula depressa,Crepidula,urn:lsid:marinespecies.org:taxname:419703,NA,NA,Species,NA,fouling
 Crepidula maculosa,Crepidula,urn:lsid:marinespecies.org:taxname:419704,NA,NA,Species,NA,fouling
+Petaloconchus,Vermetidae,urn:lsid:marinespecies.org:taxname:138650,NA,NA,Genus,NA,fouling
 Tubothalamea,Foraminifera,urn:lsid:marinespecies.org:taxname:744102,NA,NA,Class,NA,fouling
 Globothalamea,Foraminifera,urn:lsid:marinespecies.org:taxname:744104,NA,NA,Class,NA,fouling
 Elasmopus pectenicrus,Elasmopus,urn:lsid:marinespecies.org:taxname:102802,NA,NA,Species,NA,fouling
@@ -257,6 +258,7 @@ Elasmopus rapax,Elasmopus,urn:lsid:marinespecies.org:taxname:102805,NA,NA,Specie
 Elasmopus levis,Elasmopus,urn:lsid:marinespecies.org:taxname:421508,NA,NA,Species,NA,fouling
 Elasmopus nkjaf,Elasmopus,urn:lsid:marinespecies.org:taxname:1364147,NA,NA,Species,NA,fouling
 Cymadusa compta,Cymadusa,urn:lsid:marinespecies.org:taxname:158082,NA,NA,Species,NA,fouling
+Corophiinae,Corophiidae,urn:lsid:marinespecies.org:taxname:431322,NA,NA,Subfamily,NA,fouling
 Siphonophorae,Hydroidolina,urn:lsid:marinespecies.org:taxname:1371,NA,NA,Order,NA,fouling
 Anthoathecata,Hydroidolina,urn:lsid:marinespecies.org:taxname:13551,NA,NA,Order,NA,fouling
 Leptothecata,Hydroidolina,urn:lsid:marinespecies.org:taxname:13552,NA,NA,Order,NA,fouling
@@ -408,9 +410,12 @@ Microcosmus exasperatus,Microcosmus,urn:lsid:marinespecies.org:taxname:103838,NA
 Herdmania momus,Herdmania,urn:lsid:marinespecies.org:taxname:103830,NA,NA,Species,NA,fouling
 Herdmania pallida,Herdmania,urn:lsid:marinespecies.org:taxname:250697,NA,NA,Species,NA,fouling
 Thoracicalcarea,Thoracica,urn:lsid:marinespecies.org:taxname:1422167,NA,NA,Superorder,NA,fouling
+Petaloconchus varians,Petaloconchus,urn:lsid:marinespecies.org:taxname:419554,NA,NA,Species,NA,fouling
 Miliolida,Tubothalamea,urn:lsid:marinespecies.org:taxname:163156,NA,NA,Order,NA,fouling
 Textulariana,Globothalamea,urn:lsid:marinespecies.org:taxname:736978,NA,NA,Subclass,NA,fouling
 Rotaliana,Globothalamea,urn:lsid:marinespecies.org:taxname:1381553,NA,NA,Subclass,NA,fouling
+Corophiini,Corophiinae,urn:lsid:marinespecies.org:taxname:431323,NA,NA,Tribe,NA,fouling
+Haplocheirini,Corophiinae,urn:lsid:marinespecies.org:taxname:431379,NA,NA,Tribe,NA,fouling
 Calycophorae,Siphonophorae,urn:lsid:marinespecies.org:taxname:135333,NA,NA,Suborder,NA,fouling
 Capitata,Anthoathecata,urn:lsid:marinespecies.org:taxname:16351,NA,NA,Suborder,NA,fouling
 Filifera,Anthoathecata,urn:lsid:marinespecies.org:taxname:16352,NA,NA,Suborder,NA,fouling
@@ -483,6 +488,11 @@ Balanomorpha,Thoracicalcarea,urn:lsid:marinespecies.org:taxname:106039,NA,NA,Ord
 Miliolina,Miliolida,urn:lsid:marinespecies.org:taxname:111890,NA,NA,Suborder,NA,fouling
 Textulariida,Textulariana,urn:lsid:marinespecies.org:taxname:163159,NA,NA,Order,NA,fouling
 Rotaliida,Rotaliana,urn:lsid:marinespecies.org:taxname:163158,NA,NA,Order,NA,fouling
+Corophium,Corophiini,urn:lsid:marinespecies.org:taxname:101489,NA,NA,Genus,NA,fouling
+Monocorophium,Corophiini,urn:lsid:marinespecies.org:taxname:148591,NA,NA,Genus,NA,fouling
+Apocorophium,Corophiini,urn:lsid:marinespecies.org:taxname:148593,NA,NA,Genus,NA,fouling
+Laticorophium,Corophiini,urn:lsid:marinespecies.org:taxname:415544,NA,NA,Genus,NA,fouling
+Leptocheirus,Haplocheirini,urn:lsid:marinespecies.org:taxname:101470,NA,NA,Genus,NA,fouling
 Abylidae,Calycophorae,urn:lsid:marinespecies.org:taxname:135336,NA,NA,Family,NA,fouling
 Milleporidae,Capitata,urn:lsid:marinespecies.org:taxname:196235,NA,NA,Family,NA,fouling
 Bougainvilliidae,Filifera,urn:lsid:marinespecies.org:taxname:1594,NA,NA,Family,NA,fouling
@@ -522,6 +532,13 @@ Soritoidea,Miliolina,urn:lsid:marinespecies.org:taxname:518814,NA,NA,Superfamily
 Textulariina,Textulariida,urn:lsid:marinespecies.org:taxname:736993,NA,NA,Suborder,NA,fouling
 Asterigerinoidea,Rotaliida,urn:lsid:marinespecies.org:taxname:414725,NA,NA,Superfamily,NA,fouling
 Calcarinoidea,Rotaliida,urn:lsid:marinespecies.org:taxname:990184,NA,NA,Superfamily,NA,fouling
+Corophium volutator,Corophium,urn:lsid:marinespecies.org:taxname:102101,NA,NA,Species,NA,fouling
+Monocorophium insidiosum,Monocorophium,urn:lsid:marinespecies.org:taxname:148592,NA,NA,Species,NA,fouling
+Monocorophium acherusicum,Monocorophium,urn:lsid:marinespecies.org:taxname:225814,NA,NA,Species,NA,fouling
+Apocorophium lacustre,Apocorophium,urn:lsid:marinespecies.org:taxname:148594,NA,NA,Species,NA,fouling
+Laticorophium baconi,Laticorophium,urn:lsid:marinespecies.org:taxname:421577,NA,NA,Species,NA,fouling
+Leptocheirus pilosus,Leptocheirus,urn:lsid:marinespecies.org:taxname:102040,NA,NA,Species,NA,fouling
+Leptocheirus plumulosus,Leptocheirus,urn:lsid:marinespecies.org:taxname:158113,NA,NA,Species,NA,fouling
 Abylinae,Abylidae,urn:lsid:marinespecies.org:taxname:709060,NA,NA,Subfamily,NA,fouling
 Millepora,Milleporidae,urn:lsid:marinespecies.org:taxname:205902,NA,NA,Genus,NA,fouling
 Bougainvillia,Bougainvilliidae,urn:lsid:marinespecies.org:taxname:117015,NA,NA,Genus,NA,fouling
