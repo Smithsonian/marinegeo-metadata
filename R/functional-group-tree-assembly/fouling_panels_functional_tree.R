@@ -458,13 +458,13 @@ other_gastropods <- fouling$AddChild("Other gastropods",
                               type = "primary",
                               code = "crep")
 
-ids <- "Crepidula"
+ids <- c("Crepidula", "Vermetidae")
 lapply(ids, function(x){
   new_node <- Clone(FindNode(taxa_tree, x))
   other_gastropods$AddChildNode(new_node)
 })
 
-
+### Forams ####
 ### Forams Phylum: foraminifera
 forams_wide <- classifications_df %>%
   filter(Phylum == "Foraminifera")
@@ -505,13 +505,19 @@ tube_amphipods <- fouling$AddChild("Tube-building amphipods",
 ids <- taxa_df %>%
   filter(name %in% tube_amphipod_ids$resolver) %>%
   filter(!str_detect(name, "Elasmopus")) %>%
+  # The following are in the Corophiidae family, which are all tube builders
+  filter(!name %in% c("Monocorophium acherusicum", "Laticorophium baconi")) %>%
+  # The remaining species are represented by these families, which may or may not
+  # all be tube-builders: Podoceridae, Melitidae, Ischyroceridae
   pull(name)
 
 # This is a tricky one because I don't know where a tube-builder and other amphipod
 # can be separated taxonomically. I'm adding species names and one genus directly
 # as child nodes.
 # Elasmopus needs to be added separated to avoid having the species get double registered.
-ids <- c("Elasmopus", ids)
+# Additional IDs manually added as data comes in
+ids <- c("Elasmopus", ids,
+         "Corophiidae")
 
 lapply(ids, function(x){
   new_node <- Clone(FindNode(taxa_tree, x))
@@ -586,3 +592,4 @@ output_network_df <- ToDataFrameNetwork(fouling, "scientific_id", "type", "code"
 output_network_df %>%
   mutate(tree_name = "fouling") %>%
   write_csv("taxonomy-and-functional-groups/functional-group-lookup/fouling_cover.csv")
+
