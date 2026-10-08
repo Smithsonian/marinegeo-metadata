@@ -40,7 +40,7 @@ fouling_group_assignments %>%
   filter(fg == "Hydroid",
          !scientific_id %in% hydroids_wide$scientific_id)
 
-hydroids <- fouling$AddChild("Hydroids",
+hydroids <- fouling$AddChild("hydroids",
                              scientific_id = "FUNCTIONAL:HYDROIDS",
                              type = "primary",
                              code = "hyd")
@@ -65,7 +65,7 @@ fouling_group_assignments %>%
   filter(fg == "Anemone",
          !scientific_id %in% anemones_wide$scientific_id)
 
-anemones <- fouling$AddChild("Anemones",
+anemones <- fouling$AddChild("anemones",
                              scientific_id = "FUNCTIONAL:ANEMONE",
                              type = "primary",
                              code = "ane")
@@ -85,7 +85,7 @@ classifications_df %>%
 
 # No corals in the initial fouling group assignment df
 
-corals <- fouling$AddChild("Corals",
+corals <- fouling$AddChild("corals",
                            scientific_id = "FUNCTIONAL:CORALS",
                            type = "primary",
                            code = "coral")
@@ -101,7 +101,7 @@ fouling_group_assignments %>%
   filter(fg == "Sponge",
          !scientific_id %in% sponges_wide$scientific_id)
 
-sponges <- fouling$AddChild("Sponges",
+sponges <- fouling$AddChild("sponges",
                              scientific_id = "FUNCTIONAL:SPONGE",
                              type = "primary",
                              code = "spg")
@@ -127,7 +127,7 @@ fouling_group_assignments %>%
   filter(fg == "Serpulidae",
          !scientific_id %in% serpulids_wide$scientific_id)
 
-serpulids <- fouling$AddChild("Serpulid Polychaetes",
+serpulids <- fouling$AddChild("serpulid polychaetes",
                               scientific_id = "FUNCTIONAL:SERPULIDS",
                               type = "primary",
                               code = "ser_poly")
@@ -148,7 +148,7 @@ fouling_group_assignments %>%
   filter(fg == "Sabellid",
          !scientific_id %in% sabellids_wide$scientific_id)
 
-sabellids <- fouling$AddChild("Sabellid Polychaetes",
+sabellids <- fouling$AddChild("sabellid polychaetes",
                              scientific_id = "FUNCTIONAL:SABELLIDS",
                              type = "primary",
                              code = "sab_poly")
@@ -171,7 +171,7 @@ fouling_group_assignments %>%
   filter(fg == "Other polychaetes",
          !scientific_id %in% poly_other_wide$scientific_id)
 
-other_poly <- fouling$AddChild("Other Polychaetes",
+other_poly <- fouling$AddChild("other polychaetes",
                               scientific_id = "FUNCTIONAL:NON_SER_SAB_POLY",
                               type = "primary",
                               code = "other_poly")
@@ -199,7 +199,7 @@ fouling_group_assignments %>%
   filter(fg == "Oyster",
          !scientific_id %in% oysters_wide$scientific_id)
 
-oysters <- fouling$AddChild("Bivalve oysters",
+oysters <- fouling$AddChild("bivalve oysters",
                                scientific_id = "FUNCTIONAL:OYSTERS",
                                type = "primary",
                                code = "bi_oys")
@@ -220,7 +220,7 @@ fouling_group_assignments %>%
   filter(fg == "Mussels",
          !scientific_id %in% mussels_wide$scientific_id)
 
-mussels <- fouling$AddChild("Bivalve mussels",
+mussels <- fouling$AddChild("bivalve mussels",
                             scientific_id = "FUNCTIONAL:MUSSELS",
                             type = "primary",
                             code = "bi_mus")
@@ -250,7 +250,7 @@ bivalves_other_wide <- classifications_df %>%
          !Family %in% c("Ostreidae", "Isognomonidae", "Mytilidae")) %>%
   filter(!is.na(Family))
 
-bivalves_other <- fouling$AddChild("Other bivalves",
+bivalves_other <- fouling$AddChild("other bivalves",
                             scientific_id = "FUNCTIONAL:FOULING_OTHER_BIVALVES",
                             type = "primary",
                             code = "bi_other")
@@ -261,7 +261,7 @@ lapply(ids, function(x){
   bivalves_other$AddChildNode(new_node)
 })
 
-bivalve_clams <- bivalves_other$AddChild("Clams",
+bivalve_clams <- bivalves_other$AddChild("clams",
                                          scientific_id = "FUNCTIONAL:CLAMS")
                                          #type = "primary",
                                          #code = "bi_other")
@@ -273,7 +273,7 @@ bivalve_clams <- bivalves_other$AddChild("Clams",
 brachiopods_wide <- classifications_df %>%
   filter(Phylum == "Brachiopoda")
 
-brachiopods <- fouling$AddChild("Brachiopods",
+brachiopods <- fouling$AddChild("brachiopods",
                                    scientific_id = "FUNCTIONAL:BRACHIOPODS",
                                    type = "primary",
                                    code = "brach")
@@ -304,7 +304,7 @@ fouling_group_assignments %>%
   filter(fg == "Encrusting bryozoan",
          !scientific_id %in% bryo_encrusting_wide$scientific_id)
 
-bryo_encrusting <- fouling$AddChild("Encrusting bryozoans",
+bryo_encrusting <- fouling$AddChild("encrusting bryozoans",
                                    scientific_id = "FUNCTIONAL:ENCRUSTING_BRYOZOANS",
                                    type = "primary",
                                    code = "e_bryo")
@@ -332,7 +332,7 @@ fouling_group_assignments %>%
   filter(fg == "Arborescent bryozoan",
          !scientific_id %in% bryo_arborescent_wide$scientific_id)
 
-bryo_arborescent <- fouling$AddChild("Arborescent bryozoans",
+bryo_arborescent <- fouling$AddChild("arborescent bryozoans",
                                    scientific_id = "FUNCTIONAL:ARBORESCENT_BRYOZOANS",
                                    type = "primary",
                                    code = "a_bryo")
@@ -377,7 +377,7 @@ fouling_group_assignments %>%
   filter(fg == "Colonial ascidian",
          !scientific_id %in% ascidians_colonial_wide$scientific_id)
 
-ascidians_colonial <- fouling$AddChild("Colonial ascidians",
+ascidians_colonial <- fouling$AddChild("colonial ascidians",
                                    scientific_id = "FUNCTIONAL:COLONIAL_ASCIDIANS",
                                    type = "primary",
                                    code = "col_asc")
@@ -403,7 +403,7 @@ fouling_group_assignments %>%
   filter(fg == "Solitary ascidian",
          !scientific_id %in% ascidians_solitary_wide$scientific_id)
 
-ascidians_solitary <- fouling$AddChild("Solitary ascidians",
+ascidians_solitary <- fouling$AddChild("solitary ascidians",
                                    scientific_id = "FUNCTIONAL:SOLITARY_ASCIDIANS",
                                    type = "primary",
                                    code = "sol_asci")
@@ -437,7 +437,7 @@ fouling_group_assignments %>%
   filter(fg == "Barnacles",
          !scientific_id %in% barnacles_wide$scientific_id)
 
-barnacles <- fouling$AddChild("Barnacles",
+barnacles <- fouling$AddChild("barnacles",
                               scientific_id = "FUNCTIONAL:BARNACLES",
                               type = "primary",
                               code = "barn")
@@ -453,7 +453,7 @@ lapply(ids, function(x){
 # I assume this refers to sessile gastropods, which cement or attach shells to surfaces
 # Previous key had "Crepidula" and "Vermetid" as distinct categories - is this a missing category in the updated schema?
 
-other_gastropods <- fouling$AddChild("Other gastropods",
+other_gastropods <- fouling$AddChild("other gastropods",
                               scientific_id = "FUNCTIONAL:FOULING_OTHER_GASTROPODS",
                               type = "primary",
                               code = "crep")
@@ -473,7 +473,7 @@ forams_wide <- classifications_df %>%
 fouling_group_assignments %>%
   filter(scientific_id %in% forams_wide$scientific_id)
 
-forams <- fouling$AddChild("Forams",
+forams <- fouling$AddChild("forams",
                             scientific_id = "FUNCTIONAL:FORAMS",
                             type = "primary",
                             code = "for")
@@ -497,7 +497,7 @@ classifications_df %>%
 
 # Leave this open.. what other types of amphipods are in the lookup? I assume they are all in the mobile grouping
 
-tube_amphipods <- fouling$AddChild("Tube-building amphipods",
+tube_amphipods <- fouling$AddChild("tube-building amphipods",
                            scientific_id = "FUNCTIONAL:TUBE_BUILDING_AMPHIPODS",
                            type = "primary",
                            code = "tube_amp")
@@ -531,55 +531,55 @@ lapply(ids, function(x){
 
 # Red fleshy algae ####
 
-red_fleshy_algae <- fouling$AddChild("Red fleshy algae",
+red_fleshy_algae <- fouling$AddChild("red fleshy algae",
                                    scientific_id = "FUNCTIONAL:RED_FLESHY_ALGAE",
                                    type = "primary",
                                    code = "red_alg")
 
 # Red crust algae ####
-red_crust_algae <- fouling$AddChild("Red crust algae",
+red_crust_algae <- fouling$AddChild("red crust algae",
                                      scientific_id = "FUNCTIONAL:RED_CRUST_ALGAE",
                                      type = "primary",
                                      code = "red_crust")
 
 # Coralline algae ####
-coralline_algae <- fouling$AddChild("Coralline algae",
+coralline_algae <- fouling$AddChild("coralline algae",
                                     scientific_id = "FUNCTIONAL:CORALLINE_ALGAE",
                                     type = "primary",
                                     code = "cor_alg")
 
 # Green algae ####
-green_algae <- fouling$AddChild("Green algae",
+green_algae <- fouling$AddChild("green algae",
                                     scientific_id = "FUNCTIONAL:GREEN_ALGAE",
                                     type = "primary",
                                     code = "gr_alg")
 
 # Brown algae ####
-brown_algae <- fouling$AddChild("Brown algae",
+brown_algae <- fouling$AddChild("brown algae",
                                 scientific_id = "FUNCTIONAL:BROWN_ALGAE",
                                 type = "primary",
                                 code = "br_alg")
 
 # Algal turf ####
-algal_turf <- fouling$AddChild("Algal turf",
+algal_turf <- fouling$AddChild("algal turf",
                                 scientific_id = "FUNCTIONAL:ALGAL_TURF",
                                 type = "primary",
                                 code = "turf")
 
 # Sediment ####
-sediment <- fouling$AddChild("Sediment",
+sediment <- fouling$AddChild("sediment",
                                scientific_id = "FUNCTIONAL:SEDIMENT",
                                type = "primary",
                                code = "sed")
 
 # Other ####
-other <- fouling$AddChild("Other",
+other <- fouling$AddChild("other",
                              scientific_id = "FUNCTIONAL:FOULING_OTHER",
                              type = "primary",
                              code = "other")
 
 # Open Space ####
-open_space <- fouling$AddChild("Open space",
+open_space <- fouling$AddChild("open space",
                           scientific_id = "FUNCTIONAL:OPEN_SPACE",
                           type = "primary",
                           code = "os")
