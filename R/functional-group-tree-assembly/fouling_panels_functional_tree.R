@@ -399,9 +399,6 @@ lapply(ids, function(x){
 
 ## Algae
 
-# All can be assigned as functional groups
-# No current species IDs in fouling lookup
-
 # Red fleshy algae ####
 
 red_fleshy_algae <- fouling$AddChild("red fleshy algae",
@@ -421,17 +418,38 @@ coralline_algae <- fouling$AddChild("coralline algae",
                                     type = "primary",
                                     code = "cor_alg")
 
+# Subclass Corallinophycidae covers all calcified red algae (Corallinales,
+# Hapalidiales, Sporolithales), e.g. Lithophyllum incrustans, Amphiroa spp.
+ids <- "Corallinophycidae"
+lapply(ids, function(x){
+  new_node <- Clone(FindNode(taxa_tree, x))
+  coralline_algae$AddChildNode(new_node)
+})
+
 # Green algae ####
 green_algae <- fouling$AddChild("green algae",
                                     scientific_id = "FUNCTIONAL:GREEN_ALGAE",
                                     type = "primary",
                                     code = "gr_alg")
 
+# e.g. Valonia utricularis
+ids <- "Chlorophyta"
+lapply(ids, function(x){
+  new_node <- Clone(FindNode(taxa_tree, x))
+  green_algae$AddChildNode(new_node)
+})
+
 # Brown algae ####
 brown_algae <- fouling$AddChild("brown algae",
                                 scientific_id = "FUNCTIONAL:BROWN_ALGAE",
                                 type = "primary",
                                 code = "br_alg")
+
+ids <- "Phaeophyceae"
+lapply(ids, function(x){
+  new_node <- Clone(FindNode(taxa_tree, x))
+  brown_algae$AddChildNode(new_node)
+})
 
 # Algal turf ####
 algal_turf <- fouling$AddChild("algal turf",
