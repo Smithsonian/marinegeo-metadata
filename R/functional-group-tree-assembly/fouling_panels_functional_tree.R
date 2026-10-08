@@ -451,6 +451,9 @@ other <- fouling$AddChild("other",
                              type = "primary",
                              code = "other")
 
+# Considering biofilm here but will leave as uncategorized for now
+# biofilm <- other$AddChild("biofilm", scientific_id = "FUNCTIONAL:BIOFILM")
+
 # Open Space ####
 open_space <- fouling$AddChild("open space",
                           scientific_id = "FUNCTIONAL:OPEN_SPACE",
