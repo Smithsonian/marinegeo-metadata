@@ -127,6 +127,7 @@ Corophiidae,tube-building amphipods,urn:lsid:marinespecies.org:taxname:101376,NA
 Corallinophycidae,coralline algae,urn:lsid:marinespecies.org:taxname:368687,NA,NA,Subclass,NA,fouling
 Chlorophyta,green algae,urn:lsid:marinespecies.org:taxname:801,NA,NA,Phylum (Division),NA,fouling
 Phaeophyceae,brown algae,urn:lsid:marinespecies.org:taxname:830,NA,NA,Class,NA,fouling
+Entoprocta,other,urn:lsid:marinespecies.org:taxname:1271,NA,NA,Phylum,NA,fouling
 Hydroidolina,Hydrozoa,urn:lsid:marinespecies.org:taxname:19494,NA,NA,Subclass,NA,fouling
 Enthemonae,Actiniaria,urn:lsid:marinespecies.org:taxname:888371,NA,NA,Suborder,NA,fouling
 Calcarea,Porifera,urn:lsid:marinespecies.org:taxname:559,NA,NA,Class,NA,fouling
@@ -269,6 +270,7 @@ Hapalidiales,Corallinophycidae,urn:lsid:marinespecies.org:taxname:1306465,NA,NA,
 Chlorophytina,Chlorophyta,urn:lsid:marinespecies.org:taxname:1304953,NA,NA,Subphylum (Subdivision),NA,fouling
 Dictyotophycidae,Phaeophyceae,urn:lsid:marinespecies.org:taxname:1304855,NA,NA,Subclass,NA,fouling
 Fucophycidae,Phaeophyceae,urn:lsid:marinespecies.org:taxname:1304856,NA,NA,Subclass,NA,fouling
+Barentsiidae,Entoprocta,urn:lsid:marinespecies.org:taxname:154527,NA,NA,Family,NA,fouling
 Siphonophorae,Hydroidolina,urn:lsid:marinespecies.org:taxname:1371,NA,NA,Order,NA,fouling
 Anthoathecata,Hydroidolina,urn:lsid:marinespecies.org:taxname:13551,NA,NA,Order,NA,fouling
 Leptothecata,Hydroidolina,urn:lsid:marinespecies.org:taxname:13552,NA,NA,Order,NA,fouling
@@ -444,6 +446,7 @@ Ulvophyceae,Chlorophytina,urn:lsid:marinespecies.org:taxname:146216,NA,NA,Class,
 Dictyotales,Dictyotophycidae,urn:lsid:marinespecies.org:taxname:839,NA,NA,Order,NA,fouling
 Ectocarpales,Fucophycidae,urn:lsid:marinespecies.org:taxname:842,NA,NA,Order,NA,fouling
 Fucales,Fucophycidae,urn:lsid:marinespecies.org:taxname:844,NA,NA,Order,NA,fouling
+Barentsia,Barentsiidae,urn:lsid:marinespecies.org:taxname:111795,NA,NA,Genus,NA,fouling
 Calycophorae,Siphonophorae,urn:lsid:marinespecies.org:taxname:135333,NA,NA,Suborder,NA,fouling
 Capitata,Anthoathecata,urn:lsid:marinespecies.org:taxname:16351,NA,NA,Suborder,NA,fouling
 Filifera,Anthoathecata,urn:lsid:marinespecies.org:taxname:16352,NA,NA,Suborder,NA,fouling
@@ -539,6 +542,7 @@ Ectocarpaceae,Ectocarpales,urn:lsid:marinespecies.org:taxname:143717,NA,NA,Famil
 Scytosiphonaceae,Ectocarpales,urn:lsid:marinespecies.org:taxname:143777,NA,NA,Family,NA,fouling
 Fucaceae,Fucales,urn:lsid:marinespecies.org:taxname:143723,NA,NA,Family,NA,fouling
 Sargassaceae,Fucales,urn:lsid:marinespecies.org:taxname:143725,NA,NA,Family,NA,fouling
+Barentsia benedeni,Barentsia,urn:lsid:marinespecies.org:taxname:111800,NA,NA,Species,NA,fouling
 Abylidae,Calycophorae,urn:lsid:marinespecies.org:taxname:135336,NA,NA,Family,NA,fouling
 Milleporidae,Capitata,urn:lsid:marinespecies.org:taxname:196235,NA,NA,Family,NA,fouling
 Bougainvilliidae,Filifera,urn:lsid:marinespecies.org:taxname:1594,NA,NA,Family,NA,fouling

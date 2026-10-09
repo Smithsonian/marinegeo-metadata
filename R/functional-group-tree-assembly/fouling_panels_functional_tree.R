@@ -469,6 +469,21 @@ other <- fouling$AddChild("other",
                              type = "primary",
                              code = "other")
 
+### ... Kamptozoans ####
+
+# The stalked, colonies of Barentsia look much like the
+# arborescent bryozoans on a panel but are a phylum of their own, so
+# they cannot be enrolled under either bryozoan group. No other primary group
+# fits either, so they are enrolled here under "other".
+kamptozoans_wide <- classifications_df %>%
+  filter(Phylum == "Entoprocta")
+
+ids <- "Entoprocta"
+lapply(ids, function(x){
+  new_node <- Clone(FindNode(taxa_tree, x))
+  other$AddChildNode(new_node)
+})
+
 # Considering biofilm here but will leave as uncategorized for now
 # biofilm <- other$AddChild("biofilm", scientific_id = "FUNCTIONAL:BIOFILM")
 
