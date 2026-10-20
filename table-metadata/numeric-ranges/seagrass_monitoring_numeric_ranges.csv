@@ -16,8 +16,8 @@ sheath-and-epibiont-monitoring-v1,quadrat,inclusive,,0,50,0
 sheath-and-epibiont-monitoring-v1,sheath_length_mm,exclusive,,0,,
 sheath-and-epibiont-monitoring-v1,median_leaf_length_mm,exclusive,,0,,
 sheath-and-epibiont-monitoring-v1,shoot_length_mm,exclusive,,0,,
-sheath-and-epibiont-monitoring-v1,epibiont_dry_mass_g,exclusive,,0,,
-sheath-and-epibiont-monitoring-v1,blades_dry_mass_g,exclusive,,0,,
+sheath-and-epibiont-monitoring-v1,epibiont_dry_mass_g,inclusive,,0,,
+sheath-and-epibiont-monitoring-v1,blades_dry_mass_g,inclusive,,0,,
 seagrass-macroalgae-monitoring-v1,quadrat,inclusive,,0,50,0
 seagrass-macroalgae-monitoring-v1,macroalgae_dry_mass_g,exclusive,,0,,
 seagrass-biomass-monitoring-v1,quadrat,,,,,
