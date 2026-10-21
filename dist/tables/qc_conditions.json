@@ -1,0 +1,5 @@
+{
+  "schema_version": 1,
+  "table": "qc_conditions",
+  "rows": [{"condition_id":"primary_points","table_id":"oyster-substrate-composition-monitoring-v1","column_name":"cover_type","operator":"not_in","value":"canopy taxa","description":"Excluding canopy taxa from the primary point total"},{"condition_id":"zostera_leaves","table_id":"seagrass-leaf-monitoring-v1","column_name":"scientific_name","operator":"taxon_within","value":"Genus:Zostera","description":"Leaf of a Zostera species"},{"condition_id":"flowering_zostera","table_id":"shoot-count-monitoring-v1","column_name":"scientific_name","operator":"taxon_within","value":"Genus:Zostera","description":"Flowering Zostera shoots"},{"condition_id":"marine_seagrass","table_id":"seagrass-cover-monitoring-v1","column_name":"scientific_name","operator":"in_functional_group","value":"vegetation:Marine Seagrass","description":"A marine seagrass"},{"condition_id":"scored_cover","table_id":"seagrass-cover-monitoring-v1","column_name":"cover_code","operator":"not_na","value":null,"description":"Rows carrying a cover code"}]
+}

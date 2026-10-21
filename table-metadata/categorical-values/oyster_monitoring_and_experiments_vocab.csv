@@ -19,8 +19,6 @@ oyster-transect-metadata-monitoring-v1,,intertidal_habitat,TRUE
 oyster-transect-metadata-monitoring-v1,,intertidal_habitat,FALSE
 oyster-transect-metadata-monitoring-v1,,reef_building_oysters,TRUE
 oyster-transect-metadata-monitoring-v1,,reef_building_oysters,FALSE
-oyster-transect-metadata-monitoring-v1,,density_methodology,excavation
-oyster-transect-metadata-monitoring-v1,,density_methodology,no excavation
 oyster-count-monitoring-v1,,live_or_box,live
 oyster-count-monitoring-v1,,live_or_box,box
 oyster-count-monitoring-v1,,density_methodology,excavation

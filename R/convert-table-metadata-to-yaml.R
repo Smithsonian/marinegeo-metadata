@@ -1,26 +1,4 @@
 # One-shot conversion of table-metadata/ from CSV to per-protocol YAML.
-#
-# Kept in the repo as the audit trail for the migration: it documents exactly how
-# 570 column rows, 64 vocabulary rows, 60 range rows and 13 rule rows were
-# mechanically reshaped into the nested authoring format, rather than retyped.
-#
-# Run once from the repo root:
-#   Rscript R/convert-table-metadata-to-yaml.R
-#
-# The output is verified by the round-trip test in the marinegeo.utils package
-# (tests/testthat/test-api_mg_flatten_table_metadata.R), which asserts the
-# flattened YAML reproduces the bundled registry tibbles.
-#
-# Two emission details are load-bearing:
-#
-#   * Quoting is handled by yaml::as.yaml(), which quotes any scalar YAML 1.1
-#     would otherwise type-resolve -- '0', '0.1', 'TRUE', 'N', '137.5', '>='.
-#     Correct quoting is therefore a property of the generator, not of author
-#     discipline.
-#   * Logicals are emitted with yaml::verbatim_logical so uuid_identity reads
-#     `true`, not the default `yes`. The reader parses scalars as strings, and
-#     as.logical("yes") is NA -- which would silently drop a column from the
-#     row-uuid identity set.
 
 suppressPackageStartupMessages({
   library(readr)

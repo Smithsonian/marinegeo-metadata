@@ -1,0 +1,470 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-21T15:02:29Z",
+  "generator": "R/generate-metadata-dist.R",
+  "artifacts": {
+    "qc-metadata": {
+      "path": "dist/qc-metadata.json",
+      "sha256": "6d326ae8ecf956f5754ddf49156463616de6decded60bf2e05e7c356961b0550",
+      "bytes": 127557,
+      "tables": {
+        "database_structure": {
+          "rows": 570,
+          "columns": [
+            {
+              "name": "protocol",
+              "type": "character"
+            },
+            {
+              "name": "table_id",
+              "type": "character"
+            },
+            {
+              "name": "level",
+              "type": "double"
+            },
+            {
+              "name": "column_name",
+              "type": "character"
+            },
+            {
+              "name": "data_type",
+              "type": "character"
+            },
+            {
+              "name": "missing_values",
+              "type": "character"
+            },
+            {
+              "name": "uuid_identity",
+              "type": "logical"
+            }
+          ]
+        },
+        "categorical_values": {
+          "rows": 62,
+          "columns": [
+            {
+              "name": "table_id",
+              "type": "character"
+            },
+            {
+              "name": "condition_id",
+              "type": "character"
+            },
+            {
+              "name": "column_name",
+              "type": "character"
+            },
+            {
+              "name": "value",
+              "type": "character"
+            }
+          ]
+        },
+        "numeric_ranges": {
+          "rows": 60,
+          "columns": [
+            {
+              "name": "table_id",
+              "type": "character"
+            },
+            {
+              "name": "condition_id",
+              "type": "character"
+            },
+            {
+              "name": "column_name",
+              "type": "character"
+            },
+            {
+              "name": "range_type",
+              "type": "character"
+            },
+            {
+              "name": "max_fail",
+              "type": "double"
+            },
+            {
+              "name": "min_fail",
+              "type": "double"
+            },
+            {
+              "name": "max_warn",
+              "type": "double"
+            },
+            {
+              "name": "min_warn",
+              "type": "double"
+            }
+          ]
+        },
+        "qc_conditions": {
+          "rows": 5,
+          "columns": [
+            {
+              "name": "condition_id",
+              "type": "character"
+            },
+            {
+              "name": "table_id",
+              "type": "character"
+            },
+            {
+              "name": "column_name",
+              "type": "character"
+            },
+            {
+              "name": "operator",
+              "type": "character"
+            },
+            {
+              "name": "value",
+              "type": "character"
+            },
+            {
+              "name": "description",
+              "type": "character"
+            }
+          ]
+        },
+        "aggregate_rules": {
+          "rows": 4,
+          "columns": [
+            {
+              "name": "rule_id",
+              "type": "character"
+            },
+            {
+              "name": "table_id",
+              "type": "character"
+            },
+            {
+              "name": "group_columns",
+              "type": "character"
+            },
+            {
+              "name": "value_column",
+              "type": "character"
+            },
+            {
+              "name": "aggregate_function",
+              "type": "character"
+            },
+            {
+              "name": "comparison",
+              "type": "character"
+            },
+            {
+              "name": "target_column",
+              "type": "character"
+            },
+            {
+              "name": "target_value",
+              "type": "double"
+            },
+            {
+              "name": "tolerance",
+              "type": "double"
+            },
+            {
+              "name": "condition_id",
+              "type": "character"
+            },
+            {
+              "name": "severity",
+              "type": "character"
+            },
+            {
+              "name": "description",
+              "type": "character"
+            }
+          ]
+        },
+        "cross_table_rules": {
+          "rows": 4,
+          "columns": [
+            {
+              "name": "rule_id",
+              "type": "character"
+            },
+            {
+              "name": "relation_type",
+              "type": "character"
+            },
+            {
+              "name": "left_table_id",
+              "type": "character"
+            },
+            {
+              "name": "right_table_id",
+              "type": "character"
+            },
+            {
+              "name": "group_columns",
+              "type": "character"
+            },
+            {
+              "name": "left_columns",
+              "type": "character"
+            },
+            {
+              "name": "right_columns",
+              "type": "character"
+            },
+            {
+              "name": "left_condition_id",
+              "type": "character"
+            },
+            {
+              "name": "right_condition_id",
+              "type": "character"
+            },
+            {
+              "name": "severity",
+              "type": "character"
+            },
+            {
+              "name": "description",
+              "type": "character"
+            }
+          ]
+        }
+      }
+    },
+    "sites": {
+      "path": "dist/sites.json",
+      "sha256": "1f00f40a9cd4c61cbbfe6def061d8e880924957786bd4b686bf7a12e82700a66",
+      "bytes": 53496,
+      "tables": {
+        "partner_codes": {
+          "rows": 72,
+          "columns": [
+            {
+              "name": "partner_code",
+              "type": "character"
+            },
+            {
+              "name": "partner_name",
+              "type": "character"
+            },
+            {
+              "name": "institution",
+              "type": "character"
+            },
+            {
+              "name": "country",
+              "type": "character"
+            },
+            {
+              "name": "partner_type",
+              "type": "character"
+            }
+          ]
+        },
+        "site_codes": {
+          "rows": 228,
+          "columns": [
+            {
+              "name": "partner_code",
+              "type": "character"
+            },
+            {
+              "name": "site_code",
+              "type": "character"
+            },
+            {
+              "name": "site_name",
+              "type": "character"
+            },
+            {
+              "name": "habitat",
+              "type": "character"
+            },
+            {
+              "name": "latitude",
+              "type": "double"
+            },
+            {
+              "name": "longitude",
+              "type": "double"
+            }
+          ]
+        },
+        "data_index": {
+          "rows": 36,
+          "columns": [
+            {
+              "name": "protocol",
+              "type": "character"
+            },
+            {
+              "name": "level",
+              "type": "double"
+            },
+            {
+              "name": "table_name",
+              "type": "character"
+            },
+            {
+              "name": "table_id",
+              "type": "character"
+            },
+            {
+              "name": "short_name",
+              "type": "character"
+            },
+            {
+              "name": "directory",
+              "type": "character"
+            },
+            {
+              "name": "script_directory",
+              "type": "character"
+            },
+            {
+              "name": "location",
+              "type": "character"
+            }
+          ]
+        }
+      }
+    },
+    "taxonomy": {
+      "path": "dist/taxonomy.json",
+      "sha256": "8db068d28165a6f7905538899242c2bfd5fe0b1a7479cc6b547f354df4610a85",
+      "bytes": 1111998,
+      "tables": {
+        "observation_lookup": {
+          "rows": 1696,
+          "columns": [
+            {
+              "name": "scientific_name",
+              "type": "character"
+            },
+            {
+              "name": "scientific_id",
+              "type": "character"
+            }
+          ]
+        },
+        "taxonomic_lookup": {
+          "rows": 3226,
+          "columns": [
+            {
+              "name": "scientific_id",
+              "type": "character"
+            },
+            {
+              "name": "name",
+              "type": "character"
+            },
+            {
+              "name": "rank",
+              "type": "character"
+            },
+            {
+              "name": "id",
+              "type": "double"
+            },
+            {
+              "name": "parent_id",
+              "type": "character"
+            }
+          ]
+        },
+        "functional_group_lookup": {
+          "rows": 2115,
+          "columns": [
+            {
+              "name": "from",
+              "type": "character"
+            },
+            {
+              "name": "to",
+              "type": "character"
+            },
+            {
+              "name": "scientific_id",
+              "type": "character"
+            },
+            {
+              "name": "type",
+              "type": "character"
+            },
+            {
+              "name": "code",
+              "type": "character"
+            },
+            {
+              "name": "rank",
+              "type": "character"
+            },
+            {
+              "name": "definition",
+              "type": "character"
+            },
+            {
+              "name": "tree_name",
+              "type": "character"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "table_index": {
+    "database_structure": "qc-metadata",
+    "categorical_values": "qc-metadata",
+    "numeric_ranges": "qc-metadata",
+    "qc_conditions": "qc-metadata",
+    "aggregate_rules": "qc-metadata",
+    "cross_table_rules": "qc-metadata",
+    "partner_codes": "sites",
+    "site_codes": "sites",
+    "data_index": "sites",
+    "observation_lookup": "taxonomy",
+    "taxonomic_lookup": "taxonomy",
+    "functional_group_lookup": "taxonomy"
+  },
+  "sources": {
+    "table-metadata/darwin-core.yaml": "23bdb9486bd76bf47d2600511e0df9fdc9e016005318c1cb1f0c87c79cc04b0a",
+    "table-metadata/fouling-panels.yaml": "8240e18a1ed039fd4ad09128393a194ee69b7113ec373f350731771b8efbb9db",
+    "table-metadata/marinegeo-metadata-tables.yaml": "6b419875b10ed3509dd1942f79fef5e5bfaf98e8f53367f3b204001763ae4280",
+    "table-metadata/oyster-experiment-2025.yaml": "b866399aeb5591ed6a11874a6928c826d3ed79ce9e381a0c2a7314a99b46b612",
+    "table-metadata/oyster-reef-monitoring.yaml": "c762fede625fd4e9d86784a69b56bcf1a63b4c166919da5305e152c35c18a210",
+    "table-metadata/reef-life-survey.yaml": "77840908de4444e278060b6a330eb9aa038fcbed31193e4ee6b9434da7a05919",
+    "table-metadata/seagrass-monitoring.yaml": "9c7511bb8abac207322952d079f283557308dbd1732ca9989bb9717b37543fd5",
+    "sites-and-partners/partner-codes/partners.csv": "97ed3d724bc1315ff3b79a82a8fb417e4ee1ef84d6dd20ec5e010de665f8555f",
+    "sites-and-partners/site-names/3M_partners_locations.csv": "8cf0733171468bfc75c3bcc95f3fb99efb5c40fe22241c8e2722d925c22e83fb",
+    "sites-and-partners/site-names/BLZ-CBC_locations.csv": "f65b903241bbb9e730ad295ced90efa4d76a1b9a964d73ffff6d60e6ab914a44",
+    "sites-and-partners/site-names/BRA-SSC_locations.csv": "e77c340c3eecb01129e1f71186ba05b60f48891bf26e55177b7dfc3a5d4191b9",
+    "sites-and-partners/site-names/CAN-BCC_locations.csv": "fa30c455f89c5d10f627d5cded7e6eed105c1b1edcd23e0554b31aee81c557b1",
+    "sites-and-partners/site-names/CAN-BCQ_locations.csv": "d03c9c175aadf229209d1841842bd982f5cb7a4d8c10eebead4064958e9ec081",
+    "sites-and-partners/site-names/CAN-SLR_locations.csv": "5fe939722208c689ae11d087d733d35efb70b9692358dea9646338b6d62e4556",
+    "sites-and-partners/site-names/CHI-HKG_locations.csv": "98cd69e094d3e0555cfd8d1125f8c6a5a7391e135f6ec07824035da6576ff05b",
+    "sites-and-partners/site-names/GBR-SCT_locations.csv": "33584cde9649e73b6c834ecd0944a5299222bc962a3dbd722a46916c46a9f2e8",
+    "sites-and-partners/site-names/IRL-KYF_locations.csv": "252393fa1c5330a4811cdc70fa0879ca468afee7b20068a23eaf2ec011aa308a",
+    "sites-and-partners/site-names/oyster_project_partners.csv": "6f9c4461a9477a592671254c630eb7aee819129a3d4c756e5962a9622d41e4f6",
+    "sites-and-partners/site-names/PAN-BDT_locations.csv": "1f4150099e1bc9dc4c2be6ac7f57938516d94a291caad8ce0629c0da3c28d29a",
+    "sites-and-partners/site-names/PER-CCP_locations.csv": "0fad6eae2ce49e286537d72482e0345977665219bcdf64b25b3cf5112d515060",
+    "sites-and-partners/site-names/POR-MAD_locations.csv": "ec923db602fd72fcb5246aed4238392b6e6782f6e7162fadcfdf7ed5134eeb66",
+    "sites-and-partners/site-names/project-partners_locations.csv": "7bb94c333d475a62ebe2a1f19d875adc0f39012b66ecd5adae1ccc4aa78588bc",
+    "sites-and-partners/site-names/SAU-RSK_locations.csv": "79218e024d7894ac5d3835f90d82a42635aca3a8684081553e2ff2293d372f5a",
+    "sites-and-partners/site-names/USA-ALD_locations.csv": "2f304b13d0e404a06b567bbb7b25ae726fe83b2407556e89c9ad5820e06267c5",
+    "sites-and-partners/site-names/USA-IRL_locations.csv": "0b4d23fc2328b884a52702d55bfa25f776ad5feeee46007faae6db3dbe4f3bbe",
+    "sites-and-partners/site-names/USA-LIS_locations.csv": "9253d703be2b89b1bd8b3470688a1c1043df3bb04403a3165b26f6b7c8cb87c1",
+    "sites-and-partners/site-names/USA-MDA_locations.csv": "dde00e1c9f7bd3dd5f9c62b92d6846a4cedd2ec72c997cb745b6201d3b7dc79e",
+    "sites-and-partners/site-names/USA-SFB_locations.csv": "73c189419676d9c1fb1271549df7cc82487fe51e6330209a02fefdf3fbc59779",
+    "sites-and-partners/site-names/USA-TXS_locations.csv": "2c247ebbb86fa598629b7209e1879a155426e6c1b0b43902147ad775e156bed3",
+    "sites-and-partners/site-names/USA-VAY_locations.csv": "136450fe33db017587e74fee78b62a1532a42b80c05a5293ad479c7465725d04",
+    "sites-and-partners/site-names/USA-WAS_locations.csv": "d4ada93de797bcd4c9db2a6061013a1ccbfaf585047713debba0b737f013e0b8",
+    "taxonomy-and-functional-groups/functional-group-lookup/fouling_cover.csv": "3111d067413c0dd8d2f0a003d12e121485ad53d29af3d1f144e9b36a8320f803",
+    "taxonomy-and-functional-groups/functional-group-lookup/oyster_composition.csv": "d3741ee45d0539aa7c3a1ef4f44aafb0731926ebf8fb2257d5a9c804446b4d18",
+    "taxonomy-and-functional-groups/functional-group-lookup/oyster_density.csv": "26f5909a13262af68a3f712190f04887484238a1ca4bc7955650228a0e0491bf",
+    "taxonomy-and-functional-groups/functional-group-lookup/vegetation.csv": "1a21558f409f5ddb121f45aff28c24cf139bdd1edc0564b55a00d41e6ce916db",
+    "taxonomy-and-functional-groups/observation-lookup/marinegeo_observation_ids.csv": "ec7c8b60df3928ed70638d099fc1c9312d43d07b893e091765aec082ef9b7d5e",
+    "taxonomy-and-functional-groups/taxonomic-lookup/marinegeo_taxonomic_lookup.csv": "496195b2a32b02119e1a47038963f2ad75d1ffe097859652935be7d278196c04",
+    "marinegeo_data_index.csv": "98127b378055723624aa177871f59f33bd9b6b643cf1a11b37cfebb3506ab563"
+  }
+}
