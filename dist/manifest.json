@@ -1,12 +1,12 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-23T19:15:06Z",
+  "generated_at": "2026-10-23T19:41:23Z",
   "generator": "R/generate-metadata-dist.R",
   "artifacts": {
     "qc-metadata": {
       "path": "dist/qc-metadata.json",
-      "sha256": "e58b1fa1d0cf10f960cc0f88e2871e0e8c09a6da054198277eb3ec4604321ca8",
-      "bytes": 126897,
+      "sha256": "f323b9060a623167bb686051132a715ccdba09e488b7596abe607ceacca1b1b8",
+      "bytes": 126308,
       "tables": {
         "database_structure": {
           "rows": 570,
@@ -100,7 +100,7 @@
           ]
         },
         "qc_conditions": {
-          "rows": 5,
+          "rows": 2,
           "columns": [
             {
               "name": "condition_id",
@@ -434,7 +434,7 @@
     "table-metadata/oyster-experiment-2025.yaml": "fc522e6baac5b7510869614a26ec6d094a9eb048bcb54ca019dd5cbc2e39becc",
     "table-metadata/oyster-reef-monitoring.yaml": "4d513ee459fba41526d7be5f4feadf96128bad983b38cf711a78604b0c2af7a8",
     "table-metadata/reef-life-survey.yaml": "c4377df5cc77c5b5fa10016d978f896786e3d8ff4f01e5b3a2fce81a9a8328c9",
-    "table-metadata/seagrass-monitoring.yaml": "ddeb83c72ee9a4ddbca5bb35d1c060dee23c64ec0c88fcfa3b54eb3b40715cb3",
+    "table-metadata/seagrass-monitoring.yaml": "7c864cd75fa737924b58b00fe985279e6735b047e0fd6558628468dfa07dd4dc",
     "sites-and-partners/partner-codes/partners.csv": "97ed3d724bc1315ff3b79a82a8fb417e4ee1ef84d6dd20ec5e010de665f8555f",
     "sites-and-partners/site-names/3M_partners_locations.csv": "8cf0733171468bfc75c3bcc95f3fb99efb5c40fe22241c8e2722d925c22e83fb",
     "sites-and-partners/site-names/BLZ-CBC_locations.csv": "f65b903241bbb9e730ad295ced90efa4d76a1b9a964d73ffff6d60e6ab914a44",
