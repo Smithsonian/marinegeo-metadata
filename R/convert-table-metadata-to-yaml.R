@@ -168,8 +168,13 @@ for (src in ds_files) {
       cname <- rows$column_name[[i]]
       col <- list(name = cname, type = rows$data_type[[i]])
 
+      # The source CSVs predate the rename: their `enforce` is today's `fail`.
       if (nz(rows$missing_values[[i]])) {
-        col$missing <- rows$missing_values[[i]]
+        col$na_values <- switch(
+          rows$missing_values[[i]],
+          enforce = "fail",
+          rows$missing_values[[i]]
+        )
       }
       if (isTRUE(rows$uuid_identity[[i]])) {
         col$uuid_identity <- TRUE
@@ -300,7 +305,7 @@ for (src in ds_files) {
     tables[[length(tables) + 1L]] <- node
   }
 
-  doc <- list(schema_version = 1L, protocol = file_protocol, level = num(file_level))
+  doc <- list(schema_version = 2L, protocol = file_protocol, level = num(file_level))
   doc$tables <- tables
 
   # Unreferenced conditions whose table belongs to this file.

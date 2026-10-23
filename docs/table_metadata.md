@@ -26,7 +26,7 @@ never edit those.
 ## Shape
 
 ```yaml
-schema_version: 1
+schema_version: 2
 protocol: Seagrass Monitoring     # file-level default
 level: 2                          # file-level default
 
@@ -35,11 +35,11 @@ tables:
   columns:
   - name: sample_event_id
     type: STRING
-    missing: enforce
+    na_values: fail
     uuid_identity: true
   - name: leaf_length_mm
     type: DOUBLE
-    missing: warn
+    na_values: warn
     numeric_range:
     - range_type: exclusive
       min_fail: 0
@@ -79,7 +79,7 @@ columns:                   # a sequence -- ordered
 |---|---|
 | `name` | Column name. Quote it if it looks numeric: `- name: "137.5"` |
 | `type` | `STRING`, `INT`, `TINYINT`, `DOUBLE`, `DATE`, `BOOL` |
-| `missing` | `enforce`, `warn`, or `allow`. Omit for no rule |
+| `na_values` | `fail`, `warn`, or `allow` — the severity an `NA` gets. Omit for no rule |
 | `uuid_identity` | `true` when the column is part of the row identity |
 | `one_of` | Controlled vocabulary |
 | `numeric_range` | One range mapping, or a sequence of them |
@@ -195,4 +195,5 @@ Source files must be **valid UTF-8**.
 2. `Rscript R/generate-metadata-dist.R` — this validates the schema and all
    cross-references, and refuses to write if anything fails.
 3. `Rscript R/validate.R` — runs the registry tables against their own QC rules.
-4. Commit the YAML **and** the regenerated `dist/`. CI fails if they disagree.
+4. Commit the YAML **and** the regenerated `dist/`. There is no CI, so step 3
+   is the only thing that catches a stale `dist/` — run it.

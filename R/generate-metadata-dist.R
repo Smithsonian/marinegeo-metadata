@@ -69,7 +69,26 @@ parse_dir <- fns[[".mg_parse_table_metadata_dir"]]
 flatten <- fns[[".mg_flatten_table_metadata"]]
 validate <- fns[[".mg_validate_table_metadata"]]
 
-SCHEMA_VERSION <- 1L
+SCHEMA_VERSION <- 2L
+
+# An installed build that predates a schema bump still *has* the flattener, so
+# the probe above accepts it -- and it then reads the current YAML as if every
+# renamed key were absent, writing a well-formed dist/ full of nulls. Refuse a
+# package that does not understand the schema we are about to publish.
+.pkg_ver <- tryCatch(
+  get(".mg_dist_schema_version", envir = asNamespace("marinegeo.utils")),
+  error = function(e) NA_integer_
+)
+if (is.na(.pkg_ver) || .pkg_ver < SCHEMA_VERSION) {
+  stop(
+    "the marinegeo.utils in use understands dist schema ",
+    .pkg_ver,
+    " but this script publishes ",
+    SCHEMA_VERSION,
+    ". Install the current marinegeo.utils, or point MARINEGEO_UTILS_PATH at ",
+    "a checkout that has it."
+  )
+}
 
 read_dir <- function(sub) {
   files <- sort(list.files(file.path(root, sub), pattern = "\\.csv$", full.names = TRUE))
