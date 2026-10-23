@@ -61,6 +61,18 @@ tables:
 mapping is unordered. A sequence also lets a column be named `137.5` or `n`,
 which as mapping keys would be mangled by YAML's type resolution.
 
+In YAML, a sequence is an ordered list whose entries each start with `- `,
+while a mapping is a set of unordered `key:` / value pairs. Under a sequence
+the column name is a *value* given under `name:`, not a key:
+
+```yaml
+columns:                   # a sequence -- ordered
+- name: sample_event_id    # each entry is a mapping of column fields
+  type: STRING
+- name: "137.5"
+  type: INT
+```
+
 ### Column fields
 
 | Field | Meaning |
@@ -90,9 +102,9 @@ which as mapping keys would be mangled by YAML's type resolution.
 or `~` (none). Bounds are `max_fail`, `min_fail`, `max_warn`, `min_warn`; omit
 the ones that do not apply.
 
-A `range_type: ~` entry declares no bounds. Note that bounds given *alongside*
-`range_type: ~` are ignored by the QC engine — if you write bounds, give the
-entry a real `range_type`.
+A `range_type: ~` entry declares no bounds; `~` is YAML's explicit form of
+null. Note that bounds given *alongside* `range_type: ~` are ignored by the QC
+engine — if you write bounds, give the entry a real `range_type`.
 
 ### Table-scoped checks
 
