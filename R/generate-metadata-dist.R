@@ -136,7 +136,7 @@ check_utf8 <- function(paths) {
     stop(
       "\nsource file(s) are not valid UTF-8:\n",
       paste(unlist(bad), collapse = "\n"),
-      "\n\nJSON artifacts must be UTF-8, so this has to be fixed at source.",
+      "\n\nJSON bundles must be UTF-8, so this has to be fixed at source.",
       "\nTo repair one file in place:",
       "\n  iconv -f ISO-8859-1 -t UTF-8 <file> -o <file>.tmp && mv <file>.tmp <file>",
       call. = FALSE
@@ -196,7 +196,7 @@ taxonomy <- list(
   )
 )
 
-artifacts <- list(
+bundles <- list(
   `qc-metadata` = qc,
   sites = sites,
   taxonomy = taxonomy
@@ -213,8 +213,8 @@ dir.create(tables_dir, recursive = TRUE, showWarnings = FALSE)
 expected <- c(
   "README.md",
   "manifest.json",
-  paste0(names(artifacts), ".json"),
-  file.path("tables", paste0(unlist(lapply(artifacts, names)), ".json"))
+  paste0(names(bundles), ".json"),
+  file.path("tables", paste0(unlist(lapply(bundles, names)), ".json"))
 )
 
 # `type` is what consumers coerce to; it is declared, never inferred.
@@ -260,17 +260,17 @@ table_schema <- function(d) {
   )
 }
 
-manifest_artifacts <- list()
+manifest_bundles <- list()
 table_index <- list()
 
-for (aname in names(artifacts)) {
-  tabs <- artifacts[[aname]]
+for (bname in names(bundles)) {
+  tabs <- bundles[[bname]]
 
   body <- paste0(
     '{\n  "schema_version": ',
     SCHEMA_VERSION,
-    ',\n  "artifact": "',
-    aname,
+    ',\n  "bundle": "',
+    bname,
     '",\n  "tables": {\n',
     paste(
       vapply(
@@ -282,13 +282,13 @@ for (aname in names(artifacts)) {
     ),
     "\n  }\n}"
   )
-  apath <- file.path(dist, paste0(aname, ".json"))
-  write_json_file(body, apath)
+  bpath <- file.path(dist, paste0(bname, ".json"))
+  write_json_file(body, bpath)
 
-  manifest_artifacts[[aname]] <- list(
-    path = paste0("dist/", aname, ".json"),
-    sha256 = sha(apath),
-    bytes = file.size(apath),
+  manifest_bundles[[bname]] <- list(
+    path = paste0("dist/", bname, ".json"),
+    sha256 = sha(bpath),
+    bytes = file.size(bpath),
     tables = stats::setNames(lapply(tabs, table_schema), names(tabs))
   )
 
@@ -306,14 +306,14 @@ for (aname in names(artifacts)) {
       ),
       tpath
     )
-    table_index[[tn]] <- aname
+    table_index[[tn]] <- bname
   }
 
   message(
     "  dist/",
-    aname,
+    bname,
     ".json  ",
-    format(file.size(apath), big.mark = ","),
+    format(file.size(bpath), big.mark = ","),
     " bytes, ",
     length(tabs),
     " tables"
@@ -353,7 +353,7 @@ manifest <- list(
     "%Y-%m-%dT%H:%M:%SZ"
   ),
   generator = "R/generate-metadata-dist.R",
-  artifacts = manifest_artifacts,
+  bundles = manifest_bundles,
   table_index = table_index,
   sources = sources
 )
@@ -377,6 +377,6 @@ message(
   "wrote dist/manifest.json (",
   length(table_index),
   " tables across ",
-  length(manifest_artifacts),
-  " artifacts)"
+  length(manifest_bundles),
+  " bundles)"
 )

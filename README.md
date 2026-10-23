@@ -61,4 +61,4 @@ Source files must be valid UTF-8.
 | Species names, taxonomic classifications, Aphia IDs, functional groups, observation IDs | `docs/taxonomy_and_functional_groups.md` |
 | Partner codes, observatory or project site names, site coordinates | `docs/sites_and_partners.md` |
 | Column names, data types, controlled vocabularies, QC rules for a protocol | `docs/table_metadata.md` |
-| The generated distribution artifacts | `dist/README.md` |
+| The generated distribution bundles | `dist/README.md` |

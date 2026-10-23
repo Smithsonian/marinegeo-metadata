@@ -1,4 +1,4 @@
-# dist/ — generated distribution artifacts
+# dist/ — generated distribution bundles
 
 **Do not edit anything in this directory.** Every file here is generated from
 the authored sources by `R/generate-metadata-dist.R`. Edit the sources instead:
@@ -20,12 +20,12 @@ Rscript R/generate-metadata-dist.R
 
 `marinegeo.utils` used to fetch the metadata as directories of CSVs: one GitHub
 Trees API call plus 46 raw file fetches per cold load, 16 of them just for the
-QC rule tables. It now reads one manifest plus one artifact.
+QC rule tables. It now reads one manifest plus one bundle.
 
 The split is by **how often a thing changes**, so a one-line rule edit does not
 invalidate a cached taxonomy payload:
 
-| Artifact | Gzipped | Volatility | Contents |
+| Bundle | Gzipped | Volatility | Contents |
 |---|---|---|---|
 | `qc-metadata.json` | ~6 KB | changes most weeks | the 6 QC rule tables |
 | `sites.json` | ~8 KB | occasional | partners, sites, data index |
@@ -41,17 +41,17 @@ The index, and the contract. It carries:
 - `schema_version` — consumers must refuse a major version they do not
   understand. Reading unknown rules as "no rules" would let a QC run report a
   clean pass having checked nothing.
-- `table_index` — which artifact holds which table.
-- `artifacts[*].tables[*].columns` — **the declared column types.** JSON cannot
+- `table_index` — which bundle holds which table.
+- `bundles[*].tables[*].columns` — **the declared column types.** JSON cannot
   tell a `null` from a typed `NA`, so a column that happened to be entirely
   null would be read back as the wrong type. Consumers coerce from this schema
   instead of guessing, which is what makes `uuid_identity` reliably logical.
-- `sha256` per artifact and per source file, so CI can prove `dist/` was built
+- `sha256` per bundle and per source file, so CI can prove `dist/` was built
   from the committed sources.
 
 ## Reading these from another language
 
-The artifacts are plain UTF-8 JSON: each table is an array of row objects with
+The bundles are plain UTF-8 JSON: each table is an array of row objects with
 `null` for missing values. Pair the rows with the manifest's declared types and
 you get the same tables `marinegeo.utils` builds. Nothing else is needed — in
 particular, no reimplementation of the YAML flattener.

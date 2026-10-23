@@ -53,7 +53,7 @@ ns <- asNamespace("marinegeo.utils")
 # Resolve registries from THIS working tree, not from the remote default
 # branch -- otherwise an unmerged change validates against main and the run is
 # meaningless. Strict mode turns a resolution failure into an error rather than
-# a silent fall back to the bundled copy, which here would validate the wrong
+# a silent fall back to the in-package copy, which here would validate the wrong
 # rules entirely.
 options(
   marinegeo.utils.metadata_local = root,

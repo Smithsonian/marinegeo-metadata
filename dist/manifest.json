@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-23T20:11:30Z",
+  "generated_at": "2026-10-23T20:50:48Z",
   "generator": "R/generate-metadata-dist.R",
-  "artifacts": {
+  "bundles": {
     "qc-metadata": {
       "path": "dist/qc-metadata.json",
-      "sha256": "8cf55f3d80c38714e1b04adc4e8d33ab3cc7923e1a825f632d02954197d719c7",
-      "bytes": 120608,
+      "sha256": "e9450b2fc6e6f2542de59e9aed576c7d03910247ae68d1fd7443373c9e34f531",
+      "bytes": 120606,
       "tables": {
         "database_structure": {
           "rows": 570,
@@ -230,8 +230,8 @@
     },
     "sites": {
       "path": "dist/sites.json",
-      "sha256": "1f00f40a9cd4c61cbbfe6def061d8e880924957786bd4b686bf7a12e82700a66",
-      "bytes": 53496,
+      "sha256": "c190b4d2d80d60b87308bbdba0260a593b7947635d879e3be4dfd9eb770de832",
+      "bytes": 53494,
       "tables": {
         "partner_codes": {
           "rows": 72,
@@ -328,8 +328,8 @@
     },
     "taxonomy": {
       "path": "dist/taxonomy.json",
-      "sha256": "8db068d28165a6f7905538899242c2bfd5fe0b1a7479cc6b547f354df4610a85",
-      "bytes": 1111998,
+      "sha256": "1f7fe9f822084d98b6d56c8f78d8ff89760c364ff85d47e17a6c8d56f2d07d72",
+      "bytes": 1111996,
       "tables": {
         "observation_lookup": {
           "rows": 1696,
