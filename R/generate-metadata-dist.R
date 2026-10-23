@@ -69,7 +69,7 @@ parse_dir <- fns[[".mg_parse_table_metadata_dir"]]
 flatten <- fns[[".mg_flatten_table_metadata"]]
 validate <- fns[[".mg_validate_table_metadata"]]
 
-SCHEMA_VERSION <- 2L
+SCHEMA_VERSION <- 1L
 
 # An installed build that predates a schema bump still *has* the flattener, so
 # the probe above accepts it -- and it then reads the current YAML as if every
@@ -91,7 +91,11 @@ if (is.na(.pkg_ver) || .pkg_ver < SCHEMA_VERSION) {
 }
 
 read_dir <- function(sub) {
-  files <- sort(list.files(file.path(root, sub), pattern = "\\.csv$", full.names = TRUE))
+  files <- sort(list.files(
+    file.path(root, sub),
+    pattern = "\\.csv$",
+    full.names = TRUE
+  ))
   if (length(files) == 0L) {
     stop("no CSVs in '", sub, "'")
   }
@@ -106,7 +110,7 @@ read_dir <- function(sub) {
 # Encoding guard
 # ---------------------------------------------------------------------------
 #
-# JSON must be valid UTF-8. Checked here, against the raw bytes, before 
+# JSON must be valid UTF-8. Checked here, against the raw bytes, before
 # anything is read or written.
 
 check_utf8 <- function(paths) {
@@ -121,7 +125,9 @@ check_utf8 <- function(paths) {
       bad[[length(bad) + 1L]] <- sprintf(
         "  %s (line %d, byte offset %d, value 0x%s -- '%s' in Latin-1)",
         sub(paste0("^", root, "/"), "", p),
-        line, offset, format(raw[offset]),
+        line,
+        offset,
+        format(raw[offset]),
         iconv(rawToChar(raw[offset]), "ISO-8859-1", "UTF-8")
       )
     }
@@ -140,15 +146,29 @@ check_utf8 <- function(paths) {
 
 message("parsing table-metadata/*.yaml ...")
 docs <- parse_dir(file.path(root, "table-metadata"))
-# Refuse to publish anything that does not validate. 
+# Refuse to publish anything that does not validate.
 validate(docs)
 qc <- flatten(docs)
 message("  ", length(docs), " protocol files -> ", length(qc), " tables")
 
 all_sources <- c(
-  list.files(file.path(root, "table-metadata"), pattern = "\\.ya?ml$", full.names = TRUE),
-  list.files(file.path(root, "sites-and-partners"), pattern = "\\.csv$", recursive = TRUE, full.names = TRUE),
-  list.files(file.path(root, "taxonomy-and-functional-groups"), pattern = "\\.csv$", recursive = TRUE, full.names = TRUE),
+  list.files(
+    file.path(root, "table-metadata"),
+    pattern = "\\.ya?ml$",
+    full.names = TRUE
+  ),
+  list.files(
+    file.path(root, "sites-and-partners"),
+    pattern = "\\.csv$",
+    recursive = TRUE,
+    full.names = TRUE
+  ),
+  list.files(
+    file.path(root, "taxonomy-and-functional-groups"),
+    pattern = "\\.csv$",
+    recursive = TRUE,
+    full.names = TRUE
+  ),
   file.path(root, "marinegeo_data_index.csv")
 )
 message("checking source encodings ...")
@@ -165,9 +185,15 @@ sites <- list(
   )
 )
 taxonomy <- list(
-  observation_lookup = read_dir("taxonomy-and-functional-groups/observation-lookup"),
-  taxonomic_lookup = read_dir("taxonomy-and-functional-groups/taxonomic-lookup"),
-  functional_group_lookup = read_dir("taxonomy-and-functional-groups/functional-group-lookup")
+  observation_lookup = read_dir(
+    "taxonomy-and-functional-groups/observation-lookup"
+  ),
+  taxonomic_lookup = read_dir(
+    "taxonomy-and-functional-groups/taxonomic-lookup"
+  ),
+  functional_group_lookup = read_dir(
+    "taxonomy-and-functional-groups/functional-group-lookup"
+  )
 )
 
 artifacts <- list(
@@ -209,7 +235,13 @@ as_records <- function(d) {
   d <- as.data.frame(d)
   attr(d, "spec") <- NULL
   attr(d, "problems") <- NULL
-  jsonlite::toJSON(d, dataframe = "rows", na = "null", auto_unbox = TRUE, digits = NA)
+  jsonlite::toJSON(
+    d,
+    dataframe = "rows",
+    na = "null",
+    auto_unbox = TRUE,
+    digits = NA
+  )
 }
 
 write_json_file <- function(txt, path) {
@@ -235,8 +267,10 @@ for (aname in names(artifacts)) {
   tabs <- artifacts[[aname]]
 
   body <- paste0(
-    '{\n  "schema_version": ', SCHEMA_VERSION,
-    ',\n  "artifact": "', aname,
+    '{\n  "schema_version": ',
+    SCHEMA_VERSION,
+    ',\n  "artifact": "',
+    aname,
     '",\n  "tables": {\n',
     paste(
       vapply(
@@ -262,9 +296,12 @@ for (aname in names(artifacts)) {
     tpath <- file.path(tables_dir, paste0(tn, ".json"))
     write_json_file(
       paste0(
-        '{\n  "schema_version": ', SCHEMA_VERSION,
-        ',\n  "table": "', tn,
-        '",\n  "rows": ', as_records(tabs[[tn]]),
+        '{\n  "schema_version": ',
+        SCHEMA_VERSION,
+        ',\n  "table": "',
+        tn,
+        '",\n  "rows": ',
+        as_records(tabs[[tn]]),
         "\n}"
       ),
       tpath
@@ -273,22 +310,34 @@ for (aname in names(artifacts)) {
   }
 
   message(
-    "  dist/", aname, ".json  ",
-    format(file.size(apath), big.mark = ","), " bytes, ",
-    length(tabs), " tables"
+    "  dist/",
+    aname,
+    ".json  ",
+    format(file.size(apath), big.mark = ","),
+    " bytes, ",
+    length(tabs),
+    " tables"
   )
 }
 
 # Source hashes let CI prove dist/ was regenerated from the committed sources.
 source_files <- c(
-  list.files(file.path(root, "table-metadata"), pattern = "\\.ya?ml$", full.names = TRUE),
+  list.files(
+    file.path(root, "table-metadata"),
+    pattern = "\\.ya?ml$",
+    full.names = TRUE
+  ),
   list.files(
     file.path(root, "sites-and-partners"),
-    pattern = "\\.csv$", recursive = TRUE, full.names = TRUE
+    pattern = "\\.csv$",
+    recursive = TRUE,
+    full.names = TRUE
   ),
   list.files(
     file.path(root, "taxonomy-and-functional-groups"),
-    pattern = "\\.csv$", recursive = TRUE, full.names = TRUE
+    pattern = "\\.csv$",
+    recursive = TRUE,
+    full.names = TRUE
   ),
   file.path(root, "marinegeo_data_index.csv")
 )
@@ -299,7 +348,10 @@ sources <- stats::setNames(
 
 manifest <- list(
   schema_version = SCHEMA_VERSION,
-  generated_at = format(as.POSIXct(Sys.time(), tz = "UTC"), "%Y-%m-%dT%H:%M:%SZ"),
+  generated_at = format(
+    as.POSIXct(Sys.time(), tz = "UTC"),
+    "%Y-%m-%dT%H:%M:%SZ"
+  ),
   generator = "R/generate-metadata-dist.R",
   artifacts = manifest_artifacts,
   table_index = table_index,
@@ -322,6 +374,9 @@ if (length(stray) > 0) {
 }
 
 message(
-  "wrote dist/manifest.json (", length(table_index), " tables across ",
-  length(manifest_artifacts), " artifacts)"
+  "wrote dist/manifest.json (",
+  length(table_index),
+  " tables across ",
+  length(manifest_artifacts),
+  " artifacts)"
 )

@@ -26,9 +26,8 @@ never edit those.
 ## Shape
 
 ```yaml
-schema_version: 2
+schema_version: 1
 protocol: Seagrass Monitoring     # file-level default
-level: 2                          # file-level default
 
 tables:
 - table_id: seagrass-leaf-monitoring-v1
@@ -54,7 +53,7 @@ tables:
           taxon_within: Genus:Zostera
 ```
 
-`protocol` and `level` may be overridden on an individual table.
+`protocol` may be overridden on an individual table.
 
 **`columns:` is a sequence, not a mapping.** Column order is significant —
 `qc_check_columns()` reports a column-order issue against it — and a YAML

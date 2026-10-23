@@ -9,7 +9,11 @@ tm <- file.path(root, "table-metadata")
 stopifnot(dir.exists(tm))
 
 read_dir <- function(sub) {
-  files <- sort(list.files(file.path(tm, sub), pattern = "\\.csv$", full.names = TRUE))
+  files <- sort(list.files(
+    file.path(tm, sub),
+    pattern = "\\.csv$",
+    full.names = TRUE
+  ))
   stopifnot(length(files) > 0)
   readr::read_csv(files, show_col_types = FALSE, progress = FALSE)
 }
@@ -34,7 +38,10 @@ out_names <- c(
   "seagrass-monitoring_data-structure.csv" = "seagrass-monitoring.yaml"
 )
 
-ds_files <- sort(list.files(file.path(tm, "data-structure"), pattern = "\\.csv$"))
+ds_files <- sort(list.files(
+  file.path(tm, "data-structure"),
+  pattern = "\\.csv$"
+))
 stopifnot(setequal(ds_files, names(out_names)))
 
 # ---------------------------------------------------------------------------
@@ -77,7 +84,11 @@ when_block <- function(cid, with_table = FALSE) {
   terms <- lapply(seq_len(nrow(rows)), function(i) {
     op <- rows$operator[[i]]
     term <- list(column = rows$column_name[[i]])
-    term[[op]] <- if (op %in% na_operators) TRUE else pipe_value(rows$value[[i]])
+    term[[op]] <- if (op %in% na_operators) {
+      TRUE
+    } else {
+      pipe_value(rows$value[[i]])
+    }
     term
   })
 
@@ -110,7 +121,9 @@ orphans <- function(d, label) {
   bad <- unique(wanted[!wanted %in% known_cols])
   if (length(bad) > 0) {
     stop(
-      "\n", label, " reference column(s) absent from data-structure:\n",
+      "\n",
+      label,
+      " reference column(s) absent from data-structure:\n",
       paste0("  - ", bad, collapse = "\n"),
       "\n\nThese rows cannot be expressed in the nested format and would be",
       "\nsilently dropped. Fix the source CSV (correct the table_id, or add",
@@ -148,7 +161,6 @@ for (src in ds_files) {
   )
 
   file_protocol <- names(sort(table(ds$protocol), decreasing = TRUE))[[1]]
-  file_level <- as.numeric(names(sort(table(ds$level), decreasing = TRUE))[[1]])
 
   table_ids <- unique(ds$table_id)
   tables <- list()
@@ -159,9 +171,6 @@ for (src in ds_files) {
     node <- list(table_id = tid)
     if (rows$protocol[[1]] != file_protocol) {
       node$protocol <- rows$protocol[[1]]
-    }
-    if (rows$level[[1]] != file_level) {
-      node$level <- num(rows$level[[1]])
     }
 
     node$columns <- lapply(seq_len(nrow(rows)), function(i) {
@@ -181,9 +190,17 @@ for (src in ds_files) {
       }
 
       # Controlled vocabulary: one entry per condition group.
-      v <- vocab[vocab$table_id == tid & vocab$column_name == cname, , drop = FALSE]
+      v <- vocab[
+        vocab$table_id == tid & vocab$column_name == cname,
+        ,
+        drop = FALSE
+      ]
       if (nrow(v) > 0) {
-        groups <- unique(ifelse(nz(v$condition_id), as.character(v$condition_id), NA))
+        groups <- unique(ifelse(
+          nz(v$condition_id),
+          as.character(v$condition_id),
+          NA
+        ))
         entries <- lapply(groups, function(g) {
           sel <- if (is.na(g)) !nz(v$condition_id) else v$condition_id == g
           values <- as.list(as.character(v$value[sel]))
@@ -200,7 +217,11 @@ for (src in ds_files) {
 
       # Numeric ranges: `range_type: ~` is emitted explicitly for rows that have
       # none, so the 12 inert rows in the CSVs survive the round trip.
-      r <- ranges[ranges$table_id == tid & ranges$column_name == cname, , drop = FALSE]
+      r <- ranges[
+        ranges$table_id == tid & ranges$column_name == cname,
+        ,
+        drop = FALSE
+      ]
       if (nrow(r) > 0) {
         entries <- lapply(seq_len(nrow(r)), function(j) {
           e <- list()
@@ -219,7 +240,11 @@ for (src in ds_files) {
           }
           e
         })
-        col$numeric_range <- if (length(entries) == 1L) entries[[1]] else entries
+        col$numeric_range <- if (length(entries) == 1L) {
+          entries[[1]]
+        } else {
+          entries
+        }
       }
 
       col
@@ -305,7 +330,7 @@ for (src in ds_files) {
     tables[[length(tables) + 1L]] <- node
   }
 
-  doc <- list(schema_version = 2L, protocol = file_protocol, level = num(file_level))
+  doc <- list(schema_version = 1L, protocol = file_protocol)
   doc$tables <- tables
 
   # Unreferenced conditions whose table belongs to this file.
@@ -318,7 +343,13 @@ for (src in ds_files) {
   out <- file.path(tm, out_names[[src]])
   writeLines(
     c(
-      paste0("# ", out_names[[src]], " -- MarineGEO table metadata (", file_protocol, ")"),
+      paste0(
+        "# ",
+        out_names[[src]],
+        " -- MarineGEO table metadata (",
+        file_protocol,
+        ")"
+      ),
       "#",
       "# Authoring format. The flat registry tables the QC engine consumes are",
       "# derived from this file; see R/convert-table-metadata-to-yaml.R.",
@@ -331,7 +362,15 @@ for (src in ds_files) {
     ),
     out
   )
-  message("wrote ", out_names[[src]], " (", length(tables), " tables, ", nrow(ds), " columns)")
+  message(
+    "wrote ",
+    out_names[[src]],
+    " (",
+    length(tables),
+    " tables, ",
+    nrow(ds),
+    " columns)"
+  )
 }
 
 message("done")

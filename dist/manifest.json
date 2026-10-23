@@ -1,12 +1,12 @@
 {
-  "schema_version": 2,
-  "generated_at": "2026-10-23T19:41:23Z",
+  "schema_version": 1,
+  "generated_at": "2026-10-23T20:11:30Z",
   "generator": "R/generate-metadata-dist.R",
   "artifacts": {
     "qc-metadata": {
       "path": "dist/qc-metadata.json",
-      "sha256": "f323b9060a623167bb686051132a715ccdba09e488b7596abe607ceacca1b1b8",
-      "bytes": 126308,
+      "sha256": "8cf55f3d80c38714e1b04adc4e8d33ab3cc7923e1a825f632d02954197d719c7",
+      "bytes": 120608,
       "tables": {
         "database_structure": {
           "rows": 570,
@@ -18,10 +18,6 @@
             {
               "name": "table_id",
               "type": "character"
-            },
-            {
-              "name": "level",
-              "type": "double"
             },
             {
               "name": "column_name",
@@ -234,7 +230,7 @@
     },
     "sites": {
       "path": "dist/sites.json",
-      "sha256": "83e1634124267601a344f78f85a630cb121acbadf7d1c51ab55522dbfa6a7e2a",
+      "sha256": "1f00f40a9cd4c61cbbfe6def061d8e880924957786bd4b686bf7a12e82700a66",
       "bytes": 53496,
       "tables": {
         "partner_codes": {
@@ -332,7 +328,7 @@
     },
     "taxonomy": {
       "path": "dist/taxonomy.json",
-      "sha256": "3d8ee64ff3d020357e8c399517c1dfb4228e095797bcf2b4f319d81166bf0b10",
+      "sha256": "8db068d28165a6f7905538899242c2bfd5fe0b1a7479cc6b547f354df4610a85",
       "bytes": 1111998,
       "tables": {
         "observation_lookup": {
@@ -428,13 +424,13 @@
     "functional_group_lookup": "taxonomy"
   },
   "sources": {
-    "table-metadata/darwin-core.yaml": "d028b5db2844eaf97bc7ac92757edca9f29b258cbb8ab9e46f7bab3bbf333a96",
-    "table-metadata/fouling-panels.yaml": "8ba84603cf38f0176b1a37034be6c0041b70bc0b16dae5b9eaca209065c16bdf",
-    "table-metadata/marinegeo-metadata-tables.yaml": "3d010693eae300e1e068d8007ea90fd8d8f2b901310a360d9b0bce79733e7fb5",
-    "table-metadata/oyster-experiment-2025.yaml": "fc522e6baac5b7510869614a26ec6d094a9eb048bcb54ca019dd5cbc2e39becc",
-    "table-metadata/oyster-reef-monitoring.yaml": "4d513ee459fba41526d7be5f4feadf96128bad983b38cf711a78604b0c2af7a8",
-    "table-metadata/reef-life-survey.yaml": "c4377df5cc77c5b5fa10016d978f896786e3d8ff4f01e5b3a2fce81a9a8328c9",
-    "table-metadata/seagrass-monitoring.yaml": "7c864cd75fa737924b58b00fe985279e6735b047e0fd6558628468dfa07dd4dc",
+    "table-metadata/darwin-core.yaml": "3c41ba4a6f206a19cc5dea050195a1285f8d05355e816c2dcc11a0263e05eec0",
+    "table-metadata/fouling-panels.yaml": "832ef2e1fe78e3a0df7aa967e42f420c952cb351700680210342f2094b4c5b28",
+    "table-metadata/marinegeo-metadata-tables.yaml": "359d754fdb78e906fd96d68869f8547a18a50947b76e3ac3fbf5e78b673d9851",
+    "table-metadata/oyster-experiment-2025.yaml": "ca6b3b85d54b5a64279fea64dbad7b353e3cb541eb326afdc71ed60cc6c6e44d",
+    "table-metadata/oyster-reef-monitoring.yaml": "4e580e2cd028816124ab095c12563c0ed9422ff6b69a65f157e7000267e72abe",
+    "table-metadata/reef-life-survey.yaml": "966137b43f7b863e3ee13abfbfc68ab9aa7b81def3a4f33ce3a622abf04177c3",
+    "table-metadata/seagrass-monitoring.yaml": "69cdeebb60eb720ee0d575a42d3c74dd64da311a69ec5a2bff2dd733e7ac3d45",
     "sites-and-partners/partner-codes/partners.csv": "97ed3d724bc1315ff3b79a82a8fb417e4ee1ef84d6dd20ec5e010de665f8555f",
     "sites-and-partners/site-names/3M_partners_locations.csv": "8cf0733171468bfc75c3bcc95f3fb99efb5c40fe22241c8e2722d925c22e83fb",
     "sites-and-partners/site-names/BLZ-CBC_locations.csv": "f65b903241bbb9e730ad295ced90efa4d76a1b9a964d73ffff6d60e6ab914a44",
