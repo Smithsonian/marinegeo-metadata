@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-23T20:50:48Z",
+  "generated_at": "2026-10-26T15:36:26Z",
   "generator": "R/generate-metadata-dist.R",
   "bundles": {
     "qc-metadata": {
       "path": "dist/qc-metadata.json",
-      "sha256": "e9450b2fc6e6f2542de59e9aed576c7d03910247ae68d1fd7443373c9e34f531",
-      "bytes": 120606,
+      "sha256": "320c2711e0b04767326a941ffa2e6db2931c5c835b176e8126a7806782960460",
+      "bytes": 121360,
       "tables": {
         "database_structure": {
           "rows": 570,
@@ -125,7 +125,7 @@
           ]
         },
         "aggregate_rules": {
-          "rows": 4,
+          "rows": 6,
           "columns": [
             {
               "name": "rule_id",
@@ -428,7 +428,7 @@
     "table-metadata/fouling-panels.yaml": "832ef2e1fe78e3a0df7aa967e42f420c952cb351700680210342f2094b4c5b28",
     "table-metadata/marinegeo-metadata-tables.yaml": "359d754fdb78e906fd96d68869f8547a18a50947b76e3ac3fbf5e78b673d9851",
     "table-metadata/oyster-experiment-2025.yaml": "ca6b3b85d54b5a64279fea64dbad7b353e3cb541eb326afdc71ed60cc6c6e44d",
-    "table-metadata/oyster-reef-monitoring.yaml": "4e580e2cd028816124ab095c12563c0ed9422ff6b69a65f157e7000267e72abe",
+    "table-metadata/oyster-reef-monitoring.yaml": "4b61739b188a0c21a8c3e62e5fc0f6e77764c0152e1d083fd366450da6161dd0",
     "table-metadata/reef-life-survey.yaml": "966137b43f7b863e3ee13abfbfc68ab9aa7b81def3a4f33ce3a622abf04177c3",
     "table-metadata/seagrass-monitoring.yaml": "69cdeebb60eb720ee0d575a42d3c74dd64da311a69ec5a2bff2dd733e7ac3d45",
     "sites-and-partners/partner-codes/partners.csv": "97ed3d724bc1315ff3b79a82a8fb417e4ee1ef84d6dd20ec5e010de665f8555f",
@@ -442,15 +442,15 @@
     "sites-and-partners/site-names/GBR-SCT_locations.csv": "33584cde9649e73b6c834ecd0944a5299222bc962a3dbd722a46916c46a9f2e8",
     "sites-and-partners/site-names/IRL-KYF_locations.csv": "252393fa1c5330a4811cdc70fa0879ca468afee7b20068a23eaf2ec011aa308a",
     "sites-and-partners/site-names/oyster_project_partners.csv": "6f9c4461a9477a592671254c630eb7aee819129a3d4c756e5962a9622d41e4f6",
-    "sites-and-partners/site-names/PAN-BDT_locations.csv": "1f4150099e1bc9dc4c2be6ac7f57938516d94a291caad8ce0629c0da3c28d29a",
+    "sites-and-partners/site-names/PAN-BDT_locations.csv": "7196fa23ebaaa45b106eb17184582489f638c88859bd70f2909283a8c8826601",
     "sites-and-partners/site-names/PER-CCP_locations.csv": "0fad6eae2ce49e286537d72482e0345977665219bcdf64b25b3cf5112d515060",
-    "sites-and-partners/site-names/POR-MAD_locations.csv": "ec923db602fd72fcb5246aed4238392b6e6782f6e7162fadcfdf7ed5134eeb66",
+    "sites-and-partners/site-names/POR-MAD_locations.csv": "2844e86b6ef91e8d7a9108b9ff8e7c2c12d5b90250f17421687100cba6ecd19a",
     "sites-and-partners/site-names/project-partners_locations.csv": "7bb94c333d475a62ebe2a1f19d875adc0f39012b66ecd5adae1ccc4aa78588bc",
     "sites-and-partners/site-names/SAU-RSK_locations.csv": "79218e024d7894ac5d3835f90d82a42635aca3a8684081553e2ff2293d372f5a",
     "sites-and-partners/site-names/USA-ALD_locations.csv": "2f304b13d0e404a06b567bbb7b25ae726fe83b2407556e89c9ad5820e06267c5",
     "sites-and-partners/site-names/USA-IRL_locations.csv": "0b4d23fc2328b884a52702d55bfa25f776ad5feeee46007faae6db3dbe4f3bbe",
     "sites-and-partners/site-names/USA-LIS_locations.csv": "9253d703be2b89b1bd8b3470688a1c1043df3bb04403a3165b26f6b7c8cb87c1",
-    "sites-and-partners/site-names/USA-MDA_locations.csv": "dde00e1c9f7bd3dd5f9c62b92d6846a4cedd2ec72c997cb745b6201d3b7dc79e",
+    "sites-and-partners/site-names/USA-MDA_locations.csv": "13178fe689a9c224b2e694688b974e2bdd0a166b80fa5655524353a903fe9ec8",
     "sites-and-partners/site-names/USA-SFB_locations.csv": "73c189419676d9c1fb1271549df7cc82487fe51e6330209a02fefdf3fbc59779",
     "sites-and-partners/site-names/USA-TXS_locations.csv": "2c247ebbb86fa598629b7209e1879a155426e6c1b0b43902147ad775e156bed3",
     "sites-and-partners/site-names/USA-VAY_locations.csv": "136450fe33db017587e74fee78b62a1532a42b80c05a5293ad479c7465725d04",
@@ -459,7 +459,7 @@
     "taxonomy-and-functional-groups/functional-group-lookup/oyster_composition.csv": "d3741ee45d0539aa7c3a1ef4f44aafb0731926ebf8fb2257d5a9c804446b4d18",
     "taxonomy-and-functional-groups/functional-group-lookup/oyster_density.csv": "26f5909a13262af68a3f712190f04887484238a1ca4bc7955650228a0e0491bf",
     "taxonomy-and-functional-groups/functional-group-lookup/vegetation.csv": "1a21558f409f5ddb121f45aff28c24cf139bdd1edc0564b55a00d41e6ce916db",
-    "taxonomy-and-functional-groups/observation-lookup/marinegeo_observation_ids.csv": "ec7c8b60df3928ed70638d099fc1c9312d43d07b893e091765aec082ef9b7d5e",
+    "taxonomy-and-functional-groups/observation-lookup/marinegeo_observation_ids.csv": "68f16d382d03e70b81aa6e1126f060c683e33b634b77e184589bc0a677677436",
     "taxonomy-and-functional-groups/taxonomic-lookup/marinegeo_taxonomic_lookup.csv": "496195b2a32b02119e1a47038963f2ad75d1ffe097859652935be7d278196c04",
     "marinegeo_data_index.csv": "98127b378055723624aa177871f59f33bd9b6b643cf1a11b37cfebb3506ab563"
   }
