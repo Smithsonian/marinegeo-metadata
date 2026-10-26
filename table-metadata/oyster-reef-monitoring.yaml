@@ -1,8 +1,5 @@
 # oyster-reef-monitoring.yaml -- MarineGEO table metadata (Oyster Reef Monitoring)
 #
-# Authoring format. The flat registry tables the QC engine consumes are
-# derived from this file; see R/convert-table-metadata-to-yaml.R.
-#
 # Quote any value YAML 1.1 would otherwise read as a number or a boolean:
 # column names like "137.5", vocabulary values like "0.1" or "TRUE",
 # and comparison operators like ">=".
@@ -217,19 +214,9 @@ tables:
       severity: fail
       description: Evaluating number of quadrats per transect
     cross_table:
-    - rule_id: substrate_transect_has_metadata
-      relation: subset
-      right_table: oyster-transect-metadata-monitoring-v1
-      group_by:
-      - sample_event_id
-      'on':
-      - left: transect
-        right: transect
-      severity: fail
-      description: Every surveyed transect must have transect metadata
     - rule_id: oyster_quadrat_sets_match
       relation: equal_set
-      right_table: oyster-height-monitoring-v1
+      right_table: oyster-complexity-monitoring-v1
       group_by:
       - sample_event_id
       - transect
@@ -237,7 +224,7 @@ tables:
       - left: quadrat
         right: quadrat
       severity: warn
-      description: ILLUSTRATIVE (review or delete) - substrate and height quadrat
+      description: oyster composition and rugosity/cluster height quadrat
         sets should match
 - table_id: oyster-height-monitoring-v1
   columns:

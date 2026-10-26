@@ -1,8 +1,5 @@
 # marinegeo-metadata-tables.yaml -- MarineGEO table metadata (taxonomy-and-functional-groups)
 #
-# Authoring format. The flat registry tables the QC engine consumes are
-# derived from this file; see R/convert-table-metadata-to-yaml.R.
-#
 # Quote any value YAML 1.1 would otherwise read as a number or a boolean:
 # column names like "137.5", vocabulary values like "0.1" or "TRUE",
 # and comparison operators like ">=".
