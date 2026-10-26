@@ -206,7 +206,6 @@ tables:
         all:
         - column: cover_type
           not_in: canopy taxa
-      checks:
     - rule_id: oyster_comp_quadrats_per_transect
       group_by:
       - sample_event_id
