@@ -5,194 +5,91 @@ rules that apply to it. It is the source of truth for
 `marinegeo.utils::qc_run()`, which resolves it at runtime — so adding a rule
 needs no code change.
 
-One YAML file per protocol. Each file declares its tables, each table its
-columns in order, and each column the rules that constrain it.
+Three directories of flat CSVs, one concern each. Files within a directory share
+a header and are row-bound in sorted filename order, so a protocol's rules live
+in whichever file its name routes to.
 
 ```
 table-metadata/
-  darwin-core.yaml
-  fouling-panels.yaml
-  marinegeo-metadata-tables.yaml     # the registry lookups' own structure
-  oyster-experiment-2025.yaml
-  oyster-reef-monitoring.yaml
-  reef-life-survey.yaml
-  seagrass-monitoring.yaml
+  data-structure/                      # columns, types, required-ness
+    darwin-core_data-structure.csv
+    fouling-panels_data-structure.csv
+    marinegeo_metadata_tables.csv      # the registry lookups' own structure
+    oyster-experiment-2025_data-structure.csv
+    oyster-reef-monitoring_data-structure.csv
+    reef-life-survey_data-structure.csv
+    seagrass-monitoring_data-structure.csv
+  categorical-values/                  # controlled vocabularies
+    fouling_monitoring_vocab.csv
+    oyster_monitoring_and_experiments_vocab.csv
+    seagrass_monitoring_vocab.csv
+  numeric-ranges/                      # numeric bounds
+    oyster_monitoring_numeric_ranges.csv
+    seagrass_monitoring_numeric_ranges.csv
 ```
 
 These are the authored files. The flat tables the QC engine consumes are
 generated into [`dist/`](../dist/README.md) by `R/generate-metadata-dist.R` —
 never edit those.
 
-## Shape
+## data-structure/
 
-```yaml
-schema_version: 1
-protocol: Seagrass Monitoring     # file-level default
+`protocol,table_id,column_name,data_type,missing_values,uuid_identity`
 
-tables:
-- table_id: seagrass-leaf-monitoring-v1
-  columns:
-  - name: sample_event_id
-    type: STRING
-    na_values: fail
-    uuid_identity: true
-  - name: leaf_length_mm
-    type: DOUBLE
-    na_values: warn
-    numeric_range:
-    - range_type: exclusive
-      min_fail: 0
-    - range_type: inclusive
-      min_warn: 20
-      max_warn: 1200
-      when:
-        label: zostera_leaves
-        description: Leaf of a Zostera species
-        all:
-        - column: scientific_name
-          taxon_within: Genus:Zostera
-```
-
-`protocol` may be overridden on an individual table.
-
-**`columns:` is a sequence, not a mapping.** Column order is significant —
-`qc_check_columns()` reports a column-order issue against it — and a YAML
-mapping is unordered. A sequence also lets a column be named `137.5` or `n`,
-which as mapping keys would be mangled by YAML's type resolution.
-
-In YAML, a sequence is an ordered list whose entries each start with `- `,
-while a mapping is a set of unordered `key:` / value pairs. Under a sequence
-the column name is a *value* given under `name:`, not a key:
-
-```yaml
-columns:                   # a sequence -- ordered
-- name: sample_event_id    # each entry is a mapping of column fields
-  type: STRING
-- name: "137.5"
-  type: INT
-```
-
-### Column fields
+One row per column of one table.
 
 | Field | Meaning |
 |---|---|
-| `name` | Column name. Quote it if it looks numeric: `- name: "137.5"` |
-| `type` | `STRING`, `INT`, `TINYINT`, `DOUBLE`, `DATE`, `BOOL` |
-| `na_values` | `fail`, `warn`, or `allow` — the severity an `NA` gets. Omit for no rule |
-| `uuid_identity` | `true` when the column is part of the row identity |
-| `one_of` | Controlled vocabulary |
-| `numeric_range` | One range mapping, or a sequence of them |
+| `protocol` | Monitoring or experiment program, e.g. `Seagrass Monitoring`. Also decides which file the row belongs in. |
+| `table_id` | The table this column belongs to, e.g. `seagrass-cover-monitoring-v1`. Must appear in `marinegeo_data_index.csv`. |
+| `column_name` | Expected column name in the data table. |
+| `data_type` | One of `STRING`, `DOUBLE`, `INT`, `TINYINT`, `DATE`, `BOOL`, `BOOLEAN`. |
+| `missing_values` | `fail`, `warn` or `allow`. Empty means no missing-value rule. |
+| `uuid_identity` | `TRUE` on the columns that together identify a row, otherwise empty. Never `FALSE`. |
 
-### Controlled vocabularies
+**Row order is significant.** `qc_check_columns()` reports column *order*
+problems, and the expected order is the row order of this table — which is the
+sorted filename order, then the row order within each file. Moving a row changes
+what the QC engine expects, so keep a table's columns together and in the order
+the data has them.
 
-```yaml
-  - name: cover_method
-    type: STRING
-    one_of: [Braun-Blanquet, point count, percent bins]
+## categorical-values/
 
-  - name: cover_code
-    type: DOUBLE
-    one_of: ["0", "0.1", "0.5", "1"]     # quoted: these are strings
-```
+`table_id,column_name,value`
 
-### Numeric ranges
+One row per permitted value. A column with no rows here is unconstrained.
+Values are always read as text, so `0.1` and `TRUE` stay strings and are
+compared as written.
 
-`range_type` is required and discriminates the entry: `inclusive`, `exclusive`,
-or `~` (none). Bounds are `max_fail`, `min_fail`, `max_warn`, `min_warn`; omit
-the ones that do not apply.
+## numeric-ranges/
 
-A `range_type: ~` entry declares no bounds; `~` is YAML's explicit form of
-null. Note that bounds given *alongside* `range_type: ~` are ignored by the QC
-engine — if you write bounds, give the entry a real `range_type`.
+`table_id,column_name,range_type,max_fail,min_fail,max_warn,min_warn`
 
-### Table-scoped checks
+One row per range rule. `range_type` is `inclusive` or `exclusive` and decides
+whether a value exactly on a bound passes. Bounds may be left empty
+individually — a rule may warn without failing, or bound one side only.
 
-Rules spanning several columns hang off the table, not a column.
+**`range_type` must never be blank on a row that sets a bound.** The QC engine
+drops rows with no `range_type`, so such a rule looks live to whoever wrote it
+and does not exist to the engine. A row with no `range_type` *and* no bounds is
+a deliberate placeholder for a range nobody has decided yet, and is ignored.
 
-```yaml
-  checks:
-    aggregate:
-    - rule_id: seagrass_cover_point_total
-      group_by: [sample_event_id, transect, quadrat]
-      value: point_count
-      function: sum
-      comparison: "=="            # quoted
-      target_column: points_in_quadrat
-      severity: fail
-      description: Point counts in a quadrat must sum to points_in_quadrat
+## CSV conventions
 
-    cross_table:
-    - rule_id: leaf_quadrat_in_cover
-      relation: subset
-      right_table: seagrass-cover-monitoring-v1
-      group_by: [sample_event_id, transect]
-      on:
-      - left: quadrat
-        right: quadrat
-      severity: fail
-```
-
-An aggregate rule takes **either** `target_column` **or** `target_value`
-(optionally with `tolerance`), never both.
-
-A cross-table rule is hosted on the **left** table — the one whose rows are
-checked, and against which failures are reported. `on:` pairs the join columns
-by name, so a left/right length mismatch is not expressible.
-
-### Predicates (`when:`)
-
-A rule applies conditionally when it carries a `when:` block:
-
-```yaml
-      when:
-        label: primary_points            # optional; pins the reported id
-        description: Excluding canopy taxa from the point total
-        all:
-        - column: cover_type
-          not_in: [canopy taxa]
-```
-
-`all:` is the only combinator — terms are AND-ed. **There is no `any:`**; the
-QC engine composes predicates with `&` only, so an `any:` block is rejected
-outright rather than silently misread. Express a disjunction as a multi-value
-`in:`.
-
-Each term names one `column` and exactly one operator:
-
-`in`, `not_in`, `==`, `!=`, `>`, `>=`, `<`, `<=`, `is_na`, `not_na`, `matches`,
-`taxon_within`, `taxon_not_within`, `in_functional_group`,
-`not_in_functional_group`
-
-The set is **closed on purpose**. This metadata is fetched over the network into
-every user's session, so an operator that evaluated code would make this repo a
-remote code-execution path. Adding one is a deliberate edit in
-`marinegeo.utils` (`R/qc_mg_conditional.R`), not something metadata can do.
-
-`is_na` / `not_na` take no operand; write `not_na: true`.
-
-Predicates are written inline where they are used, so there are no condition
-ids to keep in sync. `label:` is optional and only pins the id that appears in
-QC messages. A predicate genuinely shared by several rules can go in a
-file-level `conditions:` block.
-
-## Quoting
-
-`yaml::as.yaml` quotes correctly when generating, but hand-edits need care.
-YAML 1.1 resolves unquoted scalars aggressively — `0.1` becomes a number, and
-`y`, `N`, `no`, `on`, `yes`, `off` all become booleans. Quote:
-
-- column names that look numeric — `- name: "137.5"`
-- vocabulary values that look numeric or boolean — `["0", "0.1", "TRUE"]`
-- comparison operators — `">="` (bare `>` is a YAML block indicator and will
-  not parse)
-
-Source files must be **valid UTF-8**.
+- **UTF-8, no BOM.** A BOM corrupts the first column name of whichever file
+  sorts first in its directory, which silently removes that column. The
+  generator refuses to build if a rule-table CSV has one.
+- **LF line endings** (enforced by `.gitattributes`), with a trailing newline.
+- **Empty cell for "not set"** — never `NA`, `NULL` or `~`.
+- Within a directory every file must carry exactly the header above. An extra or
+  renamed column means the QC engine reads the whole table as having no rules,
+  which surfaces as a clean QC pass rather than an error.
 
 ## Changing something
 
-1. Edit the protocol YAML.
-2. `Rscript R/generate-metadata-dist.R` — this validates the schema and all
-   cross-references, and refuses to write if anything fails.
-3. `Rscript R/validate.R` — runs the registry tables against their own QC rules.
-4. Commit the YAML **and** the regenerated `dist/`. There is no CI, so step 3
-   is the only thing that catches a stale `dist/` — run it.
+1. Edit the CSV.
+2. `Rscript R/generate-metadata-dist.R` — rebuilds `dist/`.
+3. `Rscript R/validate.R` — checks the headers, the enums, that every rule keys
+   to a column that exists, and that the row order still matches `dist/`.
+4. Commit the CSV **and** the regenerated `dist/`. There is no CI, so step 3 is
+   the only thing that catches an authoring mistake before it reaches users.

@@ -4,7 +4,7 @@
 #   Rscript R/generate-metadata-dist.R
 #
 # Sources, each in the format that suits its shape:
-#   table-metadata/*.yaml                    nested, hand-authored rule configs
+#   table-metadata/**/*.csv                  tabular, hand-authored rule tables
 #   sites-and-partners/**/*.csv              tabular, hand-authored registries
 #   taxonomy-and-functional-groups/**/*.csv  tabular, machine-generated adjacency
 #   marinegeo_data_index.csv
@@ -21,76 +21,16 @@ suppressPackageStartupMessages({
 root <- normalizePath(".", mustWork = TRUE)
 stopifnot(dir.exists(file.path(root, "table-metadata")))
 
-# The flattener lives in the R package so there is exactly one implementation,
-# exercised by that package's round-trip test. This script is a thin wrapper.
-pkg <- Sys.getenv(
-  "MARINEGEO_UTILS_PATH",
-  file.path(dirname(root), "marinegeo-R-utilities")
-)
-# An installed build may predate the flattener, so probe for the functions
-# themselves rather than trusting that the namespace loads.
-.needed <- c(
-  ".mg_parse_table_metadata_dir",
-  ".mg_flatten_table_metadata",
-  ".mg_validate_table_metadata"
-)
-
-.grab <- function() {
-  ns <- tryCatch(asNamespace("marinegeo.utils"), error = function(e) NULL)
-  if (is.null(ns)) {
-    return(NULL)
-  }
-  if (!all(vapply(.needed, exists, logical(1), envir = ns, inherits = FALSE))) {
-    return(NULL)
-  }
-  stats::setNames(lapply(.needed, get, envir = ns, inherits = FALSE), .needed)
-}
-
-fns <- NULL
-if (requireNamespace("marinegeo.utils", quietly = TRUE)) {
-  fns <- .grab()
-}
-if (is.null(fns)) {
-  if (!dir.exists(pkg)) {
-    stop(
-      "marinegeo.utils with the table-metadata flattener is required ",
-      "(install it, or set MARINEGEO_UTILS_PATH to a local checkout)"
-    )
-  }
-  message("using marinegeo.utils from ", pkg)
-  suppressMessages(pkgload::load_all(pkg, quiet = TRUE))
-  fns <- .grab()
-  if (is.null(fns)) {
-    stop("the checkout at ", pkg, " does not provide the flattener")
-  }
-}
-
-parse_dir <- fns[[".mg_parse_table_metadata_dir"]]
-flatten <- fns[[".mg_flatten_table_metadata"]]
-validate <- fns[[".mg_validate_table_metadata"]]
+# The authored source list, the rule-table headers and their declared column
+# types, shared with R/validate.R.
+source(file.path(root, "R", "sources.R"))
 
 SCHEMA_VERSION <- 1L
 
-# An installed build that predates a schema bump still *has* the flattener, so
-# the probe above accepts it -- and it then reads the current YAML as if every
-# renamed key were absent, writing a well-formed dist/ full of nulls. Refuse a
-# package that does not understand the schema we are about to publish.
-.pkg_ver <- tryCatch(
-  get(".mg_dist_schema_version", envir = asNamespace("marinegeo.utils")),
-  error = function(e) NA_integer_
-)
-if (is.na(.pkg_ver) || .pkg_ver < SCHEMA_VERSION) {
-  stop(
-    "the marinegeo.utils in use understands dist schema ",
-    .pkg_ver,
-    " but this script publishes ",
-    SCHEMA_VERSION,
-    ". Install the current marinegeo.utils, or point MARINEGEO_UTILS_PATH at ",
-    "a checkout that has it."
-  )
-}
-
-read_dir <- function(sub) {
+# Row order is semantic: the package's qc_check_columns() reports column ORDER
+# issues against database_structure, so the sorted file order below is part of
+# the contract, not an implementation detail.
+read_dir <- function(sub, col_types = NULL) {
   files <- sort(list.files(
     file.path(root, sub),
     pattern = "\\.csv$",
@@ -99,7 +39,12 @@ read_dir <- function(sub) {
   if (length(files) == 0L) {
     stop("no CSVs in '", sub, "'")
   }
-  readr::read_csv(files, show_col_types = FALSE, progress = FALSE)
+  readr::read_csv(
+    files,
+    col_types = col_types,
+    show_col_types = FALSE,
+    progress = FALSE
+  )
 }
 
 # ---------------------------------------------------------------------------
@@ -144,35 +89,82 @@ check_utf8 <- function(paths) {
   }
 }
 
-message("parsing table-metadata/*.yaml ...")
-docs <- parse_dir(file.path(root, "table-metadata"))
-# Refuse to publish anything that does not validate.
-validate(docs)
-qc <- flatten(docs)
-message("  ", length(docs), " protocol files -> ", length(qc), " tables")
+# A UTF-8 BOM is valid UTF-8, so check_utf8() cannot see it. readr strips one
+# from the FIRST file of a multi-file read, which is why BOMs have survived
+# here unnoticed -- but on any other file the leading column name keeps the
+# marker, and whether that matters depends on nothing more than sort order.
+#
+# For the rule tables that is a correctness problem: a mangled `table_id` or
+# `protocol` header means the column is missing, and a missing column in a rule
+# table reads downstream as "no rules" -- a clean QC pass that checked nothing.
+# So BOMs are fatal there, and reported but tolerated elsewhere.
+check_bom <- function(paths, fatal) {
+  has_bom <- vapply(
+    paths,
+    function(p) {
+      raw <- readBin(p, "raw", 3L)
+      length(raw) == 3L && identical(raw, as.raw(c(0xEF, 0xBB, 0xBF)))
+    },
+    logical(1)
+  )
+  found <- sub(paste0("^", root, "/"), "", paths[has_bom])
+  if (length(found) == 0) {
+    return(invisible(NULL))
+  }
+  detail <- paste0(
+    "\n  ",
+    paste(found, collapse = "\n  "),
+    "\n\nTo strip one in place:",
+    "\n  sed -i '1s/^\\xef\\xbb\\xbf//' <file>"
+  )
+  if (fatal) {
+    stop("\nrule-table CSV(s) start with a UTF-8 BOM:", detail, call. = FALSE)
+  }
+  warning(
+    "source file(s) start with a UTF-8 BOM:",
+    detail,
+    call. = FALSE,
+    immediate. = TRUE
+  )
+  invisible(NULL)
+}
 
-all_sources <- c(
-  list.files(
-    file.path(root, "table-metadata"),
-    pattern = "\\.ya?ml$",
-    full.names = TRUE
-  ),
-  list.files(
-    file.path(root, "sites-and-partners"),
-    pattern = "\\.csv$",
-    recursive = TRUE,
-    full.names = TRUE
-  ),
-  list.files(
-    file.path(root, "taxonomy-and-functional-groups"),
-    pattern = "\\.csv$",
-    recursive = TRUE,
-    full.names = TRUE
-  ),
-  file.path(root, "marinegeo_data_index.csv")
-)
+all_sources <- mg_source_files(root)
 message("checking source encodings ...")
 check_utf8(all_sources)
+rule_csvs <- list.files(
+  file.path(root, "table-metadata"),
+  pattern = "\\.csv$",
+  recursive = TRUE,
+  full.names = TRUE
+)
+check_bom(rule_csvs, fatal = TRUE)
+check_bom(setdiff(all_sources, rule_csvs), fatal = FALSE)
+
+message("reading table-metadata CSVs ...")
+# Built in the order the bundle has always carried these tables.
+qc <- list()
+for (tn in names(mg_rule_tables)) {
+  spec <- mg_rule_tables[[tn]]
+  tbl <- read_dir(spec$dir, mg_rule_col_types[[tn]])
+  # The generator's half of the header contract; R/validate.R reports every
+  # problem at once, this one refuses to publish.
+  if (!identical(colnames(tbl), spec$cols)) {
+    stop(
+      "'",
+      spec$dir,
+      "' has columns ",
+      paste(colnames(tbl), collapse = ", "),
+      " but ",
+      tn,
+      " requires exactly ",
+      paste(spec$cols, collapse = ", "),
+      call. = FALSE
+    )
+  }
+  qc[[tn]] <- tbl
+  message("  ", spec$dir, "  ", nrow(tbl), " rows")
+}
 
 message("reading CSV registries ...")
 sites <- list(
@@ -306,26 +298,7 @@ for (bname in names(bundles)) {
 }
 
 # Source hashes let CI prove dist/ was regenerated from the committed sources.
-source_files <- c(
-  list.files(
-    file.path(root, "table-metadata"),
-    pattern = "\\.ya?ml$",
-    full.names = TRUE
-  ),
-  list.files(
-    file.path(root, "sites-and-partners"),
-    pattern = "\\.csv$",
-    recursive = TRUE,
-    full.names = TRUE
-  ),
-  list.files(
-    file.path(root, "taxonomy-and-functional-groups"),
-    pattern = "\\.csv$",
-    recursive = TRUE,
-    full.names = TRUE
-  ),
-  file.path(root, "marinegeo_data_index.csv")
-)
+source_files <- all_sources
 sources <- stats::setNames(
   lapply(source_files, sha),
   sub(paste0("^", root, "/"), "", source_files)
