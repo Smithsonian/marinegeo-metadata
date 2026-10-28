@@ -207,14 +207,12 @@ bundles <- list(
 # ---------------------------------------------------------------------------
 
 dist <- file.path(root, "dist")
-tables_dir <- file.path(dist, "tables")
-dir.create(tables_dir, recursive = TRUE, showWarnings = FALSE)
+dir.create(dist, recursive = TRUE, showWarnings = FALSE)
 
 expected <- c(
   "README.md",
   "manifest.json",
-  paste0(names(bundles), ".json"),
-  file.path("tables", paste0(unlist(lapply(bundles, names)), ".json"))
+  paste0(names(bundles), ".json")
 )
 
 # `type` is what consumers coerce to; it is declared, never inferred.
@@ -293,19 +291,6 @@ for (bname in names(bundles)) {
   )
 
   for (tn in names(tabs)) {
-    tpath <- file.path(tables_dir, paste0(tn, ".json"))
-    write_json_file(
-      paste0(
-        '{\n  "schema_version": ',
-        SCHEMA_VERSION,
-        ',\n  "table": "',
-        tn,
-        '",\n  "rows": ',
-        as_records(tabs[[tn]]),
-        "\n}"
-      ),
-      tpath
-    )
     table_index[[tn]] <- bname
   }
 

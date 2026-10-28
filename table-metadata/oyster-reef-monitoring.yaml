@@ -216,7 +216,7 @@ tables:
     cross_table:
     - rule_id: oyster_quadrat_sets_match
       relation: equal_set
-      right_table: oyster-complexity-monitoring-v1
+      right_table: oyster-habitat-complexity-monitoring-v1
       group_by:
       - sample_event_id
       - transect

@@ -31,9 +31,6 @@ invalidate a cached taxonomy payload:
 | `sites.json` | ~8 KB | occasional | partners, sites, data index |
 | `taxonomy.json` | ~122 KB | rare | the 3 machine-generated lookups |
 
-`tables/<name>.json` holds each table on its own, for consumers that want one
-table rather than a whole group.
-
 ## manifest.json
 
 The index, and the contract. It carries:
