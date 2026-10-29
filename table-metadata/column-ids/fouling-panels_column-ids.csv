@@ -1,0 +1,15 @@
+column_id,label,definition,unit
+biomass_data_notes,Biomass data notes,,
+biomass_method,Biomass method,,
+community_biomass_g,Community biomass,,g
+deployment_period,Deployment period,,
+panel_id,Panel id,,
+panel_metadata_notes,Panel metadata notes,,
+panel_weight_predeployment_g,Panel weight predeployment,,g
+panel_wet_weight_g,Panel wet weight,,g
+percent_cover_fouling,Percent cover,,percent
+percent_cover_notes,Percent cover notes,,
+photo_filename,Photo filename,,
+point_count_fouling_cover,Point count,,
+points_in_grid,Points in grid,,
+sessile_species_data_notes,Sessile species data notes,,

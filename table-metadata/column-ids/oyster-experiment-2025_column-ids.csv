@@ -1,0 +1,29 @@
+column_id,label,definition,unit
+bivalve_height_mm,Bivalve shell height,,mm
+bivalve_kg,Bivalve kg,,
+bivalve_weight_notes,Bivalve weight notes,,
+bivalves_and_bucket_kg,Bivalves and bucket kg,,
+chain_distance_cm,Chain distance,,cm
+chain_length_cm,Chain length,,cm
+cluster_height_cm,Cluster height,,cm
+deployment_time,Deployment time,,
+empty_bucket_kg,Empty bucket kg,,
+inside_or_outside_biobox,Inside or outside biobox,,
+logger_deployed,Logger deployed,,
+logger_serial_number,Logger serial number,,
+mobile_fauna_count,Mobile fauna count,,individuals
+mobile_fauna_notes,Mobile fauna notes,,
+notes,Notes,,
+oyster_2025_count,Oyster count (2025 experiment),,individuals
+personnel,Personnel,,
+reef_code,Reef code,,
+retrieval_time,Retrieval time,,
+salinity_ppt,Salinity,,ppt
+sample_count_notes,Sample count notes,,
+sessile_fauna_notes,Sessile fauna notes,,
+spat_stick,Spat stick,,
+tidal_zone,Tidal zone,,
+water_depth,Water depth,,
+water_depth_unit,Water depth unit,,
+water_present,Water present,,
+water_temperature_c,Water temperature,,degree C

@@ -1,0 +1,25 @@
+column_id,label,definition,unit
+decimal_latitude,Decimal latitude,,degree
+decimal_longitude,Decimal longitude,,degree
+density_quadrat_dimensions,Density quadrat dimensions,,
+deployment_date,Deployment date,,
+depth_max_m,Maximum depth,,m
+depth_min_m,Minimum depth,,m
+habitat_marinegeo,Habitat (MarineGEO),,
+identification_notes,Identification notes,,
+input_filename,Input filename,,
+oyster_height_mm,Oyster shell height,,mm
+partner_code,Partner code,,
+retrieval_date,Retrieval date,,
+row_uuid,Row uuid,,
+rugosity,Rugosity index,,
+sample_collection_date,Sample collection date,,
+sample_event_id,Sample event id,,
+sample_height_notes,Sample height notes,,
+sample_metadata_notes,Sample metadata notes,,
+scientific_name,Scientific name,,
+site_code_marinegeo,Site code (MarineGEO),,
+site_name_marinegeo,Site name (MarineGEO),,
+table_id,Table id,,
+transect,Transect,,
+transect_length_m,Transect length,,m

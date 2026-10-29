@@ -1,0 +1,24 @@
+column_id,label,definition,unit
+biobox_count,Biobox organism count,,individuals
+biobox_deployment_date,Biobox deployment date,,
+biobox_id,Biobox identifier,,
+biobox_note,Biobox note,,
+biobox_recovery_date,Biobox recovery date,,
+chain_distance_m,Chain linear distance,,m
+chain_length_m,Chain length,,m
+composition_notes,Composition notes,,
+cover_type,Cover type,,
+density_m2,Density,,individuals per m2
+density_methodology,Density methodology,,
+habitat_complexity_notes,Habitat complexity notes,,
+intertidal_habitat,Intertidal habitat,,
+live_or_box,Live or box,,
+max_cluster_height_cm,Maximum cluster height,,cm
+oyster_count,Oyster count,,individuals
+percent_cover_oyster_reef,Percent cover,,percent
+point_count_oyster_composition,Point count,,
+points_in_quadrat_oyster_composition,Points in quadrat,,
+quadrat_in_transect_30m,Quadrat number in a 30 m transect,,
+reef_building_oysters,Reef building oysters,,
+sample_frequency_notes,Sample frequency notes,,
+sample_id,Sample id,,

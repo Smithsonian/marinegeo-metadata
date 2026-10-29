@@ -1,0 +1,5 @@
+column_id,label,definition,unit
+country,Country,,
+institution,Institution,,
+partner_name,Partner name,,
+partner_type,Partner type,,
