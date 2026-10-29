@@ -1,5 +1,5 @@
 measurement_id,label,definition,unit
-abundance_per_macrophyte_g,Abundance per macrophyte mass,,Individuals per g
+abundance_per_macrophyte_g,Abundance per macrophyte mass,,individuals per g
 biobox_count,Biobox organism count,,individuals
 biobox_id,Biobox identifier,,
 blades_dry_mass_g,Blade dry mass,,g
@@ -22,6 +22,8 @@ oyster_count,Oyster count,,individuals
 oyster_height_mm,Oyster shell height,,mm
 percent_cover_oyster_reef,Percent cover,,percent
 percent_cover_seagrass,Percent cover,,percent
+percent_cover_fouling,Percent cover,,
+point_count_fouling_cover,Point count,,
 point_count_oyster_composition,Point count,,
 point_count_seagrass_cover,Point count,,
 points_in_quadrat_oyster_composition,Points in quadrat,,
@@ -32,6 +34,6 @@ rugosity,Rugosity index,,
 sample_dry_mass_g,Sample dry mass,,g
 sheath_length_mm,Sheath length,,mm
 shoot_count,Shoot count,,individuals
-shoot_density_m2,Shoot density,,m2
+shoot_density_m2,Shoot density,,individuals per m2
 shoot_length_mm,Shoot length,,mm
 transect_length_m,Transect length,,m
