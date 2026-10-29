@@ -1,0 +1,18 @@
+column_id,value
+cover_type,box oyster
+cover_type,canopy taxa
+cover_type,cultch
+cover_type,large shell material
+cover_type,live oyster
+cover_type,other primary
+cover_type,rock
+cover_type,sediment
+cover_type,shell hash
+density_methodology,excavation
+density_methodology,no excavation
+intertidal_habitat,FALSE
+intertidal_habitat,TRUE
+live_or_box,box
+live_or_box,live
+reef_building_oysters,FALSE
+reef_building_oysters,TRUE
