@@ -30,6 +30,36 @@ SCHEMA_VERSION <- 1L
 # Row order is semantic: the package's qc_check_columns() reports column ORDER
 # issues against database_structure, so the sorted file order below is part of
 # the contract, not an implementation detail.
+slug <- function(x) {
+  gsub("^_+|_+$", "", gsub("[^a-z0-9]+", "_", tolower(x)))
+}
+
+# column_id for an unconditional rule, column_id__<scope_type>__<scope_value>
+# for a scoped one. Prepended as the first column so the published table reads
+# key-first.
+derive_rule_id <- function(tbl) {
+  scoped <- !is.na(tbl$scope_type) & nzchar(tbl$scope_type)
+  rule_id <- ifelse(
+    scoped,
+    paste(tbl$column_id, slug(tbl$scope_type), slug(tbl$scope_value), sep = "__"),
+    tbl$column_id
+  )
+  dup <- unique(rule_id[duplicated(rule_id)])
+  if (length(dup) > 0) {
+    stop(
+      "derived rule_id is not unique: ",
+      paste(dup, collapse = ", "),
+      ". Two rules differ only in characters the id slug discards (anything ",
+      "outside [a-z0-9] collapses to _), so they cannot be told apart in ",
+      "issues$rule_id. Rename a column_id, or make the scope values differ by ",
+      "more than punctuation.",
+      call. = FALSE
+    )
+  }
+  tbl$rule_id <- rule_id
+  tbl[, c("rule_id", setdiff(colnames(tbl), "rule_id"))]
+}
+
 read_dir <- function(sub, col_types = NULL) {
   files <- sort(list.files(
     file.path(root, sub),
@@ -161,6 +191,17 @@ for (tn in names(mg_rule_tables)) {
       paste(spec$cols, collapse = ", "),
       call. = FALSE
     )
+  }
+  # `rule_id` is derived, never authored: one less thing to hand-assign. It is
+  # published so a second engine reads the id rather than reimplementing this
+  # slug rule and drifting from it.
+  #
+  # The slug is lossy, so the (column_id, scope_type, scope_value) uniqueness
+  # that R/validate.R enforces does NOT imply unique ids: "Genus:Zostera" and
+  # "Genus_Zostera" are different scope values that slug identically. Hence the
+  # explicit collision check below rather than trusting the key.
+  if (tn == "numeric_ranges") {
+    tbl <- derive_rule_id(tbl)
   }
   qc[[tn]] <- tbl
   message("  ", spec$dir, "  ", nrow(tbl), " rows")

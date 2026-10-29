@@ -82,6 +82,10 @@ mg_rule_tables <- list(
 # published numeric_ranges table only, so this list describes the CSVs while the
 # package's `.mg_registry_required_cols` describes the published bundle, which
 # carries the extra column. That is the one place the two diverge.
+#
+# The derivation slugs the scope, which is lossy, so the generator checks the
+# derived ids for collisions itself -- the uniqueness key on the authored tuple
+# is not sufficient to guarantee them unique.
 
 # Types are declared, never guessed. readr guesses from a sample taken across a
 # multi-file read, so an all-empty column in the first-sorted file decides the

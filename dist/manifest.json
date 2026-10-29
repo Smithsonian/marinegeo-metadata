@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-29T21:41:23Z",
+  "generated_at": "2026-10-29T21:46:48Z",
   "generator": "R/generate-metadata-dist.R",
   "bundles": {
     "qc-metadata": {
       "path": "dist/qc-metadata.json",
-      "sha256": "2cfd392b568996d021f6199bf4dd65e3ef1b5c06d7ff92e40744f4ebdea31d63",
-      "bytes": 147317,
+      "sha256": "994a2fb00372b11c2fff674ee745a2bb89f47422c29b218f637b172eca50e81b",
+      "bytes": 148304,
       "tables": {
         "database_structure": {
           "rows": 570,
@@ -65,6 +65,10 @@
         "numeric_ranges": {
           "rows": 30,
           "columns": [
+            {
+              "name": "rule_id",
+              "type": "character"
+            },
             {
               "name": "column_id",
               "type": "character"
