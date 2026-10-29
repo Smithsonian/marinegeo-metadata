@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-29T21:10:56Z",
+  "generated_at": "2026-10-29T21:16:40Z",
   "generator": "R/generate-metadata-dist.R",
   "bundles": {
     "qc-metadata": {
@@ -294,10 +294,11 @@
     "table-metadata/column-ids/seagrass-monitoring_column-ids.csv": "54b9cc74f6bbc2ccef2b2adde6eec4c70cc7194b996aeb76f3e3630e17619508",
     "table-metadata/column-ids/sites-and-partners_column-ids.csv": "cd23ea18d583c6d7c728afd925e31bc467392e25a009e20387b1cd54fc6a0776",
     "table-metadata/column-ids/taxonomy-and-functional-groups_column-ids.csv": "7fe2ae68d980ed441510c16420b6d61b501750eeeb9affaf7535dc18d849a97f",
+    "table-metadata/column-lookups/cross_protocol_lookups.csv": "17e2badaad0d3f5e2cf55bafcdc22a2c7e773a3b2afed8982c6a75318b1010ca",
     "table-metadata/column-ranges/cross_protocol_ranges.csv": "822013a8cd57ed98b6d5e2153e238f72048f33a789334f1ee41ac8fa5bc538d9",
     "table-metadata/column-ranges/oyster-reef-monitoring_column-ranges.csv": "8891db027a577bd93bdd0f3903d70289d6e028309edc3d08b6dccd682050d502",
     "table-metadata/column-ranges/seagrass-monitoring_column-ranges.csv": "8ca11c25f73bbfe30967d1238e44bf2283fd4ec30812fc977e8e1779ce6df6d8",
-    "table-metadata/column-vocabularies/cross_protocol_vocabularies.csv": "e3a4e8a435a0e6ffe4dcc2986cae26cded5cdda26a5d67ff1fffce2f8e05c5ad",
+    "table-metadata/column-vocabularies/cross_protocol_vocabularies.csv": "3baaa4d513822156bbec2f6da6c46d1899c5d97ab23dc6f7e746d29daab6714e",
     "table-metadata/column-vocabularies/fouling-panels_column-vocabularies.csv": "1200df8d50c1fec5115655f37155684940c1d8b88e6d317df620dc559ef88849",
     "table-metadata/column-vocabularies/oyster-experiment-2025_column-vocabularies.csv": "774d6a5b653852f14a752b047a7b7bf9fb8e4f393223b60fcd6a9dbb65104f1b",
     "table-metadata/column-vocabularies/oyster-reef-monitoring_column-vocabularies.csv": "c51af032368adb6a9b431e826102df495d4aa123635130493ba216a6996fbfa3",
