@@ -1,0 +1,240 @@
+column_id,label,definition,unit
+abundance_per_macrophyte_g,Abundance per macrophyte mass,,individuals per g
+biobox_count,Biobox organism count,,individuals
+biobox_deployment_date,Biobox deployment date,,
+biobox_id,Biobox identifier,,
+biobox_note,Biobox note,,
+biobox_recovery_date,Biobox recovery date,,
+biomass_data_notes,Biomass data notes,,
+biomass_method,Biomass method,,
+biomass_type,Biomass type,,
+bivalve_height_mm,Bivalve shell height,,mm
+bivalve_kg,Bivalve kg,,
+bivalve_weight_notes,Bivalve weight notes,,
+bivalves_and_bucket_kg,Bivalves and bucket kg,,
+blades_dry_mass_g,Blade dry mass,,g
+block,Block,,
+buddy,Buddy,,
+chain_distance_cm,Chain distance,,cm
+chain_distance_m,Chain linear distance,,m
+chain_length_cm,Chain length,,cm
+chain_length_m,Chain length,,m
+cluster_height_cm,Cluster height,,cm
+common_name,Common name,,
+community_biomass_g,Community biomass,,g
+compass_bearing,Compass bearing,,
+composition_notes,Composition notes,,
+corer_dimensions,Corer dimensions,,
+country,Country,,
+cover_code,Cover code,,
+cover_method,Cover method,,
+cover_quadrat_dimensions,Cover quadrat dimensions,,
+cover_sample_notes,Cover sample notes,,
+cover_type,Cover type,,
+date,Date,,
+decimal_latitude,Decimal latitude,,degree
+decimal_longitude,Decimal longitude,,degree
+density_m2,Density,,individuals per m2
+density_methodology,Density methodology,,
+density_quadrat_dimensions,Density quadrat dimensions,,
+deployment_date,Deployment date,,
+deployment_period,Deployment period,,
+deployment_time,Deployment time,,
+depth,Depth,,
+depth_max_m,Maximum depth,,m
+depth_min_m,Minimum depth,,m
+direction,Direction,,
+diver,Diver,,
+dwc_basis_of_record,Basis of record (Darwin Core),,
+dwc_bibliographic_citation,Bibliographic citation (Darwin Core),,
+dwc_class,Class (Darwin Core),,
+dwc_coordinate_uncertainty_in_meters,Coordinate uncertainty in meters (Darwin Core),,
+dwc_country_code,Country code (Darwin Core),,
+dwc_dataset_i_d,Dataset i d (Darwin Core),,
+dwc_dataset_name,Dataset name (Darwin Core),,
+dwc_decimal_latitude,Decimal latitude (Darwin Core),,
+dwc_decimal_longitude,Decimal longitude (Darwin Core),,
+dwc_event_date,Event date (Darwin Core),,
+dwc_event_i_d,Event i d (Darwin Core),,
+dwc_family,Family (Darwin Core),,
+dwc_field_notes,Field notes (Darwin Core),,
+dwc_footprint_w_k_t,Footprint w k t (Darwin Core),,
+dwc_genus,Genus (Darwin Core),,
+dwc_geodetic_datum,Geodetic datum (Darwin Core),,
+dwc_habitat,Habitat (Darwin Core),,
+dwc_identification_qualifier,Identification qualifier (Darwin Core),,
+dwc_identified_by,Identified by (Darwin Core),,
+dwc_institution_code,Institution code (Darwin Core),,
+dwc_institution_i_d,Institution i d (Darwin Core),,
+dwc_kingdom,Kingdom (Darwin Core),,
+dwc_license,License (Darwin Core),,
+dwc_maximum_depth_in_meters,Maximum depth in meters (Darwin Core),,
+dwc_measurement_accuracy,Measurement accuracy (Darwin Core),,
+dwc_measurement_determined_by,Measurement determined by (Darwin Core),,
+dwc_measurement_determined_date,Measurement determined date (Darwin Core),,
+dwc_measurement_i_d,Measurement i d (Darwin Core),,
+dwc_measurement_method,Measurement method (Darwin Core),,
+dwc_measurement_type,Measurement type (Darwin Core),,
+dwc_measurement_type_i_d,Measurement type i d (Darwin Core),,
+dwc_measurement_unit,Measurement unit (Darwin Core),,
+dwc_measurement_unit_i_d,Measurement unit i d (Darwin Core),,
+dwc_measurement_value,Measurement value (Darwin Core),,
+dwc_measurement_value_i_d,Measurement value i d (Darwin Core),,
+dwc_minimum_depth_in_meters,Minimum depth in meters (Darwin Core),,
+dwc_occurrence_i_d,Occurrence i d (Darwin Core),,
+dwc_occurrence_status,Occurrence status (Darwin Core),,
+dwc_order,Order (Darwin Core),,
+dwc_parent_event_i_d,Parent event i d (Darwin Core),,
+dwc_phylum,Phylum (Darwin Core),,
+dwc_recorded_by,Recorded by (Darwin Core),,
+dwc_rights_holder,Rights holder (Darwin Core),,
+dwc_sample_size_unit,Sample size unit (Darwin Core),,
+dwc_sample_size_value,Sample size value (Darwin Core),,
+dwc_sampling_protocol,Sampling protocol (Darwin Core),,
+dwc_scientific_name,Scientific name (Darwin Core),,
+dwc_scientific_name_i_d,Scientific name i d (Darwin Core),,
+dwc_taxon_rank,Taxon rank (Darwin Core),,
+dwc_vernacular_name,Vernacular name (Darwin Core),,
+empty_bucket_kg,Empty bucket kg,,
+epibiont_dry_mass_g,Epibiont dry mass,,g
+epifauna_count,Epifauna count,,individuals
+epifauna_notes,Epifauna notes,,
+flowers_present,Flowers present,,
+functional_group_code,Functional group code,,
+functional_group_definition,Functional group definition,,
+functional_group_edge_from,Functional group edge child label,,
+functional_group_edge_to,Functional group edge parent label,,
+functional_group_node_type,Functional group node type,,
+functional_group_tree_name,Functional group tree name,,
+grazing_scars_present,Grazing scars present,,
+habitat_complexity_notes,Habitat complexity notes,,
+habitat_marinegeo,Habitat (MarineGEO),,
+identification_notes,Identification notes,,
+input_filename,Input filename,,
+inside_or_outside_biobox,Inside or outside biobox,,
+institution,Institution,,
+intertidal_habitat,Intertidal habitat,,
+inverts,Inverts,,individuals
+leaf_length_mm,Leaf length,,mm
+leaf_measurement_notes,Leaf measurement notes,,
+leaf_rank,Leaf rank,,
+leaf_width_mm,Leaf width,,mm
+live_or_box,Live or box,,
+logger_deployed,Logger deployed,,
+logger_serial_number,Logger serial number,,
+macro_invert_id,Macro invert id,,
+macro_invert_sample_notes,Macro invert sample notes,,
+macroalgae_dry_mass_g,Macroalgae dry mass,,g
+macroalgae_id,Macroalgae id,,
+macroinvertebrate_size_mm,Macroinvertebrate size,,mm
+macrophyte_mass_notes,Macrophyte mass notes,,
+max_cluster_height_cm,Maximum cluster height,,cm
+median_leaf_length_mm,Median leaf length,,mm
+method,Method,,
+mobile_fauna_count,Mobile fauna count,,individuals
+mobile_fauna_notes,Mobile fauna notes,,
+notes,Notes,,
+oyster_2025_count,Oyster count (2025 experiment),,individuals
+oyster_count,Oyster count,,individuals
+oyster_height_mm,Oyster shell height,,mm
+panel_id,Panel id,,
+panel_metadata_notes,Panel metadata notes,,
+panel_weight_predeployment_g,Panel weight predeployment,,g
+panel_wet_weight_g,Panel wet weight,,g
+partner_code,Partner code,,
+partner_name,Partner name,,
+partner_type,Partner type,,
+percent_cover_fouling,Percent cover,,percent
+percent_cover_notes,Percent cover notes,,
+percent_cover_oyster_reef,Percent cover,,percent
+percent_cover_seagrass,Percent cover,,percent
+personnel,Personnel,,
+photo_filename,Photo filename,,
+photoquadrats,Photoquadrats,,
+point_count_fouling_cover,Point count,,
+point_count_oyster_composition,Point count,,
+point_count_seagrass_cover,Point count,,
+points_in_grid,Points in grid,,
+points_in_quadrat_oyster_composition,Points in quadrat,,
+points_in_quadrat_seagrass_cover,Points in quadrat,,
+quadrat_in_transect_30m,Quadrat number in a 30 m transect,,
+quadrat_in_transect_50m,Quadrat number in a 50 m transect,,
+reef_building_oysters,Reef building oysters,,
+reef_code,Reef code,,
+retrieval_date,Retrieval date,,
+retrieval_time,Retrieval time,,
+rls_abundance_size_100cm,RLS abundance 100 cm size class,,individuals
+rls_abundance_size_10cm,RLS abundance 10 cm size class,,individuals
+rls_abundance_size_112_5cm,RLS abundance 112.5 cm size class,,individuals
+rls_abundance_size_125cm,RLS abundance 125 cm size class,,individuals
+rls_abundance_size_12_5cm,RLS abundance 12.5 cm size class,,individuals
+rls_abundance_size_137_5cm,RLS abundance 137.5 cm size class,,individuals
+rls_abundance_size_150cm,RLS abundance 150 cm size class,,individuals
+rls_abundance_size_15cm,RLS abundance 15 cm size class,,individuals
+rls_abundance_size_162_5cm,RLS abundance 162.5 cm size class,,individuals
+rls_abundance_size_175cm,RLS abundance 175 cm size class,,individuals
+rls_abundance_size_187_5cm,RLS abundance 187.5 cm size class,,individuals
+rls_abundance_size_200cm,RLS abundance 200 cm size class,,individuals
+rls_abundance_size_20cm,RLS abundance 20 cm size class,,individuals
+rls_abundance_size_250cm,RLS abundance 250 cm size class,,individuals
+rls_abundance_size_25cm,RLS abundance 25 cm size class,,individuals
+rls_abundance_size_2_5cm,RLS abundance 2.5 cm size class,,individuals
+rls_abundance_size_300cm,RLS abundance 300 cm size class,,individuals
+rls_abundance_size_30cm,RLS abundance 30 cm size class,,individuals
+rls_abundance_size_350cm,RLS abundance 350 cm size class,,individuals
+rls_abundance_size_35cm,RLS abundance 35 cm size class,,individuals
+rls_abundance_size_400cm,RLS abundance 400 cm size class,,individuals
+rls_abundance_size_40cm,RLS abundance 40 cm size class,,individuals
+rls_abundance_size_50cm,RLS abundance 50 cm size class,,individuals
+rls_abundance_size_5cm,RLS abundance 5 cm size class,,individuals
+rls_abundance_size_62_5cm,RLS abundance 62.5 cm size class,,individuals
+rls_abundance_size_75cm,RLS abundance 75 cm size class,,individuals
+rls_abundance_size_7_5cm,RLS abundance 7.5 cm size class,,individuals
+rls_abundance_size_87_5cm,RLS abundance 87.5 cm size class,,individuals
+rls_code,Survey code (Reef Life Survey),,
+row_uuid,Row uuid,,
+rugosity,Rugosity index,,
+salinity_ppt,Salinity,,ppt
+sample_collection_date,Sample collection date,,
+sample_count_notes,Sample count notes,,
+sample_data_notes,Sample data notes,,
+sample_dry_mass_g,Sample dry mass,,g
+sample_event_id,Sample event id,,
+sample_frequency_notes,Sample frequency notes,,
+sample_height_notes,Sample height notes,,
+sample_id,Sample id,,
+sample_metadata_notes,Sample metadata notes,,
+scientific_id,Scientific id,,
+scientific_name,Scientific name,,
+sediment_type,Sediment type,,
+sessile_fauna_notes,Sessile fauna notes,,
+sessile_species_data_notes,Sessile species data notes,,
+sheath_and_epibiont_notes,Sheath and epibiont notes,,
+sheath_length_mm,Sheath length,,mm
+shoot_count,Shoot count,,individuals
+shoot_count_sample_notes,Shoot count sample notes,,
+shoot_density_m2,Shoot density,,individuals per m2
+shoot_length_mm,Shoot length,,mm
+site_code_marinegeo,Site code (MarineGEO),,
+site_code_rls,Site code (Reef Life Survey),,
+site_name_marinegeo,Site name (MarineGEO),,
+site_name_rls,Site name (Reef Life Survey),,
+size_class,Size class,,
+spat_stick,Spat stick,,
+species,Species,,
+table_id,Table id,,
+taxon_name,Taxon name,,
+taxon_numeric_id,Taxon numeric identifier,,
+taxon_parent_id,Parent taxon identifier,,
+taxonomic_id,Taxonomic id,,
+taxonomic_rank,Taxonomic rank,,
+tidal_zone,Tidal zone,,
+time,Time,,
+total,Total,,individuals
+transect,Transect,,
+transect_length_m,Transect length,,m
+vis,Vis,,
+water_depth,Water depth,,
+water_depth_unit,Water depth unit,,
+water_present,Water present,,
+water_temperature_c,Water temperature,,degree C

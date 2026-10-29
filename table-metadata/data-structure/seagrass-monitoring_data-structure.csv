@@ -149,7 +149,7 @@ Seagrass Monitoring,seagrass-metadata-monitoring-v1,transect_begin_decimal_latit
 Seagrass Monitoring,seagrass-metadata-monitoring-v1,transect_begin_decimal_longitude,DOUBLE,warn,
 Seagrass Monitoring,seagrass-metadata-monitoring-v1,transect_end_decimal_latitude,DOUBLE,warn,
 Seagrass Monitoring,seagrass-metadata-monitoring-v1,transect_end_decimal_longitude,DOUBLE,warn,
-Seagrass Monitoring,seagrass-metadata-monitoring-v1,transect_length_m,INT,warn,
+Seagrass Monitoring,seagrass-metadata-monitoring-v1,transect_length_m,DOUBLE,warn,
 Seagrass Monitoring,seagrass-metadata-monitoring-v1,compass_bearing,DOUBLE,warn,
 Seagrass Monitoring,seagrass-metadata-monitoring-v1,depth_min_m,DOUBLE,warn,
 Seagrass Monitoring,seagrass-metadata-monitoring-v1,depth_max_m,DOUBLE,warn,

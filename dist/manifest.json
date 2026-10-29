@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-29T19:38:32Z",
+  "generated_at": "2026-10-29T20:37:25Z",
   "generator": "R/generate-metadata-dist.R",
   "bundles": {
     "qc-metadata": {
@@ -285,6 +285,7 @@
     "table-metadata/categorical-values/fouling_monitoring_vocab.csv": "8e8d14a418332f17bb4aaebc964cd7d4169f885d1661f2097d397ae0461c4e87",
     "table-metadata/categorical-values/oyster_monitoring_and_experiments_vocab.csv": "a1a8352429de90e113147c6ac7e0084d1da4f99e489dc04ca751816348f92d93",
     "table-metadata/categorical-values/seagrass_monitoring_vocab.csv": "ae8b1618e441120f13e327417664f97d08197a18831913241fe13fd83f8d4ec7",
+    "table-metadata/column-ids/column_ids.csv": "6c450f3c23b30cf7b5a6c92e9df3459379dba508e4a6252861fbeb811fe7bf80",
     "table-metadata/data-structure/darwin-core_data-structure.csv": "3a58065ac2dd93760eaa9da0448d11dad980be65809d808ce21f053b453b64ff",
     "table-metadata/data-structure/fouling-panels_data-structure.csv": "2f38fc8b0bc0b0fc52891a2337bceea53737d80a57b3ae48cb50970c6683e616",
     "table-metadata/data-structure/marinegeo_metadata_tables.csv": "5a9db3c8f95146237997f64e6838919ee3b22a03b573c71162b5cafeb30e7a8b",
@@ -292,7 +293,6 @@
     "table-metadata/data-structure/oyster-reef-monitoring_data-structure.csv": "9f352049f5cbc781dc0a33e4153b8f7c201f4aac1d1dc0ed14b9ba994ed38760",
     "table-metadata/data-structure/reef-life-survey_data-structure.csv": "57a16bd2e7beea475f00681872bf2cfc955d9aba692e446930ff8e66ccd1628a",
     "table-metadata/data-structure/seagrass-monitoring_data-structure.csv": "04fb7e008ca127f21edc26f6e4038e92cbef1f9fcb414757c95763b072454079",
-    "table-metadata/measurements/measurements.csv": "6aca947a468b1fc114aac86a0984dc6ef5952139e1047393b1044831903727b1",
     "table-metadata/numeric-ranges/oyster_monitoring_numeric_ranges.csv": "3b17afd90527442647d03c54d0e2bf2b130e877b4c941c88343e1d6bcb3cb024",
     "table-metadata/numeric-ranges/seagrass_monitoring_numeric_ranges.csv": "75c523b1d2256c76dd674a01810093c12d3235d7fbc87b4bc741aa27186d5426",
     "sites-and-partners/partner-codes/partners.csv": "97ed3d724bc1315ff3b79a82a8fb417e4ee1ef84d6dd20ec5e010de665f8555f",
