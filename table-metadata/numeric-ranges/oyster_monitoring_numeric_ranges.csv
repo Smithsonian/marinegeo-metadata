@@ -13,7 +13,7 @@ oyster-substrate-composition-monitoring-v1,percent_cover,inclusive,,,100,
 oyster-height-monitoring-v1,quadrat,inclusive,,,30,0
 oyster-height-monitoring-v1,height_mm,inclusive,,0,355,
 oyster-count-monitoring-v1,quadrat,inclusive,,,30,0
-oyster-count-monitoring-v1,count,,,,100,0
+oyster-count-monitoring-v1,count,inclusive,,,100,0
 oyster-habitat-complexity-monitoring-v1,quadrat,inclusive,,,30,0
 oyster-habitat-complexity-monitoring-v1,chain_length_m,inclusive,,0,30,
 oyster-habitat-complexity-monitoring-v1,chain_distance_m,inclusive,,0,30,
