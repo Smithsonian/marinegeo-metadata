@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-29T20:53:31Z",
+  "generated_at": "2026-10-29T21:06:19Z",
   "generator": "R/generate-metadata-dist.R",
   "bundles": {
     "qc-metadata": {
@@ -285,15 +285,18 @@
     "table-metadata/categorical-values/fouling_monitoring_vocab.csv": "8e8d14a418332f17bb4aaebc964cd7d4169f885d1661f2097d397ae0461c4e87",
     "table-metadata/categorical-values/oyster_monitoring_and_experiments_vocab.csv": "a1a8352429de90e113147c6ac7e0084d1da4f99e489dc04ca751816348f92d93",
     "table-metadata/categorical-values/seagrass_monitoring_vocab.csv": "ae8b1618e441120f13e327417664f97d08197a18831913241fe13fd83f8d4ec7",
+    "table-metadata/column-ids/cross_protocol_ids.csv": "d75debe59f8e6c3808843f3ef1c7f897c87915cffc026dfb71add91e8d559827",
     "table-metadata/column-ids/darwin-core_column-ids.csv": "c95857bf782e19ac10cb27ce633e82b6b42af71c17f5a5b5a90419436dc0983f",
     "table-metadata/column-ids/fouling-panels_column-ids.csv": "ad2fd54ab1c88eae5df6a3cf3ffc033dfdcad376137c6b67536fc328967b53e3",
     "table-metadata/column-ids/oyster-experiment-2025_column-ids.csv": "2232c6a426276e0160aa13f6f8d1894fe402a8453e8530d7fa465d7ebb18b818",
     "table-metadata/column-ids/oyster-reef-monitoring_column-ids.csv": "7bbb2772391077f43638e2929aeb12146be6ae571b0da73679a12f21687eb82d",
     "table-metadata/column-ids/reef-life-survey_column-ids.csv": "c7193e8a74f7ca02e8ad61b42bcaad7f12a364ba54de6d4422bd8938fcff6659",
     "table-metadata/column-ids/seagrass-monitoring_column-ids.csv": "54b9cc74f6bbc2ccef2b2adde6eec4c70cc7194b996aeb76f3e3630e17619508",
-    "table-metadata/column-ids/shared_column-ids.csv": "d75debe59f8e6c3808843f3ef1c7f897c87915cffc026dfb71add91e8d559827",
     "table-metadata/column-ids/sites-and-partners_column-ids.csv": "cd23ea18d583c6d7c728afd925e31bc467392e25a009e20387b1cd54fc6a0776",
     "table-metadata/column-ids/taxonomy-and-functional-groups_column-ids.csv": "7fe2ae68d980ed441510c16420b6d61b501750eeeb9affaf7535dc18d849a97f",
+    "table-metadata/column-ranges/cross_protocol_ranges.csv": "822013a8cd57ed98b6d5e2153e238f72048f33a789334f1ee41ac8fa5bc538d9",
+    "table-metadata/column-ranges/oyster-reef-monitoring_column-ranges.csv": "8891db027a577bd93bdd0f3903d70289d6e028309edc3d08b6dccd682050d502",
+    "table-metadata/column-ranges/seagrass-monitoring_column-ranges.csv": "8ca11c25f73bbfe30967d1238e44bf2283fd4ec30812fc977e8e1779ce6df6d8",
     "table-metadata/data-structure/darwin-core_data-structure.csv": "3a58065ac2dd93760eaa9da0448d11dad980be65809d808ce21f053b453b64ff",
     "table-metadata/data-structure/fouling-panels_data-structure.csv": "2f38fc8b0bc0b0fc52891a2337bceea53737d80a57b3ae48cb50970c6683e616",
     "table-metadata/data-structure/marinegeo_metadata_tables.csv": "5a9db3c8f95146237997f64e6838919ee3b22a03b573c71162b5cafeb30e7a8b",
