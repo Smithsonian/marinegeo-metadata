@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-29T19:21:28Z",
+  "generated_at": "2026-10-29T19:38:32Z",
   "generator": "R/generate-metadata-dist.R",
   "bundles": {
     "qc-metadata": {
@@ -292,6 +292,7 @@
     "table-metadata/data-structure/oyster-reef-monitoring_data-structure.csv": "9f352049f5cbc781dc0a33e4153b8f7c201f4aac1d1dc0ed14b9ba994ed38760",
     "table-metadata/data-structure/reef-life-survey_data-structure.csv": "57a16bd2e7beea475f00681872bf2cfc955d9aba692e446930ff8e66ccd1628a",
     "table-metadata/data-structure/seagrass-monitoring_data-structure.csv": "04fb7e008ca127f21edc26f6e4038e92cbef1f9fcb414757c95763b072454079",
+    "table-metadata/measurements/measurements.csv": "6aca947a468b1fc114aac86a0984dc6ef5952139e1047393b1044831903727b1",
     "table-metadata/numeric-ranges/oyster_monitoring_numeric_ranges.csv": "3b17afd90527442647d03c54d0e2bf2b130e877b4c941c88343e1d6bcb3cb024",
     "table-metadata/numeric-ranges/seagrass_monitoring_numeric_ranges.csv": "75c523b1d2256c76dd674a01810093c12d3235d7fbc87b4bc741aa27186d5426",
     "sites-and-partners/partner-codes/partners.csv": "97ed3d724bc1315ff3b79a82a8fb417e4ee1ef84d6dd20ec5e010de665f8555f",
