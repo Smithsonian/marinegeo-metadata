@@ -46,33 +46,52 @@ mg_rule_tables <- list(
       "column_name",
       "data_type",
       "missing_values",
-      "uuid_identity"
+      "uuid_identity",
+      "column_id"
     )
   ),
-  categorical_values = list(
-    dir = "table-metadata/categorical-values",
-    cols = c("table_id", "column_name", "value")
+  column_ids = list(
+    dir = "table-metadata/column-ids",
+    cols = c("column_id", "label", "definition", "unit")
   ),
   numeric_ranges = list(
     dir = "table-metadata/numeric-ranges",
     cols = c(
-      "table_id",
-      "column_name",
+      "column_id",
+      "scope_type",
+      "scope_value",
       "range_type",
       "max_fail",
       "min_fail",
       "max_warn",
       "min_warn"
     )
+  ),
+  controlled_vocabularies = list(
+    dir = "table-metadata/controlled-vocabularies",
+    cols = c("column_id", "value")
+  ),
+  column_lookups = list(
+    dir = "table-metadata/column-lookups",
+    cols = c("column_id", "registry_table", "registry_column")
   )
 )
+
+# `rule_id` is NOT authored and so is absent from the header above. The generator
+# derives it from (column_id, scope_type, scope_value) and writes it into the
+# published numeric_ranges table only, so this list describes the CSVs while the
+# package's `.mg_registry_required_cols` describes the published bundle, which
+# carries the extra column. That is the one place the two diverge.
 
 # Types are declared, never guessed. readr guesses from a sample taken across a
 # multi-file read, so an all-empty column in the first-sorted file decides the
 # type for every later one: `uuid_identity` would come back character the day
 # darwin-core has no TRUE in it, and `which()` on it in the package's QC engine
 # would stop working. `value` holds the literal strings "TRUE"/"FALSE", which
-# must stay text.
+# must stay text. Two live instances of the same trap in the new tables:
+# `definition` is empty on every column-ids row today, and `scope_type` /
+# `scope_value` are empty on 29 of the 30 numeric-ranges rows -- readr would
+# guess logical for all three.
 mg_rule_col_types <- list(
   database_structure = readr::cols(
     protocol = readr::col_character(),
@@ -80,20 +99,32 @@ mg_rule_col_types <- list(
     column_name = readr::col_character(),
     data_type = readr::col_character(),
     missing_values = readr::col_character(),
-    uuid_identity = readr::col_logical()
+    uuid_identity = readr::col_logical(),
+    column_id = readr::col_character()
   ),
-  categorical_values = readr::cols(
-    table_id = readr::col_character(),
-    column_name = readr::col_character(),
-    value = readr::col_character()
+  column_ids = readr::cols(
+    column_id = readr::col_character(),
+    label = readr::col_character(),
+    definition = readr::col_character(),
+    unit = readr::col_character()
   ),
   numeric_ranges = readr::cols(
-    table_id = readr::col_character(),
-    column_name = readr::col_character(),
+    column_id = readr::col_character(),
+    scope_type = readr::col_character(),
+    scope_value = readr::col_character(),
     range_type = readr::col_character(),
     max_fail = readr::col_double(),
     min_fail = readr::col_double(),
     max_warn = readr::col_double(),
     min_warn = readr::col_double()
+  ),
+  controlled_vocabularies = readr::cols(
+    column_id = readr::col_character(),
+    value = readr::col_character()
+  ),
+  column_lookups = readr::cols(
+    column_id = readr::col_character(),
+    registry_table = readr::col_character(),
+    registry_column = readr::col_character()
   )
 )

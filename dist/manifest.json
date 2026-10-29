@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-29T21:16:40Z",
+  "generated_at": "2026-10-29T21:41:23Z",
   "generator": "R/generate-metadata-dist.R",
   "bundles": {
     "qc-metadata": {
       "path": "dist/qc-metadata.json",
-      "sha256": "549a1961b1d43845c033cde64ac1ffbde693275b633d25380040f5db3846756f",
-      "bytes": 114268,
+      "sha256": "2cfd392b568996d021f6199bf4dd65e3ef1b5c06d7ff92e40744f4ebdea31d63",
+      "bytes": 147317,
       "tables": {
         "database_structure": {
           "rows": 570,
@@ -34,35 +34,47 @@
             {
               "name": "uuid_identity",
               "type": "logical"
+            },
+            {
+              "name": "column_id",
+              "type": "character"
             }
           ]
         },
-        "categorical_values": {
-          "rows": 62,
+        "column_ids": {
+          "rows": 239,
           "columns": [
             {
-              "name": "table_id",
+              "name": "column_id",
               "type": "character"
             },
             {
-              "name": "column_name",
+              "name": "label",
               "type": "character"
             },
             {
-              "name": "value",
+              "name": "definition",
+              "type": "character"
+            },
+            {
+              "name": "unit",
               "type": "character"
             }
           ]
         },
         "numeric_ranges": {
-          "rows": 59,
+          "rows": 30,
           "columns": [
             {
-              "name": "table_id",
+              "name": "column_id",
               "type": "character"
             },
             {
-              "name": "column_name",
+              "name": "scope_type",
+              "type": "character"
+            },
+            {
+              "name": "scope_value",
               "type": "character"
             },
             {
@@ -84,6 +96,36 @@
             {
               "name": "min_warn",
               "type": "double"
+            }
+          ]
+        },
+        "controlled_vocabularies": {
+          "rows": 54,
+          "columns": [
+            {
+              "name": "column_id",
+              "type": "character"
+            },
+            {
+              "name": "value",
+              "type": "character"
+            }
+          ]
+        },
+        "column_lookups": {
+          "rows": 4,
+          "columns": [
+            {
+              "name": "column_id",
+              "type": "character"
+            },
+            {
+              "name": "registry_table",
+              "type": "character"
+            },
+            {
+              "name": "registry_column",
+              "type": "character"
             }
           ]
         }
@@ -272,8 +314,10 @@
   },
   "table_index": {
     "database_structure": "qc-metadata",
-    "categorical_values": "qc-metadata",
+    "column_ids": "qc-metadata",
     "numeric_ranges": "qc-metadata",
+    "controlled_vocabularies": "qc-metadata",
+    "column_lookups": "qc-metadata",
     "partner_codes": "sites",
     "site_codes": "sites",
     "data_index": "sites",
@@ -282,9 +326,6 @@
     "functional_group_lookup": "taxonomy"
   },
   "sources": {
-    "table-metadata/categorical-values/fouling_monitoring_vocab.csv": "8e8d14a418332f17bb4aaebc964cd7d4169f885d1661f2097d397ae0461c4e87",
-    "table-metadata/categorical-values/oyster_monitoring_and_experiments_vocab.csv": "a1a8352429de90e113147c6ac7e0084d1da4f99e489dc04ca751816348f92d93",
-    "table-metadata/categorical-values/seagrass_monitoring_vocab.csv": "ae8b1618e441120f13e327417664f97d08197a18831913241fe13fd83f8d4ec7",
     "table-metadata/column-ids/cross_protocol_ids.csv": "d75debe59f8e6c3808843f3ef1c7f897c87915cffc026dfb71add91e8d559827",
     "table-metadata/column-ids/darwin-core_column-ids.csv": "c95857bf782e19ac10cb27ce633e82b6b42af71c17f5a5b5a90419436dc0983f",
     "table-metadata/column-ids/fouling-panels_column-ids.csv": "ad2fd54ab1c88eae5df6a3cf3ffc033dfdcad376137c6b67536fc328967b53e3",
@@ -295,23 +336,21 @@
     "table-metadata/column-ids/sites-and-partners_column-ids.csv": "cd23ea18d583c6d7c728afd925e31bc467392e25a009e20387b1cd54fc6a0776",
     "table-metadata/column-ids/taxonomy-and-functional-groups_column-ids.csv": "7fe2ae68d980ed441510c16420b6d61b501750eeeb9affaf7535dc18d849a97f",
     "table-metadata/column-lookups/cross_protocol_lookups.csv": "17e2badaad0d3f5e2cf55bafcdc22a2c7e773a3b2afed8982c6a75318b1010ca",
-    "table-metadata/column-ranges/cross_protocol_ranges.csv": "822013a8cd57ed98b6d5e2153e238f72048f33a789334f1ee41ac8fa5bc538d9",
-    "table-metadata/column-ranges/oyster-reef-monitoring_column-ranges.csv": "8891db027a577bd93bdd0f3903d70289d6e028309edc3d08b6dccd682050d502",
-    "table-metadata/column-ranges/seagrass-monitoring_column-ranges.csv": "8ca11c25f73bbfe30967d1238e44bf2283fd4ec30812fc977e8e1779ce6df6d8",
-    "table-metadata/column-vocabularies/cross_protocol_vocabularies.csv": "3baaa4d513822156bbec2f6da6c46d1899c5d97ab23dc6f7e746d29daab6714e",
-    "table-metadata/column-vocabularies/fouling-panels_column-vocabularies.csv": "1200df8d50c1fec5115655f37155684940c1d8b88e6d317df620dc559ef88849",
-    "table-metadata/column-vocabularies/oyster-experiment-2025_column-vocabularies.csv": "774d6a5b653852f14a752b047a7b7bf9fb8e4f393223b60fcd6a9dbb65104f1b",
-    "table-metadata/column-vocabularies/oyster-reef-monitoring_column-vocabularies.csv": "c51af032368adb6a9b431e826102df495d4aa123635130493ba216a6996fbfa3",
-    "table-metadata/column-vocabularies/seagrass-monitoring_column-vocabularies.csv": "2650d081ca221b88d8159e2e0d3c68c2d858146b9f0c70c1372fafbbde68b08d",
-    "table-metadata/data-structure/darwin-core_data-structure.csv": "3a58065ac2dd93760eaa9da0448d11dad980be65809d808ce21f053b453b64ff",
-    "table-metadata/data-structure/fouling-panels_data-structure.csv": "2f38fc8b0bc0b0fc52891a2337bceea53737d80a57b3ae48cb50970c6683e616",
-    "table-metadata/data-structure/marinegeo_metadata_tables.csv": "5a9db3c8f95146237997f64e6838919ee3b22a03b573c71162b5cafeb30e7a8b",
-    "table-metadata/data-structure/oyster-experiment-2025_data-structure.csv": "851f6d729e79db7e779cd7449dda7b0f847c6ebc33bc57108d765aa60a7761a9",
-    "table-metadata/data-structure/oyster-reef-monitoring_data-structure.csv": "9f352049f5cbc781dc0a33e4153b8f7c201f4aac1d1dc0ed14b9ba994ed38760",
-    "table-metadata/data-structure/reef-life-survey_data-structure.csv": "57a16bd2e7beea475f00681872bf2cfc955d9aba692e446930ff8e66ccd1628a",
-    "table-metadata/data-structure/seagrass-monitoring_data-structure.csv": "4f1971b1666a1a36f595d888369901c662c748ba6a7ba2d0d2ddf8dad6dc9f64",
-    "table-metadata/numeric-ranges/oyster_monitoring_numeric_ranges.csv": "3b17afd90527442647d03c54d0e2bf2b130e877b4c941c88343e1d6bcb3cb024",
-    "table-metadata/numeric-ranges/seagrass_monitoring_numeric_ranges.csv": "75c523b1d2256c76dd674a01810093c12d3235d7fbc87b4bc741aa27186d5426",
+    "table-metadata/controlled-vocabularies/cross_protocol_vocabularies.csv": "3baaa4d513822156bbec2f6da6c46d1899c5d97ab23dc6f7e746d29daab6714e",
+    "table-metadata/controlled-vocabularies/fouling-panels_controlled-vocabularies.csv": "1200df8d50c1fec5115655f37155684940c1d8b88e6d317df620dc559ef88849",
+    "table-metadata/controlled-vocabularies/oyster-experiment-2025_controlled-vocabularies.csv": "774d6a5b653852f14a752b047a7b7bf9fb8e4f393223b60fcd6a9dbb65104f1b",
+    "table-metadata/controlled-vocabularies/oyster-reef-monitoring_controlled-vocabularies.csv": "c51af032368adb6a9b431e826102df495d4aa123635130493ba216a6996fbfa3",
+    "table-metadata/controlled-vocabularies/seagrass-monitoring_controlled-vocabularies.csv": "2650d081ca221b88d8159e2e0d3c68c2d858146b9f0c70c1372fafbbde68b08d",
+    "table-metadata/data-structure/darwin-core_data-structure.csv": "ac7b00dd61a8a30951bcbeb237242b303861127117ba4735e4b8fcc92715fa99",
+    "table-metadata/data-structure/fouling-panels_data-structure.csv": "d329fb3a27c36b1c929488e5346503cc7bb537aaa16d65cdba7389526aab48ab",
+    "table-metadata/data-structure/marinegeo_metadata_tables.csv": "f315242a860fdc4476ba04e5bbfa8f540b9db5a9620c80d8212720ce8d571ae0",
+    "table-metadata/data-structure/oyster-experiment-2025_data-structure.csv": "8545956a24a0baf56b002092645a96fc40db4a063fd69b24ffea76ee9ea467a4",
+    "table-metadata/data-structure/oyster-reef-monitoring_data-structure.csv": "83d2e681b9b2623b51cb4452cde6525c5974699e0c9a4bdfed87bd88b775e629",
+    "table-metadata/data-structure/reef-life-survey_data-structure.csv": "dc9899a3a0a40a20703b8107369fbacc4e41d09ea2b70487042bb24b1d1df0c6",
+    "table-metadata/data-structure/seagrass-monitoring_data-structure.csv": "551242be01d0327f9d3c4f0894d25c10284499f4b2f18ef2cfa20480386dce6c",
+    "table-metadata/numeric-ranges/cross_protocol_ranges.csv": "822013a8cd57ed98b6d5e2153e238f72048f33a789334f1ee41ac8fa5bc538d9",
+    "table-metadata/numeric-ranges/oyster-reef-monitoring_numeric-ranges.csv": "8891db027a577bd93bdd0f3903d70289d6e028309edc3d08b6dccd682050d502",
+    "table-metadata/numeric-ranges/seagrass-monitoring_numeric-ranges.csv": "8ca11c25f73bbfe30967d1238e44bf2283fd4ec30812fc977e8e1779ce6df6d8",
     "sites-and-partners/partner-codes/partners.csv": "97ed3d724bc1315ff3b79a82a8fb417e4ee1ef84d6dd20ec5e010de665f8555f",
     "sites-and-partners/site-names/3M_partners_locations.csv": "8cf0733171468bfc75c3bcc95f3fb99efb5c40fe22241c8e2722d925c22e83fb",
     "sites-and-partners/site-names/BLZ-CBC_locations.csv": "f65b903241bbb9e730ad295ced90efa4d76a1b9a964d73ffff6d60e6ab914a44",
