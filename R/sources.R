@@ -132,3 +132,34 @@ mg_rule_col_types <- list(
     registry_column = readr::col_character()
   )
 )
+
+# `rule_id` derivation for `numeric_ranges`, shared with R/validate.R.
+#
+# Defined here rather than in the generator because both sides need it: the
+# generator derives the ids it publishes, and the validator has to report the
+# same ids in its messages and check them for collisions before a run that
+# would stop() in the generator. Two copies of a lossy slug rule would drift.
+#
+# The slug collapses every run of non-alphanumerics to a single `_` and trims
+# the ends, so it is lossy by design: `Genus:Zostera` and `Genus_Zostera` are
+# different scope values that slug identically.
+mg_rule_id_slug <- function(x) {
+  gsub("^_+|_+$", "", gsub("[^a-z0-9]+", "_", tolower(x)))
+}
+
+# `column_id` for an unconditional rule, `column_id__<scope_type>__<scope_value>`
+# for a scoped one. Returns the id vector; the caller decides what a collision
+# means.
+mg_derive_rule_id <- function(tbl) {
+  scoped <- !is.na(tbl$scope_type) & nzchar(tbl$scope_type)
+  ifelse(
+    scoped,
+    paste(
+      tbl$column_id,
+      mg_rule_id_slug(tbl$scope_type),
+      mg_rule_id_slug(tbl$scope_value),
+      sep = "__"
+    ),
+    tbl$column_id
+  )
+}

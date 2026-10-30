@@ -27,23 +27,12 @@ source(file.path(root, "R", "sources.R"))
 
 SCHEMA_VERSION <- 1L
 
-# Row order is semantic: the package's qc_check_columns() reports column ORDER
-# issues against database_structure, so the sorted file order below is part of
-# the contract, not an implementation detail.
-slug <- function(x) {
-  gsub("^_+|_+$", "", gsub("[^a-z0-9]+", "_", tolower(x)))
-}
-
 # column_id for an unconditional rule, column_id__<scope_type>__<scope_value>
-# for a scoped one. Prepended as the first column so the published table reads
-# key-first.
+# for a scoped one, derived by mg_derive_rule_id() in R/sources.R so the
+# validator reports the same ids. Prepended as the first column so the
+# published table reads key-first.
 derive_rule_id <- function(tbl) {
-  scoped <- !is.na(tbl$scope_type) & nzchar(tbl$scope_type)
-  rule_id <- ifelse(
-    scoped,
-    paste(tbl$column_id, slug(tbl$scope_type), slug(tbl$scope_value), sep = "__"),
-    tbl$column_id
-  )
+  rule_id <- mg_derive_rule_id(tbl)
   dup <- unique(rule_id[duplicated(rule_id)])
   if (length(dup) > 0) {
     stop(
@@ -60,6 +49,9 @@ derive_rule_id <- function(tbl) {
   tbl[, c("rule_id", setdiff(colnames(tbl), "rule_id"))]
 }
 
+# Row order is semantic: the package's qc_check_columns() reports column ORDER
+# issues against database_structure, so the sorted file order below is part of
+# the contract, not an implementation detail.
 read_dir <- function(sub, col_types = NULL) {
   files <- sort(list.files(
     file.path(root, sub),
