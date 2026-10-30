@@ -1,0 +1,40 @@
+column_id,label,definition,unit
+abundance_per_macrophyte_g,Abundance per macrophyte mass,,individuals per g
+biomass_type,Biomass type,,
+blades_dry_mass_g,Blade dry mass,,g
+compass_bearing,Compass bearing,,
+corer_dimensions,Corer dimensions,,
+cover_code,Cover code,,
+cover_method,Cover method,,
+cover_quadrat_dimensions,Cover quadrat dimensions,,
+cover_sample_notes,Cover sample notes,,
+epibiont_dry_mass_g,Epibiont dry mass,,g
+epifauna_count,Epifauna count,,individuals
+epifauna_notes,Epifauna notes,,
+flowers_present,Flowers present,,
+grazing_scars_present,Grazing scars present,,
+leaf_length_mm,Leaf length,,mm
+leaf_measurement_notes,Leaf measurement notes,,
+leaf_rank,Leaf rank,,
+leaf_width_mm,Leaf width,,mm
+macro_invert_id,Macro invert id,,
+macro_invert_sample_notes,Macro invert sample notes,,
+macroalgae_dry_mass_g,Macroalgae dry mass,,g
+macroalgae_id,Macroalgae id,,
+macroinvertebrate_size_mm,Macroinvertebrate size,,mm
+macrophyte_mass_notes,Macrophyte mass notes,,
+median_leaf_length_mm,Median leaf length,,mm
+percent_cover_seagrass,Percent cover,,percent
+point_count_seagrass_cover,Point count,,
+points_in_quadrat_seagrass_cover,Points in quadrat,,
+quadrat_in_transect_50m,Quadrat number in a 50 m transect,,
+sample_data_notes,Sample data notes,,
+sample_dry_mass_g,Sample dry mass,,g
+sediment_type,Sediment type,,
+sheath_and_epibiont_notes,Sheath and epibiont notes,,
+sheath_length_mm,Sheath length,,mm
+shoot_count,Shoot count,,individuals
+shoot_count_sample_notes,Shoot count sample notes,,
+shoot_density_m2,Shoot density,,individuals per m2
+shoot_length_mm,Shoot length,,mm
+size_class,Size class,,

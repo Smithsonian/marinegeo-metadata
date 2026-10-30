@@ -1,0 +1,11 @@
+column_id,scope_type,scope_value,range_type,max_fail,min_fail,max_warn,min_warn
+biobox_count,,,inclusive,,0,100,
+biobox_id,,,inclusive,,0,3,
+chain_distance_m,,,inclusive,,0,30,
+chain_length_m,,,inclusive,,0,30,
+max_cluster_height_cm,,,inclusive,,0,100,
+oyster_count,,,inclusive,,,100,0
+percent_cover_oyster_reef,,,inclusive,,,100,
+point_count_oyster_composition,,,inclusive,,,81,
+points_in_quadrat_oyster_composition,,,inclusive,,,81,
+quadrat_in_transect_30m,,,inclusive,,,30,0

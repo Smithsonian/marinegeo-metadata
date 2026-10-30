@@ -1,0 +1,6 @@
+column_id,scope_type,scope_value,range_type,max_fail,min_fail,max_warn,min_warn
+decimal_latitude,,,inclusive,90,-90,,
+decimal_longitude,,,inclusive,180,-180,,
+oyster_height_mm,,,inclusive,,0,355,
+rugosity,,,inclusive,1,0,,
+transect_length_m,,,inclusive,,0,50,

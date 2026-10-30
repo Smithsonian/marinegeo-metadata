@@ -1,0 +1,16 @@
+column_id,scope_type,scope_value,range_type,max_fail,min_fail,max_warn,min_warn
+abundance_per_macrophyte_g,,,exclusive,,0,,
+blades_dry_mass_g,,,inclusive,,0,,
+epibiont_dry_mass_g,,,inclusive,,0,,
+leaf_length_mm,,,exclusive,,0,,
+leaf_length_mm,taxon_within,Genus:Zostera,inclusive,,,1200,20
+leaf_width_mm,,,exclusive,,0,,
+macroalgae_dry_mass_g,,,exclusive,,0,,
+median_leaf_length_mm,,,exclusive,,0,,
+percent_cover_seagrass,,,inclusive,200,0,100,
+point_count_seagrass_cover,,,inclusive,,0,81,
+points_in_quadrat_seagrass_cover,,,inclusive,,,144,
+quadrat_in_transect_50m,,,inclusive,,0,50,0
+sample_dry_mass_g,,,exclusive,,0,,
+sheath_length_mm,,,exclusive,,0,,
+shoot_length_mm,,,exclusive,,0,,

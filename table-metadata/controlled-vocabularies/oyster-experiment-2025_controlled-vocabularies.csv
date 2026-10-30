@@ -1,0 +1,12 @@
+column_id,value
+inside_or_outside_biobox,inside
+inside_or_outside_biobox,outside
+logger_deployed,FALSE
+logger_deployed,TRUE
+spat_stick,PVC
+spat_stick,biobox
+tidal_zone,intertidal
+tidal_zone,subtidal
+water_depth_unit,cm
+water_present,FALSE
+water_present,TRUE

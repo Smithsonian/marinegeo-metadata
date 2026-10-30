@@ -1,0 +1,12 @@
+column_id,label,definition,unit
+functional_group_code,Functional group code,,
+functional_group_definition,Functional group definition,,
+functional_group_edge_from,Functional group edge child label,,
+functional_group_edge_to,Functional group edge parent label,,
+functional_group_node_type,Functional group node type,,
+functional_group_tree_name,Functional group tree name,,
+scientific_id,Scientific id,,
+taxon_name,Taxon name,,
+taxon_numeric_id,Taxon numeric identifier,,
+taxon_parent_id,Parent taxon identifier,,
+taxonomic_rank,Taxonomic rank,,

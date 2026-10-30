@@ -1,0 +1,47 @@
+column_id,label,definition,unit
+block,Block,,
+buddy,Buddy,,
+common_name,Common name,,
+date,Date,,
+depth,Depth,,
+direction,Direction,,
+diver,Diver,,
+inverts,Inverts,,individuals
+method,Method,,
+photoquadrats,Photoquadrats,,
+rls_abundance_size_100cm,RLS abundance 100 cm size class,,individuals
+rls_abundance_size_10cm,RLS abundance 10 cm size class,,individuals
+rls_abundance_size_112_5cm,RLS abundance 112.5 cm size class,,individuals
+rls_abundance_size_125cm,RLS abundance 125 cm size class,,individuals
+rls_abundance_size_12_5cm,RLS abundance 12.5 cm size class,,individuals
+rls_abundance_size_137_5cm,RLS abundance 137.5 cm size class,,individuals
+rls_abundance_size_150cm,RLS abundance 150 cm size class,,individuals
+rls_abundance_size_15cm,RLS abundance 15 cm size class,,individuals
+rls_abundance_size_162_5cm,RLS abundance 162.5 cm size class,,individuals
+rls_abundance_size_175cm,RLS abundance 175 cm size class,,individuals
+rls_abundance_size_187_5cm,RLS abundance 187.5 cm size class,,individuals
+rls_abundance_size_200cm,RLS abundance 200 cm size class,,individuals
+rls_abundance_size_20cm,RLS abundance 20 cm size class,,individuals
+rls_abundance_size_250cm,RLS abundance 250 cm size class,,individuals
+rls_abundance_size_25cm,RLS abundance 25 cm size class,,individuals
+rls_abundance_size_2_5cm,RLS abundance 2.5 cm size class,,individuals
+rls_abundance_size_300cm,RLS abundance 300 cm size class,,individuals
+rls_abundance_size_30cm,RLS abundance 30 cm size class,,individuals
+rls_abundance_size_350cm,RLS abundance 350 cm size class,,individuals
+rls_abundance_size_35cm,RLS abundance 35 cm size class,,individuals
+rls_abundance_size_400cm,RLS abundance 400 cm size class,,individuals
+rls_abundance_size_40cm,RLS abundance 40 cm size class,,individuals
+rls_abundance_size_50cm,RLS abundance 50 cm size class,,individuals
+rls_abundance_size_5cm,RLS abundance 5 cm size class,,individuals
+rls_abundance_size_62_5cm,RLS abundance 62.5 cm size class,,individuals
+rls_abundance_size_75cm,RLS abundance 75 cm size class,,individuals
+rls_abundance_size_7_5cm,RLS abundance 7.5 cm size class,,individuals
+rls_abundance_size_87_5cm,RLS abundance 87.5 cm size class,,individuals
+rls_code,Survey code (Reef Life Survey),,
+site_code_rls,Site code (Reef Life Survey),,
+site_name_rls,Site name (Reef Life Survey),,
+species,Species,,
+taxonomic_id,Taxonomic id,,
+time,Time,,
+total,Total,,individuals
+vis,Vis,,

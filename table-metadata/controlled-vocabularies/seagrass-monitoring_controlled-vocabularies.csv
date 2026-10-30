@@ -1,0 +1,21 @@
+column_id,value
+cover_code,0
+cover_code,0.1
+cover_code,0.5
+cover_code,1
+cover_code,2
+cover_code,3
+cover_code,4
+cover_method,Braun-Blanquet
+cover_method,method in notes
+cover_method,percent bins
+cover_method,photoquadrats
+cover_method,point count
+cover_method,visual estimation
+cover_quadrat_dimensions,100x100cm
+cover_quadrat_dimensions,150x150cm
+cover_quadrat_dimensions,50x50cm
+flowers_present,FALSE
+flowers_present,TRUE
+grazing_scars_present,FALSE
+grazing_scars_present,TRUE
