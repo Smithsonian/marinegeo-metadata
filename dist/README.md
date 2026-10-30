@@ -16,27 +16,12 @@ Regenerate after changing any source:
 Rscript R/generate-metadata-dist.R
 ```
 
-## Why these files exist
-
-`marinegeo.utils` used to fetch the metadata as directories of CSVs: one GitHub
-Trees API call plus 46 raw file fetches per cold load, 16 of them just for the
-QC rule tables. It now reads one manifest plus one bundle.
-
-The split is by **how often a thing changes**, so a one-line rule edit does not
-invalidate a cached taxonomy payload:
-
-| Bundle | Gzipped | Volatility | Contents |
-|---|---|---|---|
-| `qc-metadata.json` | ~6 KB | changes most weeks | the 3 QC rule tables |
-| `sites.json` | ~8 KB | occasional | partners, sites, data index |
-| `taxonomy.json` | ~122 KB | rare | the 3 machine-generated lookups |
-
 ## manifest.json
 
 The index, and the contract. It carries:
 
-- `schema_version` — consumers must refuse a major version they do not
-  understand. Reading unknown rules as "no rules" would let a QC run report a
+- `schema_version` — Consumers must
+  refuse a major version they do not understand. Reading unknown rules as "no rules" would let a QC run report a
   clean pass having checked nothing.
 - `table_index` — which bundle holds which table.
 - `bundles[*].tables[*].columns` — **the declared column types.** JSON cannot

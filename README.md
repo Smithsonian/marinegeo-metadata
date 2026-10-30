@@ -1,6 +1,6 @@
 # marinegeo-metadata
 
-`marinegeo-metadata` contains metadata and associated resources that drives QA/QC and data management of
+`marinegeo-metadata` contains metadata and associated resources that drives QA/QC and workflows of
 MarineGEO data. These resources are used by a companion R package, `marinegeo.utils`.
 
 Each kind of metadata is kept in the format that suits its shape, and all of it
@@ -16,8 +16,10 @@ marinegeo-metadata/
 ├── R/                                 # Scripts for updating and building metadata
 ├── table-metadata/                    # AUTHORED: flat CSV
 │   ├── data-structure/                #   Columns, types, required-ness per table
-│   ├── categorical-values/            #   Controlled vocabularies
-│   └── numeric-ranges/                #   Numeric bounds
+│   ├── column-ids/                    #   What each column holds: label, unit
+│   ├── numeric-ranges/                #   Numeric bounds, optionally taxon-scoped
+│   ├── controlled-vocabularies/       #   Permitted values
+│   └── column-lookups/                #   Which columns are registry-checked
 ├── sites-and-partners/                # AUTHORED: flat CSV
 │   ├── partner-codes/                 #   Partner organization codes
 │   └── site-names/                    #   Site location names by partner
@@ -36,22 +38,11 @@ marinegeo-metadata/
 
 1. Edit the authored source (a CSV under `table-metadata/` or
    `sites-and-partners/`).
-2. Rebuild the JSON /dist files:
-
-   ```bash
-   Rscript R/generate-metadata-dist.R
-   ```
-
+2. Rebuild the JSON /dist files (`R/generate-metadata-dist.R`:
    This checks the rule-table headers and source encodings, and refuses to
    write if anything fails.
-3. Check everything still holds:
-
-   ```bash
-   Rscript R/validate.R
-   ```
-
-   Verifies `dist/` is current, the rule tables are well formed and
-   cross-referentially complete, and the registry tables pass the QC rules
+3. Check if updates validate (`R/validate.R`):
+   Verifies `dist/` is current, the rule tables are well formed, and the registry tables pass the QC rules
    they themselves declare. Exits non-zero on failure.
 4. Commit the source **and** the regenerated `dist/`.
 
