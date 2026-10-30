@@ -1,5 +1,7 @@
 column_id,registry_table,registry_column
 partner_code,partner_codes,partner_code
 scientific_name,observation_lookup,scientific_name
+scientific_name_seagrass_cover,observation_lookup,scientific_name
+scientific_name_seagrass_only,observation_lookup,scientific_name
 site_code_marinegeo,site_codes,site_code
 site_name_marinegeo,site_codes,site_name

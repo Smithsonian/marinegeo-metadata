@@ -6,7 +6,7 @@ Seagrass Monitoring,seagrass-cover-monitoring-v1,site_name,STRING,fail,,site_nam
 Seagrass Monitoring,seagrass-cover-monitoring-v1,transect,TINYINT,fail,TRUE,transect
 Seagrass Monitoring,seagrass-cover-monitoring-v1,quadrat,INT,fail,TRUE,quadrat_in_transect_50m
 Seagrass Monitoring,seagrass-cover-monitoring-v1,sample_collection_date,DATE,fail,TRUE,sample_collection_date
-Seagrass Monitoring,seagrass-cover-monitoring-v1,scientific_name,STRING,fail,TRUE,scientific_name
+Seagrass Monitoring,seagrass-cover-monitoring-v1,scientific_name,STRING,fail,TRUE,scientific_name_seagrass_cover
 Seagrass Monitoring,seagrass-cover-monitoring-v1,cover_method,STRING,warn,,cover_method
 Seagrass Monitoring,seagrass-cover-monitoring-v1,point_count,INT,allow,,point_count_seagrass_cover
 Seagrass Monitoring,seagrass-cover-monitoring-v1,points_in_quadrat,INT,allow,,points_in_quadrat_seagrass_cover
@@ -39,7 +39,7 @@ Seagrass Monitoring,shoot-count-monitoring-v1,site_name,STRING,fail,,site_name_m
 Seagrass Monitoring,shoot-count-monitoring-v1,transect,TINYINT,fail,TRUE,transect
 Seagrass Monitoring,shoot-count-monitoring-v1,quadrat,INT,fail,TRUE,quadrat_in_transect_50m
 Seagrass Monitoring,shoot-count-monitoring-v1,sample_collection_date,DATE,fail,TRUE,sample_collection_date
-Seagrass Monitoring,shoot-count-monitoring-v1,scientific_name,STRING,fail,TRUE,scientific_name
+Seagrass Monitoring,shoot-count-monitoring-v1,scientific_name,STRING,fail,TRUE,scientific_name_seagrass_only
 Seagrass Monitoring,shoot-count-monitoring-v1,shoot_count,INT,warn,,shoot_count
 Seagrass Monitoring,shoot-count-monitoring-v1,flowers_present,BOOL,allow,,flowers_present
 Seagrass Monitoring,shoot-count-monitoring-v1,density_quadrat_dimensions,STRING,warn,,density_quadrat_dimensions
@@ -55,7 +55,7 @@ Seagrass Monitoring,seagrass-leaf-monitoring-v1,site_name,STRING,fail,,site_name
 Seagrass Monitoring,seagrass-leaf-monitoring-v1,transect,TINYINT,fail,TRUE,transect
 Seagrass Monitoring,seagrass-leaf-monitoring-v1,quadrat,INT,fail,TRUE,quadrat_in_transect_50m
 Seagrass Monitoring,seagrass-leaf-monitoring-v1,sample_collection_date,DATE,fail,TRUE,sample_collection_date
-Seagrass Monitoring,seagrass-leaf-monitoring-v1,scientific_name,STRING,fail,TRUE,scientific_name
+Seagrass Monitoring,seagrass-leaf-monitoring-v1,scientific_name,STRING,fail,TRUE,scientific_name_seagrass_only
 Seagrass Monitoring,seagrass-leaf-monitoring-v1,leaf_rank,INT,warn,TRUE,leaf_rank
 Seagrass Monitoring,seagrass-leaf-monitoring-v1,leaf_length_mm,DOUBLE,warn,,leaf_length_mm
 Seagrass Monitoring,seagrass-leaf-monitoring-v1,leaf_width_mm,DOUBLE,warn,,leaf_width_mm
@@ -70,7 +70,7 @@ Seagrass Monitoring,sheath-and-epibiont-monitoring-v1,site_name,STRING,fail,,sit
 Seagrass Monitoring,sheath-and-epibiont-monitoring-v1,transect,TINYINT,fail,TRUE,transect
 Seagrass Monitoring,sheath-and-epibiont-monitoring-v1,quadrat,INT,fail,TRUE,quadrat_in_transect_50m
 Seagrass Monitoring,sheath-and-epibiont-monitoring-v1,sample_collection_date,DATE,fail,TRUE,sample_collection_date
-Seagrass Monitoring,sheath-and-epibiont-monitoring-v1,scientific_name,STRING,fail,TRUE,scientific_name
+Seagrass Monitoring,sheath-and-epibiont-monitoring-v1,scientific_name,STRING,fail,TRUE,scientific_name_seagrass_only
 Seagrass Monitoring,sheath-and-epibiont-monitoring-v1,sheath_length_mm,DOUBLE,warn,,sheath_length_mm
 Seagrass Monitoring,sheath-and-epibiont-monitoring-v1,median_leaf_length_mm,DOUBLE,warn,,median_leaf_length_mm
 Seagrass Monitoring,sheath-and-epibiont-monitoring-v1,shoot_length_mm,DOUBLE,warn,,shoot_length_mm
