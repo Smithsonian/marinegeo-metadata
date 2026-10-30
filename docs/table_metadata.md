@@ -139,7 +139,7 @@ leaf_length_mm,taxon_within,Genus:Zostera,inclusive,,,1200,20
 |---|---|---|
 | `taxon_within` | `Rank:Name` (`Genus:Zostera`, `Family:Zosteraceae`) or a full LSID (`urn:lsid:marinespecies.org:taxname:495077`) | the row's taxon is at or below that node of `taxonomic_lookup` |
 | `taxon_not_within` | same | it is not |
-| `in_functional_group` | `tree:Label` (`vegetation:Marine Seagrass`) | the row's taxon is at or below that node of a `functional_group_lookup` tree |
+| `in_functional_group` | `tree:Label` (`vegetation:Marine Seagrass`) | the row's taxon is at or below that node of a `nested_labelsets` tree |
 | `not_in_functional_group` | same | it is not |
 
 Blank `scope_type` *and* blank `scope_value` is an unconditional rule. Setting

@@ -64,4 +64,4 @@ output_network_df <- ToDataFrameNetwork(oyster_composition, "scientific_id", "ty
 
 output_network_df %>%
   mutate(tree_name = "oyster_composition") %>%
-  write_csv("taxonomy-and-functional-groups/functional-group-lookup/oyster_composition.csv")
+  write_csv("taxonomy-and-functional-groups/nested-labelsets/oyster_composition.csv")

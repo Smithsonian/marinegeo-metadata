@@ -216,8 +216,8 @@ taxonomy <- list(
   taxonomic_lookup = read_dir(
     "taxonomy-and-functional-groups/taxonomic-lookup"
   ),
-  functional_group_lookup = read_dir(
-    "taxonomy-and-functional-groups/functional-group-lookup"
+  nested_labelsets = read_dir(
+    "taxonomy-and-functional-groups/nested-labelsets"
   )
 )
 

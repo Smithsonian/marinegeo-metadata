@@ -184,7 +184,7 @@ range_types <- c("inclusive", "exclusive")
 registry_table_ids <- c(
   "observation_lookup",
   "taxonomic_lookup",
-  "functional_group_lookup",
+  "nested_labelsets",
   "site_lookup",
   "partner_lookup",
   # Darwin Core / OBIS exchange formats: published structures rather than
@@ -997,9 +997,9 @@ registries <- list(
     path = "./taxonomy-and-functional-groups/taxonomic-lookup/",
     label = "Taxonomic Lookup Table"
   ),
-  functional_group_lookup = list(
-    path = "./taxonomy-and-functional-groups/functional-group-lookup/",
-    label = "Functional Group/Morphological Lookup Table"
+  nested_labelsets = list(
+    path = "./taxonomy-and-functional-groups/nested-labelsets/",
+    label = "Nested Labelsets Table"
   ),
   site_lookup = list(
     path = "./sites-and-partners/site-names/",

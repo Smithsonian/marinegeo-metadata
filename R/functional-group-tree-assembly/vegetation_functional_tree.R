@@ -111,4 +111,4 @@ output_network_df <- ToDataFrameNetwork(vegetation, "scientific_id", "type", "co
 
 output_network_df %>%
   mutate(tree_name = "vegetation") %>%
-  write_csv("taxonomy-and-functional-groups/functional-group-lookup/vegetation.csv")
+  write_csv("taxonomy-and-functional-groups/nested-labelsets/vegetation.csv")
