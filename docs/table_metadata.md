@@ -179,17 +179,52 @@ should reject.
 
 ## column-lookups/
 
-`column_id,registry_table,registry_column`
+`column_id,registry_table,registry_column,scope_type,scope_value`
 
-Which columns are validated against a registry, and against what. Four rows:
+Which columns are validated against a registry, against what, and optionally
+against which *part* of it. Six rows:
 
 ```
-column_id,registry_table,registry_column
-partner_code,partner_codes,partner_code
-scientific_name,observation_lookup,scientific_name
-site_code_marinegeo,site_codes,site_code
-site_name_marinegeo,site_codes,site_name
+column_id,registry_table,registry_column,scope_type,scope_value
+partner_code,partner_codes,partner_code,,
+scientific_name,observation_lookup,scientific_name,,
+scientific_name_seagrass_cover,observation_lookup,scientific_name,in_labelset,vegetation:type=primary
+scientific_name_seagrass_only,observation_lookup,scientific_name,in_labelset,vegetation:Seagrass
+site_code_marinegeo,site_codes,site_code,,
+site_name_marinegeo,site_codes,site_name,,
 ```
+
+### scope_type / scope_value
+
+Both blank — the usual case — means the column admits the whole registry
+column. Set together, they narrow it to the entries a nested labelset places at
+or below a reference. `scope_type` is a closed vocabulary holding one operator,
+`in_labelset`.
+
+A `scope_value` is one or more `|`-separated references into
+`taxonomy-and-functional-groups/nested-labelsets/`:
+
+| reference | means |
+|---|---|
+| `vegetation:Seagrass` | the node labelled `Seagrass` in the `vegetation` labelset, and everything beneath it |
+| `vegetation:type=primary` | every node in `vegetation` whose `type` is `primary` — today `Seagrass` and `Algae` — and everything beneath each |
+
+The tree prefix is required: 540 of the 1,579 labels occur in more than one
+labelset, so a bare label is ambiguous for a third of the vocabulary. Several
+references give the union of their sets. Narrowing is done by intersecting the
+registry's `scientific_id` against the ids the labelset places beneath the
+reference, so a scoped binding must name a registry that has a `scientific_id`
+column — in practice `observation_lookup`.
+
+Because this table keys on `column_id`, a column that needs a narrower set than
+its neighbours needs its own `column_id`. That is why the four seagrass tables
+split `scientific_name` into `scientific_name_seagrass_cover` (seagrass *and*
+algae, since a cover quadrat records both) and `scientific_name_seagrass_only`
+(the shoot-count, leaf and sheath tables, which only ever record a seagrass).
+
+A value that is in the registry but outside the scope is reported by the QC
+engine as `out_of_labelset`, distinct from `unknown_lookup` for a value that is
+not a registered name at all.
 
 ## CSV conventions
 

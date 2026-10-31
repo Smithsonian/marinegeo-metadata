@@ -9,7 +9,8 @@
 #   1.  dist/ is current with respect to the authored sources.
 #   2.  The authored rule-table CSVs are well formed and cross-referentially
 #       complete on `column_id`, the key all three rule tables hang off.
-#   2b. Every range scope reference resolves against the live registry.
+#   2b. Every scope reference -- range and lookup -- resolves against the live
+#       registry.
 #   3.  The registry lookup tables pass the QC rules they themselves declare.
 #   4.  Functional group assignment.
 #   5.  A scoped range rule fires end to end, on the row it should and no other.
@@ -49,6 +50,7 @@ fail <- function(...) {
   ".mg_dist_schema_version",
   ".mg_dist_schema_version_min",
   ".mg_registry_required_cols",
+  ".qc_lookup_scope_types",
   "utl_mg_expand_taxon_set"
 )
 .needed_tables <- c("column_ids", "column_lookups")
@@ -567,6 +569,30 @@ scope_types <- tryCatch(
   }
 )
 
+# The same arrangement for the labelset narrowing a `column_lookups` row may
+# carry. Separate from `scope_types` because the two tables accept different
+# operators: a lookup binding narrows a permitted SET, so it has no use for the
+# negations a numeric range scope needs.
+lookup_scope_types <- tryCatch(
+  get(".qc_lookup_scope_types", envir = ns),
+  error = function(e) "in_labelset"
+)
+
+# A labelset reference is `tree:Label` or `tree:type=<value>`. Shape only --
+# section 2b resolves it against the live registry.
+lookup_ref_ok <- function(ref) {
+  parts <- strsplit(ref, ":", fixed = TRUE)[[1]]
+  if (length(parts) < 2L || !nzchar(trimws(parts[[1]]))) {
+    return(FALSE)
+  }
+  rest <- trimws(paste(parts[-1], collapse = ":"))
+  if (!nzchar(rest)) {
+    return(FALSE)
+  }
+  # `type=` with nothing after it would select every untyped node in the tree.
+  !startsWith(rest, "type=") || nzchar(trimws(sub("^type=", "", rest)))
+}
+
 # One `|`-separated reference, checked for shape only -- section 2b resolves it
 # against the live registry.
 ref_ok <- function(ref, scope_type) {
@@ -844,6 +870,82 @@ if (!is.null(cl)) {
       )
     }
   }
+
+  # V20. The optional labelset narrowing. A binding with no scope admits the
+  # whole registry column, which is the long-standing behaviour; a binding WITH
+  # one admits only the names the labelset places beneath the reference, so a
+  # scope that cannot be resolved is the difference between "oysters are
+  # rejected in a seagrass table" and "they are not". The engine degrades such a
+  # scope to no narrowing at all -- the permissive direction -- which is exactly
+  # why it has to fail here instead.
+  lk_scope_type <- ifelse(blank(cl$scope_type), "", trimws(cl$scope_type))
+  lk_scope_value <- ifelse(blank(cl$scope_value), "", trimws(cl$scope_value))
+
+  bad_st <- setdiff(unique(lk_scope_type[nzchar(lk_scope_type)]), lookup_scope_types)
+  if (length(bad_st) > 0) {
+    fail(
+      "column_lookups: unknown scope_type(s): ",
+      paste(bad_st, collapse = ", "),
+      ". Valid: ",
+      paste(lookup_scope_types, collapse = ", ")
+    )
+  }
+
+  # Either both scope columns are set or neither is, as in numeric_ranges: a
+  # scope_value with no scope_type is metadata nothing can act on.
+  half <- which(xor(nzchar(lk_scope_type), nzchar(lk_scope_value)))
+  if (length(half) > 0) {
+    fail(
+      "column_lookups: ",
+      length(half),
+      " row(s) set one of scope_type/scope_value and not the other: ",
+      paste0(
+        cl$column_id[half],
+        " (scope_type '",
+        lk_scope_type[half],
+        "', scope_value '",
+        lk_scope_value[half],
+        "')",
+        collapse = "; "
+      )
+    )
+  }
+
+  for (i in which(nzchar(lk_scope_type) & nzchar(lk_scope_value))) {
+    if (!lk_scope_type[i] %in% lookup_scope_types) {
+      next
+    }
+    refs <- trimws(strsplit(lk_scope_value[i], "|", fixed = TRUE)[[1]])
+    refs <- refs[nzchar(refs)]
+    bad <- refs[!vapply(refs, lookup_ref_ok, logical(1))]
+    if (length(bad) > 0) {
+      fail(
+        "column_lookups: '",
+        cl$column_id[i],
+        "' has malformed scope_value segment(s): ",
+        paste(bad, collapse = ", "),
+        ". Expected 'tree:Label' or 'tree:type=<value>'"
+      )
+      next
+    }
+
+    # Narrowing works by intersecting the registry's `scientific_id` against the
+    # ids the labelset places beneath the reference, so a registry without that
+    # column can only ever narrow to nothing.
+    reg <- tryCatch(
+      get(".mg_get_registry_table", envir = ns)(cl$registry_table[i]),
+      error = function(e) NULL
+    )
+    if (!is.null(reg) && !"scientific_id" %in% colnames(reg)) {
+      fail(
+        "column_lookups: '",
+        cl$column_id[i],
+        "' carries a labelset scope but is bound to registry '",
+        cl$registry_table[i],
+        "', which has no scientific_id column to intersect on"
+      )
+    }
+  }
 }
 
 # Row order is semantic -- qc_check_columns() reports column ORDER issues --
@@ -965,6 +1067,83 @@ if (is.null(nr)) {
       next
     }
     message("  ", st, " = ", sv, " -> ", nrow(got), " taxon/taxa")
+  }
+}
+
+# The same resolution for the labelset scopes on `column_lookups`, which narrow
+# a permitted name set rather than a rule's row mask. A reference that resolves
+# to nothing here would leave the engine admitting the whole registry column,
+# so an empty expansion is a failure rather than an empty set.
+if (is.null(cl)) {
+  message("  column_lookups unavailable; nothing to resolve")
+} else {
+  lk_scoped <- which(
+    !blank(cl$scope_type) &
+      !blank(cl$scope_value) &
+      trimws(cl$scope_type) %in% lookup_scope_types
+  )
+  if (length(lk_scoped) == 0L) {
+    message("  no scoped lookups")
+  }
+  for (i in lk_scoped) {
+    sv <- trimws(cl$scope_value[i])
+    refs <- trimws(strsplit(sv, "|", fixed = TRUE)[[1]])
+    refs <- refs[nzchar(refs)]
+
+    warned <- character(0)
+    got <- tryCatch(
+      withCallingHandlers(
+        expand(refs, hierarchy = "functional_group"),
+        warning = function(w) {
+          warned <<- c(warned, conditionMessage(w))
+          invokeRestart("muffleWarning")
+        }
+      ),
+      error = function(e) {
+        fail(
+          "column_lookups: '",
+          cl$column_id[i],
+          "' scope '",
+          sv,
+          "' could not be expanded: ",
+          conditionMessage(e)
+        )
+        NULL
+      }
+    )
+    if (is.null(got)) {
+      next
+    }
+    if (length(warned) > 0) {
+      fail(
+        "column_lookups: '",
+        cl$column_id[i],
+        "' scope '",
+        sv,
+        "': ",
+        paste(unique(warned), collapse = " | ")
+      )
+      next
+    }
+    if (nrow(got) == 0L) {
+      fail(
+        "column_lookups: '",
+        cl$column_id[i],
+        "' scope '",
+        sv,
+        "' expands to no taxa, so the column would admit no value at all"
+      )
+      next
+    }
+    message(
+      "  ",
+      cl$column_id[i],
+      " = ",
+      sv,
+      " -> ",
+      nrow(got),
+      " permitted name(s)"
+    )
   }
 }
 
