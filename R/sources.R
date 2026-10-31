@@ -73,7 +73,13 @@ mg_rule_tables <- list(
   ),
   column_lookups = list(
     dir = "table-metadata/column-lookups",
-    cols = c("column_id", "registry_table", "registry_column")
+    cols = c(
+      "column_id",
+      "registry_table",
+      "registry_column",
+      "scope_type",
+      "scope_value"
+    )
   )
 )
 
@@ -92,10 +98,11 @@ mg_rule_tables <- list(
 # type for every later one: `uuid_identity` would come back character the day
 # darwin-core has no TRUE in it, and `which()` on it in the package's QC engine
 # would stop working. `value` holds the literal strings "TRUE"/"FALSE", which
-# must stay text. Two live instances of the same trap in the new tables:
+# must stay text. Three live instances of the same trap in the new tables:
 # `definition` is empty on every column-ids row today, and `scope_type` /
-# `scope_value` are empty on 29 of the 30 numeric-ranges rows -- readr would
-# guess logical for all three.
+# `scope_value` are empty on 29 of the 30 numeric-ranges rows, and the
+# column-lookups pair of the same name is empty on 4 of its 6 rows -- readr
+# would guess logical for all of them.
 mg_rule_col_types <- list(
   database_structure = readr::cols(
     protocol = readr::col_character(),
@@ -129,7 +136,9 @@ mg_rule_col_types <- list(
   column_lookups = readr::cols(
     column_id = readr::col_character(),
     registry_table = readr::col_character(),
-    registry_column = readr::col_character()
+    registry_column = readr::col_character(),
+    scope_type = readr::col_character(),
+    scope_value = readr::col_character()
   )
 )
 

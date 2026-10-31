@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-29T21:46:48Z",
+  "generated_at": "2026-10-30T21:04:12Z",
   "generator": "R/generate-metadata-dist.R",
   "bundles": {
     "qc-metadata": {
       "path": "dist/qc-metadata.json",
-      "sha256": "994a2fb00372b11c2fff674ee745a2bb89f47422c29b218f637b172eca50e81b",
-      "bytes": 148304,
+      "sha256": "c045e95650ab74619d915b54c67500b49a00139454e5ea7bc5c97d203e255f2c",
+      "bytes": 149029,
       "tables": {
         "database_structure": {
           "rows": 570,
@@ -42,7 +42,7 @@
           ]
         },
         "column_ids": {
-          "rows": 239,
+          "rows": 241,
           "columns": [
             {
               "name": "column_id",
@@ -117,7 +117,7 @@
           ]
         },
         "column_lookups": {
-          "rows": 4,
+          "rows": 6,
           "columns": [
             {
               "name": "column_id",
@@ -129,6 +129,14 @@
             },
             {
               "name": "registry_column",
+              "type": "character"
+            },
+            {
+              "name": "scope_type",
+              "type": "character"
+            },
+            {
+              "name": "scope_value",
               "type": "character"
             }
           ]
@@ -235,8 +243,8 @@
     },
     "taxonomy": {
       "path": "dist/taxonomy.json",
-      "sha256": "1f7fe9f822084d98b6d56c8f78d8ff89760c364ff85d47e17a6c8d56f2d07d72",
-      "bytes": 1111996,
+      "sha256": "ec21ca043379b9c20e2e7eabd0b01696641fb6d884b8acd0564b6e8eeeb323ab",
+      "bytes": 1111989,
       "tables": {
         "observation_lookup": {
           "rows": 1696,
@@ -276,7 +284,7 @@
             }
           ]
         },
-        "functional_group_lookup": {
+        "nested_labelsets": {
           "rows": 2115,
           "columns": [
             {
@@ -327,7 +335,7 @@
     "data_index": "sites",
     "observation_lookup": "taxonomy",
     "taxonomic_lookup": "taxonomy",
-    "functional_group_lookup": "taxonomy"
+    "nested_labelsets": "taxonomy"
   },
   "sources": {
     "table-metadata/column-ids/cross_protocol_ids.csv": "d75debe59f8e6c3808843f3ef1c7f897c87915cffc026dfb71add91e8d559827",
@@ -336,10 +344,10 @@
     "table-metadata/column-ids/oyster-experiment-2025_column-ids.csv": "2232c6a426276e0160aa13f6f8d1894fe402a8453e8530d7fa465d7ebb18b818",
     "table-metadata/column-ids/oyster-reef-monitoring_column-ids.csv": "7bbb2772391077f43638e2929aeb12146be6ae571b0da73679a12f21687eb82d",
     "table-metadata/column-ids/reef-life-survey_column-ids.csv": "c7193e8a74f7ca02e8ad61b42bcaad7f12a364ba54de6d4422bd8938fcff6659",
-    "table-metadata/column-ids/seagrass-monitoring_column-ids.csv": "54b9cc74f6bbc2ccef2b2adde6eec4c70cc7194b996aeb76f3e3630e17619508",
+    "table-metadata/column-ids/seagrass-monitoring_column-ids.csv": "4a5efab51b22f090a3bad09f2a356cd3327dba006ab0e227e50e61ec8a30c869",
     "table-metadata/column-ids/sites-and-partners_column-ids.csv": "cd23ea18d583c6d7c728afd925e31bc467392e25a009e20387b1cd54fc6a0776",
     "table-metadata/column-ids/taxonomy-and-functional-groups_column-ids.csv": "7fe2ae68d980ed441510c16420b6d61b501750eeeb9affaf7535dc18d849a97f",
-    "table-metadata/column-lookups/cross_protocol_lookups.csv": "17e2badaad0d3f5e2cf55bafcdc22a2c7e773a3b2afed8982c6a75318b1010ca",
+    "table-metadata/column-lookups/column_lookups.csv": "238dc945b07e32d34c5050e487174951b351a643f9ade35100b5d4c6ac3cdd9a",
     "table-metadata/controlled-vocabularies/cross_protocol_vocabularies.csv": "3baaa4d513822156bbec2f6da6c46d1899c5d97ab23dc6f7e746d29daab6714e",
     "table-metadata/controlled-vocabularies/fouling-panels_controlled-vocabularies.csv": "1200df8d50c1fec5115655f37155684940c1d8b88e6d317df620dc559ef88849",
     "table-metadata/controlled-vocabularies/oyster-experiment-2025_controlled-vocabularies.csv": "774d6a5b653852f14a752b047a7b7bf9fb8e4f393223b60fcd6a9dbb65104f1b",
@@ -347,11 +355,11 @@
     "table-metadata/controlled-vocabularies/seagrass-monitoring_controlled-vocabularies.csv": "2650d081ca221b88d8159e2e0d3c68c2d858146b9f0c70c1372fafbbde68b08d",
     "table-metadata/data-structure/darwin-core_data-structure.csv": "ac7b00dd61a8a30951bcbeb237242b303861127117ba4735e4b8fcc92715fa99",
     "table-metadata/data-structure/fouling-panels_data-structure.csv": "d329fb3a27c36b1c929488e5346503cc7bb537aaa16d65cdba7389526aab48ab",
-    "table-metadata/data-structure/marinegeo_metadata_tables.csv": "f315242a860fdc4476ba04e5bbfa8f540b9db5a9620c80d8212720ce8d571ae0",
+    "table-metadata/data-structure/marinegeo_metadata_tables.csv": "e6e461a3be267a8f69d66017c4d91440be5b08a03bf7821969b2500c99b9b413",
     "table-metadata/data-structure/oyster-experiment-2025_data-structure.csv": "8545956a24a0baf56b002092645a96fc40db4a063fd69b24ffea76ee9ea467a4",
     "table-metadata/data-structure/oyster-reef-monitoring_data-structure.csv": "83d2e681b9b2623b51cb4452cde6525c5974699e0c9a4bdfed87bd88b775e629",
     "table-metadata/data-structure/reef-life-survey_data-structure.csv": "dc9899a3a0a40a20703b8107369fbacc4e41d09ea2b70487042bb24b1d1df0c6",
-    "table-metadata/data-structure/seagrass-monitoring_data-structure.csv": "551242be01d0327f9d3c4f0894d25c10284499f4b2f18ef2cfa20480386dce6c",
+    "table-metadata/data-structure/seagrass-monitoring_data-structure.csv": "c64387123fdeb422462159a21b6ba9bf45a6fe0860a4be6de8a8c9ce1002aaf7",
     "table-metadata/numeric-ranges/cross_protocol_ranges.csv": "822013a8cd57ed98b6d5e2153e238f72048f33a789334f1ee41ac8fa5bc538d9",
     "table-metadata/numeric-ranges/oyster-reef-monitoring_numeric-ranges.csv": "8891db027a577bd93bdd0f3903d70289d6e028309edc3d08b6dccd682050d502",
     "table-metadata/numeric-ranges/seagrass-monitoring_numeric-ranges.csv": "8ca11c25f73bbfe30967d1238e44bf2283fd4ec30812fc977e8e1779ce6df6d8",
@@ -379,10 +387,10 @@
     "sites-and-partners/site-names/USA-TXS_locations.csv": "2c247ebbb86fa598629b7209e1879a155426e6c1b0b43902147ad775e156bed3",
     "sites-and-partners/site-names/USA-VAY_locations.csv": "136450fe33db017587e74fee78b62a1532a42b80c05a5293ad479c7465725d04",
     "sites-and-partners/site-names/USA-WAS_locations.csv": "d4ada93de797bcd4c9db2a6061013a1ccbfaf585047713debba0b737f013e0b8",
-    "taxonomy-and-functional-groups/functional-group-lookup/fouling_cover.csv": "3111d067413c0dd8d2f0a003d12e121485ad53d29af3d1f144e9b36a8320f803",
-    "taxonomy-and-functional-groups/functional-group-lookup/oyster_composition.csv": "d3741ee45d0539aa7c3a1ef4f44aafb0731926ebf8fb2257d5a9c804446b4d18",
-    "taxonomy-and-functional-groups/functional-group-lookup/oyster_density.csv": "26f5909a13262af68a3f712190f04887484238a1ca4bc7955650228a0e0491bf",
-    "taxonomy-and-functional-groups/functional-group-lookup/vegetation.csv": "1a21558f409f5ddb121f45aff28c24cf139bdd1edc0564b55a00d41e6ce916db",
+    "taxonomy-and-functional-groups/nested-labelsets/fouling_cover.csv": "3111d067413c0dd8d2f0a003d12e121485ad53d29af3d1f144e9b36a8320f803",
+    "taxonomy-and-functional-groups/nested-labelsets/oyster_composition.csv": "d3741ee45d0539aa7c3a1ef4f44aafb0731926ebf8fb2257d5a9c804446b4d18",
+    "taxonomy-and-functional-groups/nested-labelsets/oyster_density.csv": "26f5909a13262af68a3f712190f04887484238a1ca4bc7955650228a0e0491bf",
+    "taxonomy-and-functional-groups/nested-labelsets/vegetation.csv": "1a21558f409f5ddb121f45aff28c24cf139bdd1edc0564b55a00d41e6ce916db",
     "taxonomy-and-functional-groups/observation-lookup/marinegeo_observation_ids.csv": "ec7c8b60df3928ed70638d099fc1c9312d43d07b893e091765aec082ef9b7d5e",
     "taxonomy-and-functional-groups/taxonomic-lookup/marinegeo_taxonomic_lookup.csv": "496195b2a32b02119e1a47038963f2ad75d1ffe097859652935be7d278196c04",
     "marinegeo_data_index.csv": "98127b378055723624aa177871f59f33bd9b6b643cf1a11b37cfebb3506ab563"

@@ -30,6 +30,8 @@ points_in_quadrat_seagrass_cover,Points in quadrat,,
 quadrat_in_transect_50m,Quadrat number in a 50 m transect,,
 sample_data_notes,Sample data notes,,
 sample_dry_mass_g,Sample dry mass,,g
+scientific_name_seagrass_cover,Scientific name,,
+scientific_name_seagrass_only,Scientific name,,
 sediment_type,Sediment type,,
 sheath_and_epibiont_notes,Sheath and epibiont notes,,
 sheath_length_mm,Sheath length,,mm

@@ -99,4 +99,4 @@ output_network_df <- ToDataFrameNetwork(oyster_density, "scientific_id", "type",
 #output_network_df %>% count(scientific_id) %>% filter(n > 1)
 output_network_df %>%
   mutate(tree_name = "oyster_density") %>%
-  write_csv("taxonomy-and-functional-groups/functional-group-lookup/oyster_density.csv")
+  write_csv("taxonomy-and-functional-groups/nested-labelsets/oyster_density.csv")

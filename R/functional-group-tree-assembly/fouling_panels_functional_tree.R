@@ -500,5 +500,5 @@ output_network_df <- ToDataFrameNetwork(fouling, "scientific_id", "type", "code"
 #output_network_df %>% count(scientific_id) %>% filter(n > 1)
 output_network_df %>%
   mutate(tree_name = "fouling") %>%
-  write_csv("taxonomy-and-functional-groups/functional-group-lookup/fouling_cover.csv")
+  write_csv("taxonomy-and-functional-groups/nested-labelsets/fouling_cover.csv")
 

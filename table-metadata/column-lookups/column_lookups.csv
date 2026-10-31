@@ -1,0 +1,7 @@
+column_id,registry_table,registry_column,scope_type,scope_value
+partner_code,partner_codes,partner_code,,
+scientific_name,observation_lookup,scientific_name,,
+scientific_name_seagrass_cover,observation_lookup,scientific_name,in_labelset,vegetation:type=primary
+scientific_name_seagrass_only,observation_lookup,scientific_name,in_labelset,vegetation:Seagrass
+site_code_marinegeo,site_codes,site_code,,
+site_name_marinegeo,site_codes,site_name,,
